@@ -19,5 +19,5 @@ class Author(models.Model):
 class ReferenceItem(models.Model):
     reference = models.ForeignKey(Reference, on_delete=models.CASCADE)
     content_type = models.ForeignKey(ContentType, on_delete=models.CASCADE)
-    content_id = models.PositiveIntegerField()
+    object_id = models.PositiveIntegerField()
     content_object = GenericForeignKey()

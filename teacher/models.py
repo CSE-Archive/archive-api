@@ -22,5 +22,5 @@ class ExternalLink(models.Model):
 class TeacherItem(models.Model):
     teacher = models.ForeignKey(Teacher, on_delete=models.CASCADE)
     content_type = models.ForeignKey(ContentType, on_delete=models.CASCADE)
-    content_id = models.PositiveIntegerField()
+    object_id = models.PositiveIntegerField()
     content_object = GenericForeignKey()    

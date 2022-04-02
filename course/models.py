@@ -39,7 +39,7 @@ class Session(models.Model):
     ]
 
     semester = models.CharField(max_length=2, choices=SEMESTER_CHOICES)
-    year = models.PositiveSmallIntegerField(choices=_year_choices)
+    year = models.PositiveSmallIntegerField(choices=_year_choices())
 
 
 class TA(models.Model):
