@@ -3,6 +3,12 @@ from django.db import models
 
 
 class Course(models.Model):
+    def _unit_choices():
+        return [(u, u) for u in range(1, 3+1)]
+
+    def _term_in_chart_choices():
+        return [(t, t) for t in range(1, 8+1)]
+
     BASIC = "B"
     GENERAL = "G"
     OPTIONAL = "O"
@@ -15,18 +21,22 @@ class Course(models.Model):
         (SPECIALIZED, "Specialized"),
     ]
 
-    unit = models.PositiveSmallIntegerField()
-    term_in_chart = models.PositiveSmallIntegerField()
+    unit = models.PositiveSmallIntegerField(choices=_unit_choices())
+    term_in_chart = models.PositiveSmallIntegerField(
+        choices=_term_in_chart_choices())
     title = models.CharField(max_length=255)
     en_title = models.CharField(max_length=255)
     tag = models.CharField(max_length=255, null=True, blank=True)
     description = models.TextField(null=True, blank=True)
     type = models.CharField(max_length=1, choices=TYPE_CHOICES)
 
+    def __str__(self) -> str:
+        return self.title
+
 
 class Session(models.Model):
     def _year_choices():
-        return [(r, r) for r in range(2000, datetime.date.today().year+1)]
+        return [(y, y) for y in range(2000, datetime.date.today().year+1)]
 
     FALL = "FA"
     SPRING = "SP"
@@ -38,47 +48,62 @@ class Session(models.Model):
         (SUMMER, "Summer"),
     ]
 
-    semester = models.CharField(max_length=2, choices=SEMESTER_CHOICES)
     year = models.PositiveSmallIntegerField(choices=_year_choices())
+    semester = models.CharField(max_length=2, choices=SEMESTER_CHOICES)
+    course = models.ForeignKey(Course, on_delete=models.PROTECT)
+
+    def __str__(self) -> str:
+        return f"{self.year} - {self.semester} - {self.course.en_title}"
 
 
 class TA(models.Model):
     full_name = models.CharField(max_length=255)
     session = models.ForeignKey(Session, on_delete=models.CASCADE)
 
+    def __str__(self) -> str:
+        return self.full_name
+
 
 class Resource(models.Model):
-	MIDTERM = "M"
-	FINAL = "F"
-	HOMEWORK = "H"
-	QUIZ = "Q"
-	OTHER = "O"
+    MIDTERM = "M"
+    FINAL = "F"
+    HOMEWORK = "H"
+    QUIZ = "Q"
+    OTHER = "O"
 
-	TYPE_CHOICES = [
-		(MIDTERM, "Midterm"),
-		(FINAL, "Final"),
-		(HOMEWORK, "Homework"),
-		(QUIZ, "Quiz"),
-		(OTHER, "Other"),
-	]
+    TYPE_CHOICES = [
+        (MIDTERM, "Midterm"),
+        (FINAL, "Final"),
+        (HOMEWORK, "Homework"),
+        (QUIZ, "Quiz"),
+        (OTHER, "Other"),
+    ]
 
-	title = models.CharField(max_length=255)
-	url = models.URLField(max_length=255)
-	date_created = models.DateTimeField(auto_now_add=True)
-	date_modified = models.DateTimeField(auto_now=True, editable=True)
-	type = models.CharField(max_length=1, choices=TYPE_CHOICES)
-	session = models.ForeignKey(Session, on_delete=models.PROTECT)
+    title = models.CharField(max_length=255)
+    url = models.URLField(max_length=255)
+    type = models.CharField(max_length=1, choices=TYPE_CHOICES)
+    session = models.ForeignKey(Session, on_delete=models.PROTECT)
+    date_created = models.DateTimeField(auto_now_add=True)
+    date_modified = models.DateTimeField()
+
+    def __str__(self) -> str:
+        return f"{self.session} - {self.title}"
 
 
 class Requisite(models.Model):
-	CO = "C"
-	PRE = "P"
+    CO = "C"
+    PRE = "P"
 
-	TYPE_CHOICES = [
-		(CO, "Corequisite"),
-		(PRE, "Prerequisite"),
-	]
+    TYPE_CHOICES = [
+        (CO, "Corequisite"),
+        (PRE, "Prerequisite"),
+    ]
 
-	type = models.CharField(max_length=1, choices=TYPE_CHOICES)
-	course1 = models.ForeignKey(Course, on_delete=models.CASCADE, related_name="course1")
-	course2 = models.ForeignKey(Course, on_delete=models.CASCADE, related_name="course2")
+    course_from = models.ForeignKey(
+        Course, on_delete=models.CASCADE, related_name="course_from")
+    course_to = models.ForeignKey(
+        Course, on_delete=models.CASCADE, related_name="course_to")
+    type = models.CharField(max_length=1, choices=TYPE_CHOICES)
+
+    def __str__(self) -> str:
+        return f"{self.course_from.en_title} -> {self.course_to.en_title} : ({self.type})"

@@ -4,16 +4,22 @@ from django.contrib.contenttypes.fields import GenericForeignKey
 
 
 class Reference(models.Model):
-    cover_image = models.ImageField(upload_to="images/r/%Y/%m/%d", blank=True)
+    cover_image = models.ImageField(upload_to="img/r/", blank=True)
     title = models.CharField(max_length=255)
     url = models.URLField(max_length=255)
     date_created = models.DateTimeField(auto_now_add=True)
-    date_modified = models.DateTimeField(auto_now=True, editable=True)
+    date_modified = models.DateTimeField()
+
+    def __str__(self) -> str:
+        return self.title
 
 
 class Author(models.Model):
     full_name = models.CharField(max_length=255)
     reference = models.ForeignKey(Reference, on_delete=models.CASCADE)
+
+    def __str__(self) -> str:
+        return self.full_name
 
 
 class ReferenceItem(models.Model):
@@ -21,3 +27,6 @@ class ReferenceItem(models.Model):
     content_type = models.ForeignKey(ContentType, on_delete=models.CASCADE)
     object_id = models.PositiveIntegerField()
     content_object = GenericForeignKey()
+
+    def __str__(self) -> str:
+        return f"{self.content_object} - {self.reference}"

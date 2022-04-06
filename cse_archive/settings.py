@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'debug_toolbar',
     'course',
+    'course_custom',
     'teacher',
     'reference',
 ]
@@ -135,3 +136,11 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Media
+
+import os
+CURRENT_PATH = os.path.abspath(os.path.dirname(__file__))
+MEDIA_ROOT = os.path.join(CURRENT_PATH, 'media/').replace('\\','/')
+
+MEDIA_URL = 'media/'
