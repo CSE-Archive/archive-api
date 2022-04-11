@@ -10,13 +10,17 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
+import locale
+import os
+
 from pathlib import Path
 
 from env import DB_PASSWORD, DB_USER
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
+# BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE_DIR = Path(__file__).resolve().parent.parent
-
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
@@ -39,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_jalali',
     'debug_toolbar',
     'course',
     'course_custom',
@@ -120,7 +125,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Tehran'
 
 USE_I18N = True
 
@@ -130,7 +135,14 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
+STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
+
 STATIC_URL = 'static/'
+
+# Extra places for collectstatic to find static files.
+STATICFILES_DIRS = [
+    os.path.join(PROJECT_ROOT, 'static'),
+]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
@@ -139,8 +151,12 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Media
 
-import os
-CURRENT_PATH = os.path.abspath(os.path.dirname(__file__))
-MEDIA_ROOT = os.path.join(CURRENT_PATH, 'media/').replace('\\','/')
+MEDIA_ROOT = os.path.join(PROJECT_ROOT, 'media/').replace('\\', '/')
 
 MEDIA_URL = 'media/'
+
+# Localization
+
+LANGUAGE_CODE = 'fa-ir'
+
+locale.setlocale(locale.LC_ALL, "fa_IR.UTF-8")

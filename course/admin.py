@@ -1,8 +1,11 @@
 from . import models
-from django.urls import reverse
 from django.contrib import admin
+from django.urls import reverse
 from django.db.models import Count, OuterRef, Subquery
 from django.utils.html import format_html, urlencode
+from django_jalali.admin.filters import JDateFieldListFilter
+
+import django_jalali.admin as jadmin  # for adding jalali calender widget
 
 
 class RequisiteFromInline(admin.TabularInline):
@@ -171,10 +174,12 @@ class ResourceAdmin(admin.ModelAdmin):
     list_display = ("id", "title", "type", "date_modified",
                     "date_created", "session", "course",)
     list_select_related = ("session__course",)
-    list_filter = ("type", "date_modified", "date_created",
-                   "session", "session__course",)
+    list_filter = (("date_modified", JDateFieldListFilter),
+                   ("date_created", JDateFieldListFilter),
+                   "session", "session__course", "type",)
     search_fields = ("title",)
 
+    @admin.display(ordering="course")
     def course(self, resource):
         return resource.session.course
 

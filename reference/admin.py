@@ -3,6 +3,9 @@ from django.contrib import admin
 from django.urls import reverse
 from django.db.models import Count
 from django.utils.html import format_html, urlencode
+from django_jalali.admin.filters import JDateFieldListFilter
+
+import django_jalali.admin as jadmin  # for adding jalali calender widget
 
 
 class AuthorInline(admin.TabularInline):
@@ -16,7 +19,8 @@ class ReferenceAdmin(admin.ModelAdmin):
     list_per_page = 10
     list_display = ("id", "title", "date_modified",
                     "date_created", "cover_image", "authors_count",)
-    list_filter = ("date_modified", "date_created",)
+    list_filter = (("date_modified", JDateFieldListFilter),
+                   ("date_created", JDateFieldListFilter),)
     search_fields = ("title",)
 
     @admin.display(ordering="authors_count")

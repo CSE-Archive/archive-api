@@ -1,5 +1,8 @@
-import datetime
+import jdatetime
 from django.db import models
+from django.core.validators import MaxValueValidator, MinValueValidator
+from django.utils.translation import gettext as _
+from django_jalali.db import models as jmodels
 
 
 class Course(models.Model):
@@ -21,23 +24,49 @@ class Course(models.Model):
         (SPECIALIZED, "Specialized"),
     ]
 
-    unit = models.PositiveSmallIntegerField(choices=_unit_choices())
+    unit = models.PositiveSmallIntegerField(
+        verbose_name=_("واحد"),
+        choices=_unit_choices(),
+    )
     term_in_chart = models.PositiveSmallIntegerField(
+        verbose_name=_("ترم در چارت"),
         choices=_term_in_chart_choices(),
     )
-    title = models.CharField(max_length=255)
-    en_title = models.CharField(max_length=255)
-    tag = models.CharField(max_length=255, null=True, blank=True)
-    description = models.TextField(null=True, blank=True)
-    type = models.CharField(max_length=1, choices=TYPE_CHOICES)
+    title = models.CharField(
+        verbose_name=_("عنوان"),
+        max_length=255,
+    )
+    en_title = models.CharField(
+        verbose_name=_("عنوان به انگلیسی"),
+        max_length=255,
+    )
+    tag = models.CharField(
+        verbose_name=_("تگ"),
+        max_length=255,
+        null=True,
+        blank=True,
+    )
+    description = models.TextField(
+        verbose_name=_("توضیحات"),
+        null=True,
+        blank=True)
+    type = models.CharField(
+        verbose_name=_("نوع"),
+        max_length=1,
+        choices=TYPE_CHOICES,
+    )
 
     def __str__(self) -> str:
         return self.title
 
+    class Meta:
+        verbose_name = "درس"
+        verbose_name_plural = "دروس"
+
 
 class Session(models.Model):
-    def _year_choices():
-        return [(y, y) for y in range(2000, datetime.date.today().year+1)]
+    def _current_year():
+        return jdatetime.date.today().year
 
     FALL = "FA"
     SPRING = "SP"
@@ -49,28 +78,47 @@ class Session(models.Model):
         (SUMMER, "Summer"),
     ]
 
-    year = models.PositiveSmallIntegerField(choices=_year_choices())
-    semester = models.CharField(max_length=2, choices=SEMESTER_CHOICES)
+    year = models.PositiveSmallIntegerField(
+        verbose_name=_("سال"),
+        validators=[
+            MinValueValidator(1300),
+            MaxValueValidator(_current_year)
+        ],
+    )
+    semester = models.CharField(
+        verbose_name=_("نیم سال"),
+        max_length=2,
+        choices=SEMESTER_CHOICES,
+    )
     course = models.ForeignKey(
         Course,
         on_delete=models.PROTECT,
-        related_name="sessions",
     )
 
     def __str__(self) -> str:
         return f"{self.year} - {self.semester} - {self.course.en_title}"
 
+    class Meta:
+        verbose_name = "کلاس"
+        verbose_name_plural = "کلاس‌ها"
+
 
 class TA(models.Model):
-    full_name = models.CharField(max_length=255)
+    full_name = models.CharField(
+        verbose_name=_("نام و نام خانوادگی"),
+        max_length=255,
+    )
     session = models.ForeignKey(
         Session,
         on_delete=models.CASCADE,
-        related_name="tas",
     )
 
     def __str__(self) -> str:
         return self.full_name
+
+    class Meta:
+        verbose_name = "گریدر"
+        verbose_name_plural = "گریدرها"
 
 
 class Resource(models.Model):
@@ -88,19 +136,39 @@ class Resource(models.Model):
         (OTHER, "Other"),
     ]
 
-    title = models.CharField(max_length=255)
-    url = models.URLField(max_length=255)
-    type = models.CharField(max_length=1, choices=TYPE_CHOICES)
+    objects = jmodels.jManager()
+
+    title = models.CharField(
+        verbose_name=_("عنوان"),
+        max_length=255,
+    )
+    url = models.URLField(
+        verbose_name=_("لینک دانلود"),
+        max_length=255,
+    )
+    type = models.CharField(
+        verbose_name=_("نوع"),
+        max_length=1,
+        choices=TYPE_CHOICES,
+    )
+    date_created = jmodels.jDateTimeField(
+        verbose_name=_("تاریخ اضافه شدن"),
+        auto_now_add=True,
+    )
+    date_modified = jmodels.jDateTimeField(
+        verbose_name=_("آخرین ویرایش"),
+    )
     session = models.ForeignKey(
         Session,
         on_delete=models.PROTECT,
-        related_name="resources",
     )
-    date_created = models.DateTimeField(auto_now_add=True)
-    date_modified = models.DateTimeField()
 
     def __str__(self) -> str:
         return f"{self.session} - {self.title}"
+
+    class Meta:
+        verbose_name = "منبع"
+        verbose_name_plural = "منابع"
 
 
 class Requisite(models.Model):
@@ -112,6 +180,11 @@ class Requisite(models.Model):
         (PRE, "Prerequisite"),
     ]
 
+    type = models.CharField(
+        verbose_name=_("نوع"),
+        max_length=1,
+        choices=TYPE_CHOICES,
+    )
     course_from = models.ForeignKey(
         Course,
         on_delete=models.CASCADE,
@@ -122,7 +195,10 @@ class Requisite(models.Model):
         on_delete=models.CASCADE,
         related_name="requisites_to",
     )
-    type = models.CharField(max_length=1, choices=TYPE_CHOICES)
 
     def __str__(self) -> str:
         return f"{self.course_from.en_title} -> {self.course_to.en_title} : ({self.type})"
+
+    class Meta:
+        verbose_name = "نیاز"
+        verbose_name_plural = "نیازها"

@@ -8,6 +8,7 @@ django = "*"
 django-debug-toolbar = "*"
 pillow = "*"
 mysqlclient = "*"
+django-jalali = {extras = ["drf"], version = "*"}
 
 [dev-packages]
 autopep8 = "*"
