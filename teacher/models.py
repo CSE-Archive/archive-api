@@ -38,6 +38,7 @@ class Email(models.Model):
     )
     teacher = models.ForeignKey(
         Teacher,
+        verbose_name=_("استاد"),
         on_delete=models.CASCADE,
     )
 
@@ -57,6 +58,7 @@ class ExternalLink(models.Model):
     )
     teacher = models.ForeignKey(
         Teacher,
+        verbose_name=_("استاد"),
         on_delete=models.CASCADE,
     )
 
@@ -72,10 +74,12 @@ class ExternalLink(models.Model):
 class TeacherItem(models.Model):
     teacher = models.ForeignKey(
         Teacher,
+        verbose_name=_("استاد"),
         on_delete=models.CASCADE,
     )
     content_type = models.ForeignKey(
         ContentType,
+        verbose_name=_("نوع محتوا"),
         on_delete=models.CASCADE,
     )
     object_id = models.PositiveIntegerField(

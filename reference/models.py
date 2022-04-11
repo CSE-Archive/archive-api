@@ -44,6 +44,7 @@ class Author(models.Model):
     )
     reference = models.ForeignKey(
         Reference,
+        verbose_name=_("مرجع"),
         on_delete=models.CASCADE,
     )
 
@@ -58,10 +59,12 @@ class Author(models.Model):
 class ReferenceItem(models.Model):
     reference = models.ForeignKey(
         Reference,
+        verbose_name=_("مرجع"),
         on_delete=models.CASCADE,
     )
     content_type = models.ForeignKey(
         ContentType,
+        verbose_name=_("نوع محتوا"),
         on_delete=models.CASCADE,
     )
     object_id = models.PositiveIntegerField(

@@ -92,6 +92,7 @@ class Session(models.Model):
     )
     course = models.ForeignKey(
         Course,
+        verbose_name=_("درس"),
         on_delete=models.PROTECT,
     )
 
@@ -110,6 +111,7 @@ class TA(models.Model):
     )
     session = models.ForeignKey(
         Session,
+        verbose_name=_("کلاس"),
         on_delete=models.CASCADE,
     )
 
@@ -160,6 +162,7 @@ class Resource(models.Model):
     )
     session = models.ForeignKey(
         Session,
+        verbose_name=_("کلاس"),
         on_delete=models.PROTECT,
     )
 
@@ -187,11 +190,13 @@ class Requisite(models.Model):
     )
     course_from = models.ForeignKey(
         Course,
+        verbose_name=_("درس مبدا"),
         on_delete=models.CASCADE,
         related_name="requisites_from",
     )
     course_to = models.ForeignKey(
         Course,
+        verbose_name=_("درس مقصد"),
         on_delete=models.CASCADE,
         related_name="requisites_to",
     )

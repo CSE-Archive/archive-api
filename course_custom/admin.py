@@ -3,6 +3,7 @@ from django.contrib import admin
 from django.db.models import Count, OuterRef, Subquery
 from django.utils.html import format_html, urlencode
 from django.contrib.contenttypes.admin import GenericTabularInline
+from django.utils.translation import gettext as _
 from course.admin import CourseAdmin, SessionAdmin
 from course.models import Course, Session
 from reference.models import ReferenceItem
@@ -25,7 +26,7 @@ class CustomSessionAdmin(SessionAdmin):
     inlines = (TeacherItemInline,) + SessionAdmin.inlines
     list_display = SessionAdmin.list_display + ("teachers_count",)
 
-    @admin.display(ordering="teachers_count")
+    @admin.display(ordering="teachers_count", description=_("تعداد اساتید"))
     def teachers_count(self, session):
         url = (
             reverse("admin:teacher_teacheritem_changelist")
@@ -49,7 +50,7 @@ class CustomCourseAdmin(CourseAdmin):
     inlines = (ReferenceItemInline,) + CourseAdmin.inlines
     list_display = CourseAdmin.list_display + ("references_count",)
 
-    @admin.display(ordering="references_count")
+    @admin.display(ordering="references_count", description=_("تعداد مراجع"))
     def references_count(self, course):
         url = (
             reverse("admin:reference_referenceitem_changelist")

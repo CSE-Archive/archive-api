@@ -3,6 +3,7 @@ from django.contrib import admin
 from django.urls import reverse
 from django.db.models import Count, OuterRef, Subquery
 from django.utils.html import format_html, urlencode
+from django.utils.translation import gettext as _
 from django_jalali.admin.filters import JDateFieldListFilter
 
 import django_jalali.admin as jadmin  # for adding jalali calender widget
@@ -49,7 +50,7 @@ class CourseAdmin(admin.ModelAdmin):
         "description",
     )
 
-    @admin.display(ordering="resources_count")
+    @admin.display(ordering="resources_count", description=_("تعداد منابع"))
     def resources_count(self, course):
         url = (
             reverse("admin:course_resource_changelist")
@@ -60,7 +61,7 @@ class CourseAdmin(admin.ModelAdmin):
         )
         return format_html('<a href="{}">{}</a>', url, course.resources_count)
 
-    @admin.display(ordering="sessionses_count")
+    @admin.display(ordering="sessionses_count", description=_("تعداد کلاس‌ها"))
     def sessionses_count(self, course):
         url = (
             reverse("admin:course_session_changelist")
@@ -72,7 +73,7 @@ class CourseAdmin(admin.ModelAdmin):
         placeholder = course.sessionses_count if course.sessionses_count else "0"
         return format_html('<a href="{}">{}</a>', url, placeholder)
 
-    @admin.display(ordering="requisites_from_count")
+    @admin.display(ordering="requisites_from_count", description=_("تعداد نیازهای مبدا"))
     def requisites_from_count(self, course):
         url = (
             reverse("admin:course_requisite_changelist")
@@ -84,7 +85,7 @@ class CourseAdmin(admin.ModelAdmin):
         placeholder = course.requisites_from_count if course.requisites_from_count else "0"
         return format_html('<a href="{}">{}</a>', url, placeholder)
 
-    @admin.display(ordering="requisites_to_count")
+    @admin.display(ordering="requisites_to_count", description=_("تعداد نیازهای مقصد"))
     def requisites_to_count(self, course):
         url = (
             reverse("admin:course_requisite_changelist")
@@ -122,7 +123,7 @@ class SessionAdmin(admin.ModelAdmin):
     list_filter = ("year", "semester", "course",)
     search_fields = ("year", "semester", "course__title", "course__en_title",)
 
-    @admin.display(ordering="tas_count")
+    @admin.display(ordering="tas_count", description=_("تعداد گریدرها"))
     def tas_count(self, session):
         url = (
             reverse("admin:course_ta_changelist")
@@ -133,7 +134,7 @@ class SessionAdmin(admin.ModelAdmin):
         )
         return format_html('<a href="{}">{}</a>', url, session.tas_count)
 
-    @admin.display(ordering="resources_count")
+    @admin.display(ordering="resources_count", description=_("تعداد منابع"))
     def resources_count(self, session):
         url = (
             reverse("admin:course_resource_changelist")
@@ -163,6 +164,7 @@ class TAAdmin(admin.ModelAdmin):
     list_filter = ("session", "session__course",)
     search_fields = ("full_name",)
 
+    @admin.display(ordering="course", description=_("درس"))
     def course(self, ta):
         return ta.session.course
 
@@ -179,7 +181,7 @@ class ResourceAdmin(admin.ModelAdmin):
                    "session", "session__course", "type",)
     search_fields = ("title",)
 
-    @admin.display(ordering="course")
+    @admin.display(ordering="course", description=_("درس"))
     def course(self, resource):
         return resource.session.course
 

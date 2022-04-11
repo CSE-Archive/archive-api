@@ -3,6 +3,7 @@ from django.contrib import admin
 from django.db.models import F, Value
 from django.db.models.functions import Concat
 from django.urls import reverse
+from django.utils.translation import gettext as _
 from django.db.models import Count, OuterRef, Subquery
 from django.utils.html import format_html, urlencode
 
@@ -25,11 +26,11 @@ class TeacherAdmin(admin.ModelAdmin):
                     "emails_count", "external_links_count",)
     search_fields = ("full_name",)
 
-    @admin.display(ordering="full_name")
+    @admin.display(ordering="full_name", description=_("نام و نام خانوادگی"))
     def full_name(self, teacher):
         return teacher.full_name
 
-    @admin.display(ordering="emails_count")
+    @admin.display(ordering="emails_count", description=_("تعداد ایمیل‌ها"))
     def emails_count(self, teacher):
         url = (
             reverse("admin:teacher_email_changelist")
@@ -40,7 +41,7 @@ class TeacherAdmin(admin.ModelAdmin):
         )
         return format_html('<a href="{}">{}</a>', url, teacher.emails_count)
 
-    @admin.display(ordering="external_links_count")
+    @admin.display(ordering="external_links_count", description=_("تعداد لینک‌ها"))
     def external_links_count(self, teacher):
         url = (
             reverse("admin:teacher_externallink_changelist")
@@ -84,10 +85,10 @@ class ExternalLinkAdmin(admin.ModelAdmin):
 class TeacherItemAdmin(admin.ModelAdmin):
     autocomplete_fields = ("teacher",)
     list_per_page = 10
-    list_display = ("id", "teacher_", "content_object",)
+    list_display = ("id", "teacher_", "content_object_",)
     list_filter = ("teacher",)
 
-    @admin.display(ordering="teacher_")
+    @admin.display(ordering="teacher_", description=_("استاد"))
     def teacher_(self, teacher_item):
         url = (
             reverse("admin:teacher_teacher_changelist")
@@ -96,3 +97,7 @@ class TeacherItemAdmin(admin.ModelAdmin):
             + "change"
         )
         return format_html('<a href="{}">{}</a>', url, f"{teacher_item.teacher.first_name} {teacher_item.teacher.last_name}")
+
+    @admin.display(ordering="content_object_", description=_("محتوای مربوطه"))
+    def content_object_(self, teacher_item):
+        return teacher_item.content_object
