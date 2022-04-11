@@ -88,11 +88,11 @@ class TeacherItemAdmin(admin.ModelAdmin):
     list_filter = ("teacher",)
 
     @admin.display(ordering="teacher_")
-    def teacher_(self, teacheritem):
+    def teacher_(self, teacher_item):
         url = (
             reverse("admin:teacher_teacher_changelist")
-            + str(teacheritem.teacher.id)
+            + str(teacher_item.teacher.id)
             + "/"
             + "change"
         )
-        return format_html('<a href="{}">{}</a>', url, f"{teacheritem.teacher.first_name} {teacheritem.teacher.last_name}")
+        return format_html('<a href="{}">{}</a>', url, f"{teacher_item.teacher.first_name} {teacher_item.teacher.last_name}")

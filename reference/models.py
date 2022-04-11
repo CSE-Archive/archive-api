@@ -16,15 +16,27 @@ class Reference(models.Model):
 
 class Author(models.Model):
     full_name = models.CharField(max_length=255)
-    reference = models.ForeignKey(Reference, on_delete=models.CASCADE)
+    reference = models.ForeignKey(
+        Reference,
+        on_delete=models.CASCADE,
+        related_name="authors",
+    )
 
     def __str__(self) -> str:
         return self.full_name
 
 
 class ReferenceItem(models.Model):
-    reference = models.ForeignKey(Reference, on_delete=models.CASCADE)
-    content_type = models.ForeignKey(ContentType, on_delete=models.CASCADE)
+    reference = models.ForeignKey(
+        Reference,
+        on_delete=models.CASCADE,
+        related_name="reference_items",
+    )
+    content_type = models.ForeignKey(
+        ContentType,
+        on_delete=models.CASCADE,
+        related_name="reference_items",
+    )
     object_id = models.PositiveIntegerField()
     content_object = GenericForeignKey()
 

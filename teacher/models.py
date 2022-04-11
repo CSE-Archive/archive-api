@@ -15,7 +15,11 @@ class Teacher(models.Model):
 
 class Email(models.Model):
     email = models.EmailField(unique=True)
-    teacher = models.ForeignKey(Teacher, on_delete=models.CASCADE)
+    teacher = models.ForeignKey(
+        Teacher,
+        on_delete=models.CASCADE,
+        related_name="emails",
+    )
 
     def __str__(self) -> str:
         return self.email
@@ -23,15 +27,27 @@ class Email(models.Model):
 
 class ExternalLink(models.Model):
     url = models.URLField(max_length=255)
-    teacher = models.ForeignKey(Teacher, on_delete=models.CASCADE)
+    teacher = models.ForeignKey(
+        Teacher,
+        on_delete=models.CASCADE,
+        related_name="external_links",
+    )
 
     def __str__(self) -> str:
         return self.url
 
 
 class TeacherItem(models.Model):
-    teacher = models.ForeignKey(Teacher, on_delete=models.CASCADE)
-    content_type = models.ForeignKey(ContentType, on_delete=models.CASCADE)
+    teacher = models.ForeignKey(
+        Teacher,
+        on_delete=models.CASCADE,
+        related_name="teacher_items",
+    )
+    content_type = models.ForeignKey(
+        ContentType,
+        on_delete=models.CASCADE,
+        related_name="teacher_items",
+    )
     object_id = models.PositiveIntegerField()
     content_object = GenericForeignKey()
 

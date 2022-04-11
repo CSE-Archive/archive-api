@@ -23,7 +23,8 @@ class Course(models.Model):
 
     unit = models.PositiveSmallIntegerField(choices=_unit_choices())
     term_in_chart = models.PositiveSmallIntegerField(
-        choices=_term_in_chart_choices())
+        choices=_term_in_chart_choices(),
+    )
     title = models.CharField(max_length=255)
     en_title = models.CharField(max_length=255)
     tag = models.CharField(max_length=255, null=True, blank=True)
@@ -50,7 +51,11 @@ class Session(models.Model):
 
     year = models.PositiveSmallIntegerField(choices=_year_choices())
     semester = models.CharField(max_length=2, choices=SEMESTER_CHOICES)
-    course = models.ForeignKey(Course, on_delete=models.PROTECT)
+    course = models.ForeignKey(
+        Course,
+        on_delete=models.PROTECT,
+        related_name="sessions",
+    )
 
     def __str__(self) -> str:
         return f"{self.year} - {self.semester} - {self.course.en_title}"
@@ -58,7 +63,11 @@ class Session(models.Model):
 
 class TA(models.Model):
     full_name = models.CharField(max_length=255)
-    session = models.ForeignKey(Session, on_delete=models.CASCADE)
+    session = models.ForeignKey(
+        Session,
+        on_delete=models.CASCADE,
+        related_name="tas",
+    )
 
     def __str__(self) -> str:
         return self.full_name
@@ -82,7 +91,11 @@ class Resource(models.Model):
     title = models.CharField(max_length=255)
     url = models.URLField(max_length=255)
     type = models.CharField(max_length=1, choices=TYPE_CHOICES)
-    session = models.ForeignKey(Session, on_delete=models.PROTECT)
+    session = models.ForeignKey(
+        Session,
+        on_delete=models.PROTECT,
+        related_name="resources",
+    )
     date_created = models.DateTimeField(auto_now_add=True)
     date_modified = models.DateTimeField()
 
@@ -100,9 +113,15 @@ class Requisite(models.Model):
     ]
 
     course_from = models.ForeignKey(
-        Course, on_delete=models.CASCADE, related_name="course_from")
+        Course,
+        on_delete=models.CASCADE,
+        related_name="requisites_from",
+    )
     course_to = models.ForeignKey(
-        Course, on_delete=models.CASCADE, related_name="course_to")
+        Course,
+        on_delete=models.CASCADE,
+        related_name="requisites_to",
+    )
     type = models.CharField(max_length=1, choices=TYPE_CHOICES)
 
     def __str__(self) -> str:

@@ -1,9 +1,7 @@
 from . import models
 from django.contrib import admin
-from django.db.models import F, Value
-from django.db.models.functions import Concat
 from django.urls import reverse
-from django.db.models import Count, OuterRef, Subquery
+from django.db.models import Count
 from django.utils.html import format_html, urlencode
 
 
@@ -55,11 +53,11 @@ class ReferenceItemAdmin(admin.ModelAdmin):
     list_filter = ("reference",)
 
     @admin.display(ordering="reference_")
-    def reference_(self, referenceitem):
+    def reference_(self, reference_item):
         url = (
             reverse("admin:reference_reference_changelist")
-            + str(referenceitem.reference.id)
+            + str(reference_item.reference.id)
             + "/"
             + "change"
         )
-        return format_html('<a href="{}">{}</a>', url, referenceitem.reference.title)
+        return format_html('<a href="{}">{}</a>', url, reference_item.reference.title)
