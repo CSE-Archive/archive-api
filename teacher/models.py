@@ -1,7 +1,7 @@
 from django.db import models
+from django.utils.translation import gettext as _
 from django.contrib.contenttypes.models import ContentType
 from django.contrib.contenttypes.fields import GenericForeignKey
-from django.utils.translation import gettext as _
 
 
 class Teacher(models.Model):
@@ -24,11 +24,10 @@ class Teacher(models.Model):
 
     def __str__(self) -> str:
         return f"{self.first_name} {self.last_name}"
-    
+
     class Meta:
         verbose_name = "استاد"
         verbose_name_plural = "اساتید"
-
 
 
 class Email(models.Model):
@@ -44,11 +43,10 @@ class Email(models.Model):
 
     def __str__(self) -> str:
         return self.email
-    
+
     class Meta:
         verbose_name = "ایمیل"
         verbose_name_plural = "ایمیل‌ها"
-
 
 
 class ExternalLink(models.Model):
@@ -64,11 +62,10 @@ class ExternalLink(models.Model):
 
     def __str__(self) -> str:
         return self.url
-    
+
     class Meta:
         verbose_name = "لینک"
         verbose_name_plural = "لینک‌ها"
-
 
 
 class TeacherItem(models.Model):

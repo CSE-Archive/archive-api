@@ -1,11 +1,10 @@
 from . import models
-from django.contrib import admin
-from django.db.models import F, Value
-from django.db.models.functions import Concat
 from django.urls import reverse
-from django.utils.translation import gettext as _
-from django.db.models import Count, OuterRef, Subquery
+from django.contrib import admin
 from django.utils.html import format_html, urlencode
+from django.utils.translation import gettext as _
+from django.db.models import F, Value, Count, OuterRef, Subquery
+from django.db.models.functions import Concat
 
 
 class EmailInline(admin.TabularInline):

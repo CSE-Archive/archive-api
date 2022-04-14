@@ -2,12 +2,12 @@ from django.urls import reverse
 from django.contrib import admin
 from django.db.models import Count, OuterRef, Subquery
 from django.utils.html import format_html, urlencode
-from django.contrib.contenttypes.admin import GenericTabularInline
 from django.utils.translation import gettext as _
+from django.contrib.contenttypes.admin import GenericTabularInline
 from course.admin import CourseAdmin, SessionAdmin
 from course.models import Course, Session
-from reference.models import ReferenceItem
 from teacher.models import TeacherItem
+from reference.models import ReferenceItem
 
 
 class TeacherItemInline(GenericTabularInline):

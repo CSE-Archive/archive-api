@@ -1,13 +1,10 @@
 from django.db import models
+from django.utils.translation import gettext as _
 from django.contrib.contenttypes.models import ContentType
 from django.contrib.contenttypes.fields import GenericForeignKey
-from django.utils.translation import gettext as _
-from django_jalali.db import models as jmodels
 
 
 class Reference(models.Model):
-    objects = jmodels.jManager()
-
     cover_image = models.ImageField(
         verbose_name=_("تصویر جلد"),
         upload_to="img/r/",
@@ -21,12 +18,13 @@ class Reference(models.Model):
         verbose_name=_("لینک دانلود"),
         max_length=255,
     )
-    date_created = jmodels.jDateTimeField(
+    date_created = models.DateTimeField(
         verbose_name=_("تاریخ اضافه شدن"),
         auto_now_add=True,
     )
-    date_modified = jmodels.jDateTimeField(
+    date_modified = models.DateTimeField(
         verbose_name=_("آخرین ویرایش"),
+        auto_now=True,
     )
 
     def __str__(self) -> str:

@@ -1,12 +1,12 @@
+import jdatetime
+
 from . import models
-from django.contrib import admin
 from django.urls import reverse
+from django.contrib import admin
 from django.db.models import Count
 from django.utils.html import format_html, urlencode
+from django.utils.timezone import localtime
 from django.utils.translation import gettext as _
-from django_jalali.admin.filters import JDateFieldListFilter
-
-import django_jalali.admin as jadmin  # for adding jalali calender widget
 
 
 class AuthorInline(admin.TabularInline):
@@ -18,11 +18,22 @@ class AuthorInline(admin.TabularInline):
 class ReferenceAdmin(admin.ModelAdmin):
     inlines = (AuthorInline,)
     list_per_page = 10
-    list_display = ("id", "title", "date_modified",
-                    "date_created", "cover_image", "authors_count",)
-    list_filter = (("date_modified", JDateFieldListFilter),
-                   ("date_created", JDateFieldListFilter),)
+    list_display = ("id", "title", "date_modified_", "date_created_",
+                    "cover_image", "authors_count",)
+    list_filter = ("date_modified", "date_created",)
     search_fields = ("title",)
+
+    @admin.display(ordering="date_created", description=_("تاریخ اضافه شدن"))
+    def date_created_(self, reference):
+        return jdatetime.datetime.fromgregorian(
+            date=localtime(reference.date_created)
+        ).strftime("%Y-%m-%d %H:%M:%S")
+
+    @admin.display(ordering="date_modified", description=_("آخرین ویرایش"))
+    def date_modified_(self, reference):
+        return jdatetime.datetime.fromgregorian(
+            date=localtime(reference.date_modified)
+        ).strftime("%Y-%m-%d %H:%M:%S")
 
     @admin.display(ordering="authors_count", description=_("تعداد نویسنده‌ها"))
     def authors_count(self, reference):

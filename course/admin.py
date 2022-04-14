@@ -1,12 +1,12 @@
+import jdatetime
+
 from . import models
-from django.contrib import admin
 from django.urls import reverse
+from django.contrib import admin
 from django.db.models import Count, OuterRef, Subquery
 from django.utils.html import format_html, urlencode
+from django.utils.timezone import localtime
 from django.utils.translation import gettext as _
-from django_jalali.admin.filters import JDateFieldListFilter
-
-import django_jalali.admin as jadmin  # for adding jalali calender widget
 
 
 class RequisiteFromInline(admin.TabularInline):
@@ -173,17 +173,28 @@ class TAAdmin(admin.ModelAdmin):
 class ResourceAdmin(admin.ModelAdmin):
     autocomplete_fields = ("session",)
     list_per_page = 10
-    list_display = ("id", "title", "type", "date_modified",
-                    "date_created", "session", "course",)
+    list_display = ("id", "title", "type", "date_modified_",
+                    "date_created_", "session", "course",)
     list_select_related = ("session__course",)
-    list_filter = (("date_modified", JDateFieldListFilter),
-                   ("date_created", JDateFieldListFilter),
-                   "session", "session__course", "type",)
+    list_filter = ("date_modified", "date_created", "session",
+                   "session__course", "type",)
     search_fields = ("title",)
 
     @admin.display(ordering="course", description=_("درس"))
     def course(self, resource):
         return resource.session.course
+    
+    @admin.display(ordering="date_created", description=_("تاریخ اضافه شدن"))
+    def date_created_(self, resource):
+        return jdatetime.datetime.fromgregorian(
+            date=localtime(resource.date_created)
+        ).strftime("%Y-%m-%d %H:%M:%S")
+
+    @admin.display(ordering="date_modified", description=_("آخرین ویرایش"))
+    def date_modified_(self, resource):
+        return jdatetime.datetime.fromgregorian(
+            date=localtime(resource.date_modified)
+        ).strftime("%Y-%m-%d %H:%M:%S")
 
 
 @admin.register(models.Requisite)

@@ -1,8 +1,8 @@
 import jdatetime
+
 from django.db import models
 from django.core.validators import MaxValueValidator, MinValueValidator
 from django.utils.translation import gettext as _
-from django_jalali.db import models as jmodels
 
 
 class Course(models.Model):
@@ -18,10 +18,10 @@ class Course(models.Model):
     SPECIALIZED = "S"
 
     TYPE_CHOICES = [
-        (BASIC, "Basic"),
-        (GENERAL, "General"),
-        (OPTIONAL, "Optional"),
-        (SPECIALIZED, "Specialized"),
+        (BASIC, "پایه"),
+        (GENERAL, "عمومی"),
+        (OPTIONAL, "اختیاری"),
+        (SPECIALIZED, "تخصصی"),
     ]
 
     unit = models.PositiveSmallIntegerField(
@@ -73,9 +73,9 @@ class Session(models.Model):
     SUMMER = "SU"
 
     SEMESTER_CHOICES = [
-        (FALL, "Fall"),
-        (SPRING, "Spring"),
-        (SUMMER, "Summer"),
+        (FALL, "اول"),
+        (SPRING, "دوم"),
+        (SUMMER, "تابستان"),
     ]
 
     year = models.PositiveSmallIntegerField(
@@ -131,14 +131,12 @@ class Resource(models.Model):
     OTHER = "O"
 
     TYPE_CHOICES = [
-        (MIDTERM, "Midterm"),
-        (FINAL, "Final"),
-        (HOMEWORK, "Homework"),
-        (QUIZ, "Quiz"),
-        (OTHER, "Other"),
+        (MIDTERM, "میانترم"),
+        (FINAL, "پایانترم"),
+        (HOMEWORK, "تمرین"),
+        (QUIZ, "کوییز"),
+        (OTHER, "دیگر"),
     ]
-
-    objects = jmodels.jManager()
 
     title = models.CharField(
         verbose_name=_("عنوان"),
@@ -153,12 +151,13 @@ class Resource(models.Model):
         max_length=1,
         choices=TYPE_CHOICES,
     )
-    date_created = jmodels.jDateTimeField(
+    date_created = models.DateTimeField(
         verbose_name=_("تاریخ اضافه شدن"),
         auto_now_add=True,
     )
-    date_modified = jmodels.jDateTimeField(
+    date_modified = models.DateTimeField(
         verbose_name=_("آخرین ویرایش"),
+        auto_now=True,
     )
     session = models.ForeignKey(
         Session,
@@ -179,8 +178,8 @@ class Requisite(models.Model):
     PRE = "P"
 
     TYPE_CHOICES = [
-        (CO, "Corequisite"),
-        (PRE, "Prerequisite"),
+        (CO, "هم‌نیاز"),
+        (PRE, "پیش‌نیاز"),
     ]
 
     type = models.CharField(
