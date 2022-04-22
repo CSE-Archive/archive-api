@@ -160,3 +160,7 @@ MEDIA_URL = 'media/'
 LANGUAGE_CODE = 'fa-ir'
 
 locale.setlocale(locale.LC_ALL, "fa_IR.UTF-8")
+
+# Models customization
+
+AUTH_USER_MODEL = 'core.User'

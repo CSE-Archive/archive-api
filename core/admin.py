@@ -1,5 +1,7 @@
+from . import models
 from django.urls import reverse
 from django.contrib import admin
+from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 from django.db.models import Count, OuterRef, Subquery
 from django.utils.html import format_html, urlencode
 from django.utils.translation import gettext as _
@@ -75,6 +77,7 @@ class CustomTeacherItemAdmin(TeacherItemAdmin):
     def get_queryset(self, request):
         return super().get_queryset(request).prefetch_related("content_object__course")
 
+
 admin.site.unregister(Session)
 admin.site.register(Session, CustomSessionAdmin)
 
@@ -83,3 +86,16 @@ admin.site.register(Course, CustomCourseAdmin)
 
 admin.site.unregister(TeacherItem)
 admin.site.register(TeacherItem, CustomTeacherItemAdmin)
+
+
+@admin.register(models.User)
+class UserAdmin(BaseUserAdmin):
+    add_fieldsets = (
+        (
+            None,
+            {
+                "classes": ("wide",),
+                "fields": ("username", "password1", "password2", "email", "first_name", "last_name"),
+            },
+        ),
+    )
