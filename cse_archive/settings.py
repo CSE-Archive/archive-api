@@ -47,9 +47,9 @@ INSTALLED_APPS = [
     'rest_framework',
     'debug_toolbar',
     'course',
-    'course_custom',
-    'teacher',
     'reference',
+    'teacher',
+    'core',
 ]
 
 MIDDLEWARE = [

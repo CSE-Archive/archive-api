@@ -25,9 +25,9 @@ admin.site.site_header = "پنل ادمین CSE Archive"
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include("course.urls")),
-    path('', include("course_custom.urls")),
     path('', include("reference.urls")),
     path('', include("teacher.urls")),
+    path('', include("core.urls")),
 ]
 
 if settings.DEBUG:
