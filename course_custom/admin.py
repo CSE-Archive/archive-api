@@ -6,6 +6,7 @@ from django.utils.translation import gettext as _
 from django.contrib.contenttypes.admin import GenericTabularInline
 from course.admin import CourseAdmin, SessionAdmin
 from course.models import Course, Session
+from teacher.admin import TeacherItemAdmin
 from teacher.models import TeacherItem
 from reference.models import ReferenceItem
 
@@ -70,8 +71,15 @@ class CustomCourseAdmin(CourseAdmin):
         )
 
 
+class CustomTeacherItemAdmin(TeacherItemAdmin):
+    def get_queryset(self, request):
+        return super().get_queryset(request).prefetch_related("content_object__course")
+
 admin.site.unregister(Session)
 admin.site.register(Session, CustomSessionAdmin)
 
 admin.site.unregister(Course)
 admin.site.register(Course, CustomCourseAdmin)
+
+admin.site.unregister(TeacherItem)
+admin.site.register(TeacherItem, CustomTeacherItemAdmin)

@@ -18,8 +18,14 @@ class Teacher(models.Model):
         verbose_name=_("نام خانوادگی"),
         max_length=255,
     )
+    department = models.CharField(
+        verbose_name=_("بخش"),
+        max_length=8,
+    )
     about = models.TextField(
         verbose_name=_("درباره"),
+        null=True,
+        blank=True,
     )
 
     def __str__(self) -> str:

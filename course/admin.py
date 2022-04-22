@@ -37,18 +37,11 @@ class ResourceInline(admin.TabularInline):
 class CourseAdmin(admin.ModelAdmin):
     inlines = (RequisiteFromInline, RequisiteToInline,)
     list_per_page = 10
-    list_display = ("id", "title", "en_title", "unit", "term_in_chart", "type",
+    list_display = ("id", "title", "en_title", "unit", "type",
                     "sessionses_count", "resources_count", "requisites_from_count",
                     "requisites_to_count",)
-    search_fields = ("title", "en_title",)
-    list_filter = ("type", "unit", "term_in_chart",)
-    fields = (
-        ("title", "unit",),
-        ("en_title", "term_in_chart",),
-        "type",
-        "tag",
-        "description",
-    )
+    search_fields = ("title", "en_title", "description", "tag",)
+    list_filter = ("type", "unit",)
 
     @admin.display(ordering="resources_count", description=_("تعداد منابع"))
     def resources_count(self, course):
@@ -176,8 +169,8 @@ class ResourceAdmin(admin.ModelAdmin):
     list_display = ("id", "title", "type", "date_modified_",
                     "date_created_", "session", "course",)
     list_select_related = ("session__course",)
-    list_filter = ("date_modified", "date_created", "session",
-                   "session__course", "type",)
+    list_filter = ("date_modified", "date_created", "type", "session",
+                   "session__course",)
     search_fields = ("title",)
 
     @admin.display(ordering="course", description=_("درس"))

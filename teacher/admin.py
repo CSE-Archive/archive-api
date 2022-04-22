@@ -21,9 +21,10 @@ class ExternalLinkInline(admin.TabularInline):
 class TeacherAdmin(admin.ModelAdmin):
     inlines = (EmailInline, ExternalLinkInline,)
     list_per_page = 10
-    list_display = ("id", "full_name", "image",
+    list_display = ("id", "full_name", "image", "department",
                     "emails_count", "external_links_count",)
-    search_fields = ("full_name",)
+    list_filter = ("department",)
+    search_fields = ("first_name", "last_name", "about",)
 
     @admin.display(ordering="full_name", description=_("نام و نام خانوادگی"))
     def full_name(self, teacher):
@@ -85,6 +86,7 @@ class TeacherItemAdmin(admin.ModelAdmin):
     autocomplete_fields = ("teacher",)
     list_per_page = 10
     list_display = ("id", "teacher_", "content_object_",)
+    list_select_related = ("teacher",)
     list_filter = ("teacher",)
 
     @admin.display(ordering="teacher_", description=_("استاد"))
@@ -100,3 +102,6 @@ class TeacherItemAdmin(admin.ModelAdmin):
     @admin.display(ordering="content_object_", description=_("محتوای مربوطه"))
     def content_object_(self, teacher_item):
         return teacher_item.content_object
+
+    def get_queryset(self, request):
+        return super().get_queryset(request).prefetch_related("content_object")

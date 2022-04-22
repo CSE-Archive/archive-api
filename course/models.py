@@ -9,9 +9,6 @@ class Course(models.Model):
     def _unit_choices():
         return [(u, u) for u in range(1, 3+1)]
 
-    def _term_in_chart_choices():
-        return [(t, t) for t in range(1, 8+1)]
-
     BASIC = "B"
     GENERAL = "G"
     OPTIONAL = "O"
@@ -24,14 +21,6 @@ class Course(models.Model):
         (SPECIALIZED, "تخصصی"),
     ]
 
-    unit = models.PositiveSmallIntegerField(
-        verbose_name=_("واحد"),
-        choices=_unit_choices(),
-    )
-    term_in_chart = models.PositiveSmallIntegerField(
-        verbose_name=_("ترم در چارت"),
-        choices=_term_in_chart_choices(),
-    )
     title = models.CharField(
         verbose_name=_("عنوان"),
         max_length=255,
@@ -39,6 +28,15 @@ class Course(models.Model):
     en_title = models.CharField(
         verbose_name=_("عنوان به انگلیسی"),
         max_length=255,
+    )
+    unit = models.PositiveSmallIntegerField(
+        verbose_name=_("واحد"),
+        choices=_unit_choices(),
+    )
+    type = models.CharField(
+        verbose_name=_("نوع"),
+        max_length=1,
+        choices=TYPE_CHOICES,
     )
     tag = models.CharField(
         verbose_name=_("تگ"),
@@ -50,11 +48,6 @@ class Course(models.Model):
         verbose_name=_("توضیحات"),
         null=True,
         blank=True)
-    type = models.CharField(
-        verbose_name=_("نوع"),
-        max_length=1,
-        choices=TYPE_CHOICES,
-    )
 
     def __str__(self) -> str:
         return self.title
@@ -62,6 +55,11 @@ class Course(models.Model):
     class Meta:
         verbose_name = "درس"
         verbose_name_plural = "دروس"
+
+
+class SessionManager(models.Manager):
+    def get_queryset(self):
+        return super().get_queryset().select_related("course")
 
 
 class Session(models.Model):
@@ -77,6 +75,8 @@ class Session(models.Model):
         (SPRING, "دوم"),
         (SUMMER, "تابستان"),
     ]
+
+    objects = SessionManager()
 
     year = models.PositiveSmallIntegerField(
         verbose_name=_("سال"),

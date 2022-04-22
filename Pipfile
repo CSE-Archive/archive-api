@@ -9,6 +9,9 @@ django-debug-toolbar = "*"
 pillow = "*"
 mysqlclient = "*"
 jdatetime = "*"
+djangorestframework = "*"
+drf-nested-routers = "*"
+django-filter = "*"
 
 [dev-packages]
 autopep8 = "*"
