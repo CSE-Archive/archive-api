@@ -7,10 +7,10 @@ name = "pypi"
 django = "*"
 django-debug-toolbar = "*"
 pillow = "*"
-mysqlclient = "*"
 jdatetime = "*"
 djangorestframework = "*"
 django-filter = "*"
+psycopg2 = "*"
 
 [dev-packages]
 autopep8 = "*"

@@ -93,9 +93,10 @@ WSGI_APPLICATION = 'cse_archive.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'cse_archive',
         'HOST': 'localhost',
+        'PORT': '5432',
         'USER': DB_USER,
         'PASSWORD': DB_PASSWORD,
     }
