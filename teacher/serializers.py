@@ -38,3 +38,11 @@ class TeacherSerializer(serializers.ModelSerializer):
 
     def get_full_name(self, teacher):
         return f"{teacher.first_name} {teacher.last_name}"
+
+
+class TeacherItemSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = models.TeacherItem
+        fields = ("teacher",)
+
+    teacher = SimpleTeacherSerializer()

@@ -1,12 +1,26 @@
-import jdatetime
-
+from reference.models import ReferenceItem
+from teacher.models import TeacherItem
 from . import models
+from jdatetime import datetime as jdt
 from django.urls import reverse
 from django.contrib import admin
+from django.contrib.contenttypes.admin import GenericTabularInline
 from django.db.models import Count, OuterRef, Subquery
 from django.utils.html import format_html, urlencode
 from django.utils.timezone import localtime
 from django.utils.translation import gettext as _
+
+
+class TeacherItemInline(GenericTabularInline):
+    autocomplete_fields = ("teacher",)
+    model = TeacherItem
+    extra = 0
+
+
+class ReferenceItemInline(GenericTabularInline):
+    autocomplete_fields = ("reference",)
+    model = ReferenceItem
+    extra = 0
 
 
 class RequisiteFromInline(admin.TabularInline):
@@ -35,9 +49,9 @@ class ResourceInline(admin.TabularInline):
 
 @admin.register(models.Course)
 class CourseAdmin(admin.ModelAdmin):
-    inlines = (RequisiteFromInline, RequisiteToInline,)
+    inlines = (ReferenceItemInline, RequisiteFromInline, RequisiteToInline,)
     list_per_page = 10
-    list_display = ("id", "title", "en_title", "unit", "type",
+    list_display = ("id", "title", "en_title", "unit", "type", "references_count",
                     "sessionses_count", "resources_count", "requisites_from_count",
                     "requisites_to_count",)
     search_fields = ("title", "en_title", "description", "tag",)
@@ -90,6 +104,18 @@ class CourseAdmin(admin.ModelAdmin):
         placeholder = course.requisites_to_count if course.requisites_to_count else "0"
         return format_html('<a href="{}">{}</a>', url, placeholder)
 
+    @admin.display(ordering="references_count", description=_("تعداد مراجع"))
+    def references_count(self, course):
+        url = (
+            reverse("admin:reference_referenceitem_changelist")
+            + "?"
+            + urlencode({
+                "object_id": str(course.id)
+            })
+        )
+        placeholder = course.references_count if course.references_count else "0"
+        return format_html('<a href="{}">{}</a>', url, placeholder)
+
     def get_queryset(self, request):
         return super().get_queryset(request).annotate(
             resources_count=Count("session__resource"),
@@ -102,16 +128,19 @@ class CourseAdmin(admin.ModelAdmin):
             requisites_to_count=Subquery(
                 models.Requisite.objects.filter(course_to=OuterRef("pk"))
                 .values("course_to_id").annotate(count=Count("id")).values("count")),
+            references_count=Subquery(
+                ReferenceItem.objects.filter(object_id=OuterRef("pk"))
+                .values("object_id").annotate(count=Count("id")).values("count")),
         )
 
 
 @admin.register(models.Session)
 class SessionAdmin(admin.ModelAdmin):
-    inlines = (TAInline, ResourceInline,)
+    inlines = (TeacherItemInline, TAInline, ResourceInline,)
     autocomplete_fields = ("course",)
     list_per_page = 10
     list_display = ("id", "year", "semester", "course",
-                    "resources_count", "tas_count",)
+                    "tas_count", "resources_count", "teachers_count",)
     list_select_related = ("course",)
     list_filter = ("year", "semester", "course",)
     search_fields = ("year", "semester", "course__title", "course__en_title",)
@@ -139,12 +168,27 @@ class SessionAdmin(admin.ModelAdmin):
         placeholder = session.resources_count if session.resources_count else "0"
         return format_html('<a href="{}">{}</a>', url, placeholder)
 
+    @admin.display(ordering="teachers_count", description=_("تعداد اساتید"))
+    def teachers_count(self, session):
+        url = (
+            reverse("admin:teacher_teacheritem_changelist")
+            + "?"
+            + urlencode({
+                "object_id": str(session.id)
+            })
+        )
+        placeholder = session.teachers_count if session.teachers_count else "0"
+        return format_html('<a href="{}">{}</a>', url, placeholder)
+
     def get_queryset(self, request):
         return super().get_queryset(request).annotate(
             tas_count=Count("ta"),
             resources_count=Subquery(
                 models.Resource.objects.filter(session=OuterRef("pk"))
                 .values("session_id").annotate(count=Count("id")).values("count")),
+            teachers_count=Subquery(
+                TeacherItem.objects.filter(object_id=OuterRef("pk"))
+                .values("object_id").annotate(count=Count("id")).values("count")),
         )
 
 
@@ -176,16 +220,16 @@ class ResourceAdmin(admin.ModelAdmin):
     @admin.display(ordering="course", description=_("درس"))
     def course(self, resource):
         return resource.session.course
-    
+
     @admin.display(ordering="date_created", description=_("تاریخ اضافه شدن"))
     def date_created_(self, resource):
-        return jdatetime.datetime.fromgregorian(
+        return jdt.fromgregorian(
             date=localtime(resource.date_created)
         ).strftime("%Y-%m-%d %H:%M:%S")
 
     @admin.display(ordering="date_modified", description=_("آخرین ویرایش"))
     def date_modified_(self, resource):
-        return jdatetime.datetime.fromgregorian(
+        return jdt.fromgregorian(
             date=localtime(resource.date_modified)
         ).strftime("%Y-%m-%d %H:%M:%S")
 

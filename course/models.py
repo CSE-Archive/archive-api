@@ -1,8 +1,11 @@
 import jdatetime
 
 from django.db import models
+from django.contrib.contenttypes.fields import GenericRelation
 from django.core.validators import MaxValueValidator, MinValueValidator
 from django.utils.translation import gettext as _
+from teacher.models import TeacherItem
+from reference.models import ReferenceItem
 
 
 class Course(models.Model):
@@ -48,6 +51,11 @@ class Course(models.Model):
         verbose_name=_("توضیحات"),
         null=True,
         blank=True)
+    reference_items = GenericRelation(
+        ReferenceItem,
+        related_query_name="course",
+        verbose_name=_("مراجع"),
+    )
 
     def __str__(self) -> str:
         return self.title
@@ -94,6 +102,11 @@ class Session(models.Model):
         Course,
         verbose_name=_("درس"),
         on_delete=models.PROTECT,
+    )
+    teacher_items = GenericRelation(
+        TeacherItem,
+        related_query_name="session",
+        verbose_name=_("اساتید"),
     )
 
     def __str__(self) -> str:

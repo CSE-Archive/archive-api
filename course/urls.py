@@ -1,13 +1,10 @@
 from . import views
-from rest_framework_nested import routers
+from rest_framework.routers import DefaultRouter
 
 
-router = routers.DefaultRouter()
-router.register("courses", views.CourseViewSet)
-router.register("sessions", views.SessionViewSet)
+router = DefaultRouter()
+router.register("courses", views.CourseViewSet, basename="courses")
+router.register("sessions", views.SessionViewSet, basename="sessions")
 router.register("resources", views.ResourceViewSet)
 
-courses_router = routers.NestedDefaultRouter(router, "courses", lookup="course")
-courses_router.register("requisites", views.RequisitesViewSet, basename="courses-requisites")
-
-urlpatterns = router.urls + courses_router.urls
+urlpatterns = router.urls
