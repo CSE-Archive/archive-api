@@ -17,9 +17,16 @@ class CourseViewSet(ReadOnlyModelViewSet):
 
     def get_queryset(self):
         if self.action == "list":
-            return models.Course.objects.all()
+            return models.Course.objects \
+                .prefetch_related(
+                    "requisites_from__course_to",
+                    "requisites_to__course_from",
+                )\
+                .all()
         return models.Course.objects \
             .prefetch_related(
+                "requisites_from__course_to",
+                "requisites_to__course_from",
                 "session_set__ta_set",
                 "session_set__resource_set",
                 "session_set__teacher_items__teacher",

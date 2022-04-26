@@ -1,4 +1,5 @@
 from . import models
+from itertools import chain
 from jdatetime import datetime as jdt
 from rest_framework import serializers
 from django.db.models import Q
@@ -88,7 +89,14 @@ class ListCourseSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Course
         fields = ("id", "title", "en_title", "unit", "type", "tag",
-                  "description",)
+                  "description", "requisites",)
+
+    requisites = serializers.SerializerMethodField(
+        method_name="get_requisites")
+
+    def get_requisites(self, course: models.Course):
+        requisites = list(chain(course.requisites_from.all(), course.requisites_to.all()))
+        return RequisiteSerializer(requisites, many=True).data
 
 
 class DetailCourseSerializer(serializers.ModelSerializer):
@@ -107,10 +115,6 @@ class DetailCourseSerializer(serializers.ModelSerializer):
         method_name="get_requisites")
     sessions = SessionCourseSerializer(source="session_set", many=True)
 
-    def get_requisites(self, course):
-        requisites = models.Requisite.objects \
-            .select_related("course_from", "course_to") \
-            .filter(
-                Q(course_from__id=course.id) | Q(course_to__id=course.id))
-
+    def get_requisites(self, course: models.Course):
+        requisites = list(chain(course.requisites_from.all(), course.requisites_to.all()))
         return RequisiteSerializer(requisites, many=True).data
