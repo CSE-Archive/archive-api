@@ -2,6 +2,7 @@ from django.db import models
 from django.utils.translation import gettext as _
 from django.contrib.contenttypes.models import ContentType
 from django.contrib.contenttypes.fields import GenericForeignKey
+from .validators import image_size_validator
 
 
 class Teacher(models.Model):
@@ -9,6 +10,7 @@ class Teacher(models.Model):
         verbose_name=_("تصویر"),
         upload_to="img/t/",
         blank=True,
+        validators=[image_size_validator],
     )
     first_name = models.CharField(
         verbose_name=_("نام"),

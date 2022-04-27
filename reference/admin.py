@@ -1,6 +1,5 @@
-import jdatetime
-
 from . import models
+from jdatetime import datetime as jdt
 from django.urls import reverse
 from django.contrib import admin
 from django.db.models import Count
@@ -18,20 +17,32 @@ class AuthorInline(admin.TabularInline):
 class ReferenceAdmin(admin.ModelAdmin):
     inlines = (AuthorInline,)
     list_per_page = 10
-    list_display = ("id", "title", "date_modified_", "date_created_",
-                    "cover_image", "authors_count",)
+    list_display = ("id", "title", "cover_image", "thumbnail", "date_modified_",
+                    "date_created_", "authors_count",)
+    readonly_fields = ("preview",)
     list_filter = ("date_modified", "date_created",)
     search_fields = ("title", "author__full_name",)
 
+    def thumbnail(self, reference):
+        if reference.cover_image.name != "":
+            return format_html(f'<img src="{reference.cover_image.url}" width="100" height="100" style="object-fit:cover;"/>')
+        return ""
+
+    @admin.display(description=_("پیش‌نمایش تصویر جلد"))
+    def preview(self, reference):
+        if reference.cover_image.name != "":
+            return format_html(f'<img src="{reference.cover_image.url}" width="500" style="object-fit:contain;"/>')
+        return ""
+
     @admin.display(ordering="date_created", description=_("تاریخ اضافه شدن"))
     def date_created_(self, reference):
-        return jdatetime.datetime.fromgregorian(
+        return jdt.fromgregorian(
             date=localtime(reference.date_created)
         ).strftime("%Y-%m-%d %H:%M:%S")
 
     @admin.display(ordering="date_modified", description=_("آخرین ویرایش"))
     def date_modified_(self, reference):
-        return jdatetime.datetime.fromgregorian(
+        return jdt.fromgregorian(
             date=localtime(reference.date_modified)
         ).strftime("%Y-%m-%d %H:%M:%S")
 
