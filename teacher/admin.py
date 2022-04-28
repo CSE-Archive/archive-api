@@ -21,15 +21,17 @@ class ExternalLinkInline(admin.TabularInline):
 class TeacherAdmin(admin.ModelAdmin):
     inlines = (EmailInline, ExternalLinkInline,)
     list_per_page = 10
-    list_display = ("id", "full_name", "image", "thumbnail", "department",
+    list_display = ("id", "image_", "full_name", "department",
                     "emails_count", "external_links_count",)
     readonly_fields = ("preview",)
     list_filter = ("department",)
     search_fields = ("first_name", "last_name", "about",)
 
-    def thumbnail(self, teacher):
+    @admin.display(description=_("تصویر"))
+    def image_(self, teacher):
         if teacher.image.name != "":
-            return format_html(f'<img src="{teacher.image.url}" width="100" height="100" style="object-fit:cover;"/>')
+            url = teacher.image.url
+            return format_html(f'<a href="{url}"><img src="{url}" width="100" height="100" style="object-fit:cover;"/></a>')
         return ""
 
     @admin.display(description=_("پیش‌نمایش تصویر"))

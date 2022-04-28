@@ -17,15 +17,17 @@ class AuthorInline(admin.TabularInline):
 class ReferenceAdmin(admin.ModelAdmin):
     inlines = (AuthorInline,)
     list_per_page = 10
-    list_display = ("id", "title", "cover_image", "thumbnail", "date_modified_",
+    list_display = ("id", "cover_image_", "title", "date_modified_",
                     "date_created_", "authors_count",)
     readonly_fields = ("preview",)
     list_filter = ("date_modified", "date_created",)
     search_fields = ("title", "author__full_name",)
 
-    def thumbnail(self, reference):
+    @admin.display(description=_("تصویر جلد"))
+    def cover_image_(self, reference):
         if reference.cover_image.name != "":
-            return format_html(f'<img src="{reference.cover_image.url}" width="100" height="100" style="object-fit:cover;"/>')
+            url = reference.cover_image.url
+            return format_html(f'<a href="{url}"><img src="{url}" width="100" height="100" style="object-fit:cover;"/></a>')
         return ""
 
     @admin.display(description=_("پیش‌نمایش تصویر جلد"))
