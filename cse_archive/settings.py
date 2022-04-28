@@ -165,3 +165,9 @@ locale.setlocale(locale.LC_ALL, "fa_IR.UTF-8")
 # Models customization
 
 AUTH_USER_MODEL = 'core.User'
+
+# Rest Framework
+
+REST_FRAMEWORK = {
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
+}
