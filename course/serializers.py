@@ -17,9 +17,10 @@ class SimpleCourseSerializer(serializers.ModelSerializer):
 class SimpleSessionSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Session
-        fields = ("id", "year", "semester", "course",)
+        fields = ("id", "year", "semester", "course", "teacher_items",)
 
     course = SimpleCourseSerializer()
+    teacher_items = TeacherItemSerializer(many=True)
 
 
 class RequisiteSerializer(serializers.ModelSerializer):
@@ -63,9 +64,10 @@ class DetailResourceSerializer(serializers.ModelSerializer):
 class ListSessionSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Session
-        fields = ("id", "year", "semester", "course",)
+        fields = ("id", "year", "semester", "course", "teacher_items",)
 
     course = SimpleCourseSerializer()
+    teacher_items = TeacherItemSerializer(many=True)
 
 
 class DetailSessionSerializer(serializers.ModelSerializer):

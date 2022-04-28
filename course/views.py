@@ -45,7 +45,9 @@ class SessionViewSet(ReadOnlyModelViewSet):
 
     def get_queryset(self):
         if self.action == "list":
-            return models.Session.objects.all()
+            return models.Session.objects \
+                .prefetch_related("teacher_items__teacher") \
+                .all()
         return models.Session.objects \
             .prefetch_related("ta_set", "resource_set", "teacher_items__teacher") \
             .all()
@@ -54,6 +56,7 @@ class SessionViewSet(ReadOnlyModelViewSet):
 class ResourceViewSet(ReadOnlyModelViewSet):
     queryset = models.Resource.objects\
         .select_related("session__course")\
+        .prefetch_related("session__teacher_items__teacher") \
         .all()
     serializer_class = serializers.DetailResourceSerializer
     filter_backends = (DjangoFilterBackend, SearchFilter, OrderingFilter,)
