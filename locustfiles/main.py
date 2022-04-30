@@ -1,5 +1,5 @@
 import os
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "cse_archive.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "cse_archive.settings.dev")
 
 import django
 django.setup()
