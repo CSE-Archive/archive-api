@@ -1,8 +1,8 @@
 from . import views
-from rest_framework import routers
+from rest_framework.routers import SimpleRouter
 
 
-router = routers.DefaultRouter()
+router = SimpleRouter()
 router.register("teachers", views.TeacherViewSet)
 
 

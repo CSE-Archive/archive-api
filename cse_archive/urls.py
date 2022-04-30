@@ -27,7 +27,7 @@ urlpatterns = [
     path('', include("course.urls")),
     path('', include("reference.urls")),
     path('', include("teacher.urls")),
-    # path('', include("core.urls")),
+    path('', include("core.urls")),
 ]
 
 if settings.DEBUG:

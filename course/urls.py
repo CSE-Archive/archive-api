@@ -1,8 +1,8 @@
 from . import views
-from rest_framework.routers import DefaultRouter
+from rest_framework.routers import SimpleRouter
 
 
-router = DefaultRouter()
+router = SimpleRouter()
 router.register("courses", views.CourseViewSet, basename="courses")
 router.register("sessions", views.SessionViewSet, basename="sessions")
 router.register("resources", views.ResourceViewSet)
