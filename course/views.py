@@ -1,5 +1,6 @@
 from . import models
 from . import serializers
+from .filters import ResourceFilterSet
 from rest_framework.filters import SearchFilter, OrderingFilter
 from rest_framework.viewsets import ReadOnlyModelViewSet
 from django_filters.rest_framework import DjangoFilterBackend
@@ -60,6 +61,6 @@ class ResourceViewSet(ReadOnlyModelViewSet):
         .all()
     serializer_class = serializers.DetailResourceSerializer
     filter_backends = (DjangoFilterBackend, SearchFilter, OrderingFilter,)
-    filterset_fields = ("session_id", "session__course_id", "type",)
+    filterset_class = ResourceFilterSet
     search_fields = ("title",)
     ordering_fields = ("date_modified", "date_created",)
