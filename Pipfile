@@ -11,6 +11,7 @@ jdatetime = "*"
 djangorestframework = "*"
 django-filter = "*"
 psycopg2 = "*"
+locust = "*"
 
 [dev-packages]
 autopep8 = "*"
