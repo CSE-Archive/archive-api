@@ -161,6 +161,12 @@ class Resource(models.Model):
         verbose_name=_("لینک دانلود"),
         max_length=255,
     )
+    support_url = models.URLField(
+        verbose_name=_("لینک دانلود حمایتی"),
+        max_length=255,
+        blank=True,
+        null=True,
+    )
     type = models.CharField(
         verbose_name=_("نوع"),
         max_length=1,

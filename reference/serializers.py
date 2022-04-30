@@ -13,7 +13,7 @@ class AuthorSerializer(serializers.ModelSerializer):
 class SimpleReferenceSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Reference
-        fields = ("id", "title", "url", "cover_image", "authors",)
+        fields = ("id", "title", "url", "support_url", "cover_image", "authors",)
 
     authors = AuthorSerializer(many=True, source="author_set")
 
@@ -21,7 +21,7 @@ class SimpleReferenceSerializer(serializers.ModelSerializer):
 class ReferenceSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Reference
-        fields = ("id", "title", "url", "cover_image", "date_created",
+        fields = ("id", "title", "url", "support_url", "cover_image", "date_created",
                   "date_modified", "authors",)
     
     authors = AuthorSerializer(many=True, source="author_set")

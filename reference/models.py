@@ -20,6 +20,12 @@ class Reference(models.Model):
         verbose_name=_("لینک دانلود"),
         max_length=255,
     )
+    support_url = models.URLField(
+        verbose_name=_("لینک دانلود حمایتی"),
+        max_length=255,
+        blank=True,
+        null=True,
+    )
     date_created = models.DateTimeField(
         verbose_name=_("تاریخ اضافه شدن"),
         auto_now_add=True,
