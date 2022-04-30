@@ -3,3 +3,4 @@ staticfiles
 media
 
 env.py
+cse_archive.log
