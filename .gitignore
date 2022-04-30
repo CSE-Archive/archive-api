@@ -1,3 +1,5 @@
+.vscode
+.pytest_cache
 __pycache__
 staticfiles
 media
