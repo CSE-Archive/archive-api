@@ -12,6 +12,7 @@ djangorestframework = "*"
 django-filter = "*"
 psycopg2 = "*"
 locust = "*"
+whitenoise = "*"
 
 [dev-packages]
 autopep8 = "*"
