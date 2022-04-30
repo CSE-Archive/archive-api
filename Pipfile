@@ -13,6 +13,7 @@ django-filter = "*"
 psycopg2 = "*"
 locust = "*"
 whitenoise = "*"
+gunicorn = "*"
 
 [dev-packages]
 autopep8 = "*"
