@@ -74,6 +74,8 @@ class Session(models.Model):
     def _current_year():
         return jdatetime.date.today().year
 
+    MIN_YEAR = 1300
+
     FALL = "FA"
     SPRING = "SP"
     SUMMER = "SU"
@@ -89,7 +91,7 @@ class Session(models.Model):
     year = models.PositiveSmallIntegerField(
         verbose_name=_("سال"),
         validators=[
-            MinValueValidator(1300),
+            MinValueValidator(MIN_YEAR),
             MaxValueValidator(_current_year)
         ],
     )
