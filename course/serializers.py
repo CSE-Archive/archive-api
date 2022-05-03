@@ -1,5 +1,4 @@
 from . import models
-from itertools import chain
 from jdatetime import datetime as jdt
 from rest_framework import serializers
 from django.utils.text import slugify
@@ -28,13 +27,20 @@ class SimpleSessionSerializer(serializers.ModelSerializer):
     teacher_items = TeacherItemSerializer(many=True)
 
 
-class RequisiteSerializer(serializers.ModelSerializer):
+class RequisiteFromSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Requisite
-        fields = ("type", "course_from", "course_to",)
+        fields = ("type", "course",)
 
-    course_from = SimpleCourseSerializer()
-    course_to = SimpleCourseSerializer()
+    course = SimpleCourseSerializer(source="course_to")
+
+
+class RequisiteToSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = models.Requisite
+        fields = ("type", "course",)
+
+    course = SimpleCourseSerializer(source="course_from")
 
 
 class TASerializer(serializers.ModelSerializer):
@@ -96,25 +102,23 @@ class ListCourseSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Course
         fields = ("id", "title", "en_title", "unit", "type", "tag", "slug",
-                  "description", "requisites",)
+                  "description", "requisites", "requisites_for",)
 
     slug = serializers.SerializerMethodField(method_name="get_slug")
-    requisites = serializers.SerializerMethodField(
-        method_name="get_requisites")
+    requisites = RequisiteToSerializer(source="requisites_to", many=True)
+    requisites_for = RequisiteFromSerializer(
+        source="requisites_from", many=True)
 
     def get_slug(self, course: models.Course):
         return slugify(course.title, allow_unicode=True)
-
-    def get_requisites(self, course: models.Course):
-        requisites = list(chain(course.requisites_from.all(), course.requisites_to.all()))
-        return RequisiteSerializer(requisites, many=True).data
 
 
 class DetailCourseSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Course
         fields = ("id", "title", "en_title", "unit", "type", "tag", "slug",
-                  "description", "requisites", "reference_items", "sessions",)
+                  "description", "requisites", "requisites_for",
+                  "reference_items", "sessions",)
 
     class SessionCourseSerializer(DetailSessionSerializer):
         class Meta(DetailSessionSerializer.Meta):
@@ -122,14 +126,11 @@ class DetailCourseSerializer(serializers.ModelSerializer):
                       "teacher_items", "resources",)
 
     slug = serializers.SerializerMethodField(method_name="get_slug")
+    requisites = RequisiteToSerializer(source="requisites_to", many=True)
+    requisites_for = RequisiteFromSerializer(
+        source="requisites_from", many=True)
     reference_items = ReferenceItemSerializer(many=True)
-    requisites = serializers.SerializerMethodField(
-        method_name="get_requisites")
     sessions = SessionCourseSerializer(source="session_set", many=True)
 
     def get_slug(self, course: models.Course):
         return slugify(course.title, allow_unicode=True)
-
-    def get_requisites(self, course: models.Course):
-        requisites = list(chain(course.requisites_from.all(), course.requisites_to.all()))
-        return RequisiteSerializer(requisites, many=True).data
