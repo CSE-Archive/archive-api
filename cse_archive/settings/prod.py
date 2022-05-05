@@ -13,3 +13,5 @@ ALLOWED_HOSTS = ['cse-archive.herokuapp.com']
 DATABASES = {
     'default': config()
 }
+
+GOOGLE_DRIVE_STORAGE_JSON_KEY_FILE = None

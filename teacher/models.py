@@ -2,13 +2,18 @@ from django.db import models
 from django.utils.translation import gettext as _
 from django.contrib.contenttypes.models import ContentType
 from django.contrib.contenttypes.fields import GenericForeignKey
+from gdstorage.storage import GoogleDriveStorage
 from .validators import image_size_validator
+
+
+gd_storage = GoogleDriveStorage()
 
 
 class Teacher(models.Model):
     image = models.ImageField(
         verbose_name=_("تصویر"),
-        upload_to="img/t/",
+        upload_to="images/teachers/",
+        storage=gd_storage,
         blank=True,
         validators=[image_size_validator],
     )

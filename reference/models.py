@@ -2,22 +2,28 @@ from django.db import models
 from django.utils.translation import gettext as _
 from django.contrib.contenttypes.models import ContentType
 from django.contrib.contenttypes.fields import GenericForeignKey
+from gdstorage.storage import GoogleDriveStorage
 from .validators import image_size_validator
+
+
+gd_storage = GoogleDriveStorage()
 
 
 class Reference(models.Model):
     cover_image = models.ImageField(
         verbose_name=_("تصویر جلد"),
-        upload_to="img/r/",
+        upload_to="images/references/",
+        storage=gd_storage,
         blank=True,
         validators=[image_size_validator],
     )
+    url = models.FileField(
+        verbose_name=_("فایل"),
+        upload_to="files/references/",
+        storage=gd_storage,
+    )
     title = models.CharField(
         verbose_name=_("عنوان"),
-        max_length=255,
-    )
-    url = models.URLField(
-        verbose_name=_("لینک دانلود"),
         max_length=255,
     )
     support_url = models.URLField(
@@ -37,7 +43,7 @@ class Reference(models.Model):
 
     def __str__(self) -> str:
         return self.title
-    
+
     class Meta:
         verbose_name = "مرجع"
         verbose_name_plural = "مراجع"
@@ -56,7 +62,7 @@ class Author(models.Model):
 
     def __str__(self) -> str:
         return self.full_name
-    
+
     class Meta:
         verbose_name = "نویسنده"
         verbose_name_plural = "نویسنده‌ها"

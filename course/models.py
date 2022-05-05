@@ -4,8 +4,12 @@ from django.db import models
 from django.contrib.contenttypes.fields import GenericRelation
 from django.core.validators import MaxValueValidator, MinValueValidator
 from django.utils.translation import gettext as _
+from gdstorage.storage import GoogleDriveStorage
 from teacher.models import TeacherItem
 from reference.models import ReferenceItem
+
+
+gd_storage = GoogleDriveStorage()
 
 
 class Course(models.Model):
@@ -153,12 +157,13 @@ class Resource(models.Model):
         (OTHER, "دیگر"),
     ]
 
+    url = models.FileField(
+        verbose_name=_("فایل"),
+        upload_to="files/resources/",
+        storage=gd_storage,
+    )
     title = models.CharField(
         verbose_name=_("عنوان"),
-        max_length=255,
-    )
-    url = models.URLField(
-        verbose_name=_("لینک دانلود"),
         max_length=255,
     )
     support_url = models.URLField(

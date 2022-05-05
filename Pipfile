@@ -15,6 +15,7 @@ locust = "*"
 whitenoise = "*"
 gunicorn = "*"
 dj-database-url = "*"
+django-googledrive-storage = "*"
 
 [dev-packages]
 autopep8 = "*"
