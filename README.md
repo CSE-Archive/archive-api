@@ -44,7 +44,7 @@ pytest
 
 The database used underneath this API contains tables specified in the following ER diagram. (It is divided into three separate django apps, each app marked with a different color)
 
-![Database ERD](docs\readmefiles\ERD.png)
+![Database ERD](docs/readmefiles/ERD.png)
 
 ## Endpoints
 
