@@ -153,3 +153,5 @@ LOGGING = {
         }
     }
 }
+
+GOOGLE_DRIVE_STORAGE_JSON_KEY_FILE = None

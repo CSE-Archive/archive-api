@@ -1,0 +1,16 @@
+language: python
+python:
+  - "3.10"
+services:
+  - postgresql
+before_install:
+  - export DJANGO_SETTINGS_MODULE=cse_archive.settings.dev
+  - export PYTHONPATH=$HOME/builds/CSE-Archive/RESTful-API
+  - export PIP_USE_MIRRORS=true
+install:
+  - pip install pipenv
+  - pipenv install
+before_script:
+  - psql -c "CREATE DATABASE cse_archive;" -U postgres
+script:
+  - pipenv run pytest
