@@ -3,6 +3,7 @@
 __pycache__
 staticfiles
 media
+build
 
 env.py
 cse_archive.log
