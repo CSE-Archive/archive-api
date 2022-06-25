@@ -71,7 +71,9 @@ class Course(models.Model):
 
 class SessionManager(models.Manager):
     def get_queryset(self):
-        return super().get_queryset().select_related("course")
+        return super().get_queryset() \
+            .select_related("course") \
+            .order_by("-year", "semester", "course__en_title")
 
 
 class Session(models.Model):
