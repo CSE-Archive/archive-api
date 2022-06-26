@@ -18,7 +18,7 @@ CSE Archive API Endpoints
    courses/index
    references/index
    resources/index
-   sessions/index
+   classrooms/index
    teachers/index
 
 
@@ -76,8 +76,8 @@ Resources
      - Lists resources.
 
 
-Sessions
-~~~~~~~~
+Classrooms
+~~~~~~~~~~
 
 .. list-table::
    :widths: 20 50 50
@@ -86,12 +86,12 @@ Sessions
    * - Method
      - HTTP request
      - Description
-   * - `get <sessions/get.html>`_
-     - GET */sessions/*:red:`sessionId`
-     - Gets a session by ID.
-   * - `list <sessions/list.html>`_
-     - GET */sessions*
-     - Lists sessions.
+   * - `get <classrooms/get.html>`_
+     - GET */classrooms/*:red:`classroomId`
+     - Gets a classroom by ID.
+   * - `list <classrooms/list.html>`_
+     - GET */classrooms*
+     - Lists classrooms.
 
 
 Teachers

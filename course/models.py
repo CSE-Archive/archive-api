@@ -54,7 +54,8 @@ class Course(models.Model):
     description = models.TextField(
         verbose_name=_("توضیحات"),
         null=True,
-        blank=True)
+        blank=True,
+    )
     reference_items = GenericRelation(
         ReferenceItem,
         related_query_name="course",
@@ -69,30 +70,30 @@ class Course(models.Model):
         verbose_name_plural = "دروس"
 
 
-class SessionManager(models.Manager):
+class ClassroomManager(models.Manager):
     def get_queryset(self):
         return super().get_queryset() \
             .select_related("course") \
             .order_by("-year", "semester", "course__en_title")
 
 
-class Session(models.Model):
+class Classroom(models.Model):
     def _current_year():
         return jdatetime.date.today().year
 
     MIN_YEAR = 1300
 
-    FALL = "FA"
-    SPRING = "SP"
-    SUMMER = "SU"
+    FIRST = "1"
+    SECOND = "2"
+    SUMMER = "S"
 
     SEMESTER_CHOICES = [
-        (FALL, "اول"),
-        (SPRING, "دوم"),
+        (FIRST, "اول"),
+        (SECOND, "دوم"),
         (SUMMER, "تابستان"),
     ]
 
-    objects = SessionManager()
+    objects = ClassroomManager()
 
     year = models.PositiveSmallIntegerField(
         verbose_name=_("سال"),
@@ -103,17 +104,18 @@ class Session(models.Model):
     )
     semester = models.CharField(
         verbose_name=_("نیم سال"),
-        max_length=2,
+        max_length=1,
         choices=SEMESTER_CHOICES,
     )
     course = models.ForeignKey(
         Course,
         verbose_name=_("درس"),
         on_delete=models.PROTECT,
+        related_name="classrooms",
     )
     teacher_items = GenericRelation(
         TeacherItem,
-        related_query_name="session",
+        related_query_name="classroom",
         verbose_name=_("اساتید"),
     )
 
@@ -130,10 +132,11 @@ class TA(models.Model):
         verbose_name=_("نام و نام خانوادگی"),
         max_length=255,
     )
-    session = models.ForeignKey(
-        Session,
+    classroom = models.ForeignKey(
+        Classroom,
         verbose_name=_("کلاس"),
         on_delete=models.CASCADE,
+        related_name="tas",
     )
 
     def __str__(self) -> str:
@@ -168,12 +171,6 @@ class Resource(models.Model):
         verbose_name=_("عنوان"),
         max_length=255,
     )
-    support_url = models.URLField(
-        verbose_name=_("لینک دانلود حمایتی"),
-        max_length=255,
-        blank=True,
-        null=True,
-    )
     type = models.CharField(
         verbose_name=_("نوع"),
         max_length=1,
@@ -187,14 +184,21 @@ class Resource(models.Model):
         verbose_name=_("آخرین ویرایش"),
         auto_now=True,
     )
-    session = models.ForeignKey(
-        Session,
+    classroom = models.ForeignKey(
+        Classroom,
         verbose_name=_("کلاس"),
         on_delete=models.PROTECT,
+        related_name="resources",
+    )
+    support_url = models.URLField(
+        verbose_name=_("لینک دانلود حمایتی"),
+        max_length=255,
+        blank=True,
+        null=True,
     )
 
     def __str__(self) -> str:
-        return f"{self.session} - {self.title}"
+        return f"{self.classroom} - {self.title}"
 
     class Meta:
         verbose_name = "منبع"

@@ -1,22 +1,15 @@
+from .validators import image_size_validator
 from django.db import models
 from django.utils.translation import gettext as _
 from django.contrib.contenttypes.models import ContentType
 from django.contrib.contenttypes.fields import GenericForeignKey
 from gdstorage.storage import GoogleDriveStorage
-from .validators import image_size_validator
 
 
 gd_storage = GoogleDriveStorage()
 
 
 class Reference(models.Model):
-    cover_image = models.ImageField(
-        verbose_name=_("تصویر جلد"),
-        upload_to="images/references/",
-        storage=gd_storage,
-        blank=True,
-        validators=[image_size_validator],
-    )
     url = models.FileField(
         verbose_name=_("فایل"),
         upload_to="files/references/",
@@ -26,12 +19,6 @@ class Reference(models.Model):
         verbose_name=_("عنوان"),
         max_length=255,
     )
-    support_url = models.URLField(
-        verbose_name=_("لینک دانلود حمایتی"),
-        max_length=255,
-        blank=True,
-        null=True,
-    )
     date_created = models.DateTimeField(
         verbose_name=_("تاریخ اضافه شدن"),
         auto_now_add=True,
@@ -39,6 +26,19 @@ class Reference(models.Model):
     date_modified = models.DateTimeField(
         verbose_name=_("آخرین ویرایش"),
         auto_now=True,
+    )
+    support_url = models.URLField(
+        verbose_name=_("لینک دانلود حمایتی"),
+        max_length=255,
+        blank=True,
+        null=True,
+    )
+    cover_image = models.ImageField(
+        verbose_name=_("تصویر جلد"),
+        upload_to="images/references/",
+        storage=gd_storage,
+        blank=True,
+        validators=[image_size_validator],
     )
 
     def __str__(self) -> str:
@@ -58,6 +58,7 @@ class Author(models.Model):
         Reference,
         verbose_name=_("مرجع"),
         on_delete=models.CASCADE,
+        related_name="authors",
     )
 
     def __str__(self) -> str:
@@ -73,11 +74,13 @@ class ReferenceItem(models.Model):
         Reference,
         verbose_name=_("مرجع"),
         on_delete=models.CASCADE,
+        related_name="reference_items",
     )
     content_type = models.ForeignKey(
         ContentType,
         verbose_name=_("نوع محتوا"),
         on_delete=models.CASCADE,
+        related_name="reference_items",
     )
     object_id = models.PositiveIntegerField(
         verbose_name=_("آی دی آبجکت"),

@@ -1,6 +1,6 @@
+from .models import Course, TA, Resource, Requisite, Classroom
 from reference.models import ReferenceItem
 from teacher.models import TeacherItem
-from . import models
 from jdatetime import datetime as jdt
 from django.urls import reverse
 from django.contrib import admin
@@ -25,34 +25,34 @@ class ReferenceItemInline(GenericTabularInline):
 
 class RequisiteFromInline(admin.TabularInline):
     fk_name = "course_from"
-    model = models.Requisite
+    model = Requisite
     autocomplete_fields = ("course_to",)
     extra = 0
 
 
 class RequisiteToInline(admin.TabularInline):
     fk_name = "course_to"
-    model = models.Requisite
+    model = Requisite
     autocomplete_fields = ("course_from",)
     extra = 0
 
 
 class TAInline(admin.TabularInline):
-    model = models.TA
+    model = TA
     extra = 0
 
 
 class ResourceInline(admin.TabularInline):
-    model = models.Resource
+    model = Resource
     extra = 0
 
 
-@admin.register(models.Course)
+@admin.register(Course)
 class CourseAdmin(admin.ModelAdmin):
     inlines = (ReferenceItemInline, RequisiteFromInline, RequisiteToInline,)
     list_per_page = 10
     list_display = ("id", "title", "en_title", "unit", "type", "references_count",
-                    "sessionses_count", "resources_count", "requisites_from_count",
+                    "classrooms_count", "resources_count", "requisites_from_count",
                     "requisites_to_count",)
     search_fields = ("title", "en_title", "description", "tag",)
     list_filter = ("type", "unit",)
@@ -63,21 +63,21 @@ class CourseAdmin(admin.ModelAdmin):
             reverse("admin:course_resource_changelist")
             + "?"
             + urlencode({
-                "session__course__id": str(course.id)
+                "classroom__course__id": str(course.id)
             })
         )
         return format_html('<a href="{}">{}</a>', url, course.resources_count)
 
-    @admin.display(ordering="sessionses_count", description=_("تعداد کلاس‌ها"))
-    def sessionses_count(self, course):
+    @admin.display(ordering="classrooms_count", description=_("تعداد کلاس‌ها"))
+    def classrooms_count(self, course):
         url = (
-            reverse("admin:course_session_changelist")
+            reverse("admin:course_classroom_changelist")
             + "?"
             + urlencode({
                 "course__id": str(course.id)
             })
         )
-        placeholder = course.sessionses_count if course.sessionses_count else "0"
+        placeholder = course.classrooms_count if course.classrooms_count else "0"
         return format_html('<a href="{}">{}</a>', url, placeholder)
 
     @admin.display(ordering="requisites_from_count", description=_("تعداد نیازهای مبدا"))
@@ -118,15 +118,15 @@ class CourseAdmin(admin.ModelAdmin):
 
     def get_queryset(self, request):
         return super().get_queryset(request).annotate(
-            resources_count=Count("session__resource"),
-            sessionses_count=Subquery(
-                models.Session.objects.filter(course=OuterRef("pk"))
+            resources_count=Count("classrooms__resources"),
+            classrooms_count=Subquery(
+                Classroom.objects.filter(course=OuterRef("pk"))
                 .values("course_id").annotate(count=Count("id")).values("count")),
             requisites_from_count=Subquery(
-                models.Requisite.objects.filter(course_from=OuterRef("pk"))
+                Requisite.objects.filter(course_from=OuterRef("pk"))
                 .values("course_from_id").annotate(count=Count("id")).values("count")),
             requisites_to_count=Subquery(
-                models.Requisite.objects.filter(course_to=OuterRef("pk"))
+                Requisite.objects.filter(course_to=OuterRef("pk"))
                 .values("course_to_id").annotate(count=Count("id")).values("count")),
             references_count=Subquery(
                 ReferenceItem.objects.filter(object_id=OuterRef("pk"))
@@ -134,8 +134,8 @@ class CourseAdmin(admin.ModelAdmin):
         )
 
 
-@admin.register(models.Session)
-class SessionAdmin(admin.ModelAdmin):
+@admin.register(Classroom)
+class ClassroomAdmin(admin.ModelAdmin):
     inlines = (TeacherItemInline, TAInline, ResourceInline,)
     autocomplete_fields = ("course",)
     list_per_page = 10
@@ -146,80 +146,80 @@ class SessionAdmin(admin.ModelAdmin):
     search_fields = ("year", "semester", "course__title", "course__en_title",)
 
     @admin.display(ordering="tas_count", description=_("تعداد گریدرها"))
-    def tas_count(self, session):
+    def tas_count(self, classroom):
         url = (
             reverse("admin:course_ta_changelist")
             + "?"
             + urlencode({
-                "session__id": str(session.id)
+                "classroom__id": str(classroom.id)
             })
         )
-        return format_html('<a href="{}">{}</a>', url, session.tas_count)
+        return format_html('<a href="{}">{}</a>', url, classroom.tas_count)
 
     @admin.display(ordering="resources_count", description=_("تعداد منابع"))
-    def resources_count(self, session):
+    def resources_count(self, classroom):
         url = (
             reverse("admin:course_resource_changelist")
             + "?"
             + urlencode({
-                "session__id": str(session.id)
+                "classroom__id": str(classroom.id)
             })
         )
-        placeholder = session.resources_count if session.resources_count else "0"
+        placeholder = classroom.resources_count if classroom.resources_count else "0"
         return format_html('<a href="{}">{}</a>', url, placeholder)
 
     @admin.display(ordering="teachers_count", description=_("تعداد اساتید"))
-    def teachers_count(self, session):
+    def teachers_count(self, classroom):
         url = (
             reverse("admin:teacher_teacheritem_changelist")
             + "?"
             + urlencode({
-                "object_id": str(session.id)
+                "object_id": str(classroom.id)
             })
         )
-        placeholder = session.teachers_count if session.teachers_count else "0"
+        placeholder = classroom.teachers_count if classroom.teachers_count else "0"
         return format_html('<a href="{}">{}</a>', url, placeholder)
 
     def get_queryset(self, request):
         return super().get_queryset(request).annotate(
-            tas_count=Count("ta"),
+            tas_count=Count("tas"),
             resources_count=Subquery(
-                models.Resource.objects.filter(session=OuterRef("pk"))
-                .values("session_id").annotate(count=Count("id")).values("count")),
+                Resource.objects.filter(classroom=OuterRef("pk"))
+                .values("classroom_id").annotate(count=Count("id")).values("count")),
             teachers_count=Subquery(
                 TeacherItem.objects.filter(object_id=OuterRef("pk"))
                 .values("object_id").annotate(count=Count("id")).values("count")),
         )
 
 
-@admin.register(models.TA)
+@admin.register(TA)
 class TAAdmin(admin.ModelAdmin):
-    autocomplete_fields = ("session",)
+    autocomplete_fields = ("classroom",)
     list_per_page = 10
-    list_display = ("id", "full_name", "session", "course",)
-    list_select_related = ("session__course",)
-    list_filter = ("session", "session__course",)
+    list_display = ("id", "full_name", "classroom", "course",)
+    list_select_related = ("classroom__course",)
+    list_filter = ("classroom", "classroom__course",)
     search_fields = ("full_name",)
 
     @admin.display(ordering="course", description=_("درس"))
     def course(self, ta):
-        return ta.session.course
+        return ta.classroom.course
 
 
-@admin.register(models.Resource)
+@admin.register(Resource)
 class ResourceAdmin(admin.ModelAdmin):
-    autocomplete_fields = ("session",)
+    autocomplete_fields = ("classroom",)
     list_per_page = 10
     list_display = ("id", "title", "type", "date_modified_",
-                    "date_created_", "session", "course",)
-    list_select_related = ("session__course",)
-    list_filter = ("date_modified", "date_created", "type", "session",
-                   "session__course",)
+                    "date_created_", "classroom", "course",)
+    list_select_related = ("classroom__course",)
+    list_filter = ("date_modified", "date_created", "type", "classroom",
+                   "classroom__course",)
     search_fields = ("title",)
 
     @admin.display(ordering="course", description=_("درس"))
     def course(self, resource):
-        return resource.session.course
+        return resource.classroom.course
 
     @admin.display(ordering="date_created", description=_("تاریخ اضافه شدن"))
     def date_created_(self, resource):
@@ -234,7 +234,7 @@ class ResourceAdmin(admin.ModelAdmin):
         ).strftime("%Y-%m-%d %H:%M:%S")
 
 
-@admin.register(models.Requisite)
+@admin.register(Requisite)
 class RequisiteAdmin(admin.ModelAdmin):
     autocomplete_fields = ("course_from", "course_to",)
     list_per_page = 10

@@ -1,9 +1,9 @@
-from . import views
+from .views import ReferenceViewSet
 from rest_framework.routers import SimpleRouter
 
 
 router = SimpleRouter()
-router.register("references", views.ReferenceViewSet)
+router.register("references", ReferenceViewSet)
 
 
 urlpatterns = router.urls

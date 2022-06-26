@@ -35,7 +35,7 @@ class Migration(migrations.Migration):
             name='Session',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('year', models.PositiveSmallIntegerField(validators=[django.core.validators.MinValueValidator(1300), django.core.validators.MaxValueValidator(course.models.Session._current_year)], verbose_name='سال')),
+                ('year', models.PositiveSmallIntegerField(validators=[django.core.validators.MinValueValidator(1300), django.core.validators.MaxValueValidator(course.models.Classroom._current_year)], verbose_name='سال')),
                 ('semester', models.CharField(choices=[('FA', 'اول'), ('SP', 'دوم'), ('SU', 'تابستان')], max_length=2, verbose_name='نیم سال')),
                 ('course', models.ForeignKey(on_delete=django.db.models.deletion.PROTECT, to='course.course', verbose_name='درس')),
             ],

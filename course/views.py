@@ -1,6 +1,8 @@
-from . import models
-from . import serializers
+from .models import Classroom, Course, Resource
 from .filters import ResourceFilterSet
+from .serializers import (ListCourseSerializer, DetailCourseSerializer,
+                            ListClassroomSerializer, DetailClassroomSerializer,
+                            DetailResourceSerializer)
 from rest_framework.filters import SearchFilter, OrderingFilter
 from rest_framework.viewsets import ReadOnlyModelViewSet
 from django_filters.rest_framework import DjangoFilterBackend
@@ -13,53 +15,53 @@ class CourseViewSet(ReadOnlyModelViewSet):
 
     def get_serializer_class(self):
         if self.action == "list":
-            return serializers.ListCourseSerializer
-        return serializers.DetailCourseSerializer
+            return ListCourseSerializer
+        return DetailCourseSerializer
 
     def get_queryset(self):
         if self.action == "list":
-            return models.Course.objects \
+            return Course.objects \
                 .prefetch_related(
                     "requisites_from__course_to",
                     "requisites_to__course_from",
                 )\
                 .all()
-        return models.Course.objects \
+        return Course.objects \
             .prefetch_related(
                 "requisites_from__course_to",
                 "requisites_to__course_from",
-                "session_set__ta_set",
-                "session_set__resource_set",
-                "session_set__teacher_items__teacher",
-                "reference_items__reference__author_set",) \
+                "classrooms__tas",
+                "classrooms__resources",
+                "classrooms__teacher_items__teacher",
+                "reference_items__reference__authors",) \
             .all()
 
 
-class SessionViewSet(ReadOnlyModelViewSet):
+class ClassroomViewSet(ReadOnlyModelViewSet):
     filter_backends = (DjangoFilterBackend,)
     filterset_fields = ("year", "semester", "course_id",)
 
     def get_serializer_class(self):
         if self.action == "list":
-            return serializers.ListSessionSerializer
-        return serializers.DetailSessionSerializer
+            return ListClassroomSerializer
+        return DetailClassroomSerializer
 
     def get_queryset(self):
         if self.action == "list":
-            return models.Session.objects \
+            return Classroom.objects \
                 .prefetch_related("teacher_items__teacher") \
                 .all()
-        return models.Session.objects \
-            .prefetch_related("ta_set", "resource_set", "teacher_items__teacher") \
+        return Classroom.objects \
+            .prefetch_related("tas", "resources", "teacher_items__teacher") \
             .all()
 
 
 class ResourceViewSet(ReadOnlyModelViewSet):
-    queryset = models.Resource.objects\
-        .select_related("session__course")\
-        .prefetch_related("session__teacher_items__teacher") \
+    queryset = Resource.objects\
+        .select_related("classroom__course")\
+        .prefetch_related("classroom__teacher_items__teacher") \
         .all()
-    serializer_class = serializers.DetailResourceSerializer
+    serializer_class = DetailResourceSerializer
     filter_backends = (DjangoFilterBackend, SearchFilter, OrderingFilter,)
     filterset_class = ResourceFilterSet
     search_fields = ("title",)

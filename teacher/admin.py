@@ -1,4 +1,4 @@
-from . import models
+from .models import Email, ExternalLink, Teacher, TeacherItem
 from django.urls import reverse
 from django.contrib import admin
 from django.utils.html import format_html, urlencode
@@ -8,16 +8,16 @@ from django.db.models.functions import Concat
 
 
 class EmailInline(admin.TabularInline):
-    model = models.Email
+    model = Email
     extra = 0
 
 
 class ExternalLinkInline(admin.TabularInline):
-    model = models.ExternalLink
+    model = ExternalLink
     extra = 0
 
 
-@admin.register(models.Teacher)
+@admin.register(Teacher)
 class TeacherAdmin(admin.ModelAdmin):
     inlines = (EmailInline, ExternalLinkInline,)
     list_per_page = 10
@@ -70,14 +70,14 @@ class TeacherAdmin(admin.ModelAdmin):
     def get_queryset(self, request):
         return super().get_queryset(request).annotate(
             full_name=Concat(F("first_name"), Value(" "), F("last_name")),
-            emails_count=Count("email"),
+            emails_count=Count("emails"),
             external_links_count=Subquery(
-                models.ExternalLink.objects.filter(teacher=OuterRef("pk"))
+                ExternalLink.objects.filter(teacher=OuterRef("pk"))
                 .values("teacher_id").annotate(count=Count("id")).values("count")),
         )
 
 
-@admin.register(models.Email)
+@admin.register(Email)
 class EmailAdmin(admin.ModelAdmin):
     autocomplete_fields = ("teacher",)
     list_per_page = 10
@@ -86,7 +86,7 @@ class EmailAdmin(admin.ModelAdmin):
     search_fields = ("email",)
 
 
-@admin.register(models.ExternalLink)
+@admin.register(ExternalLink)
 class ExternalLinkAdmin(admin.ModelAdmin):
     autocomplete_fields = ("teacher",)
     list_per_page = 10
@@ -95,7 +95,7 @@ class ExternalLinkAdmin(admin.ModelAdmin):
     search_fields = ("url",)
 
 
-@admin.register(models.TeacherItem)
+@admin.register(TeacherItem)
 class TeacherItemAdmin(admin.ModelAdmin):
     autocomplete_fields = ("teacher",)
     list_per_page = 10

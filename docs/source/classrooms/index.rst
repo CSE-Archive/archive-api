@@ -1,5 +1,5 @@
-Sessions
-========
+Classrooms
+==========
 
 .. toctree::
    get <get>

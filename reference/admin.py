@@ -1,4 +1,4 @@
-from . import models
+from .models import Author, Reference, ReferenceItem
 from jdatetime import datetime as jdt
 from django.urls import reverse
 from django.contrib import admin
@@ -9,11 +9,11 @@ from django.utils.translation import gettext as _
 
 
 class AuthorInline(admin.TabularInline):
-    model = models.Author
+    model = Author
     extra = 0
 
 
-@admin.register(models.Reference)
+@admin.register(Reference)
 class ReferenceAdmin(admin.ModelAdmin):
     inlines = (AuthorInline,)
     list_per_page = 10
@@ -61,11 +61,11 @@ class ReferenceAdmin(admin.ModelAdmin):
 
     def get_queryset(self, request):
         return super().get_queryset(request).annotate(
-            authors_count=Count("author"),
+            authors_count=Count("authors"),
         )
 
 
-@admin.register(models.Author)
+@admin.register(Author)
 class AuthorAdmin(admin.ModelAdmin):
     autocomplete_fields = ("reference",)
     list_per_page = 10
@@ -74,7 +74,7 @@ class AuthorAdmin(admin.ModelAdmin):
     search_fields = ("full_name",)
 
 
-@admin.register(models.ReferenceItem)
+@admin.register(ReferenceItem)
 class ReferenceItemAdmin(admin.ModelAdmin):
     autocomplete_fields = ("reference",)
     list_per_page = 10

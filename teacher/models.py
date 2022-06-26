@@ -1,22 +1,15 @@
+from .validators import image_size_validator
 from django.db import models
 from django.utils.translation import gettext as _
 from django.contrib.contenttypes.models import ContentType
 from django.contrib.contenttypes.fields import GenericForeignKey
 from gdstorage.storage import GoogleDriveStorage
-from .validators import image_size_validator
 
 
 gd_storage = GoogleDriveStorage()
 
 
 class Teacher(models.Model):
-    image = models.ImageField(
-        verbose_name=_("تصویر"),
-        upload_to="images/teachers/",
-        storage=gd_storage,
-        blank=True,
-        validators=[image_size_validator],
-    )
     first_name = models.CharField(
         verbose_name=_("نام"),
         max_length=255,
@@ -33,6 +26,13 @@ class Teacher(models.Model):
         verbose_name=_("درباره"),
         null=True,
         blank=True,
+    )
+    image = models.ImageField(
+        verbose_name=_("تصویر"),
+        upload_to="images/teachers/",
+        storage=gd_storage,
+        blank=True,
+        validators=[image_size_validator],
     )
 
     def __str__(self) -> str:
@@ -52,6 +52,7 @@ class Email(models.Model):
         Teacher,
         verbose_name=_("استاد"),
         on_delete=models.CASCADE,
+        related_name="emails",
     )
 
     def __str__(self) -> str:
@@ -71,6 +72,7 @@ class ExternalLink(models.Model):
         Teacher,
         verbose_name=_("استاد"),
         on_delete=models.CASCADE,
+        related_name="eternal_links",
     )
 
     def __str__(self) -> str:
@@ -86,11 +88,13 @@ class TeacherItem(models.Model):
         Teacher,
         verbose_name=_("استاد"),
         on_delete=models.CASCADE,
+        related_name="teacher_items",
     )
     content_type = models.ForeignKey(
         ContentType,
         verbose_name=_("نوع محتوا"),
         on_delete=models.CASCADE,
+        related_name="teacher_items",
     )
     object_id = models.PositiveIntegerField(
         verbose_name=_("آی دی آبجکت"),

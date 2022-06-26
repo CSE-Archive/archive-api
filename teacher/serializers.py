@@ -1,23 +1,23 @@
-from . import models
+from .models import Email, ExternalLink, Teacher, TeacherItem
 from rest_framework import serializers
 from django.utils.text import slugify
 
 
 class EmailSerializer(serializers.ModelSerializer):
     class Meta:
-        model = models.Email
+        model = Email
         fields = ("email",)
 
 
 class ExternalLinkSerializer(serializers.ModelSerializer):
     class Meta:
-        model = models.ExternalLink
+        model = ExternalLink
         fields = ("url",)
 
 
 class SimpleTeacherSerializer(serializers.ModelSerializer):
     class Meta:
-        model = models.Teacher
+        model = Teacher
         fields = ("id", "full_name", "image", "department", "slug",)
 
     full_name = serializers.SerializerMethodField(method_name="get_full_name")
@@ -32,14 +32,14 @@ class SimpleTeacherSerializer(serializers.ModelSerializer):
 
 class TeacherSerializer(serializers.ModelSerializer):
     class Meta:
-        model = models.Teacher
+        model = Teacher
         fields = ("id", "first_name", "last_name", "full_name", "image",
                   "department", "slug", "about", "emails", "external_links",)
 
     slug = serializers.SerializerMethodField(method_name="get_slug")
-    emails = EmailSerializer(many=True, source="email_set")
+    emails = EmailSerializer(many=True, source="emails")
     external_links = ExternalLinkSerializer(
-        many=True, source="externallink_set")
+        many=True, source="external_links")
     full_name = serializers.SerializerMethodField(method_name="get_full_name")
 
     def get_full_name(self, teacher):
@@ -51,7 +51,7 @@ class TeacherSerializer(serializers.ModelSerializer):
 
 class TeacherItemSerializer(serializers.ModelSerializer):
     class Meta:
-        model = models.TeacherItem
+        model = TeacherItem
         fields = ("teacher",)
 
     teacher = SimpleTeacherSerializer()
