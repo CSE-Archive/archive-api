@@ -125,6 +125,7 @@ class Classroom(models.Model):
     class Meta:
         verbose_name = "کلاس"
         verbose_name_plural = "کلاس‌ها"
+        unique_together = ("year", "semester", "course",)
 
 
 class TA(models.Model):
@@ -240,3 +241,4 @@ class Requisite(models.Model):
     class Meta:
         verbose_name = "نیاز"
         verbose_name_plural = "نیازها"
+        unique_together = ("course_from", "course_to",)
