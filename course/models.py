@@ -150,6 +150,7 @@ class TA(models.Model):
 class Resource(models.Model):
     MIDTERM = "M"
     FINAL = "F"
+    PROJECT = "P"
     HOMEWORK = "H"
     QUIZ = "Q"
     OTHER = "O"
@@ -157,6 +158,7 @@ class Resource(models.Model):
     TYPE_CHOICES = [
         (MIDTERM, "میانترم"),
         (FINAL, "پایانترم"),
+        (PROJECT, "پروژه"),
         (HOMEWORK, "تمرین"),
         (QUIZ, "کوییز"),
         (OTHER, "دیگر"),
