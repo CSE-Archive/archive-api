@@ -13,9 +13,14 @@ class AuthorInline(admin.TabularInline):
     extra = 0
 
 
+class ReferenceItemInline(admin.TabularInline):
+    model = ReferenceItem
+    extra = 0
+
+
 @admin.register(Reference)
 class ReferenceAdmin(admin.ModelAdmin):
-    inlines = (AuthorInline,)
+    inlines = (AuthorInline, ReferenceItemInline,)
     list_per_page = 10
     list_display = ("id", "cover_image_", "title", "date_modified_",
                     "date_created_", "authors_count",)

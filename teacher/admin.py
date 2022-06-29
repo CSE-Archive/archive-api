@@ -17,9 +17,14 @@ class ExternalLinkInline(admin.TabularInline):
     extra = 0
 
 
+class TeacherItemInline(admin.TabularInline):
+    model = TeacherItem
+    extra = 0
+
+
 @admin.register(Teacher)
 class TeacherAdmin(admin.ModelAdmin):
-    inlines = (EmailInline, ExternalLinkInline,)
+    inlines = (EmailInline, ExternalLinkInline, TeacherItemInline,)
     list_per_page = 10
     list_display = ("id", "image_", "full_name", "department",
                     "emails_count", "external_links_count",)
