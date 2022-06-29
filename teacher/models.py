@@ -72,7 +72,7 @@ class ExternalLink(models.Model):
         Teacher,
         verbose_name=_("استاد"),
         on_delete=models.CASCADE,
-        related_name="eternal_links",
+        related_name="external_links",
     )
 
     def __str__(self) -> str:

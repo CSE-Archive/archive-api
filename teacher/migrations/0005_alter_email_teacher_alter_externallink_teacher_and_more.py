@@ -20,7 +20,7 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='externallink',
             name='teacher',
-            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='eternal_links', to='teacher.teacher', verbose_name='استاد'),
+            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='external_links', to='teacher.teacher', verbose_name='استاد'),
         ),
         migrations.AlterField(
             model_name='teacheritem',
