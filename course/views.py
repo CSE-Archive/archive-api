@@ -24,7 +24,8 @@ class CourseViewSet(ReadOnlyModelViewSet):
                 .prefetch_related(
                     "requisites_from__course_to",
                     "requisites_to__course_from",
-                )\
+                    "references",
+                ) \
                 .all()
         return Course.objects \
             .prefetch_related(
@@ -33,7 +34,8 @@ class CourseViewSet(ReadOnlyModelViewSet):
                 "classrooms__tas",
                 "classrooms__resources",
                 "classrooms__teacher_items__teacher",
-                "reference_items__reference__authors",) \
+                "references__authors",
+            ) \
             .all()
 
 
@@ -49,17 +51,17 @@ class ClassroomViewSet(ReadOnlyModelViewSet):
     def get_queryset(self):
         if self.action == "list":
             return Classroom.objects \
-                .prefetch_related("teacher_items__teacher") \
+                .prefetch_related("teachers") \
                 .all()
         return Classroom.objects \
-            .prefetch_related("tas", "resources", "teacher_items__teacher") \
+            .prefetch_related("tas", "resources", "teachers") \
             .all()
 
 
 class ResourceViewSet(ReadOnlyModelViewSet):
     queryset = Resource.objects\
         .select_related("classroom__course")\
-        .prefetch_related("classroom__teacher_items__teacher") \
+        .prefetch_related("classroom__teachers") \
         .all()
     serializer_class = DetailResourceSerializer
     filter_backends = (DjangoFilterBackend, SearchFilter, OrderingFilter,)

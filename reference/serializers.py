@@ -1,4 +1,4 @@
-from .models import Author, Reference, ReferenceItem
+from .models import Author, Reference
 from jdatetime import datetime as jdt
 from rest_framework import serializers
 from django.utils.timezone import localtime
@@ -13,7 +13,7 @@ class AuthorSerializer(serializers.ModelSerializer):
 class SimpleReferenceSerializer(serializers.ModelSerializer):
     class Meta:
         model = Reference
-        fields = ("id", "title", "url", "support_url", "cover_image", "authors",)
+        fields = ("id", "title", "file", "support_url", "cover_image", "authors",)
 
     authors = AuthorSerializer(many=True, source="authors")
 
@@ -21,7 +21,7 @@ class SimpleReferenceSerializer(serializers.ModelSerializer):
 class ReferenceSerializer(serializers.ModelSerializer):
     class Meta:
         model = Reference
-        fields = ("id", "title", "url", "support_url", "cover_image", "date_created",
+        fields = ("id", "title", "file", "support_url", "cover_image", "date_created",
                   "date_modified", "authors",)
     
     authors = AuthorSerializer(many=True, source="authors")
@@ -40,11 +40,3 @@ class ReferenceSerializer(serializers.ModelSerializer):
         return jdt.fromgregorian(
             date=localtime(resource.date_modified)
         ).strftime("%Y-%m-%d %H:%M:%S")
-    
-
-class ReferenceItemSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = ReferenceItem
-        fields = ("reference",)
-
-    reference = SimpleReferenceSerializer()

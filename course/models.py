@@ -1,15 +1,10 @@
 import jdatetime
 
+from teacher.models import Teacher
+from reference.models import Reference
 from django.db import models
-from django.contrib.contenttypes.fields import GenericRelation
 from django.core.validators import MaxValueValidator, MinValueValidator
 from django.utils.translation import gettext as _
-from gdstorage.storage import GoogleDriveStorage
-from teacher.models import TeacherItem
-from reference.models import ReferenceItem
-
-
-gd_storage = GoogleDriveStorage()
 
 
 class Course(models.Model):
@@ -56,10 +51,11 @@ class Course(models.Model):
         null=True,
         blank=True,
     )
-    reference_items = GenericRelation(
-        ReferenceItem,
-        related_query_name="course",
+    references = models.ManyToManyField(
+        Reference,
+        related_name="courses",
         verbose_name=_("مراجع"),
+        blank=True,
     )
 
     def __str__(self) -> str:
@@ -113,9 +109,9 @@ class Classroom(models.Model):
         on_delete=models.PROTECT,
         related_name="classrooms",
     )
-    teacher_items = GenericRelation(
-        TeacherItem,
-        related_query_name="classroom",
+    teachers = models.ManyToManyField(
+        Teacher,
+        related_name="classrooms",
         verbose_name=_("اساتید"),
     )
 
@@ -165,10 +161,9 @@ class Resource(models.Model):
         (OTHER, "دیگر"),
     ]
 
-    url = models.FileField(
+    file = models.FileField(
         verbose_name=_("فایل"),
         upload_to="files/resources/",
-        storage=gd_storage,
     )
     title = models.CharField(
         verbose_name=_("عنوان"),

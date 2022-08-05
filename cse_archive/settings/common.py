@@ -32,7 +32,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django_filters',
     'rest_framework',
-    'gdstorage',
     'debug_toolbar',
     'course',
     'reference',
@@ -153,5 +152,3 @@ LOGGING = {
         }
     }
 }
-
-GOOGLE_DRIVE_STORAGE_JSON_KEY_FILE = None

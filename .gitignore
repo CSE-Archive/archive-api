@@ -1,9 +1,12 @@
+# folders
 .vscode
+.venv
 .pytest_cache
 __pycache__
 staticfiles
 media
 build
 
+# files
 env.py
 cse_archive.log

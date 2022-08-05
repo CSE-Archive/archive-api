@@ -1,10 +1,9 @@
-from .models import Email, ExternalLink, Teacher, TeacherItem
+from .models import Email, ExternalLink, Teacher
+from course.models import Classroom
 from django.urls import reverse
 from django.contrib import admin
 from django.utils.html import format_html, urlencode
 from django.utils.translation import gettext as _
-from django.db.models import F, Value, Count, OuterRef, Subquery
-from django.db.models.functions import Concat
 
 
 class EmailInline(admin.TabularInline):
@@ -17,20 +16,30 @@ class ExternalLinkInline(admin.TabularInline):
     extra = 0
 
 
-class TeacherItemInline(admin.TabularInline):
-    model = TeacherItem
+class ClassroomInline(admin.TabularInline):
+    model = Classroom.teachers.through
     extra = 0
+    autocomplete_fields = ("classroom",)
+    verbose_name = "کلاس"
+    verbose_name_plural = "کلاس‌ها"
 
 
 @admin.register(Teacher)
 class TeacherAdmin(admin.ModelAdmin):
-    inlines = (EmailInline, ExternalLinkInline, TeacherItemInline,)
+    inlines = (EmailInline, ExternalLinkInline, ClassroomInline,)
     list_per_page = 10
     list_display = ("id", "image_", "full_name", "department",
-                    "emails_count", "external_links_count",)
+                    "emails_count", "external_links_count", "classrooms_count")
     readonly_fields = ("preview",)
     list_filter = ("department",)
-    search_fields = ("first_name", "last_name", "about",)
+    search_fields = ("first_name", "last_name", "about",
+                    "emails__email", "external_links__url",)
+
+    @admin.display(description=_("پیش‌نمایش تصویر"))
+    def preview(self, teacher):
+        if teacher.image.name != "":
+            return format_html(f'<img src="{teacher.image.url}" width="500" style="object-fit:contain;"/>')
+        return ""
 
     @admin.display(description=_("تصویر"))
     def image_(self, teacher):
@@ -39,88 +48,33 @@ class TeacherAdmin(admin.ModelAdmin):
             return format_html(f'<a href="{url}"><img src="{url}" width="100" height="100" style="object-fit:cover;"/></a>')
         return ""
 
-    @admin.display(description=_("پیش‌نمایش تصویر"))
-    def preview(self, teacher):
-        if teacher.image.name != "":
-            return format_html(f'<img src="{teacher.image.url}" width="500" style="object-fit:contain;"/>')
-        return ""
-
     @admin.display(ordering="full_name", description=_("نام و نام خانوادگی"))
     def full_name(self, teacher):
-        return teacher.full_name
+        return f"{teacher.first_name} {teacher.last_name}"
 
     @admin.display(ordering="emails_count", description=_("تعداد ایمیل‌ها"))
     def emails_count(self, teacher):
-        url = (
-            reverse("admin:teacher_email_changelist")
-            + "?"
-            + urlencode({
-                "teacher__id": str(teacher.id)
-            })
-        )
-        return format_html('<a href="{}">{}</a>', url, teacher.emails_count)
+        return teacher.emails.count()
 
     @admin.display(ordering="external_links_count", description=_("تعداد لینک‌ها"))
     def external_links_count(self, teacher):
+        return teacher.external_links.count()
+    
+    @admin.display(ordering="classrooms_count", description=_("تعداد کلاس‌ها"))
+    def classrooms_count(self, teacher):
         url = (
-            reverse("admin:teacher_externallink_changelist")
+            reverse("admin:course_classroom_changelist")
             + "?"
             + urlencode({
-                "teacher__id": str(teacher.id)
+                "teachers": str(teacher.id)
             })
         )
-        placeholder = teacher.external_links_count if teacher.external_links_count else "0"
-        return format_html('<a href="{}">{}</a>', url, placeholder)
+        return format_html('<a href="{}">{}</a>', url, teacher.classrooms.count())
 
     def get_queryset(self, request):
-        return super().get_queryset(request).annotate(
-            full_name=Concat(F("first_name"), Value(" "), F("last_name")),
-            emails_count=Count("emails"),
-            external_links_count=Subquery(
-                ExternalLink.objects.filter(teacher=OuterRef("pk"))
-                .values("teacher_id").annotate(count=Count("id")).values("count")),
-        )
-
-
-@admin.register(Email)
-class EmailAdmin(admin.ModelAdmin):
-    autocomplete_fields = ("teacher",)
-    list_per_page = 10
-    list_display = ("id", "email", "teacher")
-    list_filter = ("teacher",)
-    search_fields = ("email",)
-
-
-@admin.register(ExternalLink)
-class ExternalLinkAdmin(admin.ModelAdmin):
-    autocomplete_fields = ("teacher",)
-    list_per_page = 10
-    list_display = ("id", "url", "teacher")
-    list_filter = ("teacher",)
-    search_fields = ("url",)
-
-
-@admin.register(TeacherItem)
-class TeacherItemAdmin(admin.ModelAdmin):
-    autocomplete_fields = ("teacher",)
-    list_per_page = 10
-    list_display = ("id", "teacher_", "content_object_",)
-    list_select_related = ("teacher",)
-    list_filter = ("teacher",)
-
-    @admin.display(ordering="teacher_", description=_("استاد"))
-    def teacher_(self, teacher_item):
-        url = (
-            reverse("admin:teacher_teacher_changelist")
-            + str(teacher_item.teacher.id)
-            + "/"
-            + "change"
-        )
-        return format_html('<a href="{}">{}</a>', url, f"{teacher_item.teacher.first_name} {teacher_item.teacher.last_name}")
-
-    @admin.display(ordering="content_object_", description=_("محتوای مربوطه"))
-    def content_object_(self, teacher_item):
-        return teacher_item.content_object
-
-    def get_queryset(self, request):
-        return super().get_queryset(request).prefetch_related("content_object")
+        return super().get_queryset(request) \
+            .prefetch_related(
+                "emails",
+                "external_links",
+                "classrooms",
+            )

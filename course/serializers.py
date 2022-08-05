@@ -3,8 +3,8 @@ from jdatetime import datetime as jdt
 from rest_framework import serializers
 from django.utils.text import slugify
 from django.utils.timezone import localtime
-from teacher.serializers import TeacherItemSerializer
-from reference.serializers import ReferenceItemSerializer
+from teacher.serializers import SimpleTeacherSerializer
+from reference.serializers import SimpleReferenceSerializer
 
 
 class SimpleCourseSerializer(serializers.ModelSerializer):
@@ -21,10 +21,10 @@ class SimpleCourseSerializer(serializers.ModelSerializer):
 class SimpleClassroomSerializer(serializers.ModelSerializer):
     class Meta:
         model = Classroom
-        fields = ("id", "year", "semester", "course", "teacher_items",)
+        fields = ("id", "year", "semester", "course", "teachers",)
 
     course = SimpleCourseSerializer()
-    teacher_items = TeacherItemSerializer(many=True)
+    teachers = SimpleTeacherSerializer(many=True)
 
 
 class RequisiteFromSerializer(serializers.ModelSerializer):
@@ -52,7 +52,7 @@ class TASerializer(serializers.ModelSerializer):
 class DetailResourceSerializer(serializers.ModelSerializer):
     class Meta:
         model = Resource
-        fields = ("id", "title", "type", "url", "support_url", "date_created",
+        fields = ("id", "title", "type", "file", "support_url", "date_created",
                   "date_modified", "classroom",)
 
     date_created = serializers.SerializerMethodField(
@@ -75,25 +75,25 @@ class DetailResourceSerializer(serializers.ModelSerializer):
 class ListClassroomSerializer(serializers.ModelSerializer):
     class Meta:
         model = Classroom
-        fields = ("id", "year", "semester", "course", "teacher_items",)
+        fields = ("id", "year", "semester", "course", "teachers",)
 
     course = SimpleCourseSerializer()
-    teacher_items = TeacherItemSerializer(many=True)
+    teachers = SimpleTeacherSerializer(many=True)
 
 
 class DetailClassroomSerializer(serializers.ModelSerializer):
     class Meta:
         model = Classroom
         fields = ("id", "year", "semester", "course",
-                  "tas", "teacher_items", "resources",)
+                  "tas", "teachers", "resources",)
 
     class ResourceClassroomSerializer(DetailResourceSerializer):
         class Meta(DetailResourceSerializer.Meta):
-            fields = ("id", "title", "type", "url", "support_url", "date_created",
-                      "date_modified",)
+            fields = ("id", "title", "type", "file", "support_url",
+                      "date_created", "date_modified",)
 
     course = SimpleCourseSerializer()
-    teacher_items = TeacherItemSerializer(many=True)
+    teachers = SimpleTeacherSerializer(many=True)
     tas = TASerializer(source="tas", many=True)
     resources = ResourceClassroomSerializer(source="resources", many=True)
 
@@ -118,18 +118,18 @@ class DetailCourseSerializer(serializers.ModelSerializer):
         model = Course
         fields = ("id", "title", "en_title", "unit", "type", "tag", "slug",
                   "description", "requisites", "requisites_for",
-                  "reference_items", "classrooms",)
+                  "references", "classrooms",)
 
     class ClassroomCourseSerializer(DetailClassroomSerializer):
         class Meta(DetailClassroomSerializer.Meta):
             fields = ("id", "year", "semester", "tas",
-                      "teacher_items", "resources",)
+                      "teachers", "resources",)
 
     slug = serializers.SerializerMethodField(method_name="get_slug")
     requisites = RequisiteToSerializer(source="requisites_to", many=True)
     requisites_for = RequisiteFromSerializer(
         source="requisites_from", many=True)
-    reference_items = ReferenceItemSerializer(many=True)
+    references = SimpleReferenceSerializer(many=True)
     classrooms = ClassroomCourseSerializer(source="classrooms", many=True)
 
     def get_slug(self, course: Course):

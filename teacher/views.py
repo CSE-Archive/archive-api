@@ -11,5 +11,6 @@ class TeacherViewSet(ReadOnlyModelViewSet):
         .all()
     serializer_class = TeacherSerializer
     filter_backends = (SearchFilter, DjangoFilterBackend,)
-    search_fields = ("first_name", "last_name", "about",)
+    search_fields = ("first_name", "last_name", "about", "emails__email",
+                     "external_links__url")
     filterset_fields = ("department",)

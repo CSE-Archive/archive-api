@@ -1,12 +1,6 @@
 from .validators import image_size_validator
 from django.db import models
 from django.utils.translation import gettext as _
-from django.contrib.contenttypes.models import ContentType
-from django.contrib.contenttypes.fields import GenericForeignKey
-from gdstorage.storage import GoogleDriveStorage
-
-
-gd_storage = GoogleDriveStorage()
 
 
 class Teacher(models.Model):
@@ -30,7 +24,6 @@ class Teacher(models.Model):
     image = models.ImageField(
         verbose_name=_("تصویر"),
         upload_to="images/teachers/",
-        storage=gd_storage,
         blank=True,
         validators=[image_size_validator],
     )
@@ -81,29 +74,3 @@ class ExternalLink(models.Model):
     class Meta:
         verbose_name = "لینک"
         verbose_name_plural = "لینک‌ها"
-
-
-class TeacherItem(models.Model):
-    teacher = models.ForeignKey(
-        Teacher,
-        verbose_name=_("استاد"),
-        on_delete=models.CASCADE,
-        related_name="teacher_items",
-    )
-    content_type = models.ForeignKey(
-        ContentType,
-        verbose_name=_("نوع محتوا"),
-        on_delete=models.CASCADE,
-        related_name="teacher_items",
-    )
-    object_id = models.PositiveIntegerField(
-        verbose_name=_("آی دی آبجکت"),
-    )
-    content_object = GenericForeignKey()
-
-    def __str__(self) -> str:
-        return f"{self.content_object} - {self.teacher}"
-
-    class Meta:
-        verbose_name = "رابط استاد"
-        verbose_name_plural = "رابط‌های اساتید"
