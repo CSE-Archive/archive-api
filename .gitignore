@@ -8,5 +8,5 @@ media
 build
 
 # files
-env.py
 cse_archive.log
+set_env_vars.sh
