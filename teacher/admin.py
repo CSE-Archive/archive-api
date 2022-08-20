@@ -1,8 +1,7 @@
 from .models import Email, ExternalLink, Teacher
+from core.helpers import image_url_to_html, model_changelist_url_to_html
 from course.models import Classroom
-from django.urls import reverse
 from django.contrib import admin
-from django.utils.html import format_html, urlencode
 from django.utils.translation import gettext as _
 
 
@@ -37,16 +36,22 @@ class TeacherAdmin(admin.ModelAdmin):
 
     @admin.display(description=_("پیش‌نمایش تصویر"))
     def preview(self, teacher):
-        if teacher.image.name != "":
-            return format_html(f'<img src="{teacher.image.url}" width="500" style="object-fit:contain;"/>')
-        return ""
+        return image_url_to_html(
+            image=teacher.image,
+            style="contain",
+            width=500,
+            open_in_new_tab=True,
+        )
 
     @admin.display(description=_("تصویر"))
     def image_(self, teacher):
-        if teacher.image.name != "":
-            url = teacher.image.url
-            return format_html(f'<a href="{url}"><img src="{url}" width="100" height="100" style="object-fit:cover;"/></a>')
-        return ""
+        return image_url_to_html(
+            image=teacher.image,
+            style="cover",
+            width=100,
+            height=100,
+            open_in_new_tab=True,
+        )
 
     @admin.display(ordering="full_name", description=_("نام و نام خانوادگی"))
     def full_name(self, teacher):
@@ -62,14 +67,13 @@ class TeacherAdmin(admin.ModelAdmin):
     
     @admin.display(ordering="classrooms_count", description=_("تعداد کلاس‌ها"))
     def classrooms_count(self, teacher):
-        url = (
-            reverse("admin:course_classroom_changelist")
-            + "?"
-            + urlencode({
-                "teachers": str(teacher.id)
-            })
+        return model_changelist_url_to_html(
+            app="course",
+            model="classroom",
+            query_key="teachers",
+            query_val=teacher.id,
+            placeholder=teacher.classrooms.count(),
         )
-        return format_html('<a href="{}">{}</a>', url, teacher.classrooms.count())
 
     def get_queryset(self, request):
         return super().get_queryset(request) \

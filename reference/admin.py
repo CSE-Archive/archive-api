@@ -1,10 +1,7 @@
 from .models import Author, Reference
+from core.helpers import image_url_to_html, gregorian_to_jalali, model_changelist_url_to_html
 from course.models import Course
-from jdatetime import datetime as jdt
-from django.urls import reverse
 from django.contrib import admin
-from django.utils.html import format_html, urlencode
-from django.utils.timezone import localtime
 from django.utils.translation import gettext as _
 
 
@@ -33,16 +30,22 @@ class ReferenceAdmin(admin.ModelAdmin):
 
     @admin.display(description=_("پیش‌نمایش تصویر جلد"))
     def preview(self, reference):
-        if reference.cover_image.name != "":
-            return format_html(f'<img src="{reference.cover_image.url}" width="500" style="object-fit:contain;"/>')
-        return ""
+        return image_url_to_html(
+            image=reference.cover_image,
+            style="contain",
+            width=500,
+            open_in_new_tab=True,
+        )
 
     @admin.display(description=_("تصویر جلد"))
     def cover_image_(self, reference):
-        if reference.cover_image.name != "":
-            url = reference.cover_image.url
-            return format_html(f'<a href="{url}"><img src="{url}" width="100" height="100" style="object-fit:cover;"/></a>')
-        return ""
+        return image_url_to_html(
+            image=reference.cover_image,
+            style="cover",
+            width=100,
+            height=100,
+            open_in_new_tab=True,
+        )
 
     @admin.display(ordering="authors_count", description=_("تعداد نویسنده‌ها"))
     def authors_count(self, reference):
@@ -50,26 +53,21 @@ class ReferenceAdmin(admin.ModelAdmin):
     
     @admin.display(ordering="courses_count", description=_("تعداد درس‌ها"))
     def courses_count(self, reference):
-        url = (
-            reverse("admin:course_course_changelist")
-            + "?"
-            + urlencode({
-                "references": str(reference.id)
-            })
+        return model_changelist_url_to_html(
+            app="course",
+            model="course",
+            query_key="references",
+            query_val=reference.id,
+            placeholder=reference.courses.count(),
         )
-        return format_html('<a href="{}">{}</a>', url, reference.courses.count())
 
     @admin.display(ordering="date_created", description=_("تاریخ اضافه شدن"))
     def date_created_(self, reference):
-        return jdt.fromgregorian(
-            date=localtime(reference.date_created)
-        ).strftime("%Y-%m-%d %H:%M:%S")
+        return gregorian_to_jalali(reference.date_created)
 
     @admin.display(ordering="date_modified", description=_("آخرین ویرایش"))
     def date_modified_(self, reference):
-        return jdt.fromgregorian(
-            date=localtime(reference.date_modified)
-        ).strftime("%Y-%m-%d %H:%M:%S")
+        return gregorian_to_jalali(reference.date_modified)
 
     def get_queryset(self, request):
         return super().get_queryset(request) \

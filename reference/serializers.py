@@ -1,7 +1,6 @@
+from core.helpers import gregorian_to_jalali
 from .models import Author, Reference
-from jdatetime import datetime as jdt
 from rest_framework import serializers
-from django.utils.timezone import localtime
 
 
 class AuthorSerializer(serializers.ModelSerializer):
@@ -32,11 +31,7 @@ class ReferenceSerializer(serializers.ModelSerializer):
         method_name="get_date_modified")
 
     def get_date_created(self, resource):
-        return jdt.fromgregorian(
-            date=localtime(resource.date_created)
-        ).strftime("%Y-%m-%d %H:%M:%S")
+        return gregorian_to_jalali(resource.date_created)
 
     def get_date_modified(self, resource):
-        return jdt.fromgregorian(
-            date=localtime(resource.date_modified)
-        ).strftime("%Y-%m-%d %H:%M:%S")
+        return gregorian_to_jalali(resource.date_modified)

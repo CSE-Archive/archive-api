@@ -1,10 +1,7 @@
 from .models import Course, TA, Resource, Requisite, Classroom
-from jdatetime import datetime as jdt
-from django.urls import reverse
+from core.helpers import gregorian_to_jalali, model_changelist_url_to_html
 from django.contrib import admin
 from django.db.models import Count
-from django.utils.html import format_html, urlencode
-from django.utils.timezone import localtime
 from django.utils.translation import gettext as _
 
 
@@ -44,58 +41,53 @@ class CourseAdmin(admin.ModelAdmin):
 
     @admin.display(ordering="resources_count", description=_("تعداد منابع"))
     def resources_count(self, course):
-        url = (
-            reverse("admin:course_resource_changelist")
-            + "?"
-            + urlencode({
-                "classroom__course__id": str(course.id)
-            })
+        return model_changelist_url_to_html(
+            app="course",
+            model="resource",
+            query_key="classroom__course__id",
+            query_val=course.id,
+            placeholder=course.resources_count,
         )
-        return format_html('<a href="{}">{}</a>', url, course.resources_count)
 
     @admin.display(ordering="classrooms_count", description=_("تعداد کلاس‌ها"))
     def classrooms_count(self, course):
-        url = (
-            reverse("admin:course_classroom_changelist")
-            + "?"
-            + urlencode({
-                "course__id": str(course.id)
-            })
+        return model_changelist_url_to_html(
+            app="course",
+            model="classroom",
+            query_key="course__id",
+            query_val=course.id,
+            placeholder=course.classrooms.count(),
         )
-        return format_html('<a href="{}">{}</a>', url, course.classrooms.count())
 
     @admin.display(ordering="requisites_from_count", description=_("تعداد نیازهای مبدا"))
     def requisites_from_count(self, course):
-        url = (
-            reverse("admin:course_requisite_changelist")
-            + "?"
-            + urlencode({
-                "course_from__id": str(course.id)
-            })
+        return model_changelist_url_to_html(
+            app="course",
+            model="requisite",
+            query_key="course_from__id",
+            query_val=course.id,
+            placeholder=course.requisites_from.count(),
         )
-        return format_html('<a href="{}">{}</a>', url, course.requisites_from.count())
 
     @admin.display(ordering="requisites_to_count", description=_("تعداد نیازهای مقصد"))
     def requisites_to_count(self, course):
-        url = (
-            reverse("admin:course_requisite_changelist")
-            + "?"
-            + urlencode({
-                "course_to__id": str(course.id)
-            })
+        return model_changelist_url_to_html(
+            app="course",
+            model="requisite",
+            query_key="course_to__id",
+            query_val=course.id,
+            placeholder=course.requisites_to.count(),
         )
-        return format_html('<a href="{}">{}</a>', url, course.requisites_to.count())
 
     @admin.display(ordering="references_count", description=_("تعداد مراجع"))
     def references_count(self, course):
-        url = (
-            reverse("admin:reference_reference_changelist")
-            + "?"
-            + urlencode({
-                "courses_id": str(course.id)
-            })
+        return model_changelist_url_to_html(
+            app="reference",
+            model="reference",
+            query_key="courses_id",
+            query_val=course.id,
+            placeholder=course.references.count(),
         )
-        return format_html('<a href="{}">{}</a>', url, course.references.count())
 
     def get_queryset(self, request):
         return super().get_queryset(request) \
@@ -127,25 +119,23 @@ class ClassroomAdmin(admin.ModelAdmin):
 
     @admin.display(ordering="resources_count", description=_("تعداد منابع"))
     def resources_count(self, classroom):
-        url = (
-            reverse("admin:course_resource_changelist")
-            + "?"
-            + urlencode({
-                "classroom__id": str(classroom.id)
-            })
+        return model_changelist_url_to_html(
+            app="course",
+            model="resource",
+            query_key="classroom__id",
+            query_val=classroom.id,
+            placeholder=classroom.resources.count(),
         )
-        return format_html('<a href="{}">{}</a>', url, classroom.resources.count())
 
     @admin.display(ordering="teachers_count", description=_("تعداد اساتید"))
     def teachers_count(self, classroom):
-        url = (
-            reverse("admin:teacher_teacher_changelist")
-            + "?"
-            + urlencode({
-                "classrooms": str(classroom.id)
-            })
+        return model_changelist_url_to_html(
+            app="teacher",
+            model="teacher",
+            query_key="classrooms",
+            query_val=classroom.id,
+            placeholder=classroom.teachers.count(),
         )
-        return format_html('<a href="{}">{}</a>', url, classroom.teachers.count())
 
     def get_queryset(self, request):
         return super().get_queryset(request) \
@@ -173,15 +163,11 @@ class ResourceAdmin(admin.ModelAdmin):
 
     @admin.display(ordering="date_created", description=_("تاریخ اضافه شدن"))
     def date_created_(self, resource):
-        return jdt.fromgregorian(
-            date=localtime(resource.date_created)
-        ).strftime("%Y-%m-%d %H:%M:%S")
+        return gregorian_to_jalali(resource.date_created)
 
     @admin.display(ordering="date_modified", description=_("آخرین ویرایش"))
     def date_modified_(self, resource):
-        return jdt.fromgregorian(
-            date=localtime(resource.date_modified)
-        ).strftime("%Y-%m-%d %H:%M:%S")
+        return gregorian_to_jalali(resource.date_modified)
 
 
 @admin.register(Requisite)

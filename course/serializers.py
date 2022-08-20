@@ -1,8 +1,7 @@
+from core.helpers import gregorian_to_jalali
 from .models import Classroom, Course, Resource, Requisite, TA
-from jdatetime import datetime as jdt
 from rest_framework import serializers
 from django.utils.text import slugify
-from django.utils.timezone import localtime
 from teacher.serializers import SimpleTeacherSerializer
 from reference.serializers import SimpleReferenceSerializer
 
@@ -62,14 +61,10 @@ class DetailResourceSerializer(serializers.ModelSerializer):
     classroom = SimpleClassroomSerializer()
 
     def get_date_created(self, resource):
-        return jdt.fromgregorian(
-            date=localtime(resource.date_created)
-        ).strftime("%Y-%m-%d %H:%M:%S")
+        return gregorian_to_jalali(resource.date_created)
 
     def get_date_modified(self, resource):
-        return jdt.fromgregorian(
-            date=localtime(resource.date_modified)
-        ).strftime("%Y-%m-%d %H:%M:%S")
+        return gregorian_to_jalali(resource.date_modified)
 
 
 class ListClassroomSerializer(serializers.ModelSerializer):
