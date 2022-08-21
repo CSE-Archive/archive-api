@@ -3,6 +3,20 @@ from django.db import models
 from django.utils.translation import gettext as _
 
 
+class Author(models.Model):
+    full_name = models.CharField(
+        verbose_name=_("نام و نام خانوادگی"),
+        max_length=255,
+    )
+
+    def __str__(self) -> str:
+        return self.full_name
+
+    class Meta:
+        verbose_name = "نویسنده"
+        verbose_name_plural = "نویسندگان"
+
+
 class Reference(models.Model):
     file = models.FileField(
         verbose_name=_("فایل"),
@@ -32,6 +46,12 @@ class Reference(models.Model):
         blank=True,
         validators=[image_size_validator],
     )
+    authors = models.ManyToManyField(
+        Author,
+        related_name="references",
+        verbose_name=_("نویسندگان"),
+        blank=True,
+    )
 
     def __str__(self) -> str:
         return self.title
@@ -39,23 +59,3 @@ class Reference(models.Model):
     class Meta:
         verbose_name = "مرجع"
         verbose_name_plural = "مراجع"
-
-
-class Author(models.Model):
-    full_name = models.CharField(
-        verbose_name=_("نام و نام خانوادگی"),
-        max_length=255,
-    )
-    reference = models.ForeignKey(
-        Reference,
-        verbose_name=_("مرجع"),
-        on_delete=models.CASCADE,
-        related_name="authors",
-    )
-
-    def __str__(self) -> str:
-        return self.full_name
-
-    class Meta:
-        verbose_name = "نویسنده"
-        verbose_name_plural = "نویسنده‌ها"

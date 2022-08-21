@@ -5,9 +5,12 @@ from django.contrib import admin
 from django.utils.translation import gettext as _
 
 
-class AuthorInline(admin.TabularInline):
-    model = Author
+class ReferenceInline(admin.TabularInline):
+    model = Reference.authors.through
     extra = 0
+    autocomplete_fields = ("reference",)
+    verbose_name = "مرجع"
+    verbose_name_plural = "مراجع"
 
 
 class CourseInline(admin.TabularInline):
@@ -20,7 +23,7 @@ class CourseInline(admin.TabularInline):
 
 @admin.register(Reference)
 class ReferenceAdmin(admin.ModelAdmin):
-    inlines = (AuthorInline, CourseInline,)
+    inlines = (CourseInline,)
     list_per_page = 10
     list_display = ("id", "cover_image_", "title", "authors_count", "date_modified_",
                     "date_created_", "courses_count",)
@@ -49,7 +52,13 @@ class ReferenceAdmin(admin.ModelAdmin):
 
     @admin.display(ordering="authors_count", description=_("تعداد نویسنده‌ها"))
     def authors_count(self, reference):
-        return reference.authors.count()
+        return model_changelist_url_to_html(
+            app="reference",
+            model="author",
+            query_key="references",
+            query_val=reference.id,
+            placeholder=reference.authors.count(),
+        )
     
     @admin.display(ordering="courses_count", description=_("تعداد درس‌ها"))
     def courses_count(self, reference):
@@ -70,5 +79,29 @@ class ReferenceAdmin(admin.ModelAdmin):
         return gregorian_to_jalali(reference.date_modified)
 
     def get_queryset(self, request):
-        return super().get_queryset(request) \
-            .prefetch_related("authors",)
+        return super().get_queryset(request).prefetch_related(
+            "authors",
+        )
+
+
+@admin.register(Author)
+class AuthorAdmin(admin.ModelAdmin):
+    inlines = (ReferenceInline,)
+    list_per_page = 10
+    list_display = ("id", "full_name", "references_count",)
+    search_fields = ("full_name",)
+
+    @admin.display(ordering="references_count", description=_("تعداد مراجع"))
+    def references_count(self, author):
+        return model_changelist_url_to_html(
+            app="reference",
+            model="reference",
+            query_key="authors",
+            query_val=author.id,
+            placeholder=author.references.count(),
+        )
+
+    def get_queryset(self, request):
+        return super().get_queryset(request).prefetch_related(
+            "references",
+        )
