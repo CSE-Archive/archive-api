@@ -8,9 +8,6 @@ from django.utils.translation import gettext as _
 
 
 class Course(models.Model):
-    def _unit_choices():
-        return [(u, u) for u in range(1, 3+1)]
-
     BASIC = "B"
     GENERAL = "G"
     OPTIONAL = "O"
@@ -23,6 +20,8 @@ class Course(models.Model):
         (SPECIALIZED, "تخصصی"),
     ]
 
+    UNIT_CHOICES = [(u, u) for u in range(1, 3+1)]
+
     title = models.CharField(
         verbose_name=_("عنوان"),
         max_length=255,
@@ -33,7 +32,7 @@ class Course(models.Model):
     )
     unit = models.PositiveSmallIntegerField(
         verbose_name=_("واحد"),
-        choices=_unit_choices(),
+        choices=UNIT_CHOICES,
     )
     type = models.CharField(
         verbose_name=_("نوع"),
@@ -71,6 +70,20 @@ class ClassroomManager(models.Manager):
         return super().get_queryset() \
             .select_related("course") \
             .order_by("-year", "semester", "course__en_title")
+
+
+class TA(models.Model):
+    full_name = models.CharField(
+        verbose_name=_("نام و نام خانوادگی"),
+        max_length=255,
+    )
+
+    def __str__(self) -> str:
+        return self.full_name
+
+    class Meta:
+        verbose_name = "گریدر"
+        verbose_name_plural = "گریدرها"
 
 
 class Classroom(models.Model):
@@ -114,6 +127,12 @@ class Classroom(models.Model):
         related_name="classrooms",
         verbose_name=_("اساتید"),
     )
+    tas = models.ManyToManyField(
+        TA,
+        related_name="classrooms",
+        verbose_name=_("گریدرها"),
+        blank=True,
+    )
 
     def __str__(self) -> str:
         return f"{self.year} - {self.semester} - {self.course.en_title}"
@@ -122,26 +141,6 @@ class Classroom(models.Model):
         verbose_name = "کلاس"
         verbose_name_plural = "کلاس‌ها"
         unique_together = ("year", "semester", "course",)
-
-
-class TA(models.Model):
-    full_name = models.CharField(
-        verbose_name=_("نام و نام خانوادگی"),
-        max_length=255,
-    )
-    classroom = models.ForeignKey(
-        Classroom,
-        verbose_name=_("کلاس"),
-        on_delete=models.CASCADE,
-        related_name="tas",
-    )
-
-    def __str__(self) -> str:
-        return self.full_name
-
-    class Meta:
-        verbose_name = "گریدر"
-        verbose_name_plural = "گریدرها"
 
 
 class Resource(models.Model):

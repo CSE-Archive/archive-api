@@ -19,9 +19,12 @@ class RequisiteToInline(admin.TabularInline):
     extra = 0
 
 
-class TAInline(admin.TabularInline):
-    model = TA
+class ClassroomInline(admin.TabularInline):
+    model = Classroom.tas.through
     extra = 0
+    autocomplete_fields = ("classroom",)
+    verbose_name = "کلاس"
+    verbose_name_plural = "کلاس‌ها"
 
 
 class ResourceInline(admin.TabularInline):
@@ -102,7 +105,7 @@ class CourseAdmin(admin.ModelAdmin):
 
 @admin.register(Classroom)
 class ClassroomAdmin(admin.ModelAdmin):
-    inlines = (TAInline, ResourceInline,)
+    inlines = (ResourceInline,)
     autocomplete_fields = ("course",)
     list_per_page = 10
     list_display = ("id", "year", "semester", "course",
@@ -115,7 +118,13 @@ class ClassroomAdmin(admin.ModelAdmin):
 
     @admin.display(ordering="tas_count", description=_("تعداد گریدرها"))
     def tas_count(self, classroom):
-        return classroom.tas.count()
+        return model_changelist_url_to_html(
+            app="course",
+            model="ta",
+            query_key="classrooms",
+            query_val=classroom.id,
+            placeholder=classroom.tas.count(),
+        )
 
     @admin.display(ordering="resources_count", description=_("تعداد منابع"))
     def resources_count(self, classroom):
@@ -178,3 +187,26 @@ class RequisiteAdmin(admin.ModelAdmin):
     search_fields = ("course_from__title", "course_to__title",
                      "course_from__en_title", "course_to__en_title")
     list_filter = ("type",)
+
+
+@admin.register(TA)
+class TAAdmin(admin.ModelAdmin):
+    inlines = (ClassroomInline,)
+    list_per_page = 10
+    list_display = ("id", "full_name", "classroom_count",)
+    search_fields = ("full_name",)
+
+    @admin.display(ordering="classroom_count", description=_("تعداد کلاس‌ها"))
+    def classroom_count(self, ta):
+        return model_changelist_url_to_html(
+            app="course",
+            model="classroom",
+            query_key="tas",
+            query_val=ta.id,
+            placeholder=ta.classrooms.count(),
+        )
+
+    def get_queryset(self, request):
+        return super().get_queryset(request).prefetch_related(
+            "classrooms",
+        )
