@@ -15,6 +15,9 @@ locust = "*"
 whitenoise = "*"
 gunicorn = "*"
 dj-database-url = "*"
+django-admin-interface = "*"
+django-nested-admin = "*"
+drf-yasg = "*"
 
 [dev-packages]
 autopep8 = "*"

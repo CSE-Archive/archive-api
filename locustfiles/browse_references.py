@@ -1,13 +1,14 @@
 from random import choice
 from locust import HttpUser, task, between
-from reference.models import Reference
+
+from references.models import Reference
 
 
 class BrowseReferences(HttpUser):
     wait_time = between(1, 5)
 
     def on_start(self):
-        self.REFERENCES_IDS = list(Reference.objects.all().values_list("id", flat=True))
+        self.REFERENCES_UUIDS = list(Reference.objects.all().values_list("uuid", flat=True))
 
     @task(weight=1)
     def view_references(self):
@@ -19,6 +20,6 @@ class BrowseReferences(HttpUser):
     @task(weight=2)
     def view_reference(self):
         self.client.get(
-            f"/references/{choice(self.REFERENCES_IDS)}",
-            name="/references/:id",
+            f"/references/{choice(self.REFERENCES_UUIDS)}",
+            name="/references/:uuid",
         )

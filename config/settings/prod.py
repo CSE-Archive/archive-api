@@ -6,7 +6,7 @@ from dj_database_url import config
 
 DEBUG = False
 
-SECRET_KEY = os.environ['SECRET_KEY']
+SECRET_KEY = os.environ.get('SECRET_KEY')
 
 ALLOWED_HOSTS = ['cse-archive.herokuapp.com']
 

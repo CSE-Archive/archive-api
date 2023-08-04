@@ -40,6 +40,14 @@ And to run **Unit Tests**,
 pytest
 ```
 
+## Sample Data
+
+Use the following command to load the sample data.
+
+```bash
+python manage.py loaddata fixtures/admin_interface_theme_uswds.json fixtures/courses.json fixtures/requisities.json fixtures/chartnodes.json fixtures/professors.json fixtures/tas.json fixtures/classrooms.json fixtures/references.json fixtures/resources.json fixtures/recordings.json
+```
+
 ## Database Design
 
 The database used underneath this API contains tables specified in the following ER diagram. (It is divided into three separate django apps, each app marked with a different color)

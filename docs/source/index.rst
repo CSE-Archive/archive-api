@@ -19,7 +19,7 @@ CSE Archive API Endpoints
    references/index
    resources/index
    classrooms/index
-   teachers/index
+   professors/index
 
 
 Courses
@@ -94,7 +94,7 @@ Classrooms
      - Lists classrooms.
 
 
-Teachers
+Professors
 ~~~~~~~~
 
 .. list-table::
@@ -104,9 +104,9 @@ Teachers
    * - Method
      - HTTP request
      - Description
-   * - `get <teachers/get.html>`_
-     - GET */teachers/*:red:`teacherId`
-     - Gets a teacher by ID.
-   * - `list <teachers/list.html>`_
-     - GET */teachers*
-     - Lists teachers.
+   * - `get <professors/get.html>`_
+     - GET */professors/*:red:`professorId`
+     - Gets a professor by ID.
+   * - `list <professors/list.html>`_
+     - GET */professors*
+     - Lists professors.

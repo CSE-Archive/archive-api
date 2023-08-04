@@ -1,4 +1,0 @@
-Teachers: get
-=============
-
-TO-DO

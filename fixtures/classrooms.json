@@ -1,0 +1,2235 @@
+[
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "dEpAjTsEtuo",
+      "year": 1396,
+      "semester": 1,
+      "course": ["4VORB34qsNM"],
+      "professors": [["oiZGK9IlMvg"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "K7u9fWG7qTI",
+      "year": 1398,
+      "semester": 1,
+      "course": ["4VORB34qsNM"],
+      "professors": [["HNL6O07aw7M"]],
+      "tas": [
+        ["BpajFhkkpL8"],
+        ["qBhxTAPX0D0"],
+        ["PND1TECLDmc"],
+        ["8xEBruL3kTc"],
+        ["IH8baeDjeXU"],
+        ["PHB0ULc4_DQ"],
+        ["nUJG5_mfcPM"],
+        ["VlstkGwzzNI"],
+        ["H0HmwaBqBj8"]
+      ],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "LsZuwovuCzw",
+      "year": 1398,
+      "semester": 2,
+      "course": ["4VORB34qsNM"],
+      "professors": [["RDhsUlokc6M"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "Kv_8Cz94mgg",
+      "year": 1399,
+      "semester": 1,
+      "course": ["4VORB34qsNM"],
+      "professors": [["RDhsUlokc6M"]],
+      "tas": [
+        ["_pTANvu2ZSY"],
+        ["aJuA4Aua66A"],
+        ["JzPFlPDr5ss"],
+        ["otW1WTJPpfU"],
+        ["H0HmwaBqBj8"],
+        ["MDfPRWWxCUs"]
+      ],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "kwyJCLVt0lc",
+      "year": 1399,
+      "semester": 2,
+      "course": ["4VORB34qsNM"],
+      "professors": [["HNL6O07aw7M"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "XguHrVqdGbM",
+      "year": 1400,
+      "semester": 1,
+      "course": ["4VORB34qsNM"],
+      "professors": [["HNL6O07aw7M"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "y63_n9hwkiI",
+      "year": 1400,
+      "semester": 2,
+      "course": ["4VORB34qsNM"],
+      "professors": [["RDhsUlokc6M"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "faALstZ1O00",
+      "year": 1401,
+      "semester": 1,
+      "course": ["4VORB34qsNM"],
+      "professors": [["RDhsUlokc6M"]],
+      "tas": [
+        ["eRbQmTwlhuw"],
+        ["QucpbIPs2Wg"],
+        ["4zZpscZ6T_M"],
+        ["mSRu5y2TpPk"],
+        ["TVXS7YdHG08"],
+        ["6eBgTaLxMZQ"]
+      ],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "qW3M4DPTj34",
+      "year": 1401,
+      "semester": 2,
+      "course": ["4VORB34qsNM"],
+      "professors": [["xhAdxYb79tU"]],
+      "tas": [["7tGuqEVvFm8"]],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "3IZUFcnDNFE",
+      "year": 1394,
+      "semester": 1,
+      "course": ["W6i960Wc8Hc"],
+      "professors": [["xYGIChU4oOY"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "fHjBZWFO1Q8",
+      "year": 1394,
+      "semester": 2,
+      "course": ["W6i960Wc8Hc"],
+      "professors": [["xYGIChU4oOY"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "uYvdWMKKuLQ",
+      "year": 1395,
+      "semester": 2,
+      "course": ["W6i960Wc8Hc"],
+      "professors": [["xYGIChU4oOY"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "XS1DRlEOmxA",
+      "year": 1396,
+      "semester": 1,
+      "course": ["W6i960Wc8Hc"],
+      "professors": [["xYGIChU4oOY"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "WlPEuQY4nDI",
+      "year": 1396,
+      "semester": 2,
+      "course": ["W6i960Wc8Hc"],
+      "professors": [["xYGIChU4oOY"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "ArI34C8Tio0",
+      "year": 1398,
+      "semester": 2,
+      "course": ["W6i960Wc8Hc"],
+      "professors": [["xYGIChU4oOY"]],
+      "tas": [
+        ["9FyNW4QfHME"],
+        ["dnUzJ5sSFPQ"],
+        ["TqrdLTwlxyM"],
+        ["hvcomNQLKOc"],
+        ["H0HmwaBqBj8"],
+        ["VC33EQAlM5o"],
+        ["2R1fjS8S3uQ"]
+      ],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "NtiSfUs78mA",
+      "year": 1399,
+      "semester": 1,
+      "course": ["W6i960Wc8Hc"],
+      "professors": [["7Bqqay2rhAY"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "7Mm7J8lfqYg",
+      "year": 1399,
+      "semester": 2,
+      "course": ["W6i960Wc8Hc"],
+      "professors": [["7Bqqay2rhAY"]],
+      "tas": [
+        ["yHnp1RZwTI0"],
+        ["1CEDWFwC3oE"],
+        ["cOoTgP2llL4"],
+        ["dsQBctj6OlQ"],
+        ["bEa4ZrxSVls"]
+      ],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "UWJHn2ZGMCo",
+      "year": 1400,
+      "semester": 1,
+      "course": ["W6i960Wc8Hc"],
+      "professors": [["xYGIChU4oOY"]],
+      "tas": [
+        ["7iBRclTuzcE"],
+        ["jrS7_ZfMC7w"],
+        ["qie2LXkkwrU"],
+        ["MDfPRWWxCUs"]
+      ],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "Wgu83xk7cZ4",
+      "year": 1400,
+      "semester": 2,
+      "course": ["W6i960Wc8Hc"],
+      "professors": [["xYGIChU4oOY"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "kUB7FMJpUwU",
+      "year": 1401,
+      "semester": 1,
+      "course": ["W6i960Wc8Hc"],
+      "professors": [["7Bqqay2rhAY"]],
+      "tas": [
+        ["8oh0uHoBtwc"],
+        ["eRbQmTwlhuw"],
+        ["4zZpscZ6T_M"],
+        ["jrS7_ZfMC7w"],
+        ["5ELjs6lETc8"],
+        ["tlzvwcPp4g4"]
+      ],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "LDI7St2nxkc",
+      "year": 1396,
+      "semester": 1,
+      "course": ["dStKfTC0Lek"],
+      "professors": [["RDhsUlokc6M"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "8i2CbsyUn8k",
+      "year": 1397,
+      "semester": 1,
+      "course": ["dStKfTC0Lek"],
+      "professors": [["RDhsUlokc6M"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "jFNWixjvHNo",
+      "year": 1399,
+      "semester": 1,
+      "course": ["dStKfTC0Lek"],
+      "professors": [["o8ImhJwiohE"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "JM5TOaOQB2g",
+      "year": 1400,
+      "semester": 1,
+      "course": ["dStKfTC0Lek"],
+      "professors": [["xhAdxYb79tU"]],
+      "tas": [
+        ["VgyAQdjMGZs"],
+        ["QucpbIPs2Wg"],
+        ["nNT9ADpA8dw"],
+        ["dnUzJ5sSFPQ"]
+      ],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "LWnIKVwTE7A",
+      "year": 1401,
+      "semester": 1,
+      "course": ["dStKfTC0Lek"],
+      "professors": [["o8ImhJwiohE"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "nCNVhi_6_lI",
+      "year": 1398,
+      "semester": 2,
+      "course": ["T6_qqhgjD4Y"],
+      "professors": [["pf8whLDcGc8"]],
+      "tas": [["XGDgwhTR9OM"], ["x6zfCPVHqHw"], ["KJJMpz2aSZo"]],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "ysJ4TuBz6NA",
+      "year": 1399,
+      "semester": 1,
+      "course": ["T6_qqhgjD4Y"],
+      "professors": [["YWWH8jzqDRA"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "ZLY7iqsznZk",
+      "year": 1399,
+      "semester": 2,
+      "course": ["T6_qqhgjD4Y"],
+      "professors": [["nwp1n6Kje4s"]],
+      "tas": [
+        ["zW80Jsa_KNM"],
+        ["fizR1iRaFxk"],
+        ["aADIBWxCZqk"],
+        ["qOXXMOg0tG8"],
+        ["qOXXMOg0tG8"],
+        ["GsC2UCmehmA"]
+      ],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "kEIR46XSvf8",
+      "year": 1400,
+      "semester": 2,
+      "course": ["T6_qqhgjD4Y"],
+      "professors": [["pf8whLDcGc8"]],
+      "tas": [
+        ["THD7lBRg0HQ"],
+        ["KvSiDHqQ_lY"],
+        ["nNT9ADpA8dw"],
+        ["F5vOWA8lf2E"],
+        ["9wLxFOHSUrA"],
+        ["aADIBWxCZqk"],
+        ["mN7FeWRxrjc"]
+      ],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "Kwb25VztOKI",
+      "year": 1399,
+      "semester": 2,
+      "course": ["RDUT0ml8TNI"],
+      "professors": [],
+      "tas": [
+        ["aADIBWxCZqk"],
+        ["JgSNHp5Abz8"],
+        ["jkki8JhFzxY"],
+        ["tNoClMeorvE"]
+      ],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "aC2XSSozheY",
+      "year": 1400,
+      "semester": 1,
+      "course": ["RDUT0ml8TNI"],
+      "professors": [],
+      "tas": [
+        ["_1h4NJvO0Dk"],
+        ["7hBcVvxrk_o"],
+        ["9wLxFOHSUrA"],
+        ["nNT9ADpA8dw"],
+        ["8oh0uHoBtwc"],
+        ["FjPC0Wqpcjc"]
+      ],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "29jTmRi0_Ag",
+      "year": 1395,
+      "semester": 1,
+      "course": ["J2OBo93uAYw"],
+      "professors": [["xYGIChU4oOY"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "SMg4wgHNPMM",
+      "year": 1395,
+      "semester": 2,
+      "course": ["J2OBo93uAYw"],
+      "professors": [["xYGIChU4oOY"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "SrUsMhsbSuQ",
+      "year": 1397,
+      "semester": 1,
+      "course": ["J2OBo93uAYw"],
+      "professors": [["xYGIChU4oOY"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "o4YR_bMt2Bk",
+      "year": 1399,
+      "semester": 1,
+      "course": ["J2OBo93uAYw"],
+      "professors": [["xYGIChU4oOY"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "F0CxxraAuxI",
+      "year": 1399,
+      "semester": 2,
+      "course": ["J2OBo93uAYw"],
+      "professors": [["xYGIChU4oOY"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "rdiJStit6Ks",
+      "year": 1400,
+      "semester": 1,
+      "course": ["J2OBo93uAYw"],
+      "professors": [["7Bqqay2rhAY"]],
+      "tas": [
+        ["xNvHuiVrPzk"],
+        ["JzPFlPDr5ss"],
+        ["XJGYTTqpxsY"],
+        ["GsC2UCmehmA"],
+        ["yHnp1RZwTI0"],
+        ["1CEDWFwC3oE"],
+        ["9FyNW4QfHME"],
+        ["cOoTgP2llL4"]
+      ],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "heSJCtFh2MM",
+      "year": 1400,
+      "semester": 2,
+      "course": ["J2OBo93uAYw"],
+      "professors": [["7Bqqay2rhAY"]],
+      "tas": [
+        ["9FyNW4QfHME"],
+        ["yHnp1RZwTI0"],
+        ["eRbQmTwlhuw"],
+        ["rx3XYgmaPSA"]
+      ],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "7J8QTzL7Nf8",
+      "year": 1401,
+      "semester": 1,
+      "course": ["J2OBo93uAYw"],
+      "professors": [["xYGIChU4oOY"]],
+      "tas": [
+        ["7iBRclTuzcE"],
+        ["8oh0uHoBtwc"],
+        ["7hBcVvxrk_o"],
+        ["jrS7_ZfMC7w"]
+      ],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "e20ERYv2rVM",
+      "year": 1399,
+      "semester": 1,
+      "course": ["xvI1oQknNjQ"],
+      "professors": [["sGV9Qb8mdzE"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "EcILqrHZhc0",
+      "year": 1399,
+      "semester": 2,
+      "course": ["xvI1oQknNjQ"],
+      "professors": [["LmwofRCq9k4"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "9zuBAewvuK0",
+      "year": 1400,
+      "semester": 1,
+      "course": ["xvI1oQknNjQ"],
+      "professors": [["LmwofRCq9k4"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "qhIdupdG03g",
+      "year": 1400,
+      "semester": 2,
+      "course": ["xvI1oQknNjQ"],
+      "professors": [["nwp1n6Kje4s"]],
+      "tas": [["GsC2UCmehmA"], ["KvSiDHqQ_lY"]],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "2Bx20QlMjpY",
+      "year": 1401,
+      "semester": 1,
+      "course": ["xvI1oQknNjQ"],
+      "professors": [["nwp1n6Kje4s"]],
+      "tas": [["KvSiDHqQ_lY"], ["jWlbBhVzdoE"], ["Vxq_QF8p9KE"]],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "nYbRThnWarA",
+      "year": 1399,
+      "semester": 1,
+      "course": ["K4i5sd6uRfo"],
+      "professors": [["sGV9Qb8mdzE"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "E77fHnwHYCo",
+      "year": 1399,
+      "semester": 2,
+      "course": ["K4i5sd6uRfo"],
+      "professors": [["sGV9Qb8mdzE"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "Y5dTkMaK4So",
+      "year": 1400,
+      "semester": 1,
+      "course": ["K4i5sd6uRfo"],
+      "professors": [["RDhsUlokc6M"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "8spx75goWn0",
+      "year": 1400,
+      "semester": 2,
+      "course": ["K4i5sd6uRfo"],
+      "professors": [["rW9fC4IlyI8"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "lbImG3JwyDg",
+      "year": 1401,
+      "semester": 1,
+      "course": ["K4i5sd6uRfo"],
+      "professors": [["RDhsUlokc6M"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "aR9KXMheOlw",
+      "year": 1401,
+      "semester": 2,
+      "course": ["K4i5sd6uRfo"],
+      "professors": [["ifpAvNQIixc"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "T8Q11C9zUx0",
+      "year": 1399,
+      "semester": 2,
+      "course": ["Vwpb6nAl6_E"],
+      "professors": [["gAy_muxS1Ls"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "wHQzxyLsVG4",
+      "year": 1400,
+      "semester": 1,
+      "course": ["Vwpb6nAl6_E"],
+      "professors": [["gAy_muxS1Ls"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "8pRIVM27fBo",
+      "year": 1400,
+      "semester": 2,
+      "course": ["Vwpb6nAl6_E"],
+      "professors": [["xhAdxYb79tU"]],
+      "tas": [["tS16eZ5zeLw"], ["znZS_qCmpyM"]],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "Lslzk5Wldbg",
+      "year": 1399,
+      "semester": 1,
+      "course": ["6oWhsMz3O9Q"],
+      "professors": [["E1ybJxUIACs"]],
+      "tas": [["CRflzlOodK8"]],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "vclNqxV_dYs",
+      "year": 1399,
+      "semester": 2,
+      "course": ["6oWhsMz3O9Q"],
+      "professors": [["ifpAvNQIixc"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "jxH7KaLc1Vc",
+      "year": 1400,
+      "semester": 1,
+      "course": ["6oWhsMz3O9Q"],
+      "professors": [["E1ybJxUIACs"]],
+      "tas": [["r10E8EEAWHE"], ["vtIWegr7xns"]],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "x6im15MPYzw",
+      "year": 1400,
+      "semester": 2,
+      "course": ["6oWhsMz3O9Q"],
+      "professors": [["ifpAvNQIixc"]],
+      "tas": [["jWlbBhVzdoE"]],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "Ff9dpWnJhE8",
+      "year": 1401,
+      "semester": 1,
+      "course": ["6oWhsMz3O9Q"],
+      "professors": [["E1ybJxUIACs"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "5a6Ood_DzLQ",
+      "year": 1398,
+      "semester": 2,
+      "course": ["xWX9cNBTpec"],
+      "professors": [["HNL6O07aw7M"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "GGfG9uVyy5s",
+      "year": 1399,
+      "semester": 1,
+      "course": ["xWX9cNBTpec"],
+      "professors": [["HNL6O07aw7M"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "zuHt0Hz089Y",
+      "year": 1399,
+      "semester": 2,
+      "course": ["xWX9cNBTpec"],
+      "professors": [["o8ImhJwiohE"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "u1fMWk6s1kI",
+      "year": 1400,
+      "semester": 1,
+      "course": ["xWX9cNBTpec"],
+      "professors": [["o8ImhJwiohE"]],
+      "tas": [["ixyU4qrx99E"]],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "VXHv0DxbjrA",
+      "year": 1400,
+      "semester": 2,
+      "course": ["xWX9cNBTpec"],
+      "professors": [["HNL6O07aw7M"], ["nwp1n6Kje4s"]],
+      "tas": [["rAiOASxRuFw"], ["rCHOxLDa0oA"], ["dsQBctj6OlQ"]],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "gJxJRCSTw_s",
+      "year": 1398,
+      "semester": 2,
+      "course": ["h6NQLbJdcwY"],
+      "professors": [["RDhsUlokc6M"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "tolsBMp8WFQ",
+      "year": 1399,
+      "semester": 1,
+      "course": ["h6NQLbJdcwY"],
+      "professors": [["RDhsUlokc6M"]],
+      "tas": [["2RRqvikG21c"], ["dsQBctj6OlQ"]],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "SDqf0OQ6YHg",
+      "year": 1399,
+      "semester": 2,
+      "course": ["h6NQLbJdcwY"],
+      "professors": [["nwp1n6Kje4s"]],
+      "tas": [
+        ["rCHOxLDa0oA"],
+        ["GWR6Idl3h8w"],
+        ["dsQBctj6OlQ"],
+        ["VlstkGwzzNI"]
+      ],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "Z8sRSbL1TRA",
+      "year": 1400,
+      "semester": 1,
+      "course": ["h6NQLbJdcwY"],
+      "professors": [["RDhsUlokc6M"]],
+      "tas": [["pnUj10zGis0"], ["VlstkGwzzNI"]],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "ZQuzcRoYTjg",
+      "year": 1400,
+      "semester": 2,
+      "course": ["h6NQLbJdcwY"],
+      "professors": [["RDhsUlokc6M"]],
+      "tas": [
+        ["aJuA4Aua66A"],
+        ["B9TzSGDuSK8"],
+        ["f3eEW0UjmE4"],
+        ["GsC2UCmehmA"],
+        ["VlstkGwzzNI"]
+      ],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "qbX7PpNWyCM",
+      "year": 1401,
+      "semester": 1,
+      "course": ["h6NQLbJdcwY"],
+      "professors": [["nwp1n6Kje4s"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "aRAd7YPGm10",
+      "year": 1401,
+      "semester": 2,
+      "course": ["h6NQLbJdcwY"],
+      "professors": [["RDhsUlokc6M"]],
+      "tas": [
+        ["m_NeFawYXBw"],
+        ["THD7lBRg0HQ"],
+        ["BmXXmhmBJN4"],
+        ["4zZpscZ6T_M"]
+      ],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "JCutCCqSC8o",
+      "year": 1399,
+      "semester": 2,
+      "course": ["NgnGtKaJ6AM"],
+      "professors": [["o8ImhJwiohE"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "FNoSLcSOiDI",
+      "year": 1400,
+      "semester": 1,
+      "course": ["NgnGtKaJ6AM"],
+      "professors": [["o8ImhJwiohE"]],
+      "tas": [["hwb1rakDl1g"], ["rCHOxLDa0oA"], ["SaexPsH6FBg"]],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "c0yRJxxSOKY",
+      "year": 1400,
+      "semester": 2,
+      "course": ["NgnGtKaJ6AM"],
+      "professors": [["KvwP7VmSZ78"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "podCMmg0HBg",
+      "year": 1401,
+      "semester": 1,
+      "course": ["NgnGtKaJ6AM"],
+      "professors": [["KvwP7VmSZ78"]],
+      "tas": [["jWlbBhVzdoE"], ["G9nHy3n5aDQ"]],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "Dv1uB_SaRtw",
+      "year": 1401,
+      "semester": 2,
+      "course": ["NgnGtKaJ6AM"],
+      "professors": [["o8ImhJwiohE"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "Y_mMMliZXTw",
+      "year": 1399,
+      "semester": 2,
+      "course": ["xGkAHRRVBnU"],
+      "professors": [],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "EjnKm8Lp3Ho",
+      "year": 1400,
+      "semester": 1,
+      "course": ["xGkAHRRVBnU"],
+      "professors": [],
+      "tas": [["o7yg_VXQIfk"], ["jWlbBhVzdoE"], ["JN9V9WgMYS0"]],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "wTVaq6qICzY",
+      "year": 1401,
+      "semester": 1,
+      "course": ["xGkAHRRVBnU"],
+      "professors": [],
+      "tas": [
+        ["THD7lBRg0HQ"],
+        ["saKJjceBeNg"],
+        ["zc1262qywr0"],
+        ["VlstkGwzzNI"],
+        ["GWR6Idl3h8w"]
+      ],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "xgIYTMYBk_E",
+      "year": 1399,
+      "semester": 2,
+      "course": ["L2NaV4j2eNU"],
+      "professors": [["E1ybJxUIACs"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "s3VAjjH36J4",
+      "year": 1400,
+      "semester": 2,
+      "course": ["L2NaV4j2eNU"],
+      "professors": [["E1ybJxUIACs"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "FS5Hjqa5bxg",
+      "year": 1399,
+      "semester": 2,
+      "course": ["pZhhlaoBIq4"],
+      "professors": [["gAy_muxS1Ls"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "80DGQLZaKaM",
+      "year": 1400,
+      "semester": 1,
+      "course": ["pZhhlaoBIq4"],
+      "professors": [["gAy_muxS1Ls"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "3KKwGMvXuJU",
+      "year": 1401,
+      "semester": 1,
+      "course": ["pZhhlaoBIq4"],
+      "professors": [["gAy_muxS1Ls"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "Z_NwVGktCSY",
+      "year": 1399,
+      "semester": 1,
+      "course": ["krcBL7VfJGo"],
+      "professors": [["E1ybJxUIACs"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "lgxrUnKwuzc",
+      "year": 1399,
+      "semester": 2,
+      "course": ["krcBL7VfJGo"],
+      "professors": [["rW9fC4IlyI8"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "pYuuoBmXvgM",
+      "year": 1400,
+      "semester": 1,
+      "course": ["krcBL7VfJGo"],
+      "professors": [["E1ybJxUIACs"]],
+      "tas": [["mTnnMrbXjLo"]],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "wF7suyYSJP4",
+      "year": 1400,
+      "semester": 2,
+      "course": ["krcBL7VfJGo"],
+      "professors": [["rW9fC4IlyI8"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "6Cirwx_cZfY",
+      "year": 1401,
+      "semester": 1,
+      "course": ["krcBL7VfJGo"],
+      "professors": [["lVdQBrOgcHQ"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "Pq3_ysNIfjM",
+      "year": 1398,
+      "semester": 2,
+      "course": ["Tk8m_z6Q6RE"],
+      "professors": [["HNL6O07aw7M"]],
+      "tas": [["qBhxTAPX0D0"], ["8xEBruL3kTc"]],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "zOPltZhkleE",
+      "year": 1400,
+      "semester": 1,
+      "course": ["Tk8m_z6Q6RE"],
+      "professors": [["YWWH8jzqDRA"]],
+      "tas": [["8z66a_FqQPk"], ["nAtlXmrXMi8"]],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "3HvDhFpDfdw",
+      "year": 1400,
+      "semester": 2,
+      "course": ["Tk8m_z6Q6RE"],
+      "professors": [["HNL6O07aw7M"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "0wvStdEFMhc",
+      "year": 1401,
+      "semester": 1,
+      "course": ["Tk8m_z6Q6RE"],
+      "professors": [["YWWH8jzqDRA"]],
+      "tas": [["tS16eZ5zeLw"], ["1MjxOEs9cT0"], ["bEa4ZrxSVls"]],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "jSt4CG66W9k",
+      "year": 1399,
+      "semester": 2,
+      "course": ["edjlkIEU3m0"],
+      "professors": [["BJU97KCc9w0"]],
+      "tas": [
+        ["GWR6Idl3h8w"],
+        ["KJJMpz2aSZo"],
+        ["2R1fjS8S3uQ"],
+        ["tNoClMeorvE"]
+      ],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "4AXFUni9kE4",
+      "year": 1400,
+      "semester": 1,
+      "course": ["edjlkIEU3m0"],
+      "professors": [["B_Wf7S4W1Ag"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "f_VLLtotN5o",
+      "year": 1400,
+      "semester": 2,
+      "course": ["edjlkIEU3m0"],
+      "professors": [["B_Wf7S4W1Ag"]],
+      "tas": [
+        ["tS16eZ5zeLw"],
+        ["B9TzSGDuSK8"],
+        ["XJGYTTqpxsY"],
+        ["xNvHuiVrPzk"],
+        ["dsQBctj6OlQ"],
+        ["57_dxMK1gw8"]
+      ],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "VtC9QRr3AlM",
+      "year": 1401,
+      "semester": 2,
+      "course": ["edjlkIEU3m0"],
+      "professors": [["pf8whLDcGc8"]],
+      "tas": [
+        ["_1h4NJvO0Dk"],
+        ["eRbQmTwlhuw"],
+        ["nNT9ADpA8dw"],
+        ["Vxq_QF8p9KE"],
+        ["Qa2uhGLp_ek"]
+      ],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "x8hDSuTEG6g",
+      "year": 1400,
+      "semester": 1,
+      "course": ["H1romJgtudM"],
+      "professors": [],
+      "tas": [
+        ["yHnp1RZwTI0"],
+        ["_Kcj3jhp9xo"],
+        ["57_dxMK1gw8"],
+        ["VC33EQAlM5o"],
+        ["GWR6Idl3h8w"],
+        ["JzPFlPDr5ss"],
+        ["dnUzJ5sSFPQ"]
+      ],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "pvukhWyI85E",
+      "year": 1401,
+      "semester": 1,
+      "course": ["H1romJgtudM"],
+      "professors": [],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "YXnRqBlw7J0",
+      "year": 1399,
+      "semester": 1,
+      "course": ["vXh5qgjgJEE"],
+      "professors": [["B_Wf7S4W1Ag"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "UhGQbjcxpmU",
+      "year": 1399,
+      "semester": 2,
+      "course": ["vXh5qgjgJEE"],
+      "professors": [["B_Wf7S4W1Ag"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "QWBngdsAreU",
+      "year": 1400,
+      "semester": 1,
+      "course": ["vXh5qgjgJEE"],
+      "professors": [["YWWH8jzqDRA"]],
+      "tas": [["JgSNHp5Abz8"], ["WlgR8XH6hTY"], ["2RRqvikG21c"]],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "R74_jkr6rxE",
+      "year": 1400,
+      "semester": 2,
+      "course": ["vXh5qgjgJEE"],
+      "professors": [["YWWH8jzqDRA"]],
+      "tas": [["IrcB0CM6pr4"], ["7cmv8CVJHds"]],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "J_f78ONn1TI",
+      "year": 1401,
+      "semester": 1,
+      "course": ["vXh5qgjgJEE"],
+      "professors": [["B_Wf7S4W1Ag"]],
+      "tas": [
+        ["o7yg_VXQIfk"],
+        ["GsC2UCmehmA"],
+        ["jkki8JhFzxY"],
+        ["aJuA4Aua66A"],
+        ["saKJjceBeNg"],
+        ["57_dxMK1gw8"]
+      ],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "ahMpBiApK3k",
+      "year": 1400,
+      "semester": 1,
+      "course": ["kWiZv6ow0_s"],
+      "professors": [["KvwP7VmSZ78"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "eSZckx5pd3U",
+      "year": 1399,
+      "semester": 2,
+      "course": ["Djprdbr31os"],
+      "professors": [["KvwP7VmSZ78"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "igf0GusFnS0",
+      "year": 1400,
+      "semester": 1,
+      "course": ["Djprdbr31os"],
+      "professors": [["KvwP7VmSZ78"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "c7F7kzrWQ7U",
+      "year": 1400,
+      "semester": 1,
+      "course": ["c5mX3nrrjjY"],
+      "professors": [],
+      "tas": [["BZNaFkf7xtQ"]],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "IuwqrJT_5W0",
+      "year": 1400,
+      "semester": 1,
+      "course": ["D0k7Bd9fIcY"],
+      "professors": [["pf8whLDcGc8"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "Fnyn590npAY",
+      "year": 1401,
+      "semester": 1,
+      "course": ["D0k7Bd9fIcY"],
+      "professors": [["pf8whLDcGc8"]],
+      "tas": [["xJk25Q0xI80"]],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "lYSMXarmEiU",
+      "year": 1399,
+      "semester": 1,
+      "course": ["xEvVbt5U1jQ"],
+      "professors": [["BJU97KCc9w0"]],
+      "tas": [["_v_HxXOaMuY"], ["x6zfCPVHqHw"], ["GWR6Idl3h8w"]],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "7EQ_QsSIj9Q",
+      "year": 1400,
+      "semester": 1,
+      "course": ["xEvVbt5U1jQ"],
+      "professors": [["KKDDrxe40fo"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "8YnGJuK0qFM",
+      "year": 1401,
+      "semester": 1,
+      "course": ["xEvVbt5U1jQ"],
+      "professors": [["rW9fC4IlyI8"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "26_YZyfG0WI",
+      "year": 1399,
+      "semester": 2,
+      "course": ["UG2kETI8x5k"],
+      "professors": [["BJU97KCc9w0"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "zGu0TRInTeg",
+      "year": 1400,
+      "semester": 1,
+      "course": ["UG2kETI8x5k"],
+      "professors": [["BJU97KCc9w0"]],
+      "tas": [["xNvHuiVrPzk"], ["mAHmE8rxTWw"]],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "XsJ3jXywaTo",
+      "year": 1400,
+      "semester": 2,
+      "course": ["UG2kETI8x5k"],
+      "professors": [["BJU97KCc9w0"]],
+      "tas": [["xNvHuiVrPzk"], ["mAHmE8rxTWw"], ["sbrfMHR7x28"]],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "StUSIZziLZg",
+      "year": 1400,
+      "semester": 2,
+      "course": ["8nc0R1fdy3M"],
+      "professors": [["B_Wf7S4W1Ag"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "nbSsMWwqttE",
+      "year": 1399,
+      "semester": 2,
+      "course": ["VvjskcG8dP8"],
+      "professors": [["gAy_muxS1Ls"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "C4B8xGyo44s",
+      "year": 1400,
+      "semester": 2,
+      "course": ["VvjskcG8dP8"],
+      "professors": [["gAy_muxS1Ls"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "6ox6uauT84k",
+      "year": 1401,
+      "semester": 1,
+      "course": ["ueVVW6jH0oI"],
+      "professors": [["YWWH8jzqDRA"]],
+      "tas": [
+        ["pPaEyz5Cq1U"],
+        ["ScYnHCjjdxs"],
+        ["dsQBctj6OlQ"],
+        ["bEa4ZrxSVls"]
+      ],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "N3BBMPPVPuQ",
+      "year": 1400,
+      "semester": 1,
+      "course": ["5wePzHh6NCc"],
+      "professors": [],
+      "tas": [["mN7FeWRxrjc"], ["WlgR8XH6hTY"], ["Cf263wEK8pg"]],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "xT6XjFzJJLg",
+      "year": 1400,
+      "semester": 2,
+      "course": ["5wePzHh6NCc"],
+      "professors": [],
+      "tas": [["mN7FeWRxrjc"], ["mAHmE8rxTWw"], ["BEEwZDstO3c"]],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "2_aINkkkSIQ",
+      "year": 1401,
+      "semester": 1,
+      "course": ["5wePzHh6NCc"],
+      "professors": [],
+      "tas": [["VlstkGwzzNI"], ["THD7lBRg0HQ"]],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "O2oeMFLidFo",
+      "year": 1400,
+      "semester": 1,
+      "course": ["KM3Sgnpyha0"],
+      "professors": [["BJU97KCc9w0"]],
+      "tas": [["mN7FeWRxrjc"], ["rCHOxLDa0oA"], ["YxFr0lCdxVw"]],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "yygCIlZGueY",
+      "year": 1401,
+      "semester": 1,
+      "course": ["KM3Sgnpyha0"],
+      "professors": [["BJU97KCc9w0"]],
+      "tas": [["saKJjceBeNg"], ["GWR6Idl3h8w"]],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "osZ7uYTi8VI",
+      "year": 1400,
+      "semester": 1,
+      "course": ["jJWLm734jtQ"],
+      "professors": [["N6Cq7Yn9qlE"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "NZw_oQfxunA",
+      "year": 1401,
+      "semester": 1,
+      "course": ["jJWLm734jtQ"],
+      "professors": [["N6Cq7Yn9qlE"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "RGK3au1boSc",
+      "year": 1401,
+      "semester": 1,
+      "course": ["oZxiY5GoaYI"],
+      "professors": [["bggUFWYhQU0"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "xXX04FGCqfY",
+      "year": 1398,
+      "semester": 2,
+      "course": ["p9fA5eN0uQc"],
+      "professors": [["RDhsUlokc6M"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "BbZKvUFbqsw",
+      "year": 1399,
+      "semester": 2,
+      "course": ["p9fA5eN0uQc"],
+      "professors": [["RDhsUlokc6M"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "uJCbD6ZML4k",
+      "year": 1400,
+      "semester": 2,
+      "course": ["p9fA5eN0uQc"],
+      "professors": [["RDhsUlokc6M"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "n5IYvpdO6ew",
+      "year": 1399,
+      "semester": 2,
+      "course": ["r9J2fMvdpWE"],
+      "professors": [["RDhsUlokc6M"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "ReYrAJMRkNo",
+      "year": 1400,
+      "semester": 2,
+      "course": ["r9J2fMvdpWE"],
+      "professors": [["nwp1n6Kje4s"]],
+      "tas": [["xJk25Q0xI80"]],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "BuQDk36cYvo",
+      "year": 1399,
+      "semester": 2,
+      "course": ["jtlM0AtLEA0"],
+      "professors": [["RDhsUlokc6M"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "0bUsPEXoHYc",
+      "year": 1400,
+      "semester": 2,
+      "course": ["jtlM0AtLEA0"],
+      "professors": [["RDhsUlokc6M"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "diI9Bt116Js",
+      "year": 1398,
+      "semester": 2,
+      "course": ["pE5PipPXaAs"],
+      "professors": [["BJU97KCc9w0"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "tkW2fzwVtgA",
+      "year": 1400,
+      "semester": 2,
+      "course": ["pE5PipPXaAs"],
+      "professors": [["BJU97KCc9w0"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "9452Naj2_ac",
+      "year": 1395,
+      "semester": 2,
+      "course": ["KlxZlgLL_aI"],
+      "professors": [["xYGIChU4oOY"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "a7tT1v9DLd8",
+      "year": 1396,
+      "semester": 2,
+      "course": ["KlxZlgLL_aI"],
+      "professors": [["xYGIChU4oOY"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "2ZjL9A8I9c8",
+      "year": 1398,
+      "semester": 2,
+      "course": ["KlxZlgLL_aI"],
+      "professors": [["xYGIChU4oOY"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "G6omjER88UY",
+      "year": 1399,
+      "semester": 2,
+      "course": ["KlxZlgLL_aI"],
+      "professors": [["xYGIChU4oOY"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "S1JHflCaUdw",
+      "year": 1400,
+      "semester": 2,
+      "course": ["KlxZlgLL_aI"],
+      "professors": [["xYGIChU4oOY"]],
+      "tas": [["aJuA4Aua66A"]],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "7m65UoH1naQ",
+      "year": 1400,
+      "semester": 2,
+      "course": ["HAvdbvoK_m4"],
+      "professors": [["bWgRIE6G0lk"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "32_CKIcWf8Y",
+      "year": 1400,
+      "semester": 2,
+      "course": ["zNsafxaUOT0"],
+      "professors": [["HNL6O07aw7M"]],
+      "tas": [["DZAJjNTAzyc"]],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "e5tQPlx7anc",
+      "year": 1400,
+      "semester": 2,
+      "course": ["11Rzv0lmpk0"],
+      "professors": [["KuEjCmm4OKY"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "tzbjZqZakMo",
+      "year": 1401,
+      "semester": 1,
+      "course": ["11Rzv0lmpk0"],
+      "professors": [["KuEjCmm4OKY"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "Ij4r7yJh1Ts",
+      "year": 1399,
+      "semester": 2,
+      "course": ["lx5GUzNLmx0"],
+      "professors": [["TKcVH33fff4"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "egJkAURK3dQ",
+      "year": 1401,
+      "semester": 1,
+      "course": ["88hTgVdL7Jw"],
+      "professors": [["GPlZz6DuED0"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  },
+  {
+    "model": "classrooms.classroom",
+    "fields": {
+      "uuid": "xK16uilnZA8",
+      "year": 1401,
+      "semester": 2,
+      "course": ["YHpOGt8aH0g"],
+      "professors": [["WJ5SdVkZJkw"]],
+      "tas": [],
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+    }
+  }
+]

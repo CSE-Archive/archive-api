@@ -1,0 +1,524 @@
+[
+  {
+    "model": "recordings.recordedclassroom",
+    "fields": {
+      "uuid": "Rbj0aNm4Spw",
+      "notes": "",
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30",
+      "classroom": ["R74_jkr6rxE"]
+    }
+  },
+  {
+    "model": "core.link",
+    "fields": {
+      "url": "https://drive.google.com/drive/folders/1Du71BVxlxpDKPyW179XFqPV1feUPteRu",
+      "title": "گوگل درایو",
+      "linked_type": ["recordings", "recordedclassroom"],
+      "linked_id": 1
+    }
+  },
+  {
+    "model": "core.link",
+    "fields": {
+      "url": "https://t.me/+OvYR00a8sHBhMzU0",
+      "title": "کانال تلگرام",
+      "linked_type": ["recordings", "recordedclassroom"],
+      "linked_id": 1
+    }
+  },
+  {
+    "model": "recordings.recordedclassroom",
+    "fields": {
+      "uuid": "NJyHq5qtY9I",
+      "notes": "",
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30",
+      "classroom": ["O2oeMFLidFo"]
+    }
+  },
+  {
+    "model": "core.link",
+    "fields": {
+      "url": "https://drive.google.com/folderview?id=1o0_j-LIXjGHp2wj8E4WMeyr9Wbne4D1W",
+      "title": "گوگل درایو",
+      "linked_type": ["recordings", "recordedclassroom"],
+      "linked_id": 2
+    }
+  },
+  {
+    "model": "core.link",
+    "fields": {
+      "url": "https://t.me/+6qKQVeh5ZRliNjJk",
+      "title": "کانال تلگرام",
+      "linked_type": ["recordings", "recordedclassroom"],
+      "linked_id": 2
+    }
+  },
+  {
+    "model": "recordings.recordedclassroom",
+    "fields": {
+      "uuid": "6IiRRAbvS7I",
+      "notes": "",
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30",
+      "classroom": ["80DGQLZaKaM"]
+    }
+  },
+  {
+    "model": "core.link",
+    "fields": {
+      "url": "https://drive.google.com/drive/folders/1VTr6mth-4PTxHNkR-r00wCYGv4vlb0DL",
+      "title": "گوگل درایو",
+      "linked_type": ["recordings", "recordedclassroom"],
+      "linked_id": 3
+    }
+  },
+  {
+    "model": "core.link",
+    "fields": {
+      "url": "https://t.me/+y3rcpZF7Ekc1YTJk",
+      "title": "کانال تلگرام",
+      "linked_type": ["recordings", "recordedclassroom"],
+      "linked_id": 3
+    }
+  },
+  {
+    "model": "recordings.recordedclassroom",
+    "fields": {
+      "uuid": "MXXE52_nLuk",
+      "notes": "",
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30",
+      "classroom": ["0bUsPEXoHYc"]
+    }
+  },
+  {
+    "model": "core.link",
+    "fields": {
+      "url": "https://drive.google.com/folderview?id=1RiyY4gtMBH1B60mx16oSaBm_vkTgTmjH",
+      "title": "گوگل درایو",
+      "linked_type": ["recordings", "recordedclassroom"],
+      "linked_id": 4
+    }
+  },
+  {
+    "model": "core.link",
+    "fields": {
+      "url": "https://t.me/+vOpNIiJ9qFpjYmJk",
+      "title": "کانال تلگرام",
+      "linked_type": ["recordings", "recordedclassroom"],
+      "linked_id": 4
+    }
+  },
+  {
+    "model": "recordings.recordedclassroom",
+    "fields": {
+      "uuid": "hHNyl2llneg",
+      "notes": "",
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30",
+      "classroom": ["Z8sRSbL1TRA"]
+    }
+  },
+  {
+    "model": "core.link",
+    "fields": {
+      "url": "https://drive.google.com/folderview?id=1EAw97Exz1ITchBa4WMRcjkjdmx1wyqx8",
+      "title": "گوگل درایو",
+      "linked_type": ["recordings", "recordedclassroom"],
+      "linked_id": 5
+    }
+  },
+  {
+    "model": "core.link",
+    "fields": {
+      "url": "https://t.me/+nZytxyTa7Es1NDI0",
+      "title": "کانال تلگرام",
+      "linked_type": ["recordings", "recordedclassroom"],
+      "linked_id": 5
+    }
+  },
+  {
+    "model": "recordings.recordedclassroom",
+    "fields": {
+      "uuid": "GkZMuaJNTBU",
+      "notes": "",
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30",
+      "classroom": ["zOPltZhkleE"]
+    }
+  },
+  {
+    "model": "core.link",
+    "fields": {
+      "url": "https://drive.google.com/folderview?id=1c0vPBb9hW9gGJnyJdgDbjlJIMgk_clJJ",
+      "title": "گوگل درایو",
+      "linked_type": ["recordings", "recordedclassroom"],
+      "linked_id": 6
+    }
+  },
+  {
+    "model": "core.link",
+    "fields": {
+      "url": "https://t.me/+PK75fW9Pvrs2MDJk",
+      "title": "کانال تلگرام",
+      "linked_type": ["recordings", "recordedclassroom"],
+      "linked_id": 6
+    }
+  },
+  {
+    "model": "recordings.recordedclassroom",
+    "fields": {
+      "uuid": "u7iaMfPrB7E",
+      "notes": "",
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30",
+      "classroom": ["C4B8xGyo44s"]
+    }
+  },
+  {
+    "model": "core.link",
+    "fields": {
+      "url": "https://drive.google.com/folderview?id=1BTgXbzKt0WiZM-7__9wYwUq2KyqXdpNS",
+      "title": "گوگل درایو",
+      "linked_type": ["recordings", "recordedclassroom"],
+      "linked_id": 7
+    }
+  },
+  {
+    "model": "core.link",
+    "fields": {
+      "url": "https://t.me/+IVTrSeqRHGZlNWM0",
+      "title": "کانال تلگرام",
+      "linked_type": ["recordings", "recordedclassroom"],
+      "linked_id": 7
+    }
+  },
+  {
+    "model": "recordings.recordedclassroom",
+    "fields": {
+      "uuid": "NUtjuRu9_k8",
+      "notes": "",
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30",
+      "classroom": ["wHQzxyLsVG4"]
+    }
+  },
+  {
+    "model": "core.link",
+    "fields": {
+      "url": "https://drive.google.com/folderview?id=15l2jGm0vCAyN_ZZ-yhGBi9KUPV89SLQd",
+      "title": "گوگل درایو",
+      "linked_type": ["recordings", "recordedclassroom"],
+      "linked_id": 8
+    }
+  },
+  {
+    "model": "core.link",
+    "fields": {
+      "url": "https://t.me/+xscn7-MvS6Y5ZDU0",
+      "title": "کانال تلگرام",
+      "linked_type": ["recordings", "recordedclassroom"],
+      "linked_id": 8
+    }
+  },
+  {
+    "model": "recordings.recordedclassroom",
+    "fields": {
+      "uuid": "054aIfvyUmw",
+      "notes": "",
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30",
+      "classroom": ["lgxrUnKwuzc"]
+    }
+  },
+  {
+    "model": "core.link",
+    "fields": {
+      "url": "https://drive.google.com/drive/folders/1aalZ0dlAS9ZvdXZwLRMAHSpjEEHlB1eE",
+      "title": "گوگل درایو",
+      "linked_type": ["recordings", "recordedclassroom"],
+      "linked_id": 9
+    }
+  },
+  {
+    "model": "core.link",
+    "fields": {
+      "url": "https://t.me/+0ZMwhEZSLR1mMmY0",
+      "title": "کانال تلگرام",
+      "linked_type": ["recordings", "recordedclassroom"],
+      "linked_id": 9
+    }
+  },
+  {
+    "model": "recordings.recordedclassroom",
+    "fields": {
+      "uuid": "fgZZGwMCwPI",
+      "notes": "",
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30",
+      "classroom": ["26_YZyfG0WI"]
+    }
+  },
+  {
+    "model": "core.link",
+    "fields": {
+      "url": "https://drive.google.com/drive/folders/1q3PoGHpvlYV0pce7urzOlIhFsbkQutpT",
+      "title": "گوگل درایو",
+      "linked_type": ["recordings", "recordedclassroom"],
+      "linked_id": 10
+    }
+  },
+  {
+    "model": "core.link",
+    "fields": {
+      "url": "https://t.me/+JAM78d80CCM1M2Vk",
+      "title": "کانال تلگرام",
+      "linked_type": ["recordings", "recordedclassroom"],
+      "linked_id": 10
+    }
+  },
+  {
+    "model": "recordings.recordedclassroom",
+    "fields": {
+      "uuid": "OV0fQW6XRqo",
+      "notes": "",
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30",
+      "classroom": ["n5IYvpdO6ew"]
+    }
+  },
+  {
+    "model": "core.link",
+    "fields": {
+      "url": "https://drive.google.com/drive/folders/1NScRJntK5GR5-nKNEZIgQKkdOMV5JCF-",
+      "title": "گوگل درایو",
+      "linked_type": ["recordings", "recordedclassroom"],
+      "linked_id": 11
+    }
+  },
+  {
+    "model": "core.link",
+    "fields": {
+      "url": "https://t.me/+hzK0caAlZDY1NGU0",
+      "title": "کانال تلگرام",
+      "linked_type": ["recordings", "recordedclassroom"],
+      "linked_id": 11
+    }
+  },
+  {
+    "model": "recordings.recordedclassroom",
+    "fields": {
+      "uuid": "ua2gNrCkxzM",
+      "notes": "",
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30",
+      "classroom": ["G6omjER88UY"]
+    }
+  },
+  {
+    "model": "core.link",
+    "fields": {
+      "url": "https://drive.google.com/drive/folders/1xMUSyjQEDmbG86jG3h9b00BwQ8ecLu-k",
+      "title": "گوگل درایو",
+      "linked_type": ["recordings", "recordedclassroom"],
+      "linked_id": 12
+    }
+  },
+  {
+    "model": "core.link",
+    "fields": {
+      "url": "https://t.me/+xjYknx5HRlpmOGZk",
+      "title": "کانال تلگرام",
+      "linked_type": ["recordings", "recordedclassroom"],
+      "linked_id": 12
+    }
+  },
+  {
+    "model": "recordings.recordedclassroom",
+    "fields": {
+      "uuid": "iHx3i55G3bE",
+      "notes": "",
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30",
+      "classroom": ["dEpAjTsEtuo"]
+    }
+  },
+  {
+    "model": "core.link",
+    "fields": {
+      "url": "https://drive.google.com/drive/folders/15Mkm7083xoo0ptIIfNHEAilKX05u12Eb",
+      "title": "گوگل درایو",
+      "linked_type": ["recordings", "recordedclassroom"],
+      "linked_id": 13
+    }
+  },
+  {
+    "model": "core.link",
+    "fields": {
+      "url": "https://t.me/+XMI7BTNGrh05YWM0",
+      "title": "کانال تلگرام",
+      "linked_type": ["recordings", "recordedclassroom"],
+      "linked_id": 13
+    }
+  },
+  {
+    "model": "recordings.recordedclassroom",
+    "fields": {
+      "uuid": "pSz4i1LD3uE",
+      "notes": "",
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30",
+      "classroom": ["IuwqrJT_5W0"]
+    }
+  },
+  {
+    "model": "core.link",
+    "fields": {
+      "url": "https://drive.google.com/drive/folders/1E4AAwEzGuApWiJFMtFA8b-SDxlatHMhp",
+      "title": "گوگل درایو",
+      "linked_type": ["recordings", "recordedclassroom"],
+      "linked_id": 14
+    }
+  },
+  {
+    "model": "core.link",
+    "fields": {
+      "url": "https://t.me/+Uv9e3tNTBiVjMzU8",
+      "title": "کانال تلگرام",
+      "linked_type": ["recordings", "recordedclassroom"],
+      "linked_id": 14
+    }
+  },
+  {
+    "model": "recordings.recordedclassroom",
+    "fields": {
+      "uuid": "K14wni1hu4g",
+      "notes": "",
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30",
+      "classroom": ["Ij4r7yJh1Ts"]
+    }
+  },
+  {
+    "model": "core.link",
+    "fields": {
+      "url": "https://drive.google.com/drive/folders/1FeKqXoZHRI3Dkm59zm2x1ZonAQkhwHQK",
+      "title": "گوگل درایو",
+      "linked_type": ["recordings", "recordedclassroom"],
+      "linked_id": 15
+    }
+  },
+  {
+    "model": "core.link",
+    "fields": {
+      "url": "https://t.me/+RltXO8_Z-XgzNmI8",
+      "title": "کانال تلگرام",
+      "linked_type": ["recordings", "recordedclassroom"],
+      "linked_id": 15
+    }
+  },
+  {
+    "model": "recordings.recordedclassroom",
+    "fields": {
+      "uuid": "KAdybuMnZpU",
+      "notes": "",
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30",
+      "classroom": ["NZw_oQfxunA"]
+    }
+  },
+  {
+    "model": "core.link",
+    "fields": {
+      "url": "https://drive.google.com/drive/folders/1IKX8Z4LGhUokV5ExKiEjq2nfLfzvIVvL",
+      "title": "گوگل درایو",
+      "linked_type": ["recordings", "recordedclassroom"],
+      "linked_id": 16
+    }
+  },
+  {
+    "model": "core.link",
+    "fields": {
+      "url": "https://t.me/+E0JOSAwvww5hYmY0",
+      "title": "کانال تلگرام",
+      "linked_type": ["recordings", "recordedclassroom"],
+      "linked_id": 16
+    }
+  },
+  {
+    "model": "recordings.recordedclassroom",
+    "fields": {
+      "uuid": "s3JtCXlHWbY",
+      "notes": "",
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30",
+      "classroom": ["tkW2fzwVtgA"]
+    }
+  },
+  {
+    "model": "core.link",
+    "fields": {
+      "url": "https://drive.google.com/drive/folders/1ta1YRmn9GCobATUGDhgNPJxb2abAvKPh",
+      "title": "گوگل درایو",
+      "linked_type": ["recordings", "recordedclassroom"],
+      "linked_id": 17
+    }
+  },
+  {
+    "model": "core.link",
+    "fields": {
+      "url": "https://t.me/+ZtTQkqNZ2NtjZThk",
+      "title": "کانال تلگرام",
+      "linked_type": ["recordings", "recordedclassroom"],
+      "linked_id": 17
+    }
+  },
+  {
+    "model": "recordings.recordedclassroom",
+    "fields": {
+      "uuid": "D8prGEJ8drU",
+      "notes": "جلسات تکمیل نیست",
+      "is_published": true,
+      "created_time": "2023-08-01T23:59:59.999999+03:30",
+      "modified_time": "2023-08-01T23:59:59.999999+03:30",
+      "classroom": ["eSZckx5pd3U"]
+    }
+  },
+  {
+    "model": "core.link",
+    "fields": {
+      "url": "https://drive.google.com/drive/folders/1ifPIPRFhHU5tVIK_UtM_V7lhuAlUFjni",
+      "title": "گوگل درایو",
+      "linked_type": ["recordings", "recordedclassroom"],
+      "linked_id": 18
+    }
+  },
+  {
+    "model": "core.link",
+    "fields": {
+      "url": "https://t.me/+KcgM5jIwON42NjA8",
+      "title": "کانال تلگرام",
+      "linked_type": ["recordings", "recordedclassroom"],
+      "linked_id": 18
+    }
+  }
+]

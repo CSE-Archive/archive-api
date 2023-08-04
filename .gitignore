@@ -4,9 +4,19 @@
 .pytest_cache
 __pycache__
 staticfiles
-media
 build
 
 # files
 cse_archive.log
 set_env_vars.sh
+
+# media folder
+media/*
+!media/admin-interface
+media/admin-interface/*
+!media/admin-interface/favicon
+media/admin-interface/favicon/*
+!media/admin-interface/favicon/favicon.ico
+!media/admin-interface/logo
+media/admin-interface/logo/*
+!media/admin-interface/logo/logo.png

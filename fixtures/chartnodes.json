@@ -1,0 +1,552 @@
+[
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 1,
+      "column": 1,
+      "course": ["4VORB34qsNM"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 1,
+      "column": 2,
+      "course": ["dStKfTC0Lek"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 1,
+      "column": 3,
+      "course": ["zbYjuR917M0"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 1,
+      "column": 4,
+      "course": ["RDUT0ml8TNI"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 1,
+      "column": 5,
+      "course": ["yYUQD6idF9M"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 1,
+      "column": 6,
+      "course": ["pRHAFmzCtEk"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 1,
+      "column": 7,
+      "course": ["MMcnvprYx3U"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 2,
+      "column": 1,
+      "course": ["W6i960Wc8Hc"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 2,
+      "column": 2,
+      "course": ["T6_qqhgjD4Y"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 2,
+      "column": 3,
+      "course": ["MWoi9xSQ6cA"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 2,
+      "column": 4,
+      "course": ["8tvBtoYUM7M"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 2,
+      "column": 5,
+      "course": ["JE2zhJmzqvo"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 2,
+      "column": 6,
+      "course": ["xbDfzUdKxB8"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 2,
+      "column": 7,
+      "course": ["_vylVdOviWU"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 3,
+      "column": 1,
+      "course": ["J2OBo93uAYw"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 3,
+      "column": 2,
+      "course": ["xvI1oQknNjQ"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 3,
+      "column": 3,
+      "course": ["xGkAHRRVBnU"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 3,
+      "column": 4,
+      "course": ["FXaxY78Lx0I"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 3,
+      "column": 5,
+      "course": ["6oWhsMz3O9Q"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 3,
+      "column": 6,
+      "course": ["xEvVbt5U1jQ"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 3,
+      "column": 7,
+      "course": null,
+      "type": 2,
+      "unit": 2
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 4,
+      "column": 1,
+      "course": ["Vwpb6nAl6_E"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 4,
+      "column": 2,
+      "course": ["h6NQLbJdcwY"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 4,
+      "column": 3,
+      "course": ["edjlkIEU3m0"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 4,
+      "column": 5,
+      "course": ["K4i5sd6uRfo"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 4,
+      "column": 6,
+      "course": ["L2NaV4j2eNU"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 4,
+      "column": 7,
+      "course": null,
+      "type": 2,
+      "unit": 2
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 5,
+      "column": 1,
+      "course": ["NgnGtKaJ6AM"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 5,
+      "column": 2,
+      "course": null,
+      "type": 3,
+      "unit": 3
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 5,
+      "column": 3,
+      "course": ["H1romJgtudM"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 5,
+      "column": 4,
+      "course": ["vXh5qgjgJEE"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 5,
+      "column": 5,
+      "course": ["krcBL7VfJGo"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 5,
+      "column": 6,
+      "course": ["kWiZv6ow0_s"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 5,
+      "column": 7,
+      "course": null,
+      "type": 2,
+      "unit": 2
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 6,
+      "column": 1,
+      "course": ["xWX9cNBTpec"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 6,
+      "column": 2,
+      "course": ["Tk8m_z6Q6RE"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 6,
+      "column": 3,
+      "course": ["UG2kETI8x5k"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 6,
+      "column": 4,
+      "course": ["8nc0R1fdy3M"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 6,
+      "column": 5,
+      "course": ["VvjskcG8dP8"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 6,
+      "column": 6,
+      "course": null,
+      "type": 3,
+      "unit": 3
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 6,
+      "column": 7,
+      "course": null,
+      "type": 2,
+      "unit": 2
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 7,
+      "column": 1,
+      "course": ["pZhhlaoBIq4"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 7,
+      "column": 2,
+      "course": ["ueVVW6jH0oI"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 7,
+      "column": 3,
+      "course": ["5wePzHh6NCc"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 7,
+      "column": 4,
+      "course": ["KM3Sgnpyha0"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 7,
+      "column": 5,
+      "course": ["jJWLm734jtQ"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 7,
+      "column": 6,
+      "course": null,
+      "type": 2,
+      "unit": 2
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 7,
+      "column": 7,
+      "course": ["XCsiUsjVJOA"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 8,
+      "column": 1,
+      "course": null,
+      "type": 3,
+      "unit": 3
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 8,
+      "column": 2,
+      "course": null,
+      "type": 3,
+      "unit": 3
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 8,
+      "column": 3,
+      "course": null,
+      "type": 3,
+      "unit": 3
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 8,
+      "column": 4,
+      "course": ["oZxiY5GoaYI"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 8,
+      "column": 5,
+      "course": ["IxJaea6AGkM"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 8,
+      "column": 6,
+      "course": ["pT6YALXkBFI"],
+      "type": null,
+      "unit": null
+    }
+  },
+  {
+    "model": "chart.chartnode",
+    "fields": {
+      "semester": 8,
+      "column": 7,
+      "course": null,
+      "type": 2,
+      "unit": 2
+    }
+  }
+]

@@ -1,26 +1,45 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSE Archive</title>
+    <link rel="stylesheet" href="{% static 'core/styles.css' %}" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CSE Archive</title>
-  <link rel="stylesheet" href="{% static 'core/styles.css' %}" />
-</head>
-
-<body>
-  <div class="bg">
-    <div class="middle">
-      <h1>CSE ARCHIVE</h1>
-      <hr>
-      <p>Official RESTful API</p>
+  <body>
+    <div class="bg">
+      <div class="middle">
+        <h1>CSE ARCHIVE</h1>
+        <hr />
+        <p>Official RESTful API</p>
+      </div>
+      <div class="bottom">
+        <p style="font-size: large">
+          Made with
+          <svg
+            viewBox="0 0 1792 1792"
+            xmlns="http://www.w3.org/2000/svg"
+            style="height: 0.95rem"
+          >
+            <path
+              d="M896 1664q-26 0-44-18l-624-602q-10-8-27.5-26T145 952.5 77 855 23.5 734 0 596q0-220 127-344t351-124q62 0 126.5 21.5t120 58T820 276t76 68q36-36 76-68t95.5-68.5 120-58T1314 128q224 0 351 124t127 344q0 221-229 450l-623 600q-18 18-44 18z"
+              fill="#e25555"
+            ></path>
+          </svg>
+          by
+          <a
+            href="https://github.com/CSE-Archive/"
+            class="hyperlink"
+            style="font-weight: bold"
+            target="_blank"
+          >
+            CSE Archive
+          </a>
+        </p>
+      </div>
     </div>
-    <div class="bottom">
-      <p>Developed by <a href="https://github.com/reza00farjam" class="hyperlink" target="_blank">reza00farjam</a></p>
-    </div>
-  </div>
-</body>
-
+  </body>
 </html>

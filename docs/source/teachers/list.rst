@@ -1,4 +1,0 @@
-Teachers: list
-==============
-
-TO-DO

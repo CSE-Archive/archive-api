@@ -1,25 +1,27 @@
 from random import choice
 from locust import HttpUser, task, between
-from course.models import Classroom, Resource
+
+from classrooms.models import Classroom
+from resources.models import Resource
 
 
 class BrowseResources(HttpUser):
     wait_time = between(1, 5)
 
     def on_start(self):
-        self.CLASSROOM_ID_CHOICES = list(Classroom.objects.all().values_list("id", flat=True))
-        self.RESOURCES_IDS = list(Resource.objects.all().values_list("id", flat=True))
+        self.CLASSROOM_UUID_CHOICES = list(Classroom.objects.all().values_list("uuid", flat=True))
+        self.RESOURCES_UUIDS = list(Resource.objects.all().values_list("uuid", flat=True))
 
     @task(weight=1)
     def view_resources(self):
         self.client.get(
-            f"/resources/?classroom_id={choice(self.CLASSROOM_ID_CHOICES)}",
+            f"/resources/?classroom={choice(self.CLASSROOM_UUID_CHOICES)}",
             name="/resources",
         )
 
     @task(weight=2)
     def view_resource(self):
         self.client.get(
-            f"/resources/{choice(self.RESOURCES_IDS)}",
-            name="/resources/:id",
+            f"/resources/{choice(self.RESOURCES_UUIDS)}",
+            name="/resources/:uuid",
         )

@@ -1,11 +1,22 @@
+from secrets import token_urlsafe
 from jdatetime import datetime as jdt
+
 from django.urls import reverse
 from django.utils.html import format_html, urlencode
 from django.utils.timezone import localtime
 
 
+def uuid_generator():
+    return token_urlsafe(8).replace("-", "x")
+
+
 def gregorian_to_jalali(time):
     return jdt.fromgregorian(date=localtime(time)).strftime("%Y-%m-%d %H:%M:%S")
+
+
+def model_change_url_to_html(app, model, args, placeholder):
+    url = reverse(f"admin:{app}_{model}_change", args=args)
+    return format_html('<a href="{}">{}</a>', url, placeholder)
 
 
 def model_changelist_url_to_html(app, model, query_key, query_val, placeholder):
