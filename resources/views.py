@@ -2,7 +2,7 @@ from rest_framework.viewsets import ReadOnlyModelViewSet
 
 from resources.models import Resource
 from resources.filters import ResourceFilterSet
-from resources.serializers import ResourceSerializer
+from resources.serializers import ResourceDetailSerializer
 
 
 class ResourceViewSet(ReadOnlyModelViewSet):
@@ -14,6 +14,6 @@ class ResourceViewSet(ReadOnlyModelViewSet):
             "classroom__professors__department",
         )
     lookup_field = "uuid"
-    serializer_class = ResourceSerializer
+    serializer_class = ResourceDetailSerializer
     filterset_class = ResourceFilterSet
     search_fields = ("title", "classroom__course__title",)

@@ -27,11 +27,11 @@ class CourseInlineAdmin(nested_admin.NestedTabularInline):
 class ReferenceAdmin(BaseAdminMixin, nested_admin.NestedModelAdmin):
     inlines = (CourseInlineAdmin, LinkNestedInlineAdmin,)
     list_per_page = 25
-    list_display = ("uuid", "cover_image_", "title", "authors_count",
+    list_display = ("uuid", "cover_image_", "title", "type", "collector", "authors_count",
                     "courses_count", "modified_time_", "created_time_",)
     readonly_fields = ("preview",)
-    list_filter = ("modified_time", "created_time", "courses__id",)
-    search_fields = ("uuid", "title", "authors__full_name",)
+    list_filter = ("modified_time", "created_time", "type", "courses__id",)
+    search_fields = ("uuid", "title", "collector", "authors__full_name",)
 
     @admin.display(description=_("Cover Image Preview"))
     def preview(self, instance: Reference):

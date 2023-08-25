@@ -14,21 +14,20 @@ class Course(BaseModel):
         BASIC = 3, _("Basic")
         GENERAL = 4, _("General")
     
-    UNIT_CHOICES = ((u, _(str(u))) for u in range(1, settings.MAX_COURSE_UNIT+1))
+    UNITS_CHOICES = ((u, _(str(u))) for u in range(1, settings.MAX_COURSE_UNIT+1))
 
     title = models.CharField(
         verbose_name=_("Title"),
         max_length=127,
-        blank=True,
     )
     en_title = models.CharField(
         verbose_name=_("Title in English"),
         max_length=127,
-        blank=True,
+        null=True,
     )
-    unit = models.PositiveSmallIntegerField(
-        verbose_name=_("Unit"),
-        choices=UNIT_CHOICES,
+    units = models.PositiveSmallIntegerField(
+        verbose_name=_("Units"),
+        choices=UNITS_CHOICES,
     )
     type = models.PositiveSmallIntegerField(
         verbose_name=_("Type"),
@@ -37,16 +36,16 @@ class Course(BaseModel):
     tag = models.CharField(
         verbose_name=_("Tag"),
         max_length=127,
-        blank=True,
+        null=True,
     )
     known_as = models.CharField(
         verbose_name=_("Known As"),
         max_length=127,
-        blank=True,
+        null=True,
     )
     description = models.TextField(
         verbose_name=_("Description"),
-        blank=True,
+        null=True,
         default="",
     )
     

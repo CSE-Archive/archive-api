@@ -1,7 +1,7 @@
 from rest_framework.viewsets import ReadOnlyModelViewSet
 
 from classrooms.models import Classroom
-from classrooms.serializers import ClassroomListSerializer, ClassroomSerializer
+from classrooms.serializers import ClassroomListSerializer, ClassroomDetailSerializer
 
 
 class ClassroomViewSet(ReadOnlyModelViewSet):
@@ -21,5 +21,5 @@ class ClassroomViewSet(ReadOnlyModelViewSet):
 
     def get_serializer_class(self):
         if self.action == "retrieve":
-            return ClassroomSerializer
+            return ClassroomDetailSerializer
         return ClassroomListSerializer

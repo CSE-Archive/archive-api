@@ -12,12 +12,12 @@ class Department(models.Model):
     name = models.CharField(
         verbose_name=_("Name"),
         max_length=63,
-        blank=True,
+        null=True,
     )
     name_en = models.CharField(
         verbose_name=_("Name in English"),
         max_length=63,
-        blank=True,
+        null=True,
     )
 
     objects = DepartmentManager()
@@ -35,17 +35,17 @@ class Professor(BaseModel):
     first_name = models.CharField(
         verbose_name=_("First Name"),
         max_length=63,
-        blank=True,
+        null=True,
     )
     last_name = models.CharField(
         verbose_name=_("Last Name"),
         max_length=63,
-        blank=True,
+        null=True,
     )
     honorific = models.CharField(
         verbose_name=_("Honorific"),
         max_length=31,
-        blank=True,
+        null=True,
     )
     department = models.ForeignKey(
         Department,
@@ -55,19 +55,18 @@ class Professor(BaseModel):
     )
     about = models.TextField(
         verbose_name=_("About"),
-        blank=True,
+        null=True,
         default="",
     )
     tag = models.CharField(
         verbose_name=_("Tag"),
         max_length=127,
-        blank=True,
+        null=True,
     )
     image = models.ImageField(
         verbose_name=_("Image"),
         upload_to="images/professors/",
         null=True,
-        blank=True,
         validators=[MaxImageSizeValidator(1)],
     )
     has_detail = models.BooleanField(

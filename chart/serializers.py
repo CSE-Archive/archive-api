@@ -8,7 +8,7 @@ from courses.serializers import RequisiteFromSerializer, RequisiteToSerializer
 class ChartNodeCourseSerializer(serializers.ModelSerializer):
     class Meta:
         model = Course
-        fields = ("uuid", "title", "en_title", "unit", "type",
+        fields = ("uuid", "title", "en_title", "units", "type",
                   "co_requisites", "pre_requisites", "requisite_for",)
     
     co_requisites = RequisiteFromSerializer(many=True)
@@ -19,6 +19,6 @@ class ChartNodeCourseSerializer(serializers.ModelSerializer):
 class ChartNodeSerializer(serializers.ModelSerializer):
     class Meta:
         model = ChartNode
-        fields = ("semester", "column", "course", "type", "unit",)
+        fields = ("semester", "column", "course", "type", "units",)
 
     course = ChartNodeCourseSerializer()

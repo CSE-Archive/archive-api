@@ -20,7 +20,7 @@ class CourseViewSet(ReadOnlyModelViewSet):
             "classrooms__tas",
         )
     lookup_field = "uuid"
-    filterset_fields = ("type", "unit",)
+    filterset_fields = ("type", "units",)
     search_fields = ("title", "en_title", "description", "tag",)
 
     def get_queryset(self):

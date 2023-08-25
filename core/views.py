@@ -1,3 +1,4 @@
+from django.http import QueryDict
 from rest_framework.views import APIView
 from rest_framework.response import Response
 
@@ -9,17 +10,27 @@ from recordings.views import RecordedClassroomViewSet
 
 
 class MultilpeView(APIView):
+    default_pagination_params = []
     viewset_classes = []
 
     def get(self, request):
+        request._request.GET._mutable = True
+        for param in self.default_pagination_params:
+            request._request.GET[param[0]] = param[1]
+        request._request.GET._mutable = False
+
         data = {
-            viewset_data["name"]: viewset_data["viewset"].as_view({"get": "list"})(request._request).data
+            viewset_data["name"]: viewset_data["viewset"].as_view({"get": "list"})(request._request).data.get("results")
             for viewset_data in self.viewset_classes
         }
         return Response(data)
 
 
 class HomeView(MultilpeView):
+    default_pagination_params = [
+        ("limit", "10"),
+        ("offset", "0"),
+    ]
     viewset_classes = [
         {"name": "resources", "viewset": ResourceViewSet},
         {"name": "references", "viewset": ReferenceViewSet},
@@ -28,6 +39,10 @@ class HomeView(MultilpeView):
 
 
 class SearchView(MultilpeView):
+    default_pagination_params = [
+        ("limit", "10"),
+        ("offset", "0"),
+    ]
     viewset_classes = [
         {"name": "courses", "viewset": CourseViewSet},
         {"name": "resources", "viewset": ResourceViewSet},

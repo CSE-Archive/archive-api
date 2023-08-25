@@ -1,2522 +1,2971 @@
-[
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Peter Wentworth"
+[{
+        "model": "references.author",
+        "fields": {
+            "full_name": "Peter Wentworth"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Jeffrey Elkner"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Allen B. Downey"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Chris Meyers"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "gmMZtlxBJe4",
+            "title": "How to Think Like a Computer Scientist: Learning with Python 3 Documentation (Release 3rd Edition)",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["Peter Wentworth"],
+                ["Jeffrey Elkner"],
+                ["Allen B. Downey"],
+                ["Chris Meyers"]
+            ],
+            "collector": null,
+            "courses": [
+                ["4VORB34qsNM"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/3",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 1
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "t9699sfSHs8",
+            "title": "اسلایدهای ساختمان گسسته",
+            "type": 3,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [],
+            "collector": "دکتر عظیمی‌فر",
+            "courses": [
+                ["dStKfTC0Lek"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/9",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 2
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Brian W. Kernighan"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Dennis M. Ritchie"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "pDi8Qs3c6zc",
+            "title": "The C programming Language",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["Brian W. Kernighan"],
+                ["Dennis M. Ritchie"]
+            ],
+            "collector": null,
+            "courses": [
+                ["W6i960Wc8Hc"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/17",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 3
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "M. Morris Mano"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Michael D. Ciletti"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "liFeCSWJ_UE",
+            "title": "Digital Design With an Introduction to the Verilog HDL (FIFTH EDITION)",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["M. Morris Mano"],
+                ["Michael D. Ciletti"]
+            ],
+            "collector": null,
+            "courses": [
+                ["T6_qqhgjD4Y"]
+            ],
+            "related_references": [
+                ["DpV29x7x55E"]
+            ],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/19",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 4
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "DpV29x7x55E",
+            "title": "طراحی دیجیتال (مدار منطقی) - ویرایش سوم",
+            "type": 1,
+            "notes": "مترجم: قدرت سپیدنام",
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["M. Morris Mano"]
+            ],
+            "collector": null,
+            "courses": [
+                ["T6_qqhgjD4Y"]
+            ],
+            "related_references": [
+                ["liFeCSWJ_UE"]
+            ],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/20",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 5
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Stephen Brown"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Zvonko Vranesic"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "xpETguloOSs",
+            "title": "Fundamentals of Digital Logic with Verilog Design (THIRD EDITION)",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["Stephen Brown"],
+                ["Zvonko Vranesic"]
+            ],
+            "collector": null,
+            "courses": [
+                ["T6_qqhgjD4Y"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/50",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 6
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Kip R. Irvine"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "snbN5OCJOh0",
+            "title": "Assembly Language for x86 Processors (Eighth Edition)",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["Kip R. Irvine"]
+            ],
+            "collector": null,
+            "courses": [
+                ["xvI1oQknNjQ"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/68",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 7
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Daniel Kusswurm"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "rcEAuaRonQ8",
+            "title": "Modern X86 Assembly Language Programming: Covers x86 64-bit, AVX, AVX2, and AVX-512 (Second Edition)",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["Daniel Kusswurm"]
+            ],
+            "collector": null,
+            "courses": [
+                ["xvI1oQknNjQ"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/69",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 8
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Richard C. Detmer"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "Jgsjip9pEPg",
+            "title": "Introduction to 80x86 Assembly Language and Computer Architecture",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["Richard C. Detmer"]
+            ],
+            "collector": null,
+            "courses": [
+                ["xvI1oQknNjQ"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/70",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 9
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "S5WVQRCjx24",
+            "title": "اسلایدهای آزمایشگاه کامپیوتر",
+            "type": 3,
+            "notes": "نیمسال دوم ۱۳۹۹",
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [],
+            "collector": null,
+            "courses": [
+                ["RDUT0ml8TNI"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/79",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 10
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Jaan Kiusalaas"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "7JEY60GZRP8",
+            "title": "Numerical Methods in Engineering with Python3 (3th Edition)",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["Jaan Kiusalaas"]
+            ],
+            "collector": null,
+            "courses": [
+                ["K4i5sd6uRfo"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/80",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 11
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Peter Linz"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "h7VPRmDjv9I",
+            "title": "An Introduction to Formal Languages and Automata (6th Edition)",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["Peter Linz"]
+            ],
+            "collector": null,
+            "courses": [
+                ["Vwpb6nAl6_E"]
+            ],
+            "related_references": [
+                ["hrODR31qY_s"]
+            ],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/82",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 12
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "hrODR31qY_s",
+            "title": "سولوشن An Introduction to Formal Languages and Automata (6th Edition)",
+            "type": 2,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [],
+            "collector": null,
+            "courses": [
+                ["Vwpb6nAl6_E"]
+            ],
+            "related_references": [
+                ["h7VPRmDjv9I"]
+            ],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/83",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 13
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Erwin Kreyszig"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "y6bDkv8nREA",
+            "title": "Advanced Engineering Mathematics (10th Edition)",
+            "type": 1,
+            "notes": "(In collaboration with Herbert Kreyszig & Edward J. Norminton)",
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["Erwin Kreyszig"]
+            ],
+            "collector": null,
+            "courses": [
+                ["6oWhsMz3O9Q"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/86",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 14
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "دکتر عبداله شیدفر"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "pR5yK_0gquA",
+            "title": "ریاضیات مهندسی",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["دکتر عبداله شیدفر"]
+            ],
+            "collector": null,
+            "courses": [
+                ["6oWhsMz3O9Q"]
+            ],
+            "related_references": [
+                ["VQLhEBUza0Q"]
+            ],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/87",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 15
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "VQLhEBUza0Q",
+            "title": "سولوشن ریاضیات مهندسی",
+            "type": 2,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [],
+            "collector": null,
+            "courses": [
+                ["6oWhsMz3O9Q"]
+            ],
+            "related_references": [
+                ["pR5yK_0gquA"]
+            ],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/88",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 16
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Bruce Eckel"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "VmPd5NmavqI",
+            "title": "Thinking in Java (Fourth Edition)",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["Bruce Eckel"]
+            ],
+            "collector": null,
+            "courses": [
+                ["J2OBo93uAYw"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/89",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 17
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "_Yixt1DT1e4",
+            "title": "اسلایدهای مدارهای منطقی",
+            "type": 3,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [],
+            "collector": "دکتر خونجوش",
+            "courses": [
+                ["T6_qqhgjD4Y"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/102",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 18
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "hE8j73Igsuw",
+            "title": "اسلایدهای زبان ماشین و برنامه‌سازی سیستم",
+            "type": 3,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [],
+            "collector": "مهندس خادم حسینی",
+            "courses": [
+                ["xvI1oQknNjQ"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/103",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 19
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "ZaS4kOh73hU",
+            "title": "جزوه‌های مبانی کامپیوتر و برنامه نویسی",
+            "type": 4,
+            "notes": "دكتر صدرالدینی",
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [],
+            "collector": null,
+            "courses": [
+                ["4VORB34qsNM"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/120",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 20
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Sivarama Dandamudi"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "Gl3MfWXGfh4",
+            "title": "Introduction to Assembly Language Programming",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [],
+            "collector": null,
+            "courses": [
+                ["xvI1oQknNjQ"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/166",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 21
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://github.com/ar-ekt/Dandamudi-Assembly-Solutions",
+            "title": "ریپازیتوری گیتهاب پاسخ تمرین‌های برنامه‌نویسی کتاب",
+            "linked_type": ["references", "reference"],
+            "linked_id": 21
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Alfred V. Ah"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Monica S. Lam"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Ravi Sethi"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Jeffrey Ullman"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "niSd6TpdNqo",
+            "title": "Compilers: Principles, Techniques, and Tools (Second Edition)",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["Alfred V. Ah"],
+                ["Monica S. Lam"],
+                ["Ravi Sethi"],
+                ["Jeffrey Ullman"]
+            ],
+            "collector": null,
+            "courses": [
+                ["pZhhlaoBIq4"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/172",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 22
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://github.com/fool2fish/dragon-book-exercise-answers",
+            "title": "ریپازیتوری گیتهاب پاسخ تمرین‌های کتاب",
+            "linked_type": ["references", "reference"],
+            "linked_id": 22
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Antti Laaksonen"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "Q5YqAcR54_Q",
+            "title": "Competitive Programmer’s Handbook",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["Antti Laaksonen"]
+            ],
+            "collector": null,
+            "courses": [
+                ["p9fA5eN0uQc"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/252",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 23
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Steven Halim"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Felix Halim"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "qC3dHkBa5KU",
+            "title": "Competitive Programming 3 (The New Lower Bound of Programming Contests.)",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["Steven Halim"],
+                ["Felix Halim"]
+            ],
+            "collector": null,
+            "courses": [
+                ["p9fA5eN0uQc"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/253",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 24
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Todd Young"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Martin J. Mohlenkamp"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "MFDvdIcsTeU",
+            "title": "Introduction to Numerical Methods and Matlab Programming for Engineers",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["Todd Young"],
+                ["Martin J. Mohlenkamp"]
+            ],
+            "collector": null,
+            "courses": [
+                ["K4i5sd6uRfo"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/260",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 25
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "J. A. Bondy"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "U. S. R. Murty"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "Pq6BYVPFy0c",
+            "title": "Graph Theory With Applications",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["J. A. Bondy"],
+                ["U. S. R. Murty"]
+            ],
+            "collector": null,
+            "courses": [
+                ["r9J2fMvdpWE"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/264",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 26
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Kenneth H. Rosen"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "xZ9BYl86VXs",
+            "title": "Discrete Mathematics and Its Applications (Eighth Edition)",
+            "type": 1,
+            "notes": "همراه با پاسخ سوالات زوج",
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["Kenneth H. Rosen"]
+            ],
+            "collector": null,
+            "courses": [
+                ["dStKfTC0Lek"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/266",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 27
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "A. Silberschatz"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "H. Korth"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "S. Sudarshan"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "_AT3bZc9MMU",
+            "title": "Database System Concepts, 7th Edition",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["A. Silberschatz"],
+                ["H. Korth"],
+                ["S. Sudarshan"]
+            ],
+            "collector": null,
+            "courses": [
+                ["Tk8m_z6Q6RE"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/268",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 28
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "xRIK50l5YVY",
+            "title": "اسلایدهای اصول طراحی پایگاه داده‌ها",
+            "type": 3,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [],
+            "collector": "دکتر صدرالدینی",
+            "courses": [
+                ["Tk8m_z6Q6RE"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/269",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 29
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Stuart J. Russell"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Peter Norvig"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "Zm7nM9LHCCc",
+            "title": "Artificial Intelligence, A Modern Approach, Third Edition",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["Stuart J. Russell"],
+                ["Peter Norvig"]
+            ],
+            "collector": null,
+            "courses": [
+                ["xWX9cNBTpec"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/272",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 30
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "David Murray"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "GAbgyVP99us",
+            "title": "An Introduction to Artificial Intelligence",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["David Murray"]
+            ],
+            "collector": null,
+            "courses": [
+                ["xWX9cNBTpec"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/273",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 31
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Ivan Bratko"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "1jCtmRMtQ40",
+            "title": "Prolog Programming For Artificial Intelligence",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["Ivan Bratko"]
+            ],
+            "collector": null,
+            "courses": [
+                ["xWX9cNBTpec"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/274",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 32
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "jsBDl472l3k",
+            "title": "اسلایدهای هوش مصنوعی",
+            "type": 3,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [],
+            "collector": "دکتر صدرالدینی",
+            "courses": [
+                ["xWX9cNBTpec"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/275",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 33
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Fred Halsall"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "nzStXODcr4g",
+            "title": "Data Communications, Computer Networks, and Open Systems",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["Fred Halsall"]
+            ],
+            "collector": null,
+            "courses": [
+                ["VvjskcG8dP8"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/277",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 34
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Thomas H. Cormen"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Charles E. Leiserson"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Ronald L. Rivest"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Clifford Stein"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "kUcME515RJk",
+            "title": "Introduction to Algorithms, Fourth Edition",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["Thomas H. Cormen"],
+                ["Charles E. Leiserson"],
+                ["Ronald L. Rivest"],
+                ["Clifford Stein"]
+            ],
+            "collector": null,
+            "courses": [
+                ["h6NQLbJdcwY"],
+                ["NgnGtKaJ6AM"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/278",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 35
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "ibyIfuxqHXY",
+            "title": "اسلایدهای اصول طراحی پایگاه داده‌ها",
+            "type": 3,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [],
+            "collector": "دکتر فخراحمد",
+            "courses": [
+                ["Tk8m_z6Q6RE"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/279",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 36
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Robert W. Sebesta"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "xpbpqZGf8Z8",
+            "title": "Concepts of Programming Languages, ELEVENTH edition",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["Robert W. Sebesta"]
+            ],
+            "collector": null,
+            "courses": [
+                ["jtlM0AtLEA0"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/280",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 37
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "s_vv0dlHXJ4",
+            "title": "اسلایدهای طراحی و پیاده‌سازی زبان‌های برنامه‌سازی",
+            "type": 3,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [],
+            "collector": "دکتر کشتکاران",
+            "courses": [
+                ["jtlM0AtLEA0"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/281",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 38
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "aXmqg0_zpiY",
+            "title": "اسلایدهای اصول طراحی کامپایلرها",
+            "type": 3,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [],
+            "collector": "دکتر منصوری",
+            "courses": [
+                ["pZhhlaoBIq4"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/283",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 39
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "J.F. Kurose"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "K.W. Ross"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "Vr4Rc27mL1g",
+            "title": "Computer Networking: A Top-Down Approach, 6th Edition",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["J.F. Kurose"],
+                ["K.W. Ross"]
+            ],
+            "collector": null,
+            "courses": [
+                ["jJWLm734jtQ"]
+            ],
+            "related_references": [
+                ["4kyaXhH61w4"]
+            ],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/284",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 40
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "4kyaXhH61w4",
+            "title": "سولوشن Computer Networking: A Top-Down Approach, 6th Edition",
+            "type": 2,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [],
+            "collector": null,
+            "courses": [
+                ["jJWLm734jtQ"]
+            ],
+            "related_references": [
+                ["Vr4Rc27mL1g"]
+            ],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/285",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 41
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Abraham Silberschatz"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Greg Gagne"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Peter B. Galvin"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "OOWiwt7ToYM",
+            "title": "Operating System Concepts, 10th Edition",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["Abraham Silberschatz"],
+                ["Greg Gagne"],
+                ["Peter B. Galvin"]
+            ],
+            "collector": null,
+            "courses": [
+                ["vXh5qgjgJEE"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/289",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 42
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "yIlJxS5dYcQ",
+            "title": "اسلایدهای اصول طراحی سیستم‌های عامل",
+            "type": 3,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [],
+            "collector": "دکتر فخراحمد",
+            "courses": [
+                ["vXh5qgjgJEE"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/290",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 43
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Richard L. Burden"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "J. Douglas Faires"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Annette M. Burden"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "NxxclEtwRDU",
+            "title": "Numerical Analysis, 10th Edition",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["Richard L. Burden"],
+                ["J. Douglas Faires"],
+                ["Annette M. Burden"]
+            ],
+            "collector": null,
+            "courses": [
+                ["K4i5sd6uRfo"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/291",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 44
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "BVg_BYn4JJ8",
+            "title": "اسلایدهای نظریه زبان‌ها و ماشین",
+            "type": 3,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [],
+            "collector": "دکتر منصوری",
+            "courses": [
+                ["Vwpb6nAl6_E"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/292",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 45
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "aJA5BVffQx4",
+            "title": "اسلایدهای انتقال داده‌ها",
+            "type": 3,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [],
+            "collector": "دکتر منصوری",
+            "courses": [
+                ["VvjskcG8dP8"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/370",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 46
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "David A Patterson"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "John L. Hennessy"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "0P2_d0tjzoA",
+            "title": "Computer Organization and Design: the Hardware/Software Interface (Sixth Edition)",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["David A Patterson"],
+                ["John L. Hennessy"]
+            ],
+            "collector": null,
+            "courses": [
+                ["edjlkIEU3m0"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/380",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 47
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "دکتر سید علی میرعشقی"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "q_xjwwZocfE",
+            "title": "مبانی الکترونیک - جلد اول (ویرایش دوم)",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["دکتر سید علی میرعشقی"]
+            ],
+            "collector": null,
+            "courses": [
+                ["L2NaV4j2eNU"]
+            ],
+            "related_references": [
+                ["wrKeNyk1XJg"]
+            ],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/388",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 48
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "wrKeNyk1XJg",
+            "title": "سولوشن مبانی الکترونیک - جلد اول (ویرایش دوم)",
+            "type": 2,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [],
+            "collector": null,
+            "courses": [
+                ["L2NaV4j2eNU"]
+            ],
+            "related_references": [
+                ["q_xjwwZocfE"]
+            ],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/389",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 49
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "4dTxcKBUnCU",
+            "title": "جزوه نظریه زبان‌ها و ماشین",
+            "type": 4,
+            "notes": "دکتر تحیری (نیمسال دوم ۱۳۹۳)",
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [],
+            "collector": "فاطمه رحیمی",
+            "courses": [
+                ["Vwpb6nAl6_E"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/395",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 50
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "5Cu2QXdCdKc",
+            "title": "جزوه نظریه زبان‌ها و ماشین",
+            "type": 4,
+            "notes": "دکتر تحیری (نیمسال دوم ۱۴۰۰)",
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [],
+            "collector": "فرشته برادران",
+            "courses": [
+                ["Vwpb6nAl6_E"]
+            ],
+            "related_references": [
+                ["shjGS_dLTWE"]
+            ],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/432",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 51
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "shjGS_dLTWE",
+            "title": "خلاصه دکتر تحیری (نیمسال دوم ۱۴۰۰)",
+            "type": 4,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [],
+            "collector": "فرشته برادران",
+            "courses": [
+                ["Vwpb6nAl6_E"]
+            ],
+            "related_references": [
+                ["5Cu2QXdCdKc"]
+            ],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/433",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 52
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Paul Ammann"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Jeff Offutt"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "5Ty7jBm5gzA",
+            "title": "Introduction to Software Testing - 2nd Edition",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["Paul Ammann"],
+                ["Jeff Offutt"]
+            ],
+            "collector": null,
+            "courses": [
+                ["HAvdbvoK_m4"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/447",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 53
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "William Stallings"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "8ErIZe6_oQw",
+            "title": "Operating Systems: Internals and Design Principles - Ninth Edition",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["William Stallings"]
+            ],
+            "collector": null,
+            "courses": [
+                ["vXh5qgjgJEE"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/482",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 54
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Christopher J. Date"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "decXFs3aN6I",
+            "title": "An Introduction to Database Systems - Eight Edition",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["Christopher J. Date"]
+            ],
+            "collector": null,
+            "courses": [
+                ["Tk8m_z6Q6RE"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/484",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 55
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "John Cheng"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Max Grossman"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Ty McKercher"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "hxG3k7itC24",
+            "title": "Professional CUDA C Programming",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["John Cheng"],
+                ["Max Grossman"],
+                ["Ty McKercher"]
+            ],
+            "collector": null,
+            "courses": [
+                ["D0k7Bd9fIcY"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/501",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 56
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Kay A. Robbins"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Steven Robbins"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "4mS_yQhAQ20",
+            "title": "Unix Systems Programming: Communication, Concurrency, and Threads",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["Kay A. Robbins"],
+                ["Steven Robbins"]
+            ],
+            "collector": null,
+            "courses": [
+                ["D0k7Bd9fIcY"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/502",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 57
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "DGtaboV7C9g",
+            "title": "اسلایدهای برنامه‌نویسی پردازنده‌های گرافیکی",
+            "type": 3,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [],
+            "collector": "دکتر خونجوش",
+            "courses": [
+                ["D0k7Bd9fIcY"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/503",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 58
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "dgnUa4Davug",
+            "title": "اسلایدهای تحلیل و طراحی سیستم‌ها",
+            "type": 3,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [],
+            "collector": "دکتر فخراحمد",
+            "courses": [
+                ["ueVVW6jH0oI"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/504",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 59
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "du1IGZdnjYU",
+            "title": "اسلایدهای معماری کامپیوتر",
+            "type": 3,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [],
+            "collector": "دکتر خونجوش",
+            "courses": [
+                ["edjlkIEU3m0"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/505",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 60
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "uXpRZOtRKd0",
+            "title": "جزوه و اسلایدهای طراحی و تحلیل الگوریتم‌ها",
+            "type": 3,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [],
+            "collector": "دکتر عظیمی‌فر",
+            "courses": [
+                ["NgnGtKaJ6AM"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/506",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 61
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "Lw7NERg_xxs",
+            "title": "اسلایدهای آز ریزپردازنده",
+            "type": 3,
+            "notes": "نیمسال اول ۱۴۰۰",
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [],
+            "collector": null,
+            "courses": [
+                ["5wePzHh6NCc"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/513",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 62
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "محمد قدسی"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "lydTxxvLpwg",
+            "title": "داده ساختارها و مبانی الگوریتم‌ها",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["محمد قدسی"]
+            ],
+            "collector": null,
+            "courses": [
+                ["h6NQLbJdcwY"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/537",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 63
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "uJ757qmLRJo",
+            "title": "اسلایدهای طراحی کامپیوتری سیستم‌های دیجیتال",
+            "type": 3,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [],
+            "collector": "دکتر راجی",
+            "courses": [
+                ["KM3Sgnpyha0"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/538",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 64
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "William Hayt"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Jack Kemmerly"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Steven Durbin"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "VIl4htZ6s3s",
+            "title": "Engineering Circuit Analysis, 8th Edition",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["William Hayt"],
+                ["Jack Kemmerly"],
+                ["Steven Durbin"]
+            ],
+            "collector": null,
+            "courses": [
+                ["xEvVbt5U1jQ"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/549",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 65
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "zdQs2mro9YY",
+            "title": "اسلایدهای آزمایشگاه شبکه‌های کامپیوتری",
+            "type": 3,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [],
+            "collector": "خانم کریمی",
+            "courses": [
+                ["oZxiY5GoaYI"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/560",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 66
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Alan V. Oppenheim"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Alan S. Willsky"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "S. Hamid Nawab "
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "3wY9TAb4HDU",
+            "title": "Signals and Systems - Second Edition",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["Alan V. Oppenheim"],
+                ["Alan S. Willsky"],
+                ["S. Hamid Nawab "]
+            ],
+            "collector": null,
+            "courses": [
+                ["krcBL7VfJGo"]
+            ],
+            "related_references": [
+                ["FHp_WxkWruU"],
+                ["_csWsHdUSdY"]
+            ],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/569",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 67
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "FHp_WxkWruU",
+            "title": "سولوشن Signals and Systems - Second Edition",
+            "type": 2,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [],
+            "collector": null,
+            "courses": [
+                ["krcBL7VfJGo"]
+            ],
+            "related_references": [
+                ["3wY9TAb4HDU"],
+                ["_csWsHdUSdY"]
+            ],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/570",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 68
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "_csWsHdUSdY",
+            "title": "سولوشن فارسی Signals and Systems - Second Edition",
+            "type": 2,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [],
+            "collector": null,
+            "courses": [
+                ["krcBL7VfJGo"]
+            ],
+            "related_references": [
+                ["3wY9TAb4HDU"],
+                ["FHp_WxkWruU"]
+            ],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/571",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 69
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "hLD2t0LPE9s",
+            "title": "اسلایدها و نمونه‌کدهای آز ریزپردازنده",
+            "type": 3,
+            "notes": "نیمسال اول ۱۴۰۱",
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [],
+            "collector": null,
+            "courses": [
+                ["5wePzHh6NCc"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/612",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 70
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "ilE1TFYn7r0",
+            "title": "اسلایدهای ریزپردازنده",
+            "type": 3,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [],
+            "collector": "دکتر راجی",
+            "courses": [
+                ["UG2kETI8x5k"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/637",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 71
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "1Mxm2fe_VB8",
+            "title": "اسلایدهای مبانی تحقیق در عملیات",
+            "type": 3,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [],
+            "collector": "دکتر زیارتی",
+            "courses": [
+                ["Djprdbr31os"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/638",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 72
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "lwBgLagXUt0",
+            "title": "اسلایدهای هوش مصنوعی",
+            "type": 3,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [],
+            "collector": "دکتر عظیمی‌فر",
+            "courses": [
+                ["xWX9cNBTpec"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/642",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 73
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Efraim Turban"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Jon Outland"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "David King"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Jae Kyu Lee"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Ting-Peng Liang"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Deborrah C.Turban"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "9dwie23CBGA",
+            "title": "Electronic Commerce 2018: A Managerial and Social Networks Perspective - Ninth Edition",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["Efraim Turban"],
+                ["Jon Outland"],
+                ["David King"],
+                ["Jae Kyu Lee"],
+                ["Ting-Peng Liang"],
+                ["Deborrah C.Turban"]
+            ],
+            "collector": null,
+            "courses": [
+                ["YHpOGt8aH0g"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/643",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 74
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Hamdy A. Taha"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "9leyaDJJ23g",
+            "title": "Operations Research An Introduction - Tenth Edition",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["Hamdy A. Taha"]
+            ],
+            "collector": null,
+            "courses": [
+                ["Djprdbr31os"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/644",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 75
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Stephen P. Bradley"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Arnoldo C. Hax"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Thomas L. Magnanti"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "_k0rKd8P0GU",
+            "title": "Applied Mathematical Programming",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["Stephen P. Bradley"],
+                ["Arnoldo C. Hax"],
+                ["Thomas L. Magnanti"]
+            ],
+            "collector": null,
+            "courses": [
+                ["Djprdbr31os"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/646",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 76
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Frederick S. Hillier"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Gerald J. Lieberman"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "di8Y7PXWtVs",
+            "title": "Introduction to Operations Research - Ninth Edition",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["Frederick S. Hillier"],
+                ["Gerald J. Lieberman"]
+            ],
+            "collector": null,
+            "courses": [
+                ["Djprdbr31os"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/647",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 77
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Mokhtar S. Bazaraa"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "John J. Jarvis"
+        }
+    },
+    {
+        "model": "references.author",
+        "fields": {
+            "full_name": "Hanif D. Sherali"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "pmbphAp6v7Q",
+            "title": "Linear Programming and Network Flows - Fourth Edition",
+            "type": 1,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [
+                ["Mokhtar S. Bazaraa"],
+                ["John J. Jarvis"],
+                ["Hanif D. Sherali"]
+            ],
+            "collector": null,
+            "courses": [
+                ["Djprdbr31os"]
+            ],
+            "related_references": [
+                ["qmEY5YDmTR8"]
+            ],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/648",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 78
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "qmEY5YDmTR8",
+            "title": "سولوشن ۶ فصل اول Linear Programming and Network Flows - Fourth Edition",
+            "type": 2,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [],
+            "collector": null,
+            "courses": [
+                ["Djprdbr31os"]
+            ],
+            "related_references": [
+                ["pmbphAp6v7Q"]
+            ],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/649",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 79
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "RzFiSdyc2BU",
+            "title": "اسلایدهای مبانی کامپیوتر و برنامه‌نویسی",
+            "type": 3,
+            "notes": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [],
+            "collector": "دکتر توحیدی",
+            "courses": [
+                ["4VORB34qsNM"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/650",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 80
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "yH7X1Fi7YqI",
+            "title": "جزوه ریزپردازنده",
+            "type": 4,
+            "notes": "دکتر راجی",
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "authors": [],
+            "collector": null,
+            "courses": [
+                ["UG2kETI8x5k"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/651",
+            "title": "پیام تلگرام",
+            "linked_type": ["references", "reference"],
+            "linked_id": 81
+        }
     }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Jeffrey Elkner"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Allen B. Downey"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Chris Meyers"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "gmMZtlxBJe4",
-      "title": "How to Think Like a Computer Scientist: Learning with Python 3 Documentation (Release 3rd Edition)",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [
-        ["Peter Wentworth"],
-        ["Jeffrey Elkner"],
-        ["Allen B. Downey"],
-        ["Chris Meyers"]
-      ],
-      "courses": [["4VORB34qsNM"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/3",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 1
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "t9699sfSHs8",
-      "title": "اسلایدهای دکتر عظیمی‌فر",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [],
-      "courses": [["dStKfTC0Lek"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/9",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 2
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Brian W. Kernighan"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Dennis M. Ritchie"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "pDi8Qs3c6zc",
-      "title": "The C programming Language",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [["Brian W. Kernighan"], ["Dennis M. Ritchie"]],
-      "courses": [["W6i960Wc8Hc"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/17",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 3
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "M. Morris Mano"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Michael D. Ciletti"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "liFeCSWJ_UE",
-      "title": "Digital Design With an Introduction to the Verilog HDL (FIFTH EDITION)",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [["M. Morris Mano"], ["Michael D. Ciletti"]],
-      "courses": [["T6_qqhgjD4Y"]],
-      "related_references": [["DpV29x7x55E"]],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/19",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 4
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "DpV29x7x55E",
-      "title": "طراحی دیجیتال (مدار منطقی) - ویرایش سوم",
-      "notes": "مترجم: قدرت سپیدنام",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [["M. Morris Mano"]],
-      "courses": [["T6_qqhgjD4Y"]],
-      "related_references": [["liFeCSWJ_UE"]],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/20",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 5
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Stephen Brown"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Zvonko Vranesic"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "xpETguloOSs",
-      "title": "Fundamentals of Digital Logic with Verilog Design (THIRD EDITION)",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [["Stephen Brown"], ["Zvonko Vranesic"]],
-      "courses": [["T6_qqhgjD4Y"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/50",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 6
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Kip R. Irvine"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "snbN5OCJOh0",
-      "title": "Assembly Language for x86 Processors (Eighth Edition)",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [["Kip R. Irvine"]],
-      "courses": [["xvI1oQknNjQ"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/68",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 7
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Daniel Kusswurm"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "rcEAuaRonQ8",
-      "title": "Modern X86 Assembly Language Programming: Covers x86 64-bit, AVX, AVX2, and AVX-512 (Second Edition)",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [["Daniel Kusswurm"]],
-      "courses": [["xvI1oQknNjQ"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/69",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 8
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Richard C. Detmer"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "Jgsjip9pEPg",
-      "title": "Introduction to 80x86 Assembly Language and Computer Architecture",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [["Richard C. Detmer"]],
-      "courses": [["xvI1oQknNjQ"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/70",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 9
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "S5WVQRCjx24",
-      "title": "اسلایدهای نیمسال دوم ۱۳۹۹",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [],
-      "courses": [["RDUT0ml8TNI"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/79",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 10
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Jaan Kiusalaas"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "7JEY60GZRP8",
-      "title": "Numerical Methods in Engineering with Python3 (3th Edition)",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [["Jaan Kiusalaas"]],
-      "courses": [["K4i5sd6uRfo"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/80",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 11
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Peter Linz"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "h7VPRmDjv9I",
-      "title": "An Introduction to Formal Languages and Automata (6th Edition)",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [["Peter Linz"]],
-      "courses": [["Vwpb6nAl6_E"]],
-      "related_references": [["hrODR31qY_s"]],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/82",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 12
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "hrODR31qY_s",
-      "title": "An Introduction to Formal Languages and Automata (6th Edition)",
-      "notes": "سولوشن کتاب",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [],
-      "courses": [["Vwpb6nAl6_E"]],
-      "related_references": [["h7VPRmDjv9I"]],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/83",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 13
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Erwin Kreyszig"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "y6bDkv8nREA",
-      "title": "Advanced Engineering Mathematics (10th Edition)",
-      "notes": "(In collaboration with Herbert Kreyszig & Edward J. Norminton)",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [["Erwin Kreyszig"]],
-      "courses": [["6oWhsMz3O9Q"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/86",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 14
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "دکتر عبداله شیدفر"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "pR5yK_0gquA",
-      "title": "ریاضیات مهندسی",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [["دکتر عبداله شیدفر"]],
-      "courses": [["6oWhsMz3O9Q"]],
-      "related_references": [["VQLhEBUza0Q"]],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/87",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 15
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "VQLhEBUza0Q",
-      "title": "ریاضیات مهندسی",
-      "notes": "سولوشن کتاب",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [],
-      "courses": [["6oWhsMz3O9Q"]],
-      "related_references": [["pR5yK_0gquA"]],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/88",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 16
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Bruce Eckel"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "VmPd5NmavqI",
-      "title": "Thinking in Java (Fourth Edition)",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [["Bruce Eckel"]],
-      "courses": [["J2OBo93uAYw"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/89",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 17
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "_Yixt1DT1e4",
-      "title": "اسلایدهای دکتر خونجوش",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [],
-      "courses": [["T6_qqhgjD4Y"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/102",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 18
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "hE8j73Igsuw",
-      "title": "اسلایدهای مهندس خادم حسینی",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [],
-      "courses": [["xvI1oQknNjQ"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/103",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 19
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "ZaS4kOh73hU",
-      "title": "جزوه های مبانی کامپیوتر و برنامه نویسی دكتر صدرالدینی",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [],
-      "courses": [["4VORB34qsNM"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/120",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 20
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Sivarama Dandamudi"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "Gl3MfWXGfh4",
-      "title": "Introduction to Assembly Language Programming",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [],
-      "courses": [["xvI1oQknNjQ"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/166",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 21
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://github.com/ar-ekt/Dandamudi-Assembly-Solutions",
-      "title": "ریپازیتوری گیتهاب پاسخ تمرین‌های برنامه‌نویسی کتاب",
-      "linked_type": ["references", "reference"],
-      "linked_id": 21
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Alfred V. Ah"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Monica S. Lam"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Ravi Sethi"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Jeffrey Ullman"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "niSd6TpdNqo",
-      "title": "Compilers: Principles, Techniques, and Tools (Second Edition)",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [
-        ["Alfred V. Ah"],
-        ["Monica S. Lam"],
-        ["Ravi Sethi"],
-        ["Jeffrey Ullman"]
-      ],
-      "courses": [["pZhhlaoBIq4"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/172",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 22
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://github.com/fool2fish/dragon-book-exercise-answers",
-      "title": "ریپازیتوری گیتهاب پاسخ تمرین‌های کتاب",
-      "linked_type": ["references", "reference"],
-      "linked_id": 22
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Antti Laaksonen"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "Q5YqAcR54_Q",
-      "title": "Competitive Programmer’s Handbook",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [["Antti Laaksonen"]],
-      "courses": [["p9fA5eN0uQc"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/252",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 23
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Steven Halim"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Felix Halim"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "qC3dHkBa5KU",
-      "title": "Competitive Programming 3 (The New Lower Bound of Programming Contests.)",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [["Steven Halim"], ["Felix Halim"]],
-      "courses": [["p9fA5eN0uQc"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/253",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 24
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Todd Young"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Martin J. Mohlenkamp"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "MFDvdIcsTeU",
-      "title": "Introduction to Numerical Methods and Matlab Programming for Engineers",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [["Todd Young"], ["Martin J. Mohlenkamp"]],
-      "courses": [["K4i5sd6uRfo"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/260",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 25
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "J. A. Bondy"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "U. S. R. Murty"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "Pq6BYVPFy0c",
-      "title": "Graph Theory With Applications",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [["J. A. Bondy"], ["U. S. R. Murty"]],
-      "courses": [["r9J2fMvdpWE"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/264",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 26
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Kenneth H. Rosen"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "xZ9BYl86VXs",
-      "title": "Discrete Mathematics and Its Applications (Eighth Edition)",
-      "notes": "همراه با پاسخ سوالات زوج",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [["Kenneth H. Rosen"]],
-      "courses": [["dStKfTC0Lek"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/266",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 27
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "A. Silberschatz"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "H. Korth"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "S. Sudarshan"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "_AT3bZc9MMU",
-      "title": "Database System Concepts, 7th Edition",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [["A. Silberschatz"], ["H. Korth"], ["S. Sudarshan"]],
-      "courses": [["Tk8m_z6Q6RE"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/268",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 28
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "xRIK50l5YVY",
-      "title": "اسلایدهای دکتر صدرالدینی",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [],
-      "courses": [["Tk8m_z6Q6RE"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/269",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 29
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Stuart J. Russell"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Peter Norvig"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "Zm7nM9LHCCc",
-      "title": "Artificial Intelligence, A Modern Approach, Third Edition",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [["Stuart J. Russell"], ["Peter Norvig"]],
-      "courses": [["xWX9cNBTpec"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/272",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 30
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "David Murray"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "GAbgyVP99us",
-      "title": "An Introduction to Artificial Intelligence",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [["David Murray"]],
-      "courses": [["xWX9cNBTpec"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/273",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 31
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Ivan Bratko"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "1jCtmRMtQ40",
-      "title": "Prolog Programming For Artificial Intelligence",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [["Ivan Bratko"]],
-      "courses": [["xWX9cNBTpec"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/274",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 32
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "jsBDl472l3k",
-      "title": "اسلایدهای دکتر صدرالدینی",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [],
-      "courses": [["xWX9cNBTpec"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/275",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 33
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Fred Halsall"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "nzStXODcr4g",
-      "title": "Data Communications, Computer Networks, and Open Systems",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [["Fred Halsall"]],
-      "courses": [["VvjskcG8dP8"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/277",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 34
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Thomas H. Cormen"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Charles E. Leiserson"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Ronald L. Rivest"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Clifford Stein"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "kUcME515RJk",
-      "title": "Introduction to Algorithms, Fourth Edition",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [
-        ["Thomas H. Cormen"],
-        ["Charles E. Leiserson"],
-        ["Ronald L. Rivest"],
-        ["Clifford Stein"]
-      ],
-      "courses": [["h6NQLbJdcwY"], ["NgnGtKaJ6AM"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/278",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 35
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "ibyIfuxqHXY",
-      "title": "اسلایدهای دکتر فخراحمد",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [],
-      "courses": [["Tk8m_z6Q6RE"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/279",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 36
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Robert W. Sebesta"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "xpbpqZGf8Z8",
-      "title": "Concepts of Programming Languages, ELEVENTH edition",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [["Robert W. Sebesta"]],
-      "courses": [["jtlM0AtLEA0"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/280",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 37
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "s_vv0dlHXJ4",
-      "title": "اسلایدهای دکتر کشتکاران",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [],
-      "courses": [["jtlM0AtLEA0"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/281",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 38
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "aXmqg0_zpiY",
-      "title": "اسلایدهای دکتر منصوری",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [],
-      "courses": [["pZhhlaoBIq4"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/283",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 39
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "J.F. Kurose"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "K.W. Ross"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "Vr4Rc27mL1g",
-      "title": "Computer Networking: A Top-Down Approach, 6th Edition",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [["J.F. Kurose"], ["K.W. Ross"]],
-      "courses": [["jJWLm734jtQ"]],
-      "related_references": [["4kyaXhH61w4"]],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/284",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 40
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "4kyaXhH61w4",
-      "title": "Computer Networking: A Top-Down Approach, 6th Edition",
-      "notes": "سولوشن کتاب",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [],
-      "courses": [["jJWLm734jtQ"]],
-      "related_references": [["Vr4Rc27mL1g"]],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/285",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 41
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Abraham Silberschatz"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Greg Gagne"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Peter B. Galvin"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "OOWiwt7ToYM",
-      "title": "Operating System Concepts, 10th Edition",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [
-        ["Abraham Silberschatz"],
-        ["Greg Gagne"],
-        ["Peter B. Galvin"]
-      ],
-      "courses": [["vXh5qgjgJEE"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/289",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 42
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "yIlJxS5dYcQ",
-      "title": "اسلایدهای دکتر فخراحمد",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [],
-      "courses": [["vXh5qgjgJEE"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/290",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 43
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Richard L. Burden"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "J. Douglas Faires"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Annette M. Burden"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "NxxclEtwRDU",
-      "title": "Numerical Analysis, 10th Edition",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [
-        ["Richard L. Burden"],
-        ["J. Douglas Faires"],
-        ["Annette M. Burden"]
-      ],
-      "courses": [["K4i5sd6uRfo"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/291",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 44
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "BVg_BYn4JJ8",
-      "title": "اسلایدهای دکتر منصوری",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [],
-      "courses": [["Vwpb6nAl6_E"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/292",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 45
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "aJA5BVffQx4",
-      "title": "اسلایدهای دکتر منصوری",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [],
-      "courses": [["VvjskcG8dP8"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/370",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 46
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "David A Patterson"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "John L. Hennessy"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "0P2_d0tjzoA",
-      "title": "Computer Organization and Design: the Hardware/Software Interface (Sixth Edition)",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [["David A Patterson"], ["John L. Hennessy"]],
-      "courses": [["edjlkIEU3m0"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/380",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 47
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "دکتر سید علی میرعشقی"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "q_xjwwZocfE",
-      "title": "مبانی الکترونیک - جلد اول (ویرایش دوم)",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [["دکتر سید علی میرعشقی"]],
-      "courses": [["L2NaV4j2eNU"]],
-      "related_references": [["wrKeNyk1XJg"]],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/388",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 48
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "wrKeNyk1XJg",
-      "title": "مبانی الکترونیک - جلد اول (ویرایش دوم)",
-      "notes": "سولوشن کتاب",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [],
-      "courses": [["L2NaV4j2eNU"]],
-      "related_references": [["q_xjwwZocfE"]],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/389",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 49
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "4dTxcKBUnCU",
-      "title": "جزوه دکتر تحیری (نیمسال دوم ۱۳۹۳)",
-      "notes": "نویسنده: فاطمه رحیمی",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [],
-      "courses": [["Vwpb6nAl6_E"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/395",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 50
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "5Cu2QXdCdKc",
-      "title": "جزوه دکتر تحیری (نیمسال دوم ۱۴۰۰)",
-      "notes": "نویسنده: فرشته برادران",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [],
-      "courses": [["Vwpb6nAl6_E"]],
-      "related_references": [["shjGS_dLTWE"]],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/432",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 51
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "shjGS_dLTWE",
-      "title": "خلاصه دکتر تحیری (نیمسال دوم ۱۴۰۰)",
-      "notes": "نویسنده: فرشته برادران",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [],
-      "courses": [["Vwpb6nAl6_E"]],
-      "related_references": [["5Cu2QXdCdKc"]],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/433",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 52
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Paul Ammann"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Jeff Offutt"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "5Ty7jBm5gzA",
-      "title": "Introduction to Software Testing - 2nd Edition",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [["Paul Ammann"], ["Jeff Offutt"]],
-      "courses": [["HAvdbvoK_m4"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/447",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 53
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "William Stallings"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "8ErIZe6_oQw",
-      "title": "Operating Systems: Internals and Design Principles - Ninth Edition",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [["William Stallings"]],
-      "courses": [["vXh5qgjgJEE"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/482",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 54
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Christopher J. Date"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "decXFs3aN6I",
-      "title": "An Introduction to Database Systems - Eight Edition",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [["Christopher J. Date"]],
-      "courses": [["Tk8m_z6Q6RE"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/484",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 55
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "John Cheng"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Max Grossman"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Ty McKercher"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "hxG3k7itC24",
-      "title": "Professional CUDA C Programming",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [["John Cheng"], ["Max Grossman"], ["Ty McKercher"]],
-      "courses": [["D0k7Bd9fIcY"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/501",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 56
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Kay A. Robbins"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Steven Robbins"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "4mS_yQhAQ20",
-      "title": "Unix Systems Programming: Communication, Concurrency, and Threads",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [["Kay A. Robbins"], ["Steven Robbins"]],
-      "courses": [["D0k7Bd9fIcY"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/502",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 57
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "DGtaboV7C9g",
-      "title": "اسلایدهای دکتر خونجوش",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [],
-      "courses": [["D0k7Bd9fIcY"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/503",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 58
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "dgnUa4Davug",
-      "title": "اسلایدهای دکتر فخراحمد",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [],
-      "courses": [["ueVVW6jH0oI"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/504",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 59
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "du1IGZdnjYU",
-      "title": "اسلایدهای دکتر خونجوش",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [],
-      "courses": [["edjlkIEU3m0"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/505",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 60
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "uXpRZOtRKd0",
-      "title": "جزوه و اسلایدهای دکتر عظیمی‌فر",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [],
-      "courses": [["NgnGtKaJ6AM"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/506",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 61
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "Lw7NERg_xxs",
-      "title": "اسلایدهای نیمسال اول ۱۴۰۰",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [],
-      "courses": [["5wePzHh6NCc"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/513",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 62
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "محمد قدسی"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "lydTxxvLpwg",
-      "title": "داده ساختارها و مبانی الگوریتم‌ها",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [["محمد قدسی"]],
-      "courses": [["h6NQLbJdcwY"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/537",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 63
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "uJ757qmLRJo",
-      "title": "اسلایدهای دکتر راجی",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [],
-      "courses": [["KM3Sgnpyha0"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/538",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 64
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "William Hayt"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Jack Kemmerly"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Steven Durbin"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "VIl4htZ6s3s",
-      "title": "Engineering Circuit Analysis, 8th Edition",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [["William Hayt"], ["Jack Kemmerly"], ["Steven Durbin"]],
-      "courses": [["xEvVbt5U1jQ"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/549",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 65
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "zdQs2mro9YY",
-      "title": "اسلایدهای خانم کریمی",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [],
-      "courses": [["oZxiY5GoaYI"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/560",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 66
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Alan V. Oppenheim"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Alan S. Willsky"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "S. Hamid Nawab "
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "3wY9TAb4HDU",
-      "title": "Signals and Systems - Second Edition",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [
-        ["Alan V. Oppenheim"],
-        ["Alan S. Willsky"],
-        ["S. Hamid Nawab "]
-      ],
-      "courses": [["krcBL7VfJGo"]],
-      "related_references": [["FHp_WxkWruU"], ["_csWsHdUSdY"]],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/569",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 67
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "FHp_WxkWruU",
-      "title": "Signals and Systems - Second Edition",
-      "notes": "سولوشن کتاب",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [],
-      "courses": [["krcBL7VfJGo"]],
-      "related_references": [["3wY9TAb4HDU"], ["_csWsHdUSdY"]],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/570",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 68
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "_csWsHdUSdY",
-      "title": "Signals and Systems - Second Edition",
-      "notes": "سولوشن فارسی کتاب",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [],
-      "courses": [["krcBL7VfJGo"]],
-      "related_references": [["3wY9TAb4HDU"], ["FHp_WxkWruU"]],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/571",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 69
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "hLD2t0LPE9s",
-      "title": "اسلایدها و نمونه‌کدهای نیمسال اول ۱۴۰۱",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [],
-      "courses": [["5wePzHh6NCc"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/612",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 70
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "ilE1TFYn7r0",
-      "title": "اسلایدهای دکتر راجی",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [],
-      "courses": [["UG2kETI8x5k"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/637",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 71
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "1Mxm2fe_VB8",
-      "title": "اسلایدهای دکتر زیارتی",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [],
-      "courses": [["Djprdbr31os"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/638",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 72
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "lwBgLagXUt0",
-      "title": "اسلایدهای دکتر عظیمی‌فر",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [],
-      "courses": [["xWX9cNBTpec"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/642",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 73
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Efraim Turban"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Jon Outland"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "David King"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Jae Kyu Lee"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Ting-Peng Liang"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Deborrah C.Turban"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "9dwie23CBGA",
-      "title": "Electronic Commerce 2018: A Managerial and Social Networks Perspective - Ninth Edition",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [
-        ["Efraim Turban"],
-        ["Jon Outland"],
-        ["David King"],
-        ["Jae Kyu Lee"],
-        ["Ting-Peng Liang"],
-        ["Deborrah C.Turban"]
-      ],
-      "courses": [["YHpOGt8aH0g"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/643",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 74
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Hamdy A. Taha"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "9leyaDJJ23g",
-      "title": "Operations Research An Introduction - Tenth Edition",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [["Hamdy A. Taha"]],
-      "courses": [["Djprdbr31os"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/644",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 75
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Stephen P. Bradley"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Arnoldo C. Hax"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Thomas L. Magnanti"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "_k0rKd8P0GU",
-      "title": "Applied Mathematical Programming",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [
-        ["Stephen P. Bradley"],
-        ["Arnoldo C. Hax"],
-        ["Thomas L. Magnanti"]
-      ],
-      "courses": [["Djprdbr31os"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/646",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 76
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Frederick S. Hillier"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Gerald J. Lieberman"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "di8Y7PXWtVs",
-      "title": "Introduction to Operations Research - Ninth Edition",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [["Frederick S. Hillier"], ["Gerald J. Lieberman"]],
-      "courses": [["Djprdbr31os"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/647",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 77
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Mokhtar S. Bazaraa"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "John J. Jarvis"
-    }
-  },
-  {
-    "model": "references.author",
-    "fields": {
-      "full_name": "Hanif D. Sherali"
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "pmbphAp6v7Q",
-      "title": "Linear Programming and Network Flows - Fourth Edition",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [
-        ["Mokhtar S. Bazaraa"],
-        ["John J. Jarvis"],
-        ["Hanif D. Sherali"]
-      ],
-      "courses": [["Djprdbr31os"]],
-      "related_references": [["qmEY5YDmTR8"]],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/648",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 78
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "qmEY5YDmTR8",
-      "title": "Linear Programming and Network Flows - Fourth Edition",
-      "notes": "سولوشن ۶ فصل اول کتاب",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [],
-      "courses": [["Djprdbr31os"]],
-      "related_references": [["pmbphAp6v7Q"]],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/649",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 79
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "RzFiSdyc2BU",
-      "title": "اسلایدهای دکتر توحیدی",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [],
-      "courses": [["4VORB34qsNM"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/650",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 80
-    }
-  },
-  {
-    "model": "references.reference",
-    "fields": {
-      "uuid": "yH7X1Fi7YqI",
-      "title": "جزوه ریزپردازنده دکتر راجی",
-      "notes": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "authors": [],
-      "courses": [["UG2kETI8x5k"]],
-      "related_references": [],
-      "cover_image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://t.me/CSE_Archive/651",
-      "title": "پیام تلگرام",
-      "linked_type": ["references", "reference"],
-      "linked_id": 81
-    }
-  }
 ]

@@ -1,8 +1,11 @@
+from typing import List
 from operator import attrgetter
 
 from rest_framework import serializers
+from drf_yasg.utils import swagger_serializer_method
 
 from core.serializers import LinkSerializer
+from courses.serializers.list import CourseListSerializer
 from professors.models import Professor
 
 
@@ -15,7 +18,7 @@ class ProfessorListSerializer(serializers.ModelSerializer):
                   "has_detail", "image", "department",)
 
 
-class ProfessorSerializer(serializers.ModelSerializer):
+class ProfessorDetailSerializer(serializers.ModelSerializer):
     class Meta:
         model = Professor
         fields = ("uuid", "first_name", "last_name", "honorific", "has_detail",
@@ -26,9 +29,10 @@ class ProfessorSerializer(serializers.ModelSerializer):
     courses = serializers.SerializerMethodField()
     department = serializers.CharField(source="department.name")
 
-    def get_courses(self, instance: Professor):
-        from courses.serializers import CourseListSerializer
-        return CourseListSerializer(map(attrgetter("course"), instance.classrooms.all()), many=True).data
-    
-    def get_emails(self, instance: Professor):
+    @swagger_serializer_method(serializers.ListField(child=serializers.CharField()))
+    def get_emails(self, instance: Professor) -> List[str]:
         return instance.emails.values_list("address", flat=True)
+
+    @swagger_serializer_method(CourseListSerializer(many=True))
+    def get_courses(self, instance: Professor):
+        return CourseListSerializer(set(map(attrgetter("course"), instance.classrooms.all())), many=True).data

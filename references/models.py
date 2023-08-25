@@ -26,15 +26,25 @@ class Author(models.Model):
 
 
 class Reference(BaseModel):
+
+    class Types(models.IntegerChoices):
+        BOOK = 1, _("Book")
+        SOLUTION = 2, _("Solution")
+        SLIDE = 3, _("Slide")
+        HANDOUT = 4, _("Handout")
+
     title = models.CharField(
         verbose_name=_("Title"),
         max_length=255,
-        blank=True,
+    )
+    type = models.PositiveSmallIntegerField(
+        verbose_name=_("Type"),
+        choices=Types.choices,
     )
     notes = models.CharField(
         verbose_name=_("Notes"),
         max_length=255,
-        blank=True,
+        null=True,
     )
     links = contenttypes_fields.GenericRelation(
         Link,
@@ -47,7 +57,6 @@ class Reference(BaseModel):
         verbose_name=_("Cover Image"),
         upload_to="images/references/",
         null=True,
-        blank=True,
         validators=[MaxImageSizeValidator(1)],
     )
     authors = models.ManyToManyField(
@@ -55,6 +64,11 @@ class Reference(BaseModel):
         verbose_name=_("Authors"),
         related_name="references",
         blank=True,
+    )
+    collector = models.CharField(
+        verbose_name=_("Collector"),
+        max_length=255,
+        null=True,
     )
     courses = models.ManyToManyField(
         Course,

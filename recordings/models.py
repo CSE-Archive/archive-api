@@ -11,7 +11,7 @@ class RecordedClassroom(BaseModel):
     notes = models.CharField(
         verbose_name=_("Notes"),
         max_length=255,
-        blank=True,
+        null=True,
     )
     classroom = models.OneToOneField(
         Classroom,
@@ -42,7 +42,6 @@ class RecordedSession(models.Model):
     title = models.CharField(
         verbose_name=_("Title"),
         max_length=255,
-        blank=True,
     )
     order = models.FloatField(
         verbose_name=_("Order")

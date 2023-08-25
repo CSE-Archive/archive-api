@@ -2,7 +2,7 @@ from rest_framework.viewsets import ReadOnlyModelViewSet
 
 from references.models import Reference
 from references.filters import ReferenceFilterSet
-from references.serializers import ReferenceListSerializer, ReferenceSerializer
+from references.serializers import ReferenceListSerializer, ReferenceDetailSerializer
 
 
 class ReferenceViewSet(ReadOnlyModelViewSet):
@@ -13,7 +13,7 @@ class ReferenceViewSet(ReadOnlyModelViewSet):
         )
     lookup_field = "uuid"
     filterset_class = ReferenceFilterSet
-    search_fields = ("title", "author__full_name",)
+    search_fields = ("title", "collector", "authors__full_name",)
 
     def get_queryset(self):
         queryset = super().get_queryset()
@@ -28,6 +28,6 @@ class ReferenceViewSet(ReadOnlyModelViewSet):
 
     def get_serializer_class(self):
         if self.action == "retrieve":
-            return ReferenceSerializer
+            return ReferenceDetailSerializer
         return ReferenceListSerializer
 

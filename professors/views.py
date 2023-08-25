@@ -1,9 +1,7 @@
-from django.db.models import Prefetch
 from rest_framework.viewsets import ReadOnlyModelViewSet
-from courses.models import Course
 
 from professors.models import Professor
-from professors.serializers import ProfessorSerializer, ProfessorListSerializer
+from professors.serializers import ProfessorDetailSerializer, ProfessorListSerializer
 
 
 class ProfessorViewSet(ReadOnlyModelViewSet):
@@ -13,7 +11,7 @@ class ProfessorViewSet(ReadOnlyModelViewSet):
         .prefetch_related("emails", "links")
     lookup_field = "uuid"
     search_fields = ("first_name", "last_name", "honorific",
-                     "about", "emails__email", "links__url")
+                     "about", "emails__address", "links__url")
     filterset_fields = ("department",)
 
     def get_queryset(self):
@@ -26,5 +24,5 @@ class ProfessorViewSet(ReadOnlyModelViewSet):
 
     def get_serializer_class(self):
         if self.action == "retrieve":
-            return ProfessorSerializer
+            return ProfessorDetailSerializer
         return ProfessorListSerializer

@@ -1,1234 +1,1233 @@
-[
-  {
-    "model": "professors.department",
-    "fields": {
-      "uuid": "tvwmvqKLVPw",
-      "name": "مهندسی کامپیوتر",
-      "name_en": "Computer Engineering"
+[{
+        "model": "professors.department",
+        "fields": {
+            "uuid": "tvwmvqKLVPw",
+            "name": "مهندسی کامپیوتر",
+            "name_en": "Computer Engineering"
+        }
+    },
+    {
+        "model": "professors.department",
+        "fields": {
+            "uuid": "cQgGxQYPHEA",
+            "name": "مهندسی برق",
+            "name_en": "Electrical Engineering"
+        }
+    },
+    {
+        "model": "professors.professor",
+        "fields": {
+            "uuid": "qMsuZZR93Ws",
+            "first_name": "رضا",
+            "last_name": "ثامنی",
+            "honorific": "دکتر",
+            "department": ["tvwmvqKLVPw"],
+            "about": null,
+            "tag": "دکتر_ثامنی",
+            "has_detail": true,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "image": null
+        }
+    },
+    {
+        "model": "professors.email",
+        "fields": {
+            "address": "reza.sameni@gmail.com",
+            "professor": ["qMsuZZR93Ws"]
+        }
+    },
+    {
+        "model": "professors.email",
+        "fields": {
+            "address": "r.sameni@gmail.com",
+            "professor": ["qMsuZZR93Ws"]
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://www.linkedin.com/in/reza-sameni/",
+            "title": "Linkedin",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 1
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://scholar.google.com/citations?user=MkoXtWwAAAAJ",
+            "title": "Google Scholar",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 1
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://github.com/rsameni",
+            "title": "Github",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 1
+        }
+    },
+    {
+        "model": "professors.professor",
+        "fields": {
+            "uuid": "E1ybJxUIACs",
+            "first_name": "رضا",
+            "last_name": "بوستانی",
+            "honorific": "دکتر",
+            "department": ["tvwmvqKLVPw"],
+            "about": null,
+            "tag": "دکتر_بوستانی",
+            "has_detail": true,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "image": null
+        }
+    },
+    {
+        "model": "professors.email",
+        "fields": {
+            "address": "boostani@shirazu.ac.ir",
+            "professor": ["E1ybJxUIACs"]
+        }
+    },
+    {
+        "model": "professors.email",
+        "fields": {
+            "address": "rboostani87@gmail.com ",
+            "professor": ["E1ybJxUIACs"]
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://www.linkedin.com/in/reza-boostani-a084b83b/",
+            "title": "Linkedin",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 2
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://scholar.google.com/citations?user=h-E-Ce4AAAAJ",
+            "title": "Google Scholar",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 2
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://profile.shirazu.ac.ir/~rboostani",
+            "title": "سایت دانشکده",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 2
+        }
+    },
+    {
+        "model": "professors.professor",
+        "fields": {
+            "uuid": "xhAdxYb79tU",
+            "first_name": "هومان",
+            "last_name": "تحیری",
+            "honorific": "دکتر",
+            "department": ["tvwmvqKLVPw"],
+            "about": null,
+            "tag": "دکتر_تحیری",
+            "has_detail": true,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "image": null
+        }
+    },
+    {
+        "model": "professors.email",
+        "fields": {
+            "address": "tahayori@shirazu.ac.ir",
+            "professor": ["xhAdxYb79tU"]
+        }
+    },
+    {
+        "model": "professors.email",
+        "fields": {
+            "address": "Hooman.tahayori@gmail.com",
+            "professor": ["xhAdxYb79tU"]
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://scholar.google.com/citations?user=NcVCRnIAAAAJ",
+            "title": "Google Scholar",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 3
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://profile.shirazu.ac.ir/~tahayori",
+            "title": "سایت دانشکده",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 3
+        }
+    },
+    {
+        "model": "professors.professor",
+        "fields": {
+            "uuid": "7Bqqay2rhAY",
+            "first_name": "علی",
+            "last_name": "حمزه",
+            "honorific": "دکتر",
+            "department": ["tvwmvqKLVPw"],
+            "about": null,
+            "tag": "دکتر_حمزه",
+            "has_detail": true,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "image": null
+        }
+    },
+    {
+        "model": "professors.email",
+        "fields": {
+            "address": "ali@cse.shirazu.ac.ir",
+            "professor": ["7Bqqay2rhAY"]
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://www.linkedin.com/in/ali-hamzeh-94689a120/",
+            "title": "Linkedin",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 4
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://scholar.google.com/citations?user=3AijUAwAAAAJ",
+            "title": "Google Scholar",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 4
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://profile.shirazu.ac.ir/~hamzeh",
+            "title": "سایت دانشکده",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 4
+        }
+    },
+    {
+        "model": "professors.professor",
+        "fields": {
+            "uuid": "pf8whLDcGc8",
+            "first_name": "فرشاد",
+            "last_name": "خونجوش",
+            "honorific": "دکتر",
+            "department": ["tvwmvqKLVPw"],
+            "about": null,
+            "tag": "دکتر_خونجوش",
+            "has_detail": true,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "image": null
+        }
+    },
+    {
+        "model": "professors.email",
+        "fields": {
+            "address": "khunjush@shirazu.ac.ir",
+            "professor": ["pf8whLDcGc8"]
+        }
+    },
+    {
+        "model": "professors.email",
+        "fields": {
+            "address": "fkhunjush@gmail.com",
+            "professor": ["pf8whLDcGc8"]
+        }
+    },
+    {
+        "model": "professors.email",
+        "fields": {
+            "address": "f.khunjush@utoronto.ca",
+            "professor": ["pf8whLDcGc8"]
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://www.linkedin.com/in/farshad-khun-jush-785b93191/",
+            "title": "Linkedin",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 5
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://scholar.google.com/citations?user=nowZiqgAAAAJ",
+            "title": "Google Scholar",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 5
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://profile.shirazu.ac.ir/~f-khonjush",
+            "title": "سایت دانشکده",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 5
+        }
+    },
+    {
+        "model": "professors.professor",
+        "fields": {
+            "uuid": "BJU97KCc9w0",
+            "first_name": "محسن",
+            "last_name": "راجی",
+            "honorific": "دکتر",
+            "department": ["tvwmvqKLVPw"],
+            "about": null,
+            "tag": "دکتر_راجی",
+            "has_detail": true,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "image": null
+        }
+    },
+    {
+        "model": "professors.email",
+        "fields": {
+            "address": "mraji@shirazu.ac.ir",
+            "professor": ["BJU97KCc9w0"]
+        }
+    },
+    {
+        "model": "professors.email",
+        "fields": {
+            "address": "raji.ce.shirazu@gmail.com",
+            "professor": ["BJU97KCc9w0"]
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://www.linkedin.com/in/mohsen-raji-97974452/",
+            "title": "Linkedin",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 6
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://scholar.google.com/citations?user=zSQLU18AAAAJ",
+            "title": "Google Scholar",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 6
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://profile.shirazu.ac.ir/~m-raji",
+            "title": "سایت دانشکده",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 6
+        }
+    },
+    {
+        "model": "professors.professor",
+        "fields": {
+            "uuid": "KvwP7VmSZ78",
+            "first_name": "کوروش",
+            "last_name": "زیارتی",
+            "honorific": "دکتر",
+            "department": ["tvwmvqKLVPw"],
+            "about": null,
+            "tag": "دکتر_زیارتی",
+            "has_detail": true,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "image": null
+        }
+    },
+    {
+        "model": "professors.email",
+        "fields": {
+            "address": "ziarati@shirazu.ac.ir",
+            "professor": ["KvwP7VmSZ78"]
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://www.linkedin.com/in/koorush-ziarati-8824518b/?originalSubdomain=ca",
+            "title": "Linkedin",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 7
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://scholar.google.it/citations?user=98UVwJ8AAAAJ",
+            "title": "Google Scholar",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 7
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://profile.shirazu.ac.ir/~ziarati",
+            "title": "سایت دانشکده",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 7
+        }
+    },
+    {
+        "model": "professors.professor",
+        "fields": {
+            "uuid": "sGV9Qb8mdzE",
+            "first_name": "اشکان",
+            "last_name": "سامی",
+            "honorific": "دکتر",
+            "department": ["tvwmvqKLVPw"],
+            "about": null,
+            "tag": "دکتر_سامی",
+            "has_detail": true,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "image": null
+        }
+    },
+    {
+        "model": "professors.email",
+        "fields": {
+            "address": "sami@shirazu.ac.ir",
+            "professor": ["sGV9Qb8mdzE"]
+        }
+    },
+    {
+        "model": "professors.email",
+        "fields": {
+            "address": "ashkan.sami@gmail.com",
+            "professor": ["sGV9Qb8mdzE"]
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://www.linkedin.com/in/ashkansami/",
+            "title": "Linkedin",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 8
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://scholar.google.com/citations?user=zIh9AvIAAAAJ",
+            "title": "Google Scholar",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 8
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://profile.shirazu.ac.ir/~sami",
+            "title": "سایت دانشکده",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 8
+        }
+    },
+    {
+        "model": "professors.professor",
+        "fields": {
+            "uuid": "HNL6O07aw7M",
+            "first_name": "محمدهادی",
+            "last_name": "صدرالدینی",
+            "honorific": "دکتر",
+            "department": ["tvwmvqKLVPw"],
+            "about": null,
+            "tag": "دکتر_صدرالدینی",
+            "has_detail": true,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "image": null
+        }
+    },
+    {
+        "model": "professors.email",
+        "fields": {
+            "address": "sadredin@shirazu.ac.ir",
+            "professor": ["HNL6O07aw7M"]
+        }
+    },
+    {
+        "model": "professors.email",
+        "fields": {
+            "address": "mh.sadreddini@gmail.com",
+            "professor": ["HNL6O07aw7M"]
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://scholar.google.com/citations?user=co9__9EAAAAJ",
+            "title": "Google Scholar",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 9
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://profile.shirazu.ac.ir/~sadredin",
+            "title": "سایت دانشکده",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 9
+        }
+    },
+    {
+        "model": "professors.professor",
+        "fields": {
+            "uuid": "xYGIChU4oOY",
+            "first_name": "محمد",
+            "last_name": "طاهری",
+            "honorific": "دکتر",
+            "department": ["tvwmvqKLVPw"],
+            "about": null,
+            "tag": "دکتر_طاهری",
+            "has_detail": true,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "image": null
+        }
+    },
+    {
+        "model": "professors.email",
+        "fields": {
+            "address": "mtaheri@cse.shirazu.ac.ir",
+            "professor": ["xYGIChU4oOY"]
+        }
+    },
+    {
+        "model": "professors.email",
+        "fields": {
+            "address": "mohammad.taheri.aca@gmail.com ",
+            "professor": ["xYGIChU4oOY"]
+        }
+    },
+    {
+        "model": "professors.email",
+        "fields": {
+            "address": "mamadtaheri@gmail.com",
+            "professor": ["xYGIChU4oOY"]
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://www.linkedin.com/in/mohammad-taheri-950aa849/",
+            "title": "Linkedin",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 10
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://scholar.google.com/citations?user=67GnXEsAAAAJ",
+            "title": "Google Scholar",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 10
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://profile.shirazu.ac.ir/~motaheri",
+            "title": "سایت دانشکده",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 10
+        }
+    },
+    {
+        "model": "professors.professor",
+        "fields": {
+            "uuid": "o8ImhJwiohE",
+            "first_name": "سیده زهره",
+            "last_name": "عظیمی‌فر",
+            "honorific": "دکتر",
+            "department": ["tvwmvqKLVPw"],
+            "about": null,
+            "tag": "دکتر_عظیمی_فر",
+            "has_detail": true,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "image": null
+        }
+    },
+    {
+        "model": "professors.email",
+        "fields": {
+            "address": "azimifar@cse.shirazu.ac.ir",
+            "professor": ["o8ImhJwiohE"]
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://www.linkedin.com/in/zohreh-azimifar-15134716/",
+            "title": "Linkedin",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 11
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://scholar.google.com/citations?user=tW63cfUAAAAJ",
+            "title": "Google Scholar",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 11
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://profile.shirazu.ac.ir/~azimifar",
+            "title": "سایت دانشکده",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 11
+        }
+    },
+    {
+        "model": "professors.professor",
+        "fields": {
+            "uuid": "YWWH8jzqDRA",
+            "first_name": "سید مصطفی",
+            "last_name": "فخراحمد",
+            "honorific": "دکتر",
+            "department": ["tvwmvqKLVPw"],
+            "about": null,
+            "tag": "دکتر_فخراحمد",
+            "has_detail": true,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "image": null
+        }
+    },
+    {
+        "model": "professors.email",
+        "fields": {
+            "address": "fakhrahmad@shirazu.ac.ir",
+            "professor": ["YWWH8jzqDRA"]
+        }
+    },
+    {
+        "model": "professors.email",
+        "fields": {
+            "address": "mfakhrahmad@gmail.com",
+            "professor": ["YWWH8jzqDRA"]
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://www.linkedin.com/in/mostafa-fakhrahmad-b42359134/",
+            "title": "Linkedin",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 12
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://scholar.google.com/citations?user=J2WOnSEAAAAJ",
+            "title": "Google Scholar",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 12
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://profile.shirazu.ac.ir/~fakhrahmad",
+            "title": "سایت دانشکده",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 12
+        }
+    },
+    {
+        "model": "professors.professor",
+        "fields": {
+            "uuid": "RDhsUlokc6M",
+            "first_name": "مرتضی",
+            "last_name": "کشتکاران",
+            "honorific": "دکتر",
+            "department": ["tvwmvqKLVPw"],
+            "about": null,
+            "tag": "دکتر_کشتکاران",
+            "has_detail": true,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "image": null
+        }
+    },
+    {
+        "model": "professors.email",
+        "fields": {
+            "address": "mkeshtkaran@cse.shirazu.ac.ir",
+            "professor": ["RDhsUlokc6M"]
+        }
+    },
+    {
+        "model": "professors.email",
+        "fields": {
+            "address": "morteza.keshtkaran@gmail.com",
+            "professor": ["RDhsUlokc6M"]
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://scholar.google.com/citations?user=3shbBG4AAAAJ",
+            "title": "Google Scholar",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 13
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://profile.shirazu.ac.ir/~m-keshtkaran",
+            "title": "سایت دانشکده",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 13
+        }
+    },
+    {
+        "model": "professors.professor",
+        "fields": {
+            "uuid": "gAy_muxS1Ls",
+            "first_name": "اقبال",
+            "last_name": "منصوری",
+            "honorific": "دکتر",
+            "department": ["tvwmvqKLVPw"],
+            "about": null,
+            "tag": "دکتر_منصوری",
+            "has_detail": true,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "image": null
+        }
+    },
+    {
+        "model": "professors.email",
+        "fields": {
+            "address": "mansoori@shirazu.ac.ir",
+            "professor": ["gAy_muxS1Ls"]
+        }
+    },
+    {
+        "model": "professors.email",
+        "fields": {
+            "address": "egmansoori@yahoo.com",
+            "professor": ["gAy_muxS1Ls"]
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://scholar.google.com/citations?user=EIB6iB0AAAAJ",
+            "title": "Google Scholar",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 14
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://profile.shirazu.ac.ir/~mansoori",
+            "title": "سایت دانشکده",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 14
+        }
+    },
+    {
+        "model": "professors.professor",
+        "fields": {
+            "uuid": "B_Wf7S4W1Ag",
+            "first_name": "سید محمدرضا",
+            "last_name": "موسوی",
+            "honorific": "دکتر",
+            "department": ["tvwmvqKLVPw"],
+            "about": null,
+            "tag": "دکتر_موسوی",
+            "has_detail": true,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "image": null
+        }
+    },
+    {
+        "model": "professors.email",
+        "fields": {
+            "address": "m.r.moosavi@gmail.com",
+            "professor": ["B_Wf7S4W1Ag"]
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://www.linkedin.com/in/mohammad-moosavi-357b2b33/",
+            "title": "Linkedin",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 15
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://scholar.google.com/citations?user=sY3EbYsAAAAJ",
+            "title": "Google Scholar",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 15
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://profile.shirazu.ac.ir/~smmosavi",
+            "title": "سایت دانشکده",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 15
+        }
+    },
+    {
+        "model": "professors.professor",
+        "fields": {
+            "uuid": "ZUwWSvx5euc",
+            "first_name": "ستار",
+            "last_name": "هاشمی",
+            "honorific": "دکتر",
+            "department": ["tvwmvqKLVPw"],
+            "about": null,
+            "tag": "دکتر_هاشمی",
+            "has_detail": true,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "image": null
+        }
+    },
+    {
+        "model": "professors.email",
+        "fields": {
+            "address": "s-hashemi@shirazu.ac.ir",
+            "professor": ["ZUwWSvx5euc"]
+        }
+    },
+    {
+        "model": "professors.email",
+        "fields": {
+            "address": "s-hashemi@gmail.com ",
+            "professor": ["ZUwWSvx5euc"]
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://www.linkedin.com/in/sattar-hashemi-7366b1170/",
+            "title": "Linkedin",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 16
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://scholar.google.com/citations?user=YIN5xqcAAAAJ",
+            "title": "Google Scholar",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 16
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://profile.shirazu.ac.ir/~s-hashemi",
+            "title": "سایت دانشکده",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 16
+        }
+    },
+    {
+        "model": "professors.professor",
+        "fields": {
+            "uuid": "nwp1n6Kje4s",
+            "first_name": "حسین",
+            "last_name": "اسفندیاری",
+            "honorific": "دکتر",
+            "department": ["tvwmvqKLVPw"],
+            "about": null,
+            "tag": "دکتر_اسفندیاری",
+            "has_detail": true,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://www.linkedin.com/in/hossein-esfandiari-10bb0281/",
+            "title": "Linkedin",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 17
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://scholar.google.com/citations?user=Rt8ppJsAAAAJ",
+            "title": "Google Scholar",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 17
+        }
+    },
+    {
+        "model": "professors.professor",
+        "fields": {
+            "uuid": "oiZGK9IlMvg",
+            "first_name": "احمد",
+            "last_name": "توحیدی",
+            "honorific": "دکتر",
+            "department": ["tvwmvqKLVPw"],
+            "about": null,
+            "tag": "دکتر_توحیدی",
+            "has_detail": false,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "image": null
+        }
+    },
+    {
+        "model": "professors.email",
+        "fields": {
+            "address": "towhidi@shirazu.ac.ir",
+            "professor": ["oiZGK9IlMvg"]
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://profile.shirazu.ac.ir/~towhidi",
+            "title": "سایت دانشکده",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 18
+        }
+    },
+    {
+        "model": "professors.professor",
+        "fields": {
+            "uuid": "Si2KRcXktY4",
+            "first_name": "غلامحسین",
+            "last_name": "دستغیبی‌فرد",
+            "honorific": "دکتر",
+            "department": ["tvwmvqKLVPw"],
+            "about": null,
+            "tag": "دکتر_دستغیبی_فرد",
+            "has_detail": false,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "image": null
+        }
+    },
+    {
+        "model": "professors.email",
+        "fields": {
+            "address": "dstghaib@shirazu.ac.ir",
+            "professor": ["Si2KRcXktY4"]
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://profile.shirazu.ac.ir/~dstghaib",
+            "title": "سایت دانشکده",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 19
+        }
+    },
+    {
+        "model": "professors.professor",
+        "fields": {
+            "uuid": "S6yr0r2L6SI",
+            "first_name": "منصور",
+            "last_name": "ذوالقدری جهرمی",
+            "honorific": "دکتر",
+            "department": ["tvwmvqKLVPw"],
+            "about": null,
+            "tag": "دکتر_ذوالقدری",
+            "has_detail": false,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://profile.shirazu.ac.ir/~zjahromi",
+            "title": "سایت دانشکده",
+            "linked_type": ["professors", "professor"],
+            "linked_id": 20
+        }
+    },
+    {
+        "model": "professors.professor",
+        "fields": {
+            "uuid": "TKcVH33fff4",
+            "first_name": "علیرضا",
+            "last_name": "کاظمی",
+            "honorific": "دکتر",
+            "department": ["tvwmvqKLVPw"],
+            "about": null,
+            "tag": "دکتر_کاظمی",
+            "has_detail": false,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "image": null
+        }
+    },
+    {
+        "model": "professors.email",
+        "fields": {
+            "address": "alireza.kazemi@gmail.com",
+            "professor": ["TKcVH33fff4"]
+        }
+    },
+    {
+        "model": "professors.professor",
+        "fields": {
+            "uuid": "KuEjCmm4OKY",
+            "first_name": "سمیه",
+            "last_name": "طاهری",
+            "honorific": "دکتر",
+            "department": ["tvwmvqKLVPw"],
+            "about": null,
+            "tag": "دکتر_سمیه_طاهری",
+            "has_detail": false,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "image": null
+        }
+    },
+    {
+        "model": "professors.professor",
+        "fields": {
+            "uuid": "bWgRIE6G0lk",
+            "first_name": null,
+            "last_name": "مغاره",
+            "honorific": "دکتر",
+            "department": ["tvwmvqKLVPw"],
+            "about": null,
+            "tag": "دکتر_مغاره",
+            "has_detail": false,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "image": null
+        }
+    },
+    {
+        "model": "professors.professor",
+        "fields": {
+            "uuid": "GPlZz6DuED0",
+            "first_name": null,
+            "last_name": "صیادی‌نژاد",
+            "honorific": "دکتر",
+            "department": ["tvwmvqKLVPw"],
+            "about": null,
+            "tag": "دکتر_صیادی_نژاد",
+            "has_detail": false,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "image": null
+        }
+    },
+    {
+        "model": "professors.professor",
+        "fields": {
+            "uuid": "N6Cq7Yn9qlE",
+            "first_name": "حسین",
+            "last_name": "تقی‌زاده",
+            "honorific": "دکتر",
+            "department": ["tvwmvqKLVPw"],
+            "about": null,
+            "tag": "دکتر_تقی_زاده",
+            "has_detail": false,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "image": null
+        }
+    },
+    {
+        "model": "professors.professor",
+        "fields": {
+            "uuid": "LmwofRCq9k4",
+            "first_name": "امیر",
+            "last_name": "خادم‌حسینی",
+            "honorific": "مهندس",
+            "department": ["tvwmvqKLVPw"],
+            "about": null,
+            "tag": "مهندس_خادم_حسینی",
+            "has_detail": false,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "image": null
+        }
+    },
+    {
+        "model": "professors.professor",
+        "fields": {
+            "uuid": "WJ5SdVkZJkw",
+            "first_name": "سمیه",
+            "last_name": "سهرابی",
+            "honorific": "دکتر",
+            "department": ["tvwmvqKLVPw"],
+            "about": null,
+            "tag": "دکتر_سهرابی",
+            "has_detail": false,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "image": null
+        }
+    },
+    {
+        "model": "professors.professor",
+        "fields": {
+            "uuid": "bggUFWYhQU0",
+            "first_name": "زهرا",
+            "last_name": "کریمی",
+            "honorific": "خانم",
+            "department": ["tvwmvqKLVPw"],
+            "about": null,
+            "tag": "خانم_کریمی",
+            "has_detail": false,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "image": null
+        }
+    },
+    {
+        "model": "professors.professor",
+        "fields": {
+            "uuid": "rW9fC4IlyI8",
+            "first_name": null,
+            "last_name": "مشکسار",
+            "honorific": "دکتر",
+            "department": ["cQgGxQYPHEA"],
+            "about": null,
+            "tag": "دکتر_مشکسار",
+            "has_detail": false,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "image": null
+        }
+    },
+    {
+        "model": "professors.professor",
+        "fields": {
+            "uuid": "lVdQBrOgcHQ",
+            "first_name": "سلمان",
+            "last_name": "غفرانی جهرمی",
+            "honorific": "دکتر",
+            "department": ["cQgGxQYPHEA"],
+            "about": null,
+            "tag": "دکتر_غفرانی",
+            "has_detail": false,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "image": null
+        }
+    },
+    {
+        "model": "professors.professor",
+        "fields": {
+            "uuid": "ifpAvNQIixc",
+            "first_name": "امین",
+            "last_name": "اسکندری",
+            "honorific": "دکتر",
+            "department": ["cQgGxQYPHEA"],
+            "about": null,
+            "tag": "دکتر_اسکندری",
+            "has_detail": false,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "image": null
+        }
+    },
+    {
+        "model": "professors.professor",
+        "fields": {
+            "uuid": "KKDDrxe40fo",
+            "first_name": "مریم",
+            "last_name": "دهقانی",
+            "honorific": "دکتر",
+            "department": ["cQgGxQYPHEA"],
+            "about": null,
+            "tag": "دکتر_دهقانی",
+            "has_detail": false,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "image": null
+        }
     }
-  },
-  {
-    "model": "professors.department",
-    "fields": {
-      "uuid": "cQgGxQYPHEA",
-      "name": "مهندسی برق",
-      "name_en": "Electrical Engineering"
-    }
-  },
-  {
-    "model": "professors.professor",
-    "fields": {
-      "uuid": "qMsuZZR93Ws",
-      "first_name": "رضا",
-      "last_name": "ثامنی",
-      "honorific": "دکتر",
-      "department": ["tvwmvqKLVPw"],
-      "about": "",
-      "tag": "دکتر_ثامنی",
-      "has_detail": true,
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "image": null
-    }
-  },
-  {
-    "model": "professors.email",
-    "fields": {
-      "address": "reza.sameni@gmail.com",
-      "professor": ["qMsuZZR93Ws"]
-    }
-  },
-  {
-    "model": "professors.email",
-    "fields": {
-      "address": "r.sameni@gmail.com",
-      "professor": ["qMsuZZR93Ws"]
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://www.linkedin.com/in/reza-sameni/",
-      "title": "Linkedin",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 1
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://scholar.google.com/citations?user=MkoXtWwAAAAJ",
-      "title": "Google Scholar",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 1
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://github.com/rsameni",
-      "title": "Github",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 1
-    }
-  },
-  {
-    "model": "professors.professor",
-    "fields": {
-      "uuid": "E1ybJxUIACs",
-      "first_name": "رضا",
-      "last_name": "بوستانی",
-      "honorific": "دکتر",
-      "department": ["tvwmvqKLVPw"],
-      "about": "",
-      "tag": "دکتر_بوستانی",
-      "has_detail": true,
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "image": null
-    }
-  },
-  {
-    "model": "professors.email",
-    "fields": {
-      "address": "boostani@shirazu.ac.ir",
-      "professor": ["E1ybJxUIACs"]
-    }
-  },
-  {
-    "model": "professors.email",
-    "fields": {
-      "address": "rboostani87@gmail.com ",
-      "professor": ["E1ybJxUIACs"]
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://www.linkedin.com/in/reza-boostani-a084b83b/",
-      "title": "Linkedin",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 2
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://scholar.google.com/citations?user=h-E-Ce4AAAAJ",
-      "title": "Google Scholar",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 2
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://profile.shirazu.ac.ir/~rboostani",
-      "title": "سایت دانشکده",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 2
-    }
-  },
-  {
-    "model": "professors.professor",
-    "fields": {
-      "uuid": "xhAdxYb79tU",
-      "first_name": "هومان",
-      "last_name": "تحیری",
-      "honorific": "دکتر",
-      "department": ["tvwmvqKLVPw"],
-      "about": "",
-      "tag": "دکتر_تحیری",
-      "has_detail": true,
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "image": null
-    }
-  },
-  {
-    "model": "professors.email",
-    "fields": {
-      "address": "tahayori@shirazu.ac.ir",
-      "professor": ["xhAdxYb79tU"]
-    }
-  },
-  {
-    "model": "professors.email",
-    "fields": {
-      "address": "Hooman.tahayori@gmail.com",
-      "professor": ["xhAdxYb79tU"]
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://scholar.google.com/citations?user=NcVCRnIAAAAJ",
-      "title": "Google Scholar",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 3
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://profile.shirazu.ac.ir/~tahayori",
-      "title": "سایت دانشکده",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 3
-    }
-  },
-  {
-    "model": "professors.professor",
-    "fields": {
-      "uuid": "7Bqqay2rhAY",
-      "first_name": "علی",
-      "last_name": "حمزه",
-      "honorific": "دکتر",
-      "department": ["tvwmvqKLVPw"],
-      "about": "",
-      "tag": "دکتر_حمزه",
-      "has_detail": true,
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "image": null
-    }
-  },
-  {
-    "model": "professors.email",
-    "fields": {
-      "address": "ali@cse.shirazu.ac.ir",
-      "professor": ["7Bqqay2rhAY"]
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://www.linkedin.com/in/ali-hamzeh-94689a120/",
-      "title": "Linkedin",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 4
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://scholar.google.com/citations?user=3AijUAwAAAAJ",
-      "title": "Google Scholar",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 4
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://profile.shirazu.ac.ir/~hamzeh",
-      "title": "سایت دانشکده",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 4
-    }
-  },
-  {
-    "model": "professors.professor",
-    "fields": {
-      "uuid": "pf8whLDcGc8",
-      "first_name": "فرشاد",
-      "last_name": "خونجوش",
-      "honorific": "دکتر",
-      "department": ["tvwmvqKLVPw"],
-      "about": "",
-      "tag": "دکتر_خونجوش",
-      "has_detail": true,
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "image": null
-    }
-  },
-  {
-    "model": "professors.email",
-    "fields": {
-      "address": "khunjush@shirazu.ac.ir",
-      "professor": ["pf8whLDcGc8"]
-    }
-  },
-  {
-    "model": "professors.email",
-    "fields": {
-      "address": "fkhunjush@gmail.com",
-      "professor": ["pf8whLDcGc8"]
-    }
-  },
-  {
-    "model": "professors.email",
-    "fields": {
-      "address": "f.khunjush@utoronto.ca",
-      "professor": ["pf8whLDcGc8"]
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://www.linkedin.com/in/farshad-khun-jush-785b93191/",
-      "title": "Linkedin",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 5
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://scholar.google.com/citations?user=nowZiqgAAAAJ",
-      "title": "Google Scholar",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 5
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://profile.shirazu.ac.ir/~f-khonjush",
-      "title": "سایت دانشکده",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 5
-    }
-  },
-  {
-    "model": "professors.professor",
-    "fields": {
-      "uuid": "BJU97KCc9w0",
-      "first_name": "محسن",
-      "last_name": "راجی",
-      "honorific": "دکتر",
-      "department": ["tvwmvqKLVPw"],
-      "about": "",
-      "tag": "دکتر_راجی",
-      "has_detail": true,
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "image": null
-    }
-  },
-  {
-    "model": "professors.email",
-    "fields": {
-      "address": "mraji@shirazu.ac.ir",
-      "professor": ["BJU97KCc9w0"]
-    }
-  },
-  {
-    "model": "professors.email",
-    "fields": {
-      "address": "raji.ce.shirazu@gmail.com",
-      "professor": ["BJU97KCc9w0"]
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://www.linkedin.com/in/mohsen-raji-97974452/",
-      "title": "Linkedin",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 6
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://scholar.google.com/citations?user=zSQLU18AAAAJ",
-      "title": "Google Scholar",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 6
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://profile.shirazu.ac.ir/~m-raji",
-      "title": "سایت دانشکده",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 6
-    }
-  },
-  {
-    "model": "professors.professor",
-    "fields": {
-      "uuid": "KvwP7VmSZ78",
-      "first_name": "کوروش",
-      "last_name": "زیارتی",
-      "honorific": "دکتر",
-      "department": ["tvwmvqKLVPw"],
-      "about": "",
-      "tag": "دکتر_زیارتی",
-      "has_detail": true,
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "image": null
-    }
-  },
-  {
-    "model": "professors.email",
-    "fields": {
-      "address": "ziarati@shirazu.ac.ir",
-      "professor": ["KvwP7VmSZ78"]
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://www.linkedin.com/in/koorush-ziarati-8824518b/?originalSubdomain=ca",
-      "title": "Linkedin",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 7
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://scholar.google.it/citations?user=98UVwJ8AAAAJ",
-      "title": "Google Scholar",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 7
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://profile.shirazu.ac.ir/~ziarati",
-      "title": "سایت دانشکده",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 7
-    }
-  },
-  {
-    "model": "professors.professor",
-    "fields": {
-      "uuid": "sGV9Qb8mdzE",
-      "first_name": "اشکان",
-      "last_name": "سامی",
-      "honorific": "دکتر",
-      "department": ["tvwmvqKLVPw"],
-      "about": "",
-      "tag": "دکتر_سامی",
-      "has_detail": true,
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "image": null
-    }
-  },
-  {
-    "model": "professors.email",
-    "fields": {
-      "address": "sami@shirazu.ac.ir",
-      "professor": ["sGV9Qb8mdzE"]
-    }
-  },
-  {
-    "model": "professors.email",
-    "fields": {
-      "address": "ashkan.sami@gmail.com",
-      "professor": ["sGV9Qb8mdzE"]
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://www.linkedin.com/in/ashkansami/",
-      "title": "Linkedin",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 8
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://scholar.google.com/citations?user=zIh9AvIAAAAJ",
-      "title": "Google Scholar",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 8
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://profile.shirazu.ac.ir/~sami",
-      "title": "سایت دانشکده",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 8
-    }
-  },
-  {
-    "model": "professors.professor",
-    "fields": {
-      "uuid": "HNL6O07aw7M",
-      "first_name": "محمدهادی",
-      "last_name": "صدرالدینی",
-      "honorific": "دکتر",
-      "department": ["tvwmvqKLVPw"],
-      "about": "",
-      "tag": "دکتر_صدرالدینی",
-      "has_detail": true,
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "image": null
-    }
-  },
-  {
-    "model": "professors.email",
-    "fields": {
-      "address": "sadredin@shirazu.ac.ir",
-      "professor": ["HNL6O07aw7M"]
-    }
-  },
-  {
-    "model": "professors.email",
-    "fields": {
-      "address": "mh.sadreddini@gmail.com",
-      "professor": ["HNL6O07aw7M"]
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://scholar.google.com/citations?user=co9__9EAAAAJ",
-      "title": "Google Scholar",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 9
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://profile.shirazu.ac.ir/~sadredin",
-      "title": "سایت دانشکده",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 9
-    }
-  },
-  {
-    "model": "professors.professor",
-    "fields": {
-      "uuid": "xYGIChU4oOY",
-      "first_name": "محمد",
-      "last_name": "طاهری",
-      "honorific": "دکتر",
-      "department": ["tvwmvqKLVPw"],
-      "about": "",
-      "tag": "دکتر_طاهری",
-      "has_detail": true,
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "image": null
-    }
-  },
-  {
-    "model": "professors.email",
-    "fields": {
-      "address": "mtaheri@cse.shirazu.ac.ir",
-      "professor": ["xYGIChU4oOY"]
-    }
-  },
-  {
-    "model": "professors.email",
-    "fields": {
-      "address": "mohammad.taheri.aca@gmail.com ",
-      "professor": ["xYGIChU4oOY"]
-    }
-  },
-  {
-    "model": "professors.email",
-    "fields": {
-      "address": "mamadtaheri@gmail.com",
-      "professor": ["xYGIChU4oOY"]
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://www.linkedin.com/in/mohammad-taheri-950aa849/",
-      "title": "Linkedin",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 10
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://scholar.google.com/citations?user=67GnXEsAAAAJ",
-      "title": "Google Scholar",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 10
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://profile.shirazu.ac.ir/~motaheri",
-      "title": "سایت دانشکده",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 10
-    }
-  },
-  {
-    "model": "professors.professor",
-    "fields": {
-      "uuid": "o8ImhJwiohE",
-      "first_name": "سیده زهره",
-      "last_name": "عظیمی‌فر",
-      "honorific": "دکتر",
-      "department": ["tvwmvqKLVPw"],
-      "about": "",
-      "tag": "دکتر_عظیمی_فر",
-      "has_detail": true,
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "image": null
-    }
-  },
-  {
-    "model": "professors.email",
-    "fields": {
-      "address": "azimifar@cse.shirazu.ac.ir",
-      "professor": ["o8ImhJwiohE"]
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://www.linkedin.com/in/zohreh-azimifar-15134716/",
-      "title": "Linkedin",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 11
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://scholar.google.com/citations?user=tW63cfUAAAAJ",
-      "title": "Google Scholar",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 11
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://profile.shirazu.ac.ir/~azimifar",
-      "title": "سایت دانشکده",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 11
-    }
-  },
-  {
-    "model": "professors.professor",
-    "fields": {
-      "uuid": "YWWH8jzqDRA",
-      "first_name": "سید مصطفی",
-      "last_name": "فخراحمد",
-      "honorific": "دکتر",
-      "department": ["tvwmvqKLVPw"],
-      "about": "",
-      "tag": "دکتر_فخراحمد",
-      "has_detail": true,
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "image": null
-    }
-  },
-  {
-    "model": "professors.email",
-    "fields": {
-      "address": "fakhrahmad@shirazu.ac.ir",
-      "professor": ["YWWH8jzqDRA"]
-    }
-  },
-  {
-    "model": "professors.email",
-    "fields": {
-      "address": "mfakhrahmad@gmail.com",
-      "professor": ["YWWH8jzqDRA"]
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://www.linkedin.com/in/mostafa-fakhrahmad-b42359134/",
-      "title": "Linkedin",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 12
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://scholar.google.com/citations?user=J2WOnSEAAAAJ",
-      "title": "Google Scholar",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 12
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://profile.shirazu.ac.ir/~fakhrahmad",
-      "title": "سایت دانشکده",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 12
-    }
-  },
-  {
-    "model": "professors.professor",
-    "fields": {
-      "uuid": "RDhsUlokc6M",
-      "first_name": "مرتضی",
-      "last_name": "کشتکاران",
-      "honorific": "دکتر",
-      "department": ["tvwmvqKLVPw"],
-      "about": "",
-      "tag": "دکتر_کشتکاران",
-      "has_detail": true,
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "image": null
-    }
-  },
-  {
-    "model": "professors.email",
-    "fields": {
-      "address": "mkeshtkaran@cse.shirazu.ac.ir",
-      "professor": ["RDhsUlokc6M"]
-    }
-  },
-  {
-    "model": "professors.email",
-    "fields": {
-      "address": "morteza.keshtkaran@gmail.com",
-      "professor": ["RDhsUlokc6M"]
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://scholar.google.com/citations?user=3shbBG4AAAAJ",
-      "title": "Google Scholar",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 13
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://profile.shirazu.ac.ir/~m-keshtkaran",
-      "title": "سایت دانشکده",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 13
-    }
-  },
-  {
-    "model": "professors.professor",
-    "fields": {
-      "uuid": "gAy_muxS1Ls",
-      "first_name": "اقبال",
-      "last_name": "منصوری",
-      "honorific": "دکتر",
-      "department": ["tvwmvqKLVPw"],
-      "about": "",
-      "tag": "دکتر_منصوری",
-      "has_detail": true,
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "image": null
-    }
-  },
-  {
-    "model": "professors.email",
-    "fields": {
-      "address": "mansoori@shirazu.ac.ir",
-      "professor": ["gAy_muxS1Ls"]
-    }
-  },
-  {
-    "model": "professors.email",
-    "fields": {
-      "address": "egmansoori@yahoo.com",
-      "professor": ["gAy_muxS1Ls"]
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://scholar.google.com/citations?user=EIB6iB0AAAAJ",
-      "title": "Google Scholar",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 14
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://profile.shirazu.ac.ir/~mansoori",
-      "title": "سایت دانشکده",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 14
-    }
-  },
-  {
-    "model": "professors.professor",
-    "fields": {
-      "uuid": "B_Wf7S4W1Ag",
-      "first_name": "سید محمدرضا",
-      "last_name": "موسوی",
-      "honorific": "دکتر",
-      "department": ["tvwmvqKLVPw"],
-      "about": "",
-      "tag": "دکتر_موسوی",
-      "has_detail": true,
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "image": null
-    }
-  },
-  {
-    "model": "professors.email",
-    "fields": {
-      "address": "m.r.moosavi@gmail.com",
-      "professor": ["B_Wf7S4W1Ag"]
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://www.linkedin.com/in/mohammad-moosavi-357b2b33/",
-      "title": "Linkedin",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 15
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://scholar.google.com/citations?user=sY3EbYsAAAAJ",
-      "title": "Google Scholar",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 15
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://profile.shirazu.ac.ir/~smmosavi",
-      "title": "سایت دانشکده",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 15
-    }
-  },
-  {
-    "model": "professors.professor",
-    "fields": {
-      "uuid": "ZUwWSvx5euc",
-      "first_name": "ستار",
-      "last_name": "هاشمی",
-      "honorific": "دکتر",
-      "department": ["tvwmvqKLVPw"],
-      "about": "",
-      "tag": "دکتر_هاشمی",
-      "has_detail": true,
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "image": null
-    }
-  },
-  {
-    "model": "professors.email",
-    "fields": {
-      "address": "s-hashemi@shirazu.ac.ir",
-      "professor": ["ZUwWSvx5euc"]
-    }
-  },
-  {
-    "model": "professors.email",
-    "fields": {
-      "address": "s-hashemi@gmail.com ",
-      "professor": ["ZUwWSvx5euc"]
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://www.linkedin.com/in/sattar-hashemi-7366b1170/",
-      "title": "Linkedin",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 16
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://scholar.google.com/citations?user=YIN5xqcAAAAJ",
-      "title": "Google Scholar",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 16
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://profile.shirazu.ac.ir/~s-hashemi",
-      "title": "سایت دانشکده",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 16
-    }
-  },
-  {
-    "model": "professors.professor",
-    "fields": {
-      "uuid": "nwp1n6Kje4s",
-      "first_name": "حسین",
-      "last_name": "اسفندیاری",
-      "honorific": "دکتر",
-      "department": ["tvwmvqKLVPw"],
-      "about": "",
-      "tag": "دکتر_اسفندیاری",
-      "has_detail": true,
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://www.linkedin.com/in/hossein-esfandiari-10bb0281/",
-      "title": "Linkedin",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 17
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://scholar.google.com/citations?user=Rt8ppJsAAAAJ",
-      "title": "Google Scholar",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 17
-    }
-  },
-  {
-    "model": "professors.professor",
-    "fields": {
-      "uuid": "oiZGK9IlMvg",
-      "first_name": "احمد",
-      "last_name": "توحیدی",
-      "honorific": "دکتر",
-      "department": ["tvwmvqKLVPw"],
-      "about": "",
-      "tag": "دکتر_توحیدی",
-      "has_detail": false,
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "image": null
-    }
-  },
-  {
-    "model": "professors.email",
-    "fields": {
-      "address": "towhidi@shirazu.ac.ir",
-      "professor": ["oiZGK9IlMvg"]
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://profile.shirazu.ac.ir/~towhidi",
-      "title": "سایت دانشکده",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 18
-    }
-  },
-  {
-    "model": "professors.professor",
-    "fields": {
-      "uuid": "Si2KRcXktY4",
-      "first_name": "غلامحسین",
-      "last_name": "دستغیبی‌فرد",
-      "honorific": "دکتر",
-      "department": ["tvwmvqKLVPw"],
-      "about": "",
-      "tag": "دکتر_دستغیبی_فرد",
-      "has_detail": false,
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "image": null
-    }
-  },
-  {
-    "model": "professors.email",
-    "fields": {
-      "address": "dstghaib@shirazu.ac.ir",
-      "professor": ["Si2KRcXktY4"]
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://profile.shirazu.ac.ir/~dstghaib",
-      "title": "سایت دانشکده",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 19
-    }
-  },
-  {
-    "model": "professors.professor",
-    "fields": {
-      "uuid": "S6yr0r2L6SI",
-      "first_name": "منصور",
-      "last_name": "ذوالقدری جهرمی",
-      "honorific": "دکتر",
-      "department": ["tvwmvqKLVPw"],
-      "about": "",
-      "tag": "دکتر_ذوالقدری",
-      "has_detail": false,
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "image": null
-    }
-  },
-  {
-    "model": "core.link",
-    "fields": {
-      "url": "https://profile.shirazu.ac.ir/~zjahromi",
-      "title": "سایت دانشکده",
-      "linked_type": ["professors", "professor"],
-      "linked_id": 20
-    }
-  },
-  {
-    "model": "professors.professor",
-    "fields": {
-      "uuid": "TKcVH33fff4",
-      "first_name": "علیرضا",
-      "last_name": "کاظمی",
-      "honorific": "دکتر",
-      "department": ["tvwmvqKLVPw"],
-      "about": "",
-      "tag": "دکتر_کاظمی",
-      "has_detail": false,
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "image": null
-    }
-  },
-  {
-    "model": "professors.email",
-    "fields": {
-      "address": "alireza.kazemi@gmail.com",
-      "professor": ["TKcVH33fff4"]
-    }
-  },
-  {
-    "model": "professors.professor",
-    "fields": {
-      "uuid": "KuEjCmm4OKY",
-      "first_name": "سمیه",
-      "last_name": "طاهری",
-      "honorific": "دکتر",
-      "department": ["tvwmvqKLVPw"],
-      "about": "",
-      "tag": "دکتر_سمیه_طاهری",
-      "has_detail": false,
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "image": null
-    }
-  },
-  {
-    "model": "professors.professor",
-    "fields": {
-      "uuid": "bWgRIE6G0lk",
-      "first_name": "",
-      "last_name": "مغاره",
-      "honorific": "دکتر",
-      "department": ["tvwmvqKLVPw"],
-      "about": "",
-      "tag": "دکتر_مغاره",
-      "has_detail": false,
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "image": null
-    }
-  },
-  {
-    "model": "professors.professor",
-    "fields": {
-      "uuid": "GPlZz6DuED0",
-      "first_name": "",
-      "last_name": "صیادی‌نژاد",
-      "honorific": "دکتر",
-      "department": ["tvwmvqKLVPw"],
-      "about": "",
-      "tag": "دکتر_صیادی_نژاد",
-      "has_detail": false,
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "image": null
-    }
-  },
-  {
-    "model": "professors.professor",
-    "fields": {
-      "uuid": "N6Cq7Yn9qlE",
-      "first_name": "حسین",
-      "last_name": "تقی‌زاده",
-      "honorific": "دکتر",
-      "department": ["tvwmvqKLVPw"],
-      "about": "",
-      "tag": "دکتر_تقی_زاده",
-      "has_detail": false,
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "image": null
-    }
-  },
-  {
-    "model": "professors.professor",
-    "fields": {
-      "uuid": "LmwofRCq9k4",
-      "first_name": "امیر",
-      "last_name": "خادم‌حسینی",
-      "honorific": "مهندس",
-      "department": ["tvwmvqKLVPw"],
-      "about": "",
-      "tag": "مهندس_خادم_حسینی",
-      "has_detail": false,
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "image": null
-    }
-  },
-  {
-    "model": "professors.professor",
-    "fields": {
-      "uuid": "WJ5SdVkZJkw",
-      "first_name": "سمیه",
-      "last_name": "سهرابی",
-      "honorific": "دکتر",
-      "department": ["tvwmvqKLVPw"],
-      "about": "",
-      "tag": "دکتر_سهرابی",
-      "has_detail": false,
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "image": null
-    }
-  },
-  {
-    "model": "professors.professor",
-    "fields": {
-      "uuid": "bggUFWYhQU0",
-      "first_name": "زهرا",
-      "last_name": "کریمی",
-      "honorific": "خانم",
-      "department": ["tvwmvqKLVPw"],
-      "about": "",
-      "tag": "خانم_کریمی",
-      "has_detail": false,
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "image": null
-    }
-  },
-  {
-    "model": "professors.professor",
-    "fields": {
-      "uuid": "rW9fC4IlyI8",
-      "first_name": "",
-      "last_name": "مشکسار",
-      "honorific": "دکتر",
-      "department": ["cQgGxQYPHEA"],
-      "about": "",
-      "tag": "دکتر_مشکسار",
-      "has_detail": false,
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "image": null
-    }
-  },
-  {
-    "model": "professors.professor",
-    "fields": {
-      "uuid": "lVdQBrOgcHQ",
-      "first_name": "سلمان",
-      "last_name": "غفرانی جهرمی",
-      "honorific": "دکتر",
-      "department": ["cQgGxQYPHEA"],
-      "about": "",
-      "tag": "دکتر_غفرانی",
-      "has_detail": false,
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "image": null
-    }
-  },
-  {
-    "model": "professors.professor",
-    "fields": {
-      "uuid": "ifpAvNQIixc",
-      "first_name": "امین",
-      "last_name": "اسکندری",
-      "honorific": "دکتر",
-      "department": ["cQgGxQYPHEA"],
-      "about": "",
-      "tag": "دکتر_اسکندری",
-      "has_detail": false,
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "image": null
-    }
-  },
-  {
-    "model": "professors.professor",
-    "fields": {
-      "uuid": "KKDDrxe40fo",
-      "first_name": "مریم",
-      "last_name": "دهقانی",
-      "honorific": "دکتر",
-      "department": ["cQgGxQYPHEA"],
-      "about": "",
-      "tag": "دکتر_دهقانی",
-      "has_detail": false,
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30",
-      "image": null
-    }
-  }
 ]

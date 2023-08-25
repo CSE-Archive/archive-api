@@ -29,11 +29,11 @@ class RequisiteToInlineAdmin(admin.TabularInline):
 class CourseAdmin(BaseAdminMixin, admin.ModelAdmin):
     inlines = (RequisiteFromInlineAdmin, RequisiteToInlineAdmin,)
     list_per_page = 25
-    list_display = ("uuid", "title", "en_title", "unit", "type",
+    list_display = ("uuid", "title", "en_title", "units", "type",
                     "requisites_from_count", "requisites_to_count", "classrooms_count",
                     "references_count", "resources_count", "recordings_count",)
     search_fields = ("uuid", "title", "en_title", "description", "tag",)
-    list_filter = ("type", "unit",)
+    list_filter = ("type", "units",)
 
     @admin.display(ordering="requisites_from_count", description=_("Number of Requisities-From"))
     def requisites_from_count(self, instance: Course):

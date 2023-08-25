@@ -1,1122 +1,1121 @@
-[
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "4VORB34qsNM",
-      "title": "مبانی کامپیوتر و برنامه‌نویسی",
-      "en_title": "Basics of Computer and Programming",
-      "tag": "مبانی",
-      "known_as": "",
-      "unit": 3,
-      "type": 1,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
+[{
+        "model": "courses.course",
+        "fields": {
+            "uuid": "4VORB34qsNM",
+            "title": "مبانی کامپیوتر و برنامه‌نویسی",
+            "en_title": "Basics of Computer and Programming",
+            "tag": "مبانی",
+            "known_as": null,
+            "units": 3,
+            "type": 1,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "dStKfTC0Lek",
+            "title": "ساختمان گسسته",
+            "en_title": "Discrete Mathematics",
+            "tag": "گسسته",
+            "known_as": null,
+            "units": 3,
+            "type": 1,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "RDUT0ml8TNI",
+            "title": "آزمایشگاه کامپیوتر",
+            "en_title": "Computer Lab",
+            "tag": "آز_کامپیوتر",
+            "known_as": null,
+            "units": 1,
+            "type": 1,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "W6i960Wc8Hc",
+            "title": "برنامه‌نویسی پیشرفته",
+            "en_title": "Advanced Programming",
+            "tag": "پیشرفته",
+            "known_as": "AP",
+            "units": 3,
+            "type": 1,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "T6_qqhgjD4Y",
+            "title": "مدارهای منطقی",
+            "en_title": "Logic Circuits",
+            "tag": "مدار_منطقی",
+            "known_as": null,
+            "units": 3,
+            "type": 1,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "J2OBo93uAYw",
+            "title": "برنامه‌نویسی شی‌گرا",
+            "en_title": "Object Oriented Programming",
+            "tag": "OOP",
+            "known_as": "OOP",
+            "units": 3,
+            "type": 1,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "xvI1oQknNjQ",
+            "title": "زبان ماشین و برنامه‌سازی سیستم",
+            "en_title": "Machine Language and System Programming",
+            "tag": "اسمبلی",
+            "known_as": "اسمبلی",
+            "units": 3,
+            "type": 1,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "xGkAHRRVBnU",
+            "title": "آزمایشگاه مدارهای منطقی",
+            "en_title": "Logic Circuits Lab",
+            "tag": "آز_منطقی",
+            "known_as": null,
+            "units": 1,
+            "type": 1,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "FXaxY78Lx0I",
+            "title": "آمار و احتمال مهندسی",
+            "en_title": "Engineering Probability and Statistics",
+            "tag": "آمار",
+            "known_as": null,
+            "units": 3,
+            "type": 1,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "6oWhsMz3O9Q",
+            "title": "ریاضی مهندسی",
+            "en_title": "Engineering Mathematics",
+            "tag": "ریاضی_مهندسی",
+            "known_as": "ریضمو",
+            "units": 3,
+            "type": 1,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "xEvVbt5U1jQ",
+            "title": "مدارهای الکتریکی",
+            "en_title": "Electrical Circuits",
+            "tag": "مدار_الکتریکی",
+            "known_as": null,
+            "units": 3,
+            "type": 1,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "Vwpb6nAl6_E",
+            "title": "نظریه زبان‌ها و ماشین",
+            "en_title": "Formal Languages and Automata Theory",
+            "tag": "نظریه",
+            "known_as": null,
+            "units": 3,
+            "type": 1,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "h6NQLbJdcwY",
+            "title": "ساختمان داده‌ها و الگوریتم‌ها",
+            "en_title": "Data Structures and Algorithms",
+            "tag": "DS",
+            "known_as": "DS",
+            "units": 3,
+            "type": 1,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "edjlkIEU3m0",
+            "title": "معماری کامپیوتر",
+            "en_title": "Computer Architecture",
+            "tag": "معماری",
+            "known_as": null,
+            "units": 3,
+            "type": 1,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "K4i5sd6uRfo",
+            "title": "روش‌های محاسبات عددی",
+            "en_title": "Numerical Calculation Methods",
+            "tag": "محاسبات",
+            "known_as": null,
+            "units": 3,
+            "type": 1,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "L2NaV4j2eNU",
+            "title": "مدارهای الکترونیکی",
+            "en_title": "Electronic Circuits",
+            "tag": "مدار_الکترونیکی",
+            "known_as": null,
+            "units": 3,
+            "type": 1,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "NgnGtKaJ6AM",
+            "title": "طراحی و تحلیل الگوریتم‌ها",
+            "en_title": "Design and Analysis of Algorithms",
+            "tag": "الگوریتم",
+            "known_as": null,
+            "units": 3,
+            "type": 1,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "H1romJgtudM",
+            "title": "آزمایشگاه معماری کامپیوتر",
+            "en_title": "Computer Architecture Lab",
+            "tag": "آز_معماری",
+            "known_as": null,
+            "units": 1,
+            "type": 1,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "vXh5qgjgJEE",
+            "title": "اصول طراحی سیستم‌های عامل",
+            "en_title": "Operating Systems Design Principles",
+            "tag": "سیستم_عامل",
+            "known_as": "OS",
+            "units": 3,
+            "type": 1,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "krcBL7VfJGo",
+            "title": "سیگنال‌ها و سیستم‌ها",
+            "en_title": "Signals & Systems",
+            "tag": "سیگنال",
+            "known_as": null,
+            "units": 3,
+            "type": 1,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "kWiZv6ow0_s",
+            "title": "شیوه ارائه مطالب علمی و فنی",
+            "en_title": "Presentation of Scientific and Technical Contents",
+            "tag": "شیوه",
+            "known_as": null,
+            "units": 2,
+            "type": 1,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "xWX9cNBTpec",
+            "title": "هوش مصنوعی",
+            "en_title": "Artificial Intelligence",
+            "tag": "هوش_مصنوعی",
+            "known_as": null,
+            "units": 3,
+            "type": 1,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "Tk8m_z6Q6RE",
+            "title": "اصول طراحی پایگاه داده‌ها",
+            "en_title": "Database Design Principles",
+            "tag": "دیتابیس",
+            "known_as": "دیتابیس",
+            "units": 3,
+            "type": 1,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "UG2kETI8x5k",
+            "title": "ریزپردازنده",
+            "en_title": "Microprocessor",
+            "tag": "میکرو",
+            "known_as": "میکرو",
+            "units": 3,
+            "type": 1,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "8nc0R1fdy3M",
+            "title": "آزمایشگاه سیستم‌های عامل",
+            "en_title": "Operating Systems Lab",
+            "tag": "آز_سیستم_عامل",
+            "known_as": "آز OS",
+            "units": 1,
+            "type": 1,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "VvjskcG8dP8",
+            "title": "انتقال داده‌ها",
+            "en_title": "Data Communication",
+            "tag": "انتقال",
+            "known_as": null,
+            "units": 3,
+            "type": 1,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "pZhhlaoBIq4",
+            "title": "اصول طراحی کامپایلرها",
+            "en_title": "Compiler Design Principles",
+            "tag": "کامپایلر",
+            "known_as": null,
+            "units": 3,
+            "type": 1,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "ueVVW6jH0oI",
+            "title": "تحلیل و طراحی سیستم‌ها",
+            "en_title": "System Analysis and Design",
+            "tag": "نرم_افزار",
+            "known_as": "نرم‌افزار",
+            "units": 3,
+            "type": 1,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "5wePzHh6NCc",
+            "title": "آز ریزپردازنده",
+            "en_title": "Microprocessor Lab",
+            "tag": "آز_میکرو",
+            "known_as": "آز میکرو",
+            "units": 1,
+            "type": 1,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "KM3Sgnpyha0",
+            "title": "طراحی کامپیوتری سیستم‌های دیجیتال",
+            "en_title": "Digital Systems Design",
+            "tag": "FPGA",
+            "known_as": "FPGA",
+            "units": 3,
+            "type": 1,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "jJWLm734jtQ",
+            "title": "شبکه‌های کامپیوتری",
+            "en_title": "Computer Networks",
+            "tag": "شبکه",
+            "known_as": null,
+            "units": 3,
+            "type": 1,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "oZxiY5GoaYI",
+            "title": "آزمایشگاه شبکه‌های کامپیوتری",
+            "en_title": "Computer Networks Lab",
+            "tag": "آز_شبکه",
+            "known_as": null,
+            "units": 1,
+            "type": 1,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "IxJaea6AGkM",
+            "title": "پروژه کارشناسی",
+            "en_title": "Bachelor Project",
+            "tag": "پروژه_کارشناسی",
+            "known_as": null,
+            "units": 3,
+            "type": 1,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "pT6YALXkBFI",
+            "title": "کارآموزی",
+            "en_title": "Internship",
+            "tag": "کارآموزی",
+            "known_as": null,
+            "units": 2,
+            "type": 1,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "Djprdbr31os",
+            "title": "مبانی تحقیق در عملیات",
+            "en_title": "Fundamentals of Operations Research",
+            "tag": "OR",
+            "known_as": "OR",
+            "units": 2,
+            "type": 2,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "c5mX3nrrjjY",
+            "title": "آزمایشگاه طراحی رابط کاربری",
+            "en_title": "User Interface Design Lab",
+            "tag": "UIUX",
+            "known_as": "UIUX",
+            "units": 1,
+            "type": 2,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "D0k7Bd9fIcY",
+            "title": "برنامه‌نویسی پردازنده‌های گرافیکی",
+            "en_title": "GPU Programming",
+            "tag": "GPU",
+            "known_as": "GPU",
+            "units": 3,
+            "type": 2,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "p9fA5eN0uQc",
+            "title": "چالش‌های برنامه‌نویسی سریع",
+            "en_title": "Quick Programming Challenges",
+            "tag": "QP",
+            "known_as": "QP",
+            "units": 3,
+            "type": 2,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "r9J2fMvdpWE",
+            "title": "نظریه و الگوریتم‌های گراف",
+            "en_title": "Graph Theory and Algorithms",
+            "tag": "گراف",
+            "known_as": null,
+            "units": 3,
+            "type": 2,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "jtlM0AtLEA0",
+            "title": "طراحی و پیاده‌سازی زبان‌های برنامه‌سازی",
+            "en_title": "Design and Implementation of Programming Languages",
+            "tag": "PL",
+            "known_as": "PL",
+            "units": 3,
+            "type": 2,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "pE5PipPXaAs",
+            "title": "طراحی سیستم‌های نهفته",
+            "en_title": "Embedded System Design",
+            "tag": "نهفته",
+            "known_as": null,
+            "units": 3,
+            "type": 2,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "KlxZlgLL_aI",
+            "title": "جبر خطی",
+            "en_title": "Linear Algebra",
+            "tag": "جبر_خطی",
+            "known_as": null,
+            "units": 3,
+            "type": 2,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "HAvdbvoK_m4",
+            "title": "آزمون نرم‌افزار",
+            "en_title": "Software Testing",
+            "tag": "آزمون_نرم_افزار",
+            "known_as": null,
+            "units": 3,
+            "type": 2,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "zNsafxaUOT0",
+            "title": "آز پایگاه داده‌ها",
+            "en_title": "Database Lab",
+            "tag": "آز_دیتابیس",
+            "known_as": "آز دیتابیس",
+            "units": 1,
+            "type": 2,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "11Rzv0lmpk0",
+            "title": "رایانش سبز",
+            "en_title": "Green Computing",
+            "tag": "رایانش_سبز",
+            "known_as": null,
+            "units": 3,
+            "type": 2,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "lx5GUzNLmx0",
+            "title": "برنامه‌نویسی وب",
+            "en_title": "Web Programming",
+            "tag": "وب",
+            "known_as": null,
+            "units": 3,
+            "type": 2,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "88hTgVdL7Jw",
+            "title": "اقتصاد مهندسی",
+            "en_title": "Engineering Economics",
+            "tag": "اقتصاد_مهندسی",
+            "known_as": null,
+            "units": 3,
+            "type": 2,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "YHpOGt8aH0g",
+            "title": "تجارت الکترونیکی",
+            "en_title": "Electronic Commerce",
+            "tag": "تجارت",
+            "known_as": null,
+            "units": 3,
+            "type": 2,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "zbYjuR917M0",
+            "title": "ریاضیات عمومی ۱",
+            "en_title": "General Mathematics 1",
+            "tag": "ریاضی_یک",
+            "known_as": null,
+            "units": 3,
+            "type": 3,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "MWoi9xSQ6cA",
+            "title": "ریاضیات عمومی ۲",
+            "en_title": "General mathematics 2",
+            "tag": "ریاضی_دو",
+            "known_as": null,
+            "units": 3,
+            "type": 3,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "8tvBtoYUM7M",
+            "title": "معادلات دیفرانسیل",
+            "en_title": "Differential Equations",
+            "tag": "معادلات",
+            "known_as": null,
+            "units": 3,
+            "type": 3,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "yYUQD6idF9M",
+            "title": "فیزیک یک",
+            "en_title": "Physics 1",
+            "tag": "فیزیک_یک",
+            "known_as": null,
+            "units": 3,
+            "type": 3,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "JE2zhJmzqvo",
+            "title": "فیزیک دو",
+            "en_title": "Physics 2",
+            "tag": "فیزیک_دو",
+            "known_as": null,
+            "units": 3,
+            "type": 3,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "_vylVdOviWU",
+            "title": "تربیت بدنی ۱",
+            "en_title": "Physical Education 1",
+            "tag": "تربیت_یک",
+            "known_as": null,
+            "units": 1,
+            "type": 4,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "XCsiUsjVJOA",
+            "title": "تربیت بدنی ۲",
+            "en_title": "Physical Education 2",
+            "tag": "تربیت_دو",
+            "known_as": null,
+            "units": 1,
+            "type": 4,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "pRHAFmzCtEk",
+            "title": "انگلیسی عمومی",
+            "en_title": "General English Language",
+            "tag": "انگلیسی_عمومی",
+            "known_as": null,
+            "units": 3,
+            "type": 4,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "xbDfzUdKxB8",
+            "title": "انگلیسی تخصصی",
+            "en_title": "Specialized English Language",
+            "tag": "انگلیسی_تخصصی",
+            "known_as": null,
+            "units": 3,
+            "type": 4,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "MMcnvprYx3U",
+            "title": "فارسی عمومی",
+            "en_title": "General Persian Language",
+            "tag": "فارسی",
+            "known_as": null,
+            "units": 3,
+            "type": 4,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "yL7lcVFlN5o",
+            "title": "آئین زندگی",
+            "en_title": null,
+            "tag": "آیین_زندگی",
+            "known_as": null,
+            "units": 2,
+            "type": 4,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "jeEhKII21G4",
+            "title": "انقلاب اسلامی",
+            "en_title": null,
+            "tag": "انقلاب_اسلامی",
+            "known_as": null,
+            "units": 2,
+            "type": 4,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "RO3bTjGgrRQ",
+            "title": "قانون اساسی",
+            "en_title": null,
+            "tag": "قانون_اساسی",
+            "known_as": null,
+            "units": 2,
+            "type": 4,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "S8UBPDv6dv0",
+            "title": "اندیشه سیاسی امام خمینی (ره)",
+            "en_title": null,
+            "tag": "اندیشه_امام",
+            "known_as": null,
+            "units": 2,
+            "type": 4,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "qJ31AQBsp1E",
+            "title": "تفسیر موضوعی قرآن کریم",
+            "en_title": null,
+            "tag": "تفسیر_قرآن",
+            "known_as": null,
+            "units": 2,
+            "type": 4,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "DiroBhcuI3I",
+            "title": "تفسیر نهج‌البلاغه",
+            "en_title": null,
+            "tag": "تفسیر_نهج_البلاغه",
+            "known_as": null,
+            "units": 2,
+            "type": 4,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "42w_RtCgW8k",
+            "title": "اندیشه اسلامی ۱",
+            "en_title": null,
+            "tag": "اندیشه_یک",
+            "known_as": null,
+            "units": 2,
+            "type": 4,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "D1bSu3V1sBI",
+            "title": "اندیشه اسلامی ۲",
+            "en_title": null,
+            "tag": "اندیشه_دو",
+            "known_as": null,
+            "units": 2,
+            "type": 4,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "fX9eZ5lSHXg",
+            "title": "تاریخ تحلیلی صدر اسلام",
+            "en_title": null,
+            "tag": "تاریخ_تحلیلی",
+            "known_as": null,
+            "units": 2,
+            "type": 4,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "7YHegXu2av8",
+            "title": "تاریخ امامت",
+            "en_title": null,
+            "tag": "تاریخ_امامت",
+            "known_as": null,
+            "units": 2,
+            "type": 4,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "tPWp50wXZts",
+            "title": "حقوق اجتماعی و سیاسی در اسلام",
+            "en_title": null,
+            "tag": "حقوق_در_اسلام",
+            "known_as": null,
+            "units": 2,
+            "type": 4,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
+    },
+    {
+        "model": "courses.course",
+        "fields": {
+            "uuid": "aCZqBr1AKeQ",
+            "title": "انسان در اسلام",
+            "en_title": null,
+            "tag": "انسان_در_اسلام",
+            "known_as": null,
+            "units": 2,
+            "type": 4,
+            "description": null,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30"
+        }
     }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "dStKfTC0Lek",
-      "title": "ساختمان گسسته",
-      "en_title": "Discrete Mathematics",
-      "tag": "گسسته",
-      "known_as": "",
-      "unit": 3,
-      "type": 1,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "RDUT0ml8TNI",
-      "title": "آزمایشگاه کامپیوتر",
-      "en_title": "Computer Lab",
-      "tag": "آز_کامپیوتر",
-      "known_as": "",
-      "unit": 1,
-      "type": 1,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "W6i960Wc8Hc",
-      "title": "برنامه‌نویسی پیشرفته",
-      "en_title": "Advanced Programming",
-      "tag": "پیشرفته",
-      "known_as": "AP",
-      "unit": 3,
-      "type": 1,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "T6_qqhgjD4Y",
-      "title": "مدارهای منطقی",
-      "en_title": "Logic Circuits",
-      "tag": "مدار_منطقی",
-      "known_as": "",
-      "unit": 3,
-      "type": 1,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "J2OBo93uAYw",
-      "title": "برنامه‌نویسی شی‌گرا",
-      "en_title": "Object Oriented Programming",
-      "tag": "OOP",
-      "known_as": "OOP",
-      "unit": 3,
-      "type": 1,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "xvI1oQknNjQ",
-      "title": "زبان ماشین و برنامه‌سازی سیستم",
-      "en_title": "Machine Language and System Programming",
-      "tag": "اسمبلی",
-      "known_as": "اسمبلی",
-      "unit": 3,
-      "type": 1,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "xGkAHRRVBnU",
-      "title": "آزمایشگاه مدارهای منطقی",
-      "en_title": "Logic Circuits Lab",
-      "tag": "آز_منطقی",
-      "known_as": "",
-      "unit": 1,
-      "type": 1,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "FXaxY78Lx0I",
-      "title": "آمار و احتمال مهندسی",
-      "en_title": "Engineering Probability and Statistics",
-      "tag": "آمار",
-      "known_as": "",
-      "unit": 3,
-      "type": 1,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "6oWhsMz3O9Q",
-      "title": "ریاضی مهندسی",
-      "en_title": "Engineering Mathematics",
-      "tag": "ریاضی_مهندسی",
-      "known_as": "ریضمو",
-      "unit": 3,
-      "type": 1,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "xEvVbt5U1jQ",
-      "title": "مدارهای الکتریکی",
-      "en_title": "Electrical Circuits",
-      "tag": "مدار_الکتریکی",
-      "known_as": "",
-      "unit": 3,
-      "type": 1,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "Vwpb6nAl6_E",
-      "title": "نظریه زبان‌ها و ماشین",
-      "en_title": "Formal Languages and Automata Theory",
-      "tag": "نظریه",
-      "known_as": "",
-      "unit": 3,
-      "type": 1,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "h6NQLbJdcwY",
-      "title": "ساختمان داده‌ها و الگوریتم‌ها",
-      "en_title": "Data Structures and Algorithms",
-      "tag": "DS",
-      "known_as": "DS",
-      "unit": 3,
-      "type": 1,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "edjlkIEU3m0",
-      "title": "معماری کامپیوتر",
-      "en_title": "Computer Architecture",
-      "tag": "معماری",
-      "known_as": "",
-      "unit": 3,
-      "type": 1,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "K4i5sd6uRfo",
-      "title": "روش‌های محاسبات عددی",
-      "en_title": "Numerical Calculation Methods",
-      "tag": "محاسبات",
-      "known_as": "",
-      "unit": 3,
-      "type": 1,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "L2NaV4j2eNU",
-      "title": "مدارهای الکترونیکی",
-      "en_title": "Electronic Circuits",
-      "tag": "مدار_الکترونیکی",
-      "known_as": "",
-      "unit": 3,
-      "type": 1,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "NgnGtKaJ6AM",
-      "title": "طراحی و تحلیل الگوریتم‌ها",
-      "en_title": "Design and Analysis of Algorithms",
-      "tag": "الگوریتم",
-      "known_as": "",
-      "unit": 3,
-      "type": 1,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "H1romJgtudM",
-      "title": "آزمایشگاه معماری کامپیوتر",
-      "en_title": "Computer Architecture Lab",
-      "tag": "آز_معماری",
-      "known_as": "",
-      "unit": 1,
-      "type": 1,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "vXh5qgjgJEE",
-      "title": "اصول طراحی سیستم‌های عامل",
-      "en_title": "Operating Systems Design Principles",
-      "tag": "سیستم_عامل",
-      "known_as": "OS",
-      "unit": 3,
-      "type": 1,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "krcBL7VfJGo",
-      "title": "سیگنال‌ها و سیستم‌ها",
-      "en_title": "Signals & Systems",
-      "tag": "سیگنال",
-      "known_as": "",
-      "unit": 3,
-      "type": 1,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "kWiZv6ow0_s",
-      "title": "شیوه ارائه مطالب علمی و فنی",
-      "en_title": "Presentation of Scientific and Technical Contents",
-      "tag": "شیوه",
-      "known_as": "",
-      "unit": 2,
-      "type": 1,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "xWX9cNBTpec",
-      "title": "هوش مصنوعی",
-      "en_title": "Artificial Intelligence",
-      "tag": "هوش_مصنوعی",
-      "known_as": "",
-      "unit": 3,
-      "type": 1,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "Tk8m_z6Q6RE",
-      "title": "اصول طراحی پایگاه داده‌ها",
-      "en_title": "Database Design Principles",
-      "tag": "دیتابیس",
-      "known_as": "دیتابیس",
-      "unit": 3,
-      "type": 1,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "UG2kETI8x5k",
-      "title": "ریزپردازنده",
-      "en_title": "Microprocessor",
-      "tag": "میکرو",
-      "known_as": "میکرو",
-      "unit": 3,
-      "type": 1,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "8nc0R1fdy3M",
-      "title": "آزمایشگاه سیستم‌های عامل",
-      "en_title": "Operating Systems Lab",
-      "tag": "آز_سیستم_عامل",
-      "known_as": "آز OS",
-      "unit": 1,
-      "type": 1,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "VvjskcG8dP8",
-      "title": "انتقال داده‌ها",
-      "en_title": "Data Communication",
-      "tag": "انتقال",
-      "known_as": "",
-      "unit": 3,
-      "type": 1,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "pZhhlaoBIq4",
-      "title": "اصول طراحی کامپایلرها",
-      "en_title": "Compiler Design Principles",
-      "tag": "کامپایلر",
-      "known_as": "",
-      "unit": 3,
-      "type": 1,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "ueVVW6jH0oI",
-      "title": "تحلیل و طراحی سیستم‌ها",
-      "en_title": "System Analysis and Design",
-      "tag": "نرم_افزار",
-      "known_as": "نرم‌افزار",
-      "unit": 3,
-      "type": 1,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "5wePzHh6NCc",
-      "title": "آز ریزپردازنده",
-      "en_title": "Microprocessor Lab",
-      "tag": "آز_میکرو",
-      "known_as": "آز میکرو",
-      "unit": 1,
-      "type": 1,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "KM3Sgnpyha0",
-      "title": "طراحی کامپیوتری سیستم‌های دیجیتال",
-      "en_title": "Digital Systems Design",
-      "tag": "FPGA",
-      "known_as": "FPGA",
-      "unit": 3,
-      "type": 1,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "jJWLm734jtQ",
-      "title": "شبکه‌های کامپیوتری",
-      "en_title": "Computer Networks",
-      "tag": "شبکه",
-      "known_as": "",
-      "unit": 3,
-      "type": 1,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "oZxiY5GoaYI",
-      "title": "آزمایشگاه شبکه‌های کامپیوتری",
-      "en_title": "Computer Networks Lab",
-      "tag": "آز_شبکه",
-      "known_as": "",
-      "unit": 1,
-      "type": 1,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "IxJaea6AGkM",
-      "title": "پروژه کارشناسی",
-      "en_title": "Bachelor Project",
-      "tag": "پروژه_کارشناسی",
-      "known_as": "",
-      "unit": 3,
-      "type": 1,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "pT6YALXkBFI",
-      "title": "کارآموزی",
-      "en_title": "Internship",
-      "tag": "کارآموزی",
-      "known_as": "",
-      "unit": 2,
-      "type": 1,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "Djprdbr31os",
-      "title": "مبانی تحقیق در عملیات",
-      "en_title": "Fundamentals of Operations Research",
-      "tag": "OR",
-      "known_as": "OR",
-      "unit": 2,
-      "type": 2,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "c5mX3nrrjjY",
-      "title": "آزمایشگاه طراحی رابط کاربری",
-      "en_title": "User Interface Design Lab",
-      "tag": "UIUX",
-      "known_as": "UIUX",
-      "unit": 1,
-      "type": 2,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "D0k7Bd9fIcY",
-      "title": "برنامه‌نویسی پردازنده‌های گرافیکی",
-      "en_title": "GPU Programming",
-      "tag": "GPU",
-      "known_as": "GPU",
-      "unit": 3,
-      "type": 2,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "p9fA5eN0uQc",
-      "title": "چالش‌های برنامه‌نویسی سریع",
-      "en_title": "Quick Programming Challenges",
-      "tag": "QP",
-      "known_as": "QP",
-      "unit": 3,
-      "type": 2,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "r9J2fMvdpWE",
-      "title": "نظریه و الگوریتم‌های گراف",
-      "en_title": "Graph Theory and Algorithms",
-      "tag": "گراف",
-      "known_as": "",
-      "unit": 3,
-      "type": 2,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "jtlM0AtLEA0",
-      "title": "طراحی و پیاده‌سازی زبان‌های برنامه‌سازی",
-      "en_title": "Design and Implementation of Programming Languages",
-      "tag": "PL",
-      "known_as": "PL",
-      "unit": 3,
-      "type": 2,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "pE5PipPXaAs",
-      "title": "طراحی سیستم‌های نهفته",
-      "en_title": "Embedded System Design",
-      "tag": "نهفته",
-      "known_as": "",
-      "unit": 3,
-      "type": 2,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "KlxZlgLL_aI",
-      "title": "جبر خطی",
-      "en_title": "Linear Algebra",
-      "tag": "جبر_خطی",
-      "known_as": "",
-      "unit": 3,
-      "type": 2,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "HAvdbvoK_m4",
-      "title": "آزمون نرم‌افزار",
-      "en_title": "Software Testing",
-      "tag": "آزمون_نرم_افزار",
-      "known_as": "",
-      "unit": 3,
-      "type": 2,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "zNsafxaUOT0",
-      "title": "آز پایگاه داده‌ها",
-      "en_title": "Database Lab",
-      "tag": "آز_دیتابیس",
-      "known_as": "آز دیتابیس",
-      "unit": 1,
-      "type": 2,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "11Rzv0lmpk0",
-      "title": "رایانش سبز",
-      "en_title": "Green Computing",
-      "tag": "رایانش_سبز",
-      "known_as": "",
-      "unit": 3,
-      "type": 2,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "lx5GUzNLmx0",
-      "title": "برنامه‌نویسی وب",
-      "en_title": "Web Programming",
-      "tag": "وب",
-      "known_as": "",
-      "unit": 3,
-      "type": 2,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "88hTgVdL7Jw",
-      "title": "اقتصاد مهندسی",
-      "en_title": "Engineering Economics",
-      "tag": "اقتصاد_مهندسی",
-      "known_as": "",
-      "unit": 3,
-      "type": 2,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "YHpOGt8aH0g",
-      "title": "تجارت الکترونیکی",
-      "en_title": "Electronic Commerce",
-      "tag": "تجارت",
-      "known_as": "",
-      "unit": 3,
-      "type": 2,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "zbYjuR917M0",
-      "title": "ریاضیات عمومی ۱",
-      "en_title": "General Mathematics 1",
-      "tag": "ریاضی_یک",
-      "known_as": "",
-      "unit": 3,
-      "type": 3,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "MWoi9xSQ6cA",
-      "title": "ریاضیات عمومی ۲",
-      "en_title": "General mathematics 2",
-      "tag": "ریاضی_دو",
-      "known_as": "",
-      "unit": 3,
-      "type": 3,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "8tvBtoYUM7M",
-      "title": "معادلات دیفرانسیل",
-      "en_title": "Differential Equations",
-      "tag": "معادلات",
-      "known_as": "",
-      "unit": 3,
-      "type": 3,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "yYUQD6idF9M",
-      "title": "فیزیک یک",
-      "en_title": "Physics 1",
-      "tag": "فیزیک_یک",
-      "known_as": "",
-      "unit": 3,
-      "type": 3,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "JE2zhJmzqvo",
-      "title": "فیزیک دو",
-      "en_title": "Physics 2",
-      "tag": "فیزیک_دو",
-      "known_as": "",
-      "unit": 3,
-      "type": 3,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "_vylVdOviWU",
-      "title": "تربیت بدنی ۱",
-      "en_title": "Physical Education 1",
-      "tag": "تربیت_یک",
-      "known_as": "",
-      "unit": 1,
-      "type": 4,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "XCsiUsjVJOA",
-      "title": "تربیت بدنی ۲",
-      "en_title": "Physical Education 2",
-      "tag": "تربیت_دو",
-      "known_as": "",
-      "unit": 1,
-      "type": 4,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "pRHAFmzCtEk",
-      "title": "انگلیسی عمومی",
-      "en_title": "General English Language",
-      "tag": "انگلیسی_عمومی",
-      "known_as": "",
-      "unit": 3,
-      "type": 4,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "xbDfzUdKxB8",
-      "title": "انگلیسی تخصصی",
-      "en_title": "Specialized English Language",
-      "tag": "انگلیسی_تخصصی",
-      "known_as": "",
-      "unit": 3,
-      "type": 4,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "MMcnvprYx3U",
-      "title": "فارسی عمومی",
-      "en_title": "General Persian Language",
-      "tag": "فارسی",
-      "known_as": "",
-      "unit": 3,
-      "type": 4,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "yL7lcVFlN5o",
-      "title": "آئین زندگی",
-      "en_title": "",
-      "tag": "آیین_زندگی",
-      "known_as": "",
-      "unit": 2,
-      "type": 4,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "jeEhKII21G4",
-      "title": "انقلاب اسلامی",
-      "en_title": "",
-      "tag": "انقلاب_اسلامی",
-      "known_as": "",
-      "unit": 2,
-      "type": 4,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "RO3bTjGgrRQ",
-      "title": "قانون اساسی",
-      "en_title": "",
-      "tag": "قانون_اساسی",
-      "known_as": "",
-      "unit": 2,
-      "type": 4,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "S8UBPDv6dv0",
-      "title": "اندیشه سیاسی امام خمینی (ره)",
-      "en_title": "",
-      "tag": "اندیشه_امام",
-      "known_as": "",
-      "unit": 2,
-      "type": 4,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "qJ31AQBsp1E",
-      "title": "تفسیر موضوعی قرآن کریم",
-      "en_title": "",
-      "tag": "تفسیر_قرآن",
-      "known_as": "",
-      "unit": 2,
-      "type": 4,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "DiroBhcuI3I",
-      "title": "تفسیر نهج‌البلاغه",
-      "en_title": "",
-      "tag": "تفسیر_نهج_البلاغه",
-      "known_as": "",
-      "unit": 2,
-      "type": 4,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "42w_RtCgW8k",
-      "title": "اندیشه اسلامی ۱",
-      "en_title": "",
-      "tag": "اندیشه_یک",
-      "known_as": "",
-      "unit": 2,
-      "type": 4,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "D1bSu3V1sBI",
-      "title": "اندیشه اسلامی ۲",
-      "en_title": "",
-      "tag": "اندیشه_دو",
-      "known_as": "",
-      "unit": 2,
-      "type": 4,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "fX9eZ5lSHXg",
-      "title": "تاریخ تحلیلی صدر اسلام",
-      "en_title": "",
-      "tag": "تاریخ_تحلیلی",
-      "known_as": "",
-      "unit": 2,
-      "type": 4,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "7YHegXu2av8",
-      "title": "تاریخ امامت",
-      "en_title": "",
-      "tag": "تاریخ_امامت",
-      "known_as": "",
-      "unit": 2,
-      "type": 4,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "tPWp50wXZts",
-      "title": "حقوق اجتماعی و سیاسی در اسلام",
-      "en_title": "",
-      "tag": "حقوق_در_اسلام",
-      "known_as": "",
-      "unit": 2,
-      "type": 4,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  },
-  {
-    "model": "courses.course",
-    "fields": {
-      "uuid": "aCZqBr1AKeQ",
-      "title": "انسان در اسلام",
-      "en_title": "",
-      "tag": "انسان_در_اسلام",
-      "known_as": "",
-      "unit": 2,
-      "type": 4,
-      "description": "",
-      "is_published": true,
-      "created_time": "2023-08-01T23:59:59.999999+03:30",
-      "modified_time": "2023-08-01T23:59:59.999999+03:30"
-    }
-  }
 ]

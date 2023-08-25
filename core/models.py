@@ -23,7 +23,6 @@ class Link(models.Model):
     title = models.CharField(
         verbose_name=_("Title"),
         max_length=63,
-        blank=True,
     )
 
     linked_type = models.ForeignKey(

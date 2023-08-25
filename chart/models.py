@@ -36,9 +36,9 @@ class ChartNode(models.Model):
         choices=Course.Types.choices,
         null=True,
     )
-    unit = models.PositiveSmallIntegerField(
-        verbose_name=_("Unit"),
-        choices=Course.UNIT_CHOICES,
+    units = models.PositiveSmallIntegerField(
+        verbose_name=_("Units"),
+        choices=Course.UNITS_CHOICES,
         null=True,
     )
 
@@ -51,8 +51,8 @@ class ChartNode(models.Model):
         ordering = ("semester", "column",)
         constraints = [
             models.CheckConstraint(
-                check=models.Q(course__isnull=True, type__isnull=False, unit__isnull=False)
-                    | models.Q(course__isnull=False, type__isnull=True, unit__isnull=True),
+                check=models.Q(course__isnull=True, type__isnull=False, units__isnull=False)
+                    | models.Q(course__isnull=False, type__isnull=True, units__isnull=True),
                 name="linked_to_course_or_not"
             )
         ]

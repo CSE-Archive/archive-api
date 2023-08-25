@@ -1,8 +1,15 @@
 import os
 from pathlib import Path
+from dotenv import load_dotenv
 
 from django.utils.translation import gettext_lazy as _
 
+
+load_dotenv()
+
+DEBUG = os.environ.get('DEBUG') == 'True'
+
+SECRET_KEY = os.environ.get('SECRET_KEY')
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))

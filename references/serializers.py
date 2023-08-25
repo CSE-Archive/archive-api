@@ -1,43 +1,46 @@
+from typing import List
+
 from rest_framework import serializers
+from drf_yasg.utils import swagger_serializer_method
 
 from core.helpers import gregorian_to_jalali
 from core.serializers import LinkSerializer
-from references.models import Author, Reference
-
-
-class AuthorSerializer(serializers.Serializer):
-    def to_representation(self, instance: Author):
-        return instance.full_name
+from courses.serializers.list import CourseListSerializer
+from references.models import Reference
 
 
 class ReferenceListSerializer(serializers.ModelSerializer):
     class Meta:
         model = Reference
-        fields = ("uuid", "title", "cover_image", "authors", "links",)
+        fields = ("uuid", "title", "type", "cover_image", "collector", "authors", "links",)
     
     links = LinkSerializer(many=True)
-    authors = AuthorSerializer(many=True)
+    authors = serializers.SerializerMethodField()
+
+    @swagger_serializer_method(serializers.ListField(child=serializers.CharField()))
+    def get_authors(self, instance: Reference) -> List[str]:
+        return instance.authors.values_list("full_name", flat=True)
 
 
-class ReferenceSerializer(serializers.ModelSerializer):
+class ReferenceDetailSerializer(serializers.ModelSerializer):
     class Meta:
         model = Reference
-        fields = ("uuid", "title", "notes", "cover_image", "authors", "courses",
+        fields = ("uuid", "title", "type", "notes", "cover_image", "collector", "authors", "courses",
                   "links", "related_references", "created_time", "modified_time",)
     
     links = LinkSerializer(many=True)
-    authors = AuthorSerializer(many=True)
-    courses = serializers.SerializerMethodField()
+    authors = serializers.SerializerMethodField()
+    courses = CourseListSerializer(many=True)
     created_time = serializers.SerializerMethodField()
     modified_time = serializers.SerializerMethodField()
     related_references = ReferenceListSerializer(many=True)
 
-    def get_courses(self, instance: Reference):
-        from courses.serializers import CourseListSerializer
-        return CourseListSerializer(instance.courses, many=True).data
+    @swagger_serializer_method(serializers.ListField(child=serializers.CharField()))
+    def get_authors(self, instance: Reference) -> List[str]:
+        return instance.authors.values_list("full_name", flat=True)
 
-    def get_created_time(self, instance: Reference):
+    def get_created_time(self, instance: Reference) -> str:
         return gregorian_to_jalali(instance.created_time)
 
-    def get_modified_time(self, instance: Reference):
+    def get_modified_time(self, instance: Reference) -> str:
         return gregorian_to_jalali(instance.modified_time)

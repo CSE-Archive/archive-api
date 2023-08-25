@@ -5,7 +5,7 @@ from rest_framework.generics import ListAPIView
 from chart.models import ChartNode
 from chart.serializers import ChartNodeSerializer
 from courses.models import Course, Requisite
-from courses.serializers import CourseListSerializer
+from courses.serializers.list import CourseListSerializer
 
 
 class ChartView(ListAPIView):

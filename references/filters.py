@@ -8,4 +8,4 @@ class ReferenceFilterSet(FilterSet):
 
     class Meta:
         model = Reference
-        fields = ("course",)
+        fields = ("course", "type",)

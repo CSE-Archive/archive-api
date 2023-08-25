@@ -9,6 +9,7 @@ build
 # files
 cse_archive.log
 set_env_vars.sh
+.env
 
 # media folder
 media/*

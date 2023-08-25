@@ -20,7 +20,6 @@ class Resource(BaseModel):
     title = models.CharField(
         verbose_name=_("Title"),
         max_length=255,
-        blank=True,
     )
     type = models.PositiveSmallIntegerField(
         verbose_name=_("Type"),
@@ -29,7 +28,7 @@ class Resource(BaseModel):
     notes = models.CharField(
         verbose_name=_("Notes"),
         max_length=255,
-        blank=True,
+        null=True,
     )
     links = contenttypes_fields.GenericRelation(
         Link,
