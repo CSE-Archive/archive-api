@@ -23,15 +23,3 @@ class ChartView(ListAPIView):
                 queryset=Requisite.objects.filter(type=Requisite.Types.PRE).select_related("course_to"))
         )
     serializer_class = ChartNodeSerializer
-
-    def list(self, request, *args, **kwargs):
-        queryset = self.get_queryset()
-        serializer = self.get_serializer(queryset, many=True)
-        data = {
-            "nodes": serializer.data,
-            "extra": {
-                str(Course.Types.GENERAL): CourseListSerializer(Course.objects.filter(type=Course.Types.GENERAL, chart_node__isnull=True), many=True).data,
-                str(Course.Types.OPTIONAL): CourseListSerializer(Course.objects.filter(type=Course.Types.OPTIONAL, chart_node__isnull=True), many=True).data
-            }
-        }
-        return Response(data)
