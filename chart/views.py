@@ -23,3 +23,4 @@ class ChartView(ListAPIView):
                 queryset=Requisite.objects.filter(type=Requisite.Types.PRE).select_related("course_to"))
         )
     serializer_class = ChartNodeSerializer
+    pagination_class = None
