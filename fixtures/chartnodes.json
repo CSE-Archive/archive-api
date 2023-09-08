@@ -204,7 +204,7 @@
             "semester": 3,
             "column": 7,
             "course": null,
-            "type": 2,
+            "type": 4,
             "units": 2
         }
     },
@@ -264,7 +264,7 @@
             "semester": 4,
             "column": 7,
             "course": null,
-            "type": 2,
+            "type": 4,
             "units": 2
         }
     },
@@ -284,7 +284,7 @@
             "semester": 5,
             "column": 2,
             "course": null,
-            "type": 3,
+            "type": 2,
             "units": 3
         }
     },
@@ -334,7 +334,7 @@
             "semester": 5,
             "column": 7,
             "course": null,
-            "type": 2,
+            "type": 4,
             "units": 2
         }
     },
@@ -394,7 +394,7 @@
             "semester": 6,
             "column": 6,
             "course": null,
-            "type": 3,
+            "type": 2,
             "units": 3
         }
     },
@@ -404,7 +404,7 @@
             "semester": 6,
             "column": 7,
             "course": null,
-            "type": 2,
+            "type": 4,
             "units": 2
         }
     },
@@ -464,7 +464,7 @@
             "semester": 7,
             "column": 6,
             "course": null,
-            "type": 2,
+            "type": 4,
             "units": 2
         }
     },
@@ -484,7 +484,7 @@
             "semester": 8,
             "column": 1,
             "course": null,
-            "type": 3,
+            "type": 2,
             "units": 3
         }
     },
@@ -494,7 +494,7 @@
             "semester": 8,
             "column": 2,
             "course": null,
-            "type": 3,
+            "type": 2,
             "units": 3
         }
     },
@@ -504,7 +504,7 @@
             "semester": 8,
             "column": 3,
             "course": null,
-            "type": 3,
+            "type": 2,
             "units": 3
         }
     },
@@ -544,7 +544,7 @@
             "semester": 8,
             "column": 7,
             "course": null,
-            "type": 2,
+            "type": 4,
             "units": 2
         }
     }
