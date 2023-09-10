@@ -1,4 +1,5 @@
-[{
+[
+    {
         "model": "courses.course",
         "fields": {
             "uuid": "4VORB34qsNM",

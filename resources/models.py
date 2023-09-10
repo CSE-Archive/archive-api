@@ -20,6 +20,7 @@ class Resource(BaseModel):
     title = models.CharField(
         verbose_name=_("Title"),
         max_length=255,
+        null=True,
     )
     type = models.PositiveSmallIntegerField(
         verbose_name=_("Type"),

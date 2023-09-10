@@ -4,11 +4,11 @@ import nested_admin
 
 from core.admin import BaseAdminMixin, LinkNestedInlineAdmin
 from core.helpers import image_url_to_html, gregorian_to_jalali, model_changelist_url_to_html
-from references.models import Author, Reference
+from references.models import Writer, Reference
 
 
 class ReferenceNestedInlineAdmin(nested_admin.NestedTabularInline):
-    model = Reference.authors.through
+    model = Reference.writers.through
     extra = 0
     autocomplete_fields = ("reference",)
     verbose_name = _("Reference")
@@ -27,11 +27,11 @@ class CourseInlineAdmin(nested_admin.NestedTabularInline):
 class ReferenceAdmin(BaseAdminMixin, nested_admin.NestedModelAdmin):
     inlines = (CourseInlineAdmin, LinkNestedInlineAdmin,)
     list_per_page = 25
-    list_display = ("uuid", "cover_image_", "title", "type", "collector", "authors_count",
+    list_display = ("uuid", "cover_image_", "title", "type", "writers_count",
                     "courses_count", "modified_time_", "created_time_",)
     readonly_fields = ("preview",)
     list_filter = ("modified_time", "created_time", "type", "courses__id",)
-    search_fields = ("uuid", "title", "collector", "authors__full_name",)
+    search_fields = ("uuid", "title", "writers__full_name",)
 
     @admin.display(description=_("Cover Image Preview"))
     def preview(self, instance: Reference):
@@ -52,14 +52,14 @@ class ReferenceAdmin(BaseAdminMixin, nested_admin.NestedModelAdmin):
             open_in_new_tab=True,
         )
 
-    @admin.display(ordering="authors_count", description=_("Number of Authors"))
-    def authors_count(self, instance: Reference):
+    @admin.display(ordering="writers_count", description=_("Number of Writers"))
+    def writers_count(self, instance: Reference):
         return model_changelist_url_to_html(
             app="references",
-            model="author",
+            model="writer",
             query_key="references",
             query_val=instance.id,
-            placeholder=instance.authors.count(),
+            placeholder=instance.writers.count(),
         )
     
     @admin.display(ordering="courses_count", description=_("Number of Courses"))
@@ -82,26 +82,26 @@ class ReferenceAdmin(BaseAdminMixin, nested_admin.NestedModelAdmin):
 
     def get_queryset(self, request):
         return super().get_queryset(request).prefetch_related(
-            "authors",
+            "writers",
             "courses",
         )
 
 
-@admin.register(Author)
-class AuthorAdmin(nested_admin.NestedModelAdmin):
+@admin.register(Writer)
+class WriterAdmin(nested_admin.NestedModelAdmin):
     inlines = (ReferenceNestedInlineAdmin,)
     list_per_page = 25
     list_display = ("id", "full_name", "references_count",)
     search_fields = ("full_name",)
 
     @admin.display(ordering="references_count", description=_("Number of References"))
-    def references_count(self, author):
+    def references_count(self, writer):
         return model_changelist_url_to_html(
             app="references",
             model="reference",
-            query_key="authors",
-            query_val=author.id,
-            placeholder=author.references.count(),
+            query_key="writers",
+            query_val=writer.id,
+            placeholder=writer.references.count(),
         )
 
     def get_queryset(self, request):

@@ -5,24 +5,24 @@ from django.contrib.contenttypes import fields as contenttypes_fields
 from core.models import BaseModel, Link
 from core.validators import MaxImageSizeValidator
 from courses.models import Course
-from references.managers import ReferenceManager, AuthorManager
+from references.managers import ReferenceManager, WriterManager
 
 
-class Author(models.Model):
+class Writer(models.Model):
     full_name = models.CharField(
         verbose_name=_("Full Name"),
         max_length=255,
         unique=True,
     )
 
-    objects = AuthorManager()
+    objects = WriterManager()
 
     def __str__(self) -> str:
         return self.full_name
 
     class Meta:
-        verbose_name = _("Author")
-        verbose_name_plural = _("Authors")
+        verbose_name = _("Writer")
+        verbose_name_plural = _("Writers")
 
 
 class Reference(BaseModel):
@@ -32,10 +32,13 @@ class Reference(BaseModel):
         SOLUTION = 2, _("Solution")
         SLIDE = 3, _("Slide")
         HANDOUT = 4, _("Handout")
+        SUMMARY = 5, _("Summary")
+        OTHER = 6, _("Other")
 
     title = models.CharField(
         verbose_name=_("Title"),
         max_length=255,
+        null=True,
     )
     type = models.PositiveSmallIntegerField(
         verbose_name=_("Type"),
@@ -59,16 +62,11 @@ class Reference(BaseModel):
         null=True,
         validators=[MaxImageSizeValidator(1)],
     )
-    authors = models.ManyToManyField(
-        Author,
-        verbose_name=_("Authors"),
+    writers = models.ManyToManyField(
+        Writer,
+        verbose_name=_("Writer"),
         related_name="references",
         blank=True,
-    )
-    collector = models.CharField(
-        verbose_name=_("Collector"),
-        max_length=255,
-        null=True,
     )
     courses = models.ManyToManyField(
         Course,

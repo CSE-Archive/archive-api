@@ -1,11 +1,12 @@
 from django.contrib import admin
+from django.db.models import Count
 from django.utils.translation import gettext_lazy as _
 import nested_admin
 
 from core.admin import BaseAdminMixin, LinkNestedInlineAdmin
 from core.helpers import image_url_to_html, model_changelist_url_to_html
 from classrooms.models import Classroom
-from professors.models import Email, Professor
+from professors.models import Department, Professor, Email
 
 
 class EmailInlineAdmin(nested_admin.NestedTabularInline):
@@ -83,3 +84,25 @@ class ProfessorAdmin(BaseAdminMixin, nested_admin.NestedModelAdmin):
                 "links",
                 "classrooms",
             )
+
+
+@admin.register(Department)
+class DepartmentAdmin(admin.ModelAdmin):
+    list_per_page = 25
+    list_display = ("uuid", "name", "name_en", "professors_count",)
+    search_fields = ("uuid", "name", "name_en",)
+
+    @admin.display(ordering="professors_count", description=_("Number of Professors"))
+    def professors_count(self, instance: Department):
+        return model_changelist_url_to_html(
+            app="professors",
+            model="professor",
+            query_key="department",
+            query_val=instance.id,
+            placeholder=instance.professors_count,
+        )
+
+    def get_queryset(self, request):
+        return super().get_queryset(request).annotate(
+            professors_count=Count("professors", distinct=True),
+        )

@@ -9,11 +9,11 @@ class ReferenceViewSet(ReadOnlyModelViewSet):
     queryset = Reference.objects \
         .prefetch_related(
             "links",
-            "authors",
+            "writers",
         )
     lookup_field = "uuid"
     filterset_class = ReferenceFilterSet
-    search_fields = ("title", "collector", "authors__full_name",)
+    search_fields = ("title", "writers__full_name",)
 
     def get_queryset(self):
         queryset = super().get_queryset()
@@ -22,7 +22,7 @@ class ReferenceViewSet(ReadOnlyModelViewSet):
                 "courses",
                 "related_references",
                 "related_references__links",
-                "related_references__authors",
+                "related_references__writers",
             )
         return queryset
 

@@ -1,4 +1,5 @@
-[{
+[
+    {
         "model": "chart.chartnode",
         "fields": {
             "semester": 1,

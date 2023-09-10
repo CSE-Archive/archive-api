@@ -1,4 +1,5 @@
-[{
+[
+    {
         "model": "recordings.recordedclassroom",
         "fields": {
             "uuid": "Rbj0aNm4Spw",

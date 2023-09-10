@@ -19,6 +19,11 @@ class Department(models.Model):
         max_length=63,
         null=True,
     )
+    tag = models.CharField(
+        verbose_name=_("Tag"),
+        max_length=127,
+        null=True,
+    )
 
     objects = DepartmentManager()
 
@@ -52,6 +57,7 @@ class Professor(BaseModel):
         on_delete=models.SET_NULL,
         verbose_name=_("Department"),
         null=True,
+        related_name="professors"
     )
     about = models.TextField(
         verbose_name=_("About"),

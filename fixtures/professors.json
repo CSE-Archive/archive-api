@@ -1,9 +1,11 @@
-[{
+[
+    {
         "model": "professors.department",
         "fields": {
             "uuid": "tvwmvqKLVPw",
             "name": "مهندسی کامپیوتر",
-            "name_en": "Computer Engineering"
+            "name_en": "Computer Engineering",
+            "tag": "cse"
         }
     },
     {
@@ -11,7 +13,8 @@
         "fields": {
             "uuid": "cQgGxQYPHEA",
             "name": "مهندسی برق",
-            "name_en": "Electrical Engineering"
+            "name_en": "Electrical Engineering",
+            "tag": "electrical"
         }
     },
     {

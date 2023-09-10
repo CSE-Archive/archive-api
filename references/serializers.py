@@ -12,32 +12,32 @@ from references.models import Reference
 class ReferenceListSerializer(serializers.ModelSerializer):
     class Meta:
         model = Reference
-        fields = ("uuid", "title", "type", "cover_image", "collector", "authors", "links",)
+        fields = ("uuid", "title", "type", "cover_image", "writers", "links",)
     
     links = LinkSerializer(many=True)
-    authors = serializers.SerializerMethodField()
+    writers = serializers.SerializerMethodField()
 
     @swagger_serializer_method(serializers.ListField(child=serializers.CharField()))
-    def get_authors(self, instance: Reference) -> List[str]:
-        return instance.authors.values_list("full_name", flat=True)
+    def get_writers(self, instance: Reference) -> List[str]:
+        return instance.writers.values_list("full_name", flat=True)
 
 
 class ReferenceDetailSerializer(serializers.ModelSerializer):
     class Meta:
         model = Reference
-        fields = ("uuid", "title", "type", "notes", "cover_image", "collector", "authors", "courses",
+        fields = ("uuid", "title", "type", "notes", "cover_image", "writers", "courses",
                   "links", "related_references", "created_time", "modified_time",)
     
     links = LinkSerializer(many=True)
-    authors = serializers.SerializerMethodField()
+    writers = serializers.SerializerMethodField()
     courses = CourseListSerializer(many=True)
     created_time = serializers.SerializerMethodField()
     modified_time = serializers.SerializerMethodField()
     related_references = ReferenceListSerializer(many=True)
 
     @swagger_serializer_method(serializers.ListField(child=serializers.CharField()))
-    def get_authors(self, instance: Reference) -> List[str]:
-        return instance.authors.values_list("full_name", flat=True)
+    def get_writers(self, instance: Reference) -> List[str]:
+        return instance.writers.values_list("full_name", flat=True)
 
     def get_created_time(self, instance: Reference) -> str:
         return gregorian_to_jalali(instance.created_time)

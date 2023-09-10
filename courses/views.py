@@ -10,7 +10,7 @@ class CourseViewSet(ReadOnlyModelViewSet):
         .prefetch_related(
             "references",
             "references__links",
-            "references__authors",
+            "references__writers",
             "classrooms__professors",
             "classrooms__professors__department",
             "classrooms__resources",

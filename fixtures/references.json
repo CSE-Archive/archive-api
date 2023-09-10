@@ -1,23 +1,24 @@
-[{
-        "model": "references.author",
+[
+    {
+        "model": "references.writer",
         "fields": {
             "full_name": "Peter Wentworth"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Jeffrey Elkner"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Allen B. Downey"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Chris Meyers"
         }
@@ -32,13 +33,12 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["Peter Wentworth"],
                 ["Jeffrey Elkner"],
                 ["Allen B. Downey"],
                 ["Chris Meyers"]
             ],
-            "collector": null,
             "courses": [
                 ["4VORB34qsNM"]
             ],
@@ -56,17 +56,24 @@
         }
     },
     {
+        "model": "references.writer",
+        "fields": {
+            "full_name": "دکتر عظیمی‌فر"
+        }
+    },
+    {
         "model": "references.reference",
         "fields": {
             "uuid": "t9699sfSHs8",
-            "title": "اسلایدهای ساختمان گسسته",
+            "title": null,
             "type": 3,
             "notes": null,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [],
-            "collector": "دکتر عظیمی‌فر",
+            "writers": [
+                ["دکتر عظیمی‌فر"]
+            ],
             "courses": [
                 ["dStKfTC0Lek"]
             ],
@@ -84,13 +91,13 @@
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Brian W. Kernighan"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Dennis M. Ritchie"
         }
@@ -105,11 +112,10 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["Brian W. Kernighan"],
                 ["Dennis M. Ritchie"]
             ],
-            "collector": null,
             "courses": [
                 ["W6i960Wc8Hc"]
             ],
@@ -127,13 +133,13 @@
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "M. Morris Mano"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Michael D. Ciletti"
         }
@@ -148,11 +154,10 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["M. Morris Mano"],
                 ["Michael D. Ciletti"]
             ],
-            "collector": null,
             "courses": [
                 ["T6_qqhgjD4Y"]
             ],
@@ -181,10 +186,9 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["M. Morris Mano"]
             ],
-            "collector": null,
             "courses": [
                 ["T6_qqhgjD4Y"]
             ],
@@ -204,13 +208,13 @@
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Stephen Brown"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Zvonko Vranesic"
         }
@@ -225,11 +229,10 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["Stephen Brown"],
                 ["Zvonko Vranesic"]
             ],
-            "collector": null,
             "courses": [
                 ["T6_qqhgjD4Y"]
             ],
@@ -247,7 +250,7 @@
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Kip R. Irvine"
         }
@@ -262,10 +265,9 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["Kip R. Irvine"]
             ],
-            "collector": null,
             "courses": [
                 ["xvI1oQknNjQ"]
             ],
@@ -283,7 +285,7 @@
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Daniel Kusswurm"
         }
@@ -298,10 +300,9 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["Daniel Kusswurm"]
             ],
-            "collector": null,
             "courses": [
                 ["xvI1oQknNjQ"]
             ],
@@ -319,7 +320,7 @@
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Richard C. Detmer"
         }
@@ -334,10 +335,9 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["Richard C. Detmer"]
             ],
-            "collector": null,
             "courses": [
                 ["xvI1oQknNjQ"]
             ],
@@ -355,35 +355,7 @@
         }
     },
     {
-        "model": "references.reference",
-        "fields": {
-            "uuid": "S5WVQRCjx24",
-            "title": "اسلایدهای آزمایشگاه کامپیوتر",
-            "type": 3,
-            "notes": "نیمسال دوم ۱۳۹۹",
-            "is_published": true,
-            "created_time": "2023-08-01T23:59:59.999999+03:30",
-            "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [],
-            "collector": null,
-            "courses": [
-                ["RDUT0ml8TNI"]
-            ],
-            "related_references": [],
-            "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/79",
-            "title": "پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 10
-        }
-    },
-    {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Jaan Kiusalaas"
         }
@@ -398,10 +370,9 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["Jaan Kiusalaas"]
             ],
-            "collector": null,
             "courses": [
                 ["K4i5sd6uRfo"]
             ],
@@ -415,11 +386,11 @@
             "url": "https://t.me/CSE_Archive/80",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 11
+            "linked_id": 10
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Peter Linz"
         }
@@ -434,10 +405,9 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["Peter Linz"]
             ],
-            "collector": null,
             "courses": [
                 ["Vwpb6nAl6_E"]
             ],
@@ -453,7 +423,7 @@
             "url": "https://t.me/CSE_Archive/82",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 12
+            "linked_id": 11
         }
     },
     {
@@ -466,8 +436,7 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [],
-            "collector": null,
+            "writers": [],
             "courses": [
                 ["Vwpb6nAl6_E"]
             ],
@@ -483,11 +452,11 @@
             "url": "https://t.me/CSE_Archive/83",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 13
+            "linked_id": 12
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Erwin Kreyszig"
         }
@@ -502,10 +471,9 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["Erwin Kreyszig"]
             ],
-            "collector": null,
             "courses": [
                 ["6oWhsMz3O9Q"]
             ],
@@ -519,11 +487,11 @@
             "url": "https://t.me/CSE_Archive/86",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 14
+            "linked_id": 13
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "دکتر عبداله شیدفر"
         }
@@ -538,10 +506,9 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["دکتر عبداله شیدفر"]
             ],
-            "collector": null,
             "courses": [
                 ["6oWhsMz3O9Q"]
             ],
@@ -557,7 +524,7 @@
             "url": "https://t.me/CSE_Archive/87",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 15
+            "linked_id": 14
         }
     },
     {
@@ -570,8 +537,7 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [],
-            "collector": null,
+            "writers": [],
             "courses": [
                 ["6oWhsMz3O9Q"]
             ],
@@ -587,11 +553,11 @@
             "url": "https://t.me/CSE_Archive/88",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 16
+            "linked_id": 15
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Bruce Eckel"
         }
@@ -606,10 +572,9 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["Bruce Eckel"]
             ],
-            "collector": null,
             "courses": [
                 ["J2OBo93uAYw"]
             ],
@@ -623,21 +588,28 @@
             "url": "https://t.me/CSE_Archive/89",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 17
+            "linked_id": 16
+        }
+    },
+    {
+        "model": "references.writer",
+        "fields": {
+            "full_name": "دکتر خونجوش"
         }
     },
     {
         "model": "references.reference",
         "fields": {
             "uuid": "_Yixt1DT1e4",
-            "title": "اسلایدهای مدارهای منطقی",
+            "title": null,
             "type": 3,
             "notes": null,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [],
-            "collector": "دکتر خونجوش",
+            "writers": [
+                ["دکتر خونجوش"]
+            ],
             "courses": [
                 ["T6_qqhgjD4Y"]
             ],
@@ -651,21 +623,28 @@
             "url": "https://t.me/CSE_Archive/102",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 18
+            "linked_id": 17
+        }
+    },
+    {
+        "model": "references.writer",
+        "fields": {
+            "full_name": "مهندس خادم حسینی"
         }
     },
     {
         "model": "references.reference",
         "fields": {
             "uuid": "hE8j73Igsuw",
-            "title": "اسلایدهای زبان ماشین و برنامه‌سازی سیستم",
+            "title": null,
             "type": 3,
             "notes": null,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [],
-            "collector": "مهندس خادم حسینی",
+            "writers": [
+                ["مهندس خادم حسینی"]
+            ],
             "courses": [
                 ["xvI1oQknNjQ"]
             ],
@@ -679,21 +658,20 @@
             "url": "https://t.me/CSE_Archive/103",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 19
+            "linked_id": 18
         }
     },
     {
         "model": "references.reference",
         "fields": {
             "uuid": "ZaS4kOh73hU",
-            "title": "جزوه‌های مبانی کامپیوتر و برنامه نویسی",
+            "title": null,
             "type": 4,
-            "notes": "دكتر صدرالدینی",
+            "notes": "مربوط به کلاس دكتر صدرالدینی",
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [],
-            "collector": null,
+            "writers": [],
             "courses": [
                 ["4VORB34qsNM"]
             ],
@@ -707,11 +685,11 @@
             "url": "https://t.me/CSE_Archive/120",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 20
+            "linked_id": 19
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Sivarama Dandamudi"
         }
@@ -726,8 +704,7 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [],
-            "collector": null,
+            "writers": [],
             "courses": [
                 ["xvI1oQknNjQ"]
             ],
@@ -741,7 +718,7 @@
             "url": "https://t.me/CSE_Archive/166",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 21
+            "linked_id": 20
         }
     },
     {
@@ -754,25 +731,25 @@
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Alfred V. Ah"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Monica S. Lam"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Ravi Sethi"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Jeffrey Ullman"
         }
@@ -787,13 +764,12 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["Alfred V. Ah"],
                 ["Monica S. Lam"],
                 ["Ravi Sethi"],
                 ["Jeffrey Ullman"]
             ],
-            "collector": null,
             "courses": [
                 ["pZhhlaoBIq4"]
             ],
@@ -816,11 +792,11 @@
             "url": "https://github.com/fool2fish/dragon-book-exercise-answers",
             "title": "ریپازیتوری گیتهاب پاسخ تمرین‌های کتاب",
             "linked_type": ["references", "reference"],
-            "linked_id": 22
+            "linked_id": 23
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Antti Laaksonen"
         }
@@ -835,10 +811,9 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["Antti Laaksonen"]
             ],
-            "collector": null,
             "courses": [
                 ["p9fA5eN0uQc"]
             ],
@@ -852,17 +827,17 @@
             "url": "https://t.me/CSE_Archive/252",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 23
+            "linked_id": 24
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Steven Halim"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Felix Halim"
         }
@@ -877,11 +852,10 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["Steven Halim"],
                 ["Felix Halim"]
             ],
-            "collector": null,
             "courses": [
                 ["p9fA5eN0uQc"]
             ],
@@ -895,17 +869,17 @@
             "url": "https://t.me/CSE_Archive/253",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 24
+            "linked_id": 25
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Todd Young"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Martin J. Mohlenkamp"
         }
@@ -920,11 +894,10 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["Todd Young"],
                 ["Martin J. Mohlenkamp"]
             ],
-            "collector": null,
             "courses": [
                 ["K4i5sd6uRfo"]
             ],
@@ -938,17 +911,17 @@
             "url": "https://t.me/CSE_Archive/260",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 25
+            "linked_id": 26
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "J. A. Bondy"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "U. S. R. Murty"
         }
@@ -963,11 +936,10 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["J. A. Bondy"],
                 ["U. S. R. Murty"]
             ],
-            "collector": null,
             "courses": [
                 ["r9J2fMvdpWE"]
             ],
@@ -981,11 +953,11 @@
             "url": "https://t.me/CSE_Archive/264",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 26
+            "linked_id": 27
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Kenneth H. Rosen"
         }
@@ -1000,10 +972,9 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["Kenneth H. Rosen"]
             ],
-            "collector": null,
             "courses": [
                 ["dStKfTC0Lek"]
             ],
@@ -1017,23 +988,23 @@
             "url": "https://t.me/CSE_Archive/266",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 27
+            "linked_id": 28
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "A. Silberschatz"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "H. Korth"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "S. Sudarshan"
         }
@@ -1048,12 +1019,11 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["A. Silberschatz"],
                 ["H. Korth"],
                 ["S. Sudarshan"]
             ],
-            "collector": null,
             "courses": [
                 ["Tk8m_z6Q6RE"]
             ],
@@ -1067,21 +1037,28 @@
             "url": "https://t.me/CSE_Archive/268",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 28
+            "linked_id": 29
+        }
+    },
+    {
+        "model": "references.writer",
+        "fields": {
+            "full_name": "دکتر صدرالدینی"
         }
     },
     {
         "model": "references.reference",
         "fields": {
             "uuid": "xRIK50l5YVY",
-            "title": "اسلایدهای اصول طراحی پایگاه داده‌ها",
+            "title": null,
             "type": 3,
             "notes": null,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [],
-            "collector": "دکتر صدرالدینی",
+            "writers": [
+                ["دکتر صدرالدینی"]
+            ],
             "courses": [
                 ["Tk8m_z6Q6RE"]
             ],
@@ -1095,17 +1072,17 @@
             "url": "https://t.me/CSE_Archive/269",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 29
+            "linked_id": 30
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Stuart J. Russell"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Peter Norvig"
         }
@@ -1120,11 +1097,10 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["Stuart J. Russell"],
                 ["Peter Norvig"]
             ],
-            "collector": null,
             "courses": [
                 ["xWX9cNBTpec"]
             ],
@@ -1138,11 +1114,11 @@
             "url": "https://t.me/CSE_Archive/272",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 30
+            "linked_id": 31
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "David Murray"
         }
@@ -1157,10 +1133,9 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["David Murray"]
             ],
-            "collector": null,
             "courses": [
                 ["xWX9cNBTpec"]
             ],
@@ -1174,11 +1149,11 @@
             "url": "https://t.me/CSE_Archive/273",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 31
+            "linked_id": 32
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Ivan Bratko"
         }
@@ -1193,10 +1168,9 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["Ivan Bratko"]
             ],
-            "collector": null,
             "courses": [
                 ["xWX9cNBTpec"]
             ],
@@ -1210,21 +1184,22 @@
             "url": "https://t.me/CSE_Archive/274",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 32
+            "linked_id": 33
         }
     },
     {
         "model": "references.reference",
         "fields": {
             "uuid": "jsBDl472l3k",
-            "title": "اسلایدهای هوش مصنوعی",
+            "title": null,
             "type": 3,
             "notes": null,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [],
-            "collector": "دکتر صدرالدینی",
+            "writers": [
+                ["دکتر صدرالدینی"]
+            ],
             "courses": [
                 ["xWX9cNBTpec"]
             ],
@@ -1238,11 +1213,11 @@
             "url": "https://t.me/CSE_Archive/275",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 33
+            "linked_id": 34
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Fred Halsall"
         }
@@ -1257,10 +1232,9 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["Fred Halsall"]
             ],
-            "collector": null,
             "courses": [
                 ["VvjskcG8dP8"]
             ],
@@ -1274,29 +1248,29 @@
             "url": "https://t.me/CSE_Archive/277",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 34
+            "linked_id": 35
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Thomas H. Cormen"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Charles E. Leiserson"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Ronald L. Rivest"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Clifford Stein"
         }
@@ -1311,13 +1285,12 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["Thomas H. Cormen"],
                 ["Charles E. Leiserson"],
                 ["Ronald L. Rivest"],
                 ["Clifford Stein"]
             ],
-            "collector": null,
             "courses": [
                 ["h6NQLbJdcwY"],
                 ["NgnGtKaJ6AM"]
@@ -1332,21 +1305,28 @@
             "url": "https://t.me/CSE_Archive/278",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 35
+            "linked_id": 36
+        }
+    },
+    {
+        "model": "references.writer",
+        "fields": {
+            "full_name": "دکتر فخراحمد"
         }
     },
     {
         "model": "references.reference",
         "fields": {
             "uuid": "ibyIfuxqHXY",
-            "title": "اسلایدهای اصول طراحی پایگاه داده‌ها",
+            "title": null,
             "type": 3,
             "notes": null,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [],
-            "collector": "دکتر فخراحمد",
+            "writers": [
+                ["دکتر فخراحمد"]
+            ],
             "courses": [
                 ["Tk8m_z6Q6RE"]
             ],
@@ -1360,11 +1340,11 @@
             "url": "https://t.me/CSE_Archive/279",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 36
+            "linked_id": 37
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Robert W. Sebesta"
         }
@@ -1379,10 +1359,9 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["Robert W. Sebesta"]
             ],
-            "collector": null,
             "courses": [
                 ["jtlM0AtLEA0"]
             ],
@@ -1396,21 +1375,28 @@
             "url": "https://t.me/CSE_Archive/280",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 37
+            "linked_id": 38
+        }
+    },
+    {
+        "model": "references.writer",
+        "fields": {
+            "full_name": "دکتر کشتکاران"
         }
     },
     {
         "model": "references.reference",
         "fields": {
             "uuid": "s_vv0dlHXJ4",
-            "title": "اسلایدهای طراحی و پیاده‌سازی زبان‌های برنامه‌سازی",
+            "title": null,
             "type": 3,
             "notes": null,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [],
-            "collector": "دکتر کشتکاران",
+            "writers": [
+                ["دکتر کشتکاران"]
+            ],
             "courses": [
                 ["jtlM0AtLEA0"]
             ],
@@ -1424,21 +1410,28 @@
             "url": "https://t.me/CSE_Archive/281",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 38
+            "linked_id": 39
+        }
+    },
+    {
+        "model": "references.writer",
+        "fields": {
+            "full_name": "دکتر منصوری"
         }
     },
     {
         "model": "references.reference",
         "fields": {
             "uuid": "aXmqg0_zpiY",
-            "title": "اسلایدهای اصول طراحی کامپایلرها",
+            "title": null,
             "type": 3,
             "notes": null,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [],
-            "collector": "دکتر منصوری",
+            "writers": [
+                ["دکتر منصوری"]
+            ],
             "courses": [
                 ["pZhhlaoBIq4"]
             ],
@@ -1452,17 +1445,17 @@
             "url": "https://t.me/CSE_Archive/283",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 39
+            "linked_id": 40
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "J.F. Kurose"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "K.W. Ross"
         }
@@ -1477,11 +1470,10 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["J.F. Kurose"],
                 ["K.W. Ross"]
             ],
-            "collector": null,
             "courses": [
                 ["jJWLm734jtQ"]
             ],
@@ -1497,7 +1489,7 @@
             "url": "https://t.me/CSE_Archive/284",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 40
+            "linked_id": 41
         }
     },
     {
@@ -1510,8 +1502,7 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [],
-            "collector": null,
+            "writers": [],
             "courses": [
                 ["jJWLm734jtQ"]
             ],
@@ -1527,23 +1518,23 @@
             "url": "https://t.me/CSE_Archive/285",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 41
+            "linked_id": 42
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Abraham Silberschatz"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Greg Gagne"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Peter B. Galvin"
         }
@@ -1558,12 +1549,11 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["Abraham Silberschatz"],
                 ["Greg Gagne"],
                 ["Peter B. Galvin"]
             ],
-            "collector": null,
             "courses": [
                 ["vXh5qgjgJEE"]
             ],
@@ -1577,21 +1567,22 @@
             "url": "https://t.me/CSE_Archive/289",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 42
+            "linked_id": 43
         }
     },
     {
         "model": "references.reference",
         "fields": {
             "uuid": "yIlJxS5dYcQ",
-            "title": "اسلایدهای اصول طراحی سیستم‌های عامل",
+            "title": null,
             "type": 3,
             "notes": null,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [],
-            "collector": "دکتر فخراحمد",
+            "writers": [
+                ["دکتر فخراحمد"]
+            ],
             "courses": [
                 ["vXh5qgjgJEE"]
             ],
@@ -1605,23 +1596,23 @@
             "url": "https://t.me/CSE_Archive/290",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 43
+            "linked_id": 44
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Richard L. Burden"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "J. Douglas Faires"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Annette M. Burden"
         }
@@ -1636,12 +1627,11 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["Richard L. Burden"],
                 ["J. Douglas Faires"],
                 ["Annette M. Burden"]
             ],
-            "collector": null,
             "courses": [
                 ["K4i5sd6uRfo"]
             ],
@@ -1655,21 +1645,22 @@
             "url": "https://t.me/CSE_Archive/291",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 44
+            "linked_id": 45
         }
     },
     {
         "model": "references.reference",
         "fields": {
             "uuid": "BVg_BYn4JJ8",
-            "title": "اسلایدهای نظریه زبان‌ها و ماشین",
+            "title": null,
             "type": 3,
             "notes": null,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [],
-            "collector": "دکتر منصوری",
+            "writers": [
+                ["دکتر منصوری"]
+            ],
             "courses": [
                 ["Vwpb6nAl6_E"]
             ],
@@ -1683,21 +1674,22 @@
             "url": "https://t.me/CSE_Archive/292",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 45
+            "linked_id": 46
         }
     },
     {
         "model": "references.reference",
         "fields": {
             "uuid": "aJA5BVffQx4",
-            "title": "اسلایدهای انتقال داده‌ها",
+            "title": null,
             "type": 3,
             "notes": null,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [],
-            "collector": "دکتر منصوری",
+            "writers": [
+                ["دکتر منصوری"]
+            ],
             "courses": [
                 ["VvjskcG8dP8"]
             ],
@@ -1711,17 +1703,17 @@
             "url": "https://t.me/CSE_Archive/370",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 46
+            "linked_id": 47
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "David A Patterson"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "John L. Hennessy"
         }
@@ -1736,11 +1728,10 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["David A Patterson"],
                 ["John L. Hennessy"]
             ],
-            "collector": null,
             "courses": [
                 ["edjlkIEU3m0"]
             ],
@@ -1754,11 +1745,11 @@
             "url": "https://t.me/CSE_Archive/380",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 47
+            "linked_id": 48
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "دکتر سید علی میرعشقی"
         }
@@ -1773,10 +1764,9 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["دکتر سید علی میرعشقی"]
             ],
-            "collector": null,
             "courses": [
                 ["L2NaV4j2eNU"]
             ],
@@ -1792,7 +1782,7 @@
             "url": "https://t.me/CSE_Archive/388",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 48
+            "linked_id": 49
         }
     },
     {
@@ -1805,8 +1795,7 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [],
-            "collector": null,
+            "writers": [],
             "courses": [
                 ["L2NaV4j2eNU"]
             ],
@@ -1822,21 +1811,28 @@
             "url": "https://t.me/CSE_Archive/389",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 49
+            "linked_id": 50
+        }
+    },
+    {
+        "model": "references.writer",
+        "fields": {
+            "full_name": "فاطمه رحیمی"
         }
     },
     {
         "model": "references.reference",
         "fields": {
             "uuid": "4dTxcKBUnCU",
-            "title": "جزوه نظریه زبان‌ها و ماشین",
+            "title": null,
             "type": 4,
-            "notes": "دکتر تحیری (نیمسال دوم ۱۳۹۳)",
+            "notes": "مربوط به کلاس نیمسال دوم ۱۳۹۳ دکتر تحیری",
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [],
-            "collector": "فاطمه رحیمی",
+            "writers": [
+                ["فاطمه رحیمی"]
+            ],
             "courses": [
                 ["Vwpb6nAl6_E"]
             ],
@@ -1850,7 +1846,13 @@
             "url": "https://t.me/CSE_Archive/395",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 50
+            "linked_id": 51
+        }
+    },
+    {
+        "model": "references.writer",
+        "fields": {
+            "full_name": "فرشته برادران"
         }
     },
     {
@@ -1859,12 +1861,13 @@
             "uuid": "5Cu2QXdCdKc",
             "title": "جزوه نظریه زبان‌ها و ماشین",
             "type": 4,
-            "notes": "دکتر تحیری (نیمسال دوم ۱۴۰۰)",
+            "notes": "مربوط به کلاس نیمسال دوم ۱۴۰۰ دکتر تحیری",
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [],
-            "collector": "فرشته برادران",
+            "writers": [
+                ["فرشته برادران"]
+            ],
             "courses": [
                 ["Vwpb6nAl6_E"]
             ],
@@ -1880,21 +1883,22 @@
             "url": "https://t.me/CSE_Archive/432",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 51
+            "linked_id": 52
         }
     },
     {
         "model": "references.reference",
         "fields": {
             "uuid": "shjGS_dLTWE",
-            "title": "خلاصه دکتر تحیری (نیمسال دوم ۱۴۰۰)",
-            "type": 4,
-            "notes": null,
+            "title": null,
+            "type": 5,
+            "notes": "مربوط به کلاس نیمسال دوم ۱۴۰۰ دکتر تحیری",
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [],
-            "collector": "فرشته برادران",
+            "writers": [
+                ["فرشته برادران"]
+            ],
             "courses": [
                 ["Vwpb6nAl6_E"]
             ],
@@ -1910,17 +1914,17 @@
             "url": "https://t.me/CSE_Archive/433",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 52
+            "linked_id": 53
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Paul Ammann"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Jeff Offutt"
         }
@@ -1935,11 +1939,10 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["Paul Ammann"],
                 ["Jeff Offutt"]
             ],
-            "collector": null,
             "courses": [
                 ["HAvdbvoK_m4"]
             ],
@@ -1953,11 +1956,11 @@
             "url": "https://t.me/CSE_Archive/447",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 53
+            "linked_id": 54
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "William Stallings"
         }
@@ -1972,10 +1975,9 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["William Stallings"]
             ],
-            "collector": null,
             "courses": [
                 ["vXh5qgjgJEE"]
             ],
@@ -1989,11 +1991,11 @@
             "url": "https://t.me/CSE_Archive/482",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 54
+            "linked_id": 55
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Christopher J. Date"
         }
@@ -2008,10 +2010,9 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["Christopher J. Date"]
             ],
-            "collector": null,
             "courses": [
                 ["Tk8m_z6Q6RE"]
             ],
@@ -2025,23 +2026,23 @@
             "url": "https://t.me/CSE_Archive/484",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 55
+            "linked_id": 56
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "John Cheng"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Max Grossman"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Ty McKercher"
         }
@@ -2056,12 +2057,11 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["John Cheng"],
                 ["Max Grossman"],
                 ["Ty McKercher"]
             ],
-            "collector": null,
             "courses": [
                 ["D0k7Bd9fIcY"]
             ],
@@ -2075,17 +2075,17 @@
             "url": "https://t.me/CSE_Archive/501",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 56
+            "linked_id": 57
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Kay A. Robbins"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Steven Robbins"
         }
@@ -2100,11 +2100,10 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["Kay A. Robbins"],
                 ["Steven Robbins"]
             ],
-            "collector": null,
             "courses": [
                 ["D0k7Bd9fIcY"]
             ],
@@ -2118,21 +2117,22 @@
             "url": "https://t.me/CSE_Archive/502",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 57
+            "linked_id": 58
         }
     },
     {
         "model": "references.reference",
         "fields": {
             "uuid": "DGtaboV7C9g",
-            "title": "اسلایدهای برنامه‌نویسی پردازنده‌های گرافیکی",
+            "title": null,
             "type": 3,
             "notes": null,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [],
-            "collector": "دکتر خونجوش",
+            "writers": [
+                ["دکتر خونجوش"]
+            ],
             "courses": [
                 ["D0k7Bd9fIcY"]
             ],
@@ -2146,21 +2146,22 @@
             "url": "https://t.me/CSE_Archive/503",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 58
+            "linked_id": 59
         }
     },
     {
         "model": "references.reference",
         "fields": {
             "uuid": "dgnUa4Davug",
-            "title": "اسلایدهای تحلیل و طراحی سیستم‌ها",
+            "title": null,
             "type": 3,
             "notes": null,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [],
-            "collector": "دکتر فخراحمد",
+            "writers": [
+                ["دکتر فخراحمد"]
+            ],
             "courses": [
                 ["ueVVW6jH0oI"]
             ],
@@ -2174,21 +2175,22 @@
             "url": "https://t.me/CSE_Archive/504",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 59
+            "linked_id": 60
         }
     },
     {
         "model": "references.reference",
         "fields": {
             "uuid": "du1IGZdnjYU",
-            "title": "اسلایدهای معماری کامپیوتر",
+            "title": null,
             "type": 3,
             "notes": null,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [],
-            "collector": "دکتر خونجوش",
+            "writers": [
+                ["دکتر خونجوش"]
+            ],
             "courses": [
                 ["edjlkIEU3m0"]
             ],
@@ -2202,7 +2204,7 @@
             "url": "https://t.me/CSE_Archive/505",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 60
+            "linked_id": 61
         }
     },
     {
@@ -2215,8 +2217,9 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [],
-            "collector": "دکتر عظیمی‌فر",
+            "writers": [
+                ["دکتر عظیمی‌فر"]
+            ],
             "courses": [
                 ["NgnGtKaJ6AM"]
             ],
@@ -2230,39 +2233,11 @@
             "url": "https://t.me/CSE_Archive/506",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 61
-        }
-    },
-    {
-        "model": "references.reference",
-        "fields": {
-            "uuid": "Lw7NERg_xxs",
-            "title": "اسلایدهای آز ریزپردازنده",
-            "type": 3,
-            "notes": "نیمسال اول ۱۴۰۰",
-            "is_published": true,
-            "created_time": "2023-08-01T23:59:59.999999+03:30",
-            "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [],
-            "collector": null,
-            "courses": [
-                ["5wePzHh6NCc"]
-            ],
-            "related_references": [],
-            "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/513",
-            "title": "پیام تلگرام",
-            "linked_type": ["references", "reference"],
             "linked_id": 62
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "محمد قدسی"
         }
@@ -2277,10 +2252,9 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["محمد قدسی"]
             ],
-            "collector": null,
             "courses": [
                 ["h6NQLbJdcwY"]
             ],
@@ -2298,17 +2272,24 @@
         }
     },
     {
+        "model": "references.writer",
+        "fields": {
+            "full_name": "دکتر راجی"
+        }
+    },
+    {
         "model": "references.reference",
         "fields": {
             "uuid": "uJ757qmLRJo",
-            "title": "اسلایدهای طراحی کامپیوتری سیستم‌های دیجیتال",
+            "title": null,
             "type": 3,
             "notes": null,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [],
-            "collector": "دکتر راجی",
+            "writers": [
+                ["دکتر راجی"]
+            ],
             "courses": [
                 ["KM3Sgnpyha0"]
             ],
@@ -2326,19 +2307,19 @@
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "William Hayt"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Jack Kemmerly"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Steven Durbin"
         }
@@ -2353,12 +2334,11 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["William Hayt"],
                 ["Jack Kemmerly"],
                 ["Steven Durbin"]
             ],
-            "collector": null,
             "courses": [
                 ["xEvVbt5U1jQ"]
             ],
@@ -2376,17 +2356,24 @@
         }
     },
     {
+        "model": "references.writer",
+        "fields": {
+            "full_name": "خانم کریمی"
+        }
+    },
+    {
         "model": "references.reference",
         "fields": {
             "uuid": "zdQs2mro9YY",
-            "title": "اسلایدهای آزمایشگاه شبکه‌های کامپیوتری",
+            "title": null,
             "type": 3,
             "notes": null,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [],
-            "collector": "خانم کریمی",
+            "writers": [
+                ["خانم کریمی"]
+            ],
             "courses": [
                 ["oZxiY5GoaYI"]
             ],
@@ -2404,19 +2391,19 @@
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Alan V. Oppenheim"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Alan S. Willsky"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "S. Hamid Nawab "
         }
@@ -2431,12 +2418,11 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["Alan V. Oppenheim"],
                 ["Alan S. Willsky"],
                 ["S. Hamid Nawab "]
             ],
-            "collector": null,
             "courses": [
                 ["krcBL7VfJGo"]
             ],
@@ -2466,8 +2452,7 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [],
-            "collector": null,
+            "writers": [],
             "courses": [
                 ["krcBL7VfJGo"]
             ],
@@ -2497,8 +2482,7 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [],
-            "collector": null,
+            "writers": [],
             "courses": [
                 ["krcBL7VfJGo"]
             ],
@@ -2521,43 +2505,16 @@
     {
         "model": "references.reference",
         "fields": {
-            "uuid": "hLD2t0LPE9s",
-            "title": "اسلایدها و نمونه‌کدهای آز ریزپردازنده",
-            "type": 3,
-            "notes": "نیمسال اول ۱۴۰۱",
-            "is_published": true,
-            "created_time": "2023-08-01T23:59:59.999999+03:30",
-            "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [],
-            "collector": null,
-            "courses": [
-                ["5wePzHh6NCc"]
-            ],
-            "related_references": [],
-            "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/612",
-            "title": "پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 70
-        }
-    },
-    {
-        "model": "references.reference",
-        "fields": {
             "uuid": "ilE1TFYn7r0",
-            "title": "اسلایدهای ریزپردازنده",
+            "title": null,
             "type": 3,
             "notes": null,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [],
-            "collector": "دکتر راجی",
+            "writers": [
+                ["دکتر راجی"]
+            ],
             "courses": [
                 ["UG2kETI8x5k"]
             ],
@@ -2571,21 +2528,28 @@
             "url": "https://t.me/CSE_Archive/637",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 71
+            "linked_id": 70
+        }
+    },
+    {
+        "model": "references.writer",
+        "fields": {
+            "full_name": "دکتر زیارتی"
         }
     },
     {
         "model": "references.reference",
         "fields": {
             "uuid": "1Mxm2fe_VB8",
-            "title": "اسلایدهای مبانی تحقیق در عملیات",
+            "title": null,
             "type": 3,
             "notes": null,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [],
-            "collector": "دکتر زیارتی",
+            "writers": [
+                ["دکتر زیارتی"]
+            ],
             "courses": [
                 ["Djprdbr31os"]
             ],
@@ -2599,21 +2563,22 @@
             "url": "https://t.me/CSE_Archive/638",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 72
+            "linked_id": 71
         }
     },
     {
         "model": "references.reference",
         "fields": {
             "uuid": "lwBgLagXUt0",
-            "title": "اسلایدهای هوش مصنوعی",
+            "title": null,
             "type": 3,
             "notes": null,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [],
-            "collector": "دکتر عظیمی‌فر",
+            "writers": [
+                ["دکتر عظیمی‌فر"]
+            ],
             "courses": [
                 ["xWX9cNBTpec"]
             ],
@@ -2627,41 +2592,41 @@
             "url": "https://t.me/CSE_Archive/642",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 73
+            "linked_id": 72
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Efraim Turban"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Jon Outland"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "David King"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Jae Kyu Lee"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Ting-Peng Liang"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Deborrah C.Turban"
         }
@@ -2676,7 +2641,7 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["Efraim Turban"],
                 ["Jon Outland"],
                 ["David King"],
@@ -2684,7 +2649,6 @@
                 ["Ting-Peng Liang"],
                 ["Deborrah C.Turban"]
             ],
-            "collector": null,
             "courses": [
                 ["YHpOGt8aH0g"]
             ],
@@ -2698,11 +2662,11 @@
             "url": "https://t.me/CSE_Archive/643",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 74
+            "linked_id": 73
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Hamdy A. Taha"
         }
@@ -2717,10 +2681,9 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["Hamdy A. Taha"]
             ],
-            "collector": null,
             "courses": [
                 ["Djprdbr31os"]
             ],
@@ -2734,23 +2697,23 @@
             "url": "https://t.me/CSE_Archive/644",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 75
+            "linked_id": 74
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Stephen P. Bradley"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Arnoldo C. Hax"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Thomas L. Magnanti"
         }
@@ -2765,12 +2728,11 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["Stephen P. Bradley"],
                 ["Arnoldo C. Hax"],
                 ["Thomas L. Magnanti"]
             ],
-            "collector": null,
             "courses": [
                 ["Djprdbr31os"]
             ],
@@ -2784,17 +2746,17 @@
             "url": "https://t.me/CSE_Archive/646",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 76
+            "linked_id": 75
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Frederick S. Hillier"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Gerald J. Lieberman"
         }
@@ -2809,11 +2771,10 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["Frederick S. Hillier"],
                 ["Gerald J. Lieberman"]
             ],
-            "collector": null,
             "courses": [
                 ["Djprdbr31os"]
             ],
@@ -2827,23 +2788,23 @@
             "url": "https://t.me/CSE_Archive/647",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 77
+            "linked_id": 76
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Mokhtar S. Bazaraa"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "John J. Jarvis"
         }
     },
     {
-        "model": "references.author",
+        "model": "references.writer",
         "fields": {
             "full_name": "Hanif D. Sherali"
         }
@@ -2858,12 +2819,11 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [
+            "writers": [
                 ["Mokhtar S. Bazaraa"],
                 ["John J. Jarvis"],
                 ["Hanif D. Sherali"]
             ],
-            "collector": null,
             "courses": [
                 ["Djprdbr31os"]
             ],
@@ -2879,7 +2839,7 @@
             "url": "https://t.me/CSE_Archive/648",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 78
+            "linked_id": 77
         }
     },
     {
@@ -2892,8 +2852,7 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [],
-            "collector": null,
+            "writers": [],
             "courses": [
                 ["Djprdbr31os"]
             ],
@@ -2909,21 +2868,28 @@
             "url": "https://t.me/CSE_Archive/649",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 79
+            "linked_id": 78
+        }
+    },
+    {
+        "model": "references.writer",
+        "fields": {
+            "full_name": "دکتر توحیدی"
         }
     },
     {
         "model": "references.reference",
         "fields": {
             "uuid": "RzFiSdyc2BU",
-            "title": "اسلایدهای مبانی کامپیوتر و برنامه‌نویسی",
+            "title": null,
             "type": 3,
             "notes": null,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [],
-            "collector": "دکتر توحیدی",
+            "writers": [
+                ["دکتر توحیدی"]
+            ],
             "courses": [
                 ["4VORB34qsNM"]
             ],
@@ -2937,21 +2903,20 @@
             "url": "https://t.me/CSE_Archive/650",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 80
+            "linked_id": 79
         }
     },
     {
         "model": "references.reference",
         "fields": {
             "uuid": "yH7X1Fi7YqI",
-            "title": "جزوه ریزپردازنده",
+            "title": null,
             "type": 4,
-            "notes": "دکتر راجی",
+            "notes": "مربوط به کلاس دکتر راجی",
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "authors": [],
-            "collector": null,
+            "writers": [],
             "courses": [
                 ["UG2kETI8x5k"]
             ],
@@ -2965,7 +2930,7 @@
             "url": "https://t.me/CSE_Archive/651",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 81
+            "linked_id": 80
         }
     }
 ]

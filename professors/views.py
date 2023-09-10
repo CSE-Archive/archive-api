@@ -1,7 +1,19 @@
 from rest_framework.viewsets import ReadOnlyModelViewSet
 
-from professors.models import Professor
-from professors.serializers import ProfessorDetailSerializer, ProfessorListSerializer
+from professors.filters import ProfessorFilterSet
+from professors.models import Department, Professor
+from professors.serializers import (
+    DepartmentListSerializer,
+    ProfessorDetailSerializer,
+    ProfessorListSerializer,
+)
+
+
+class DepartmentViewSet(ReadOnlyModelViewSet):
+    queryset = Department.objects.all()
+    lookup_field = "uuid"
+    serializer_class = DepartmentListSerializer
+    search_fields = ("name", "name_en")
 
 
 class ProfessorViewSet(ReadOnlyModelViewSet):
@@ -10,9 +22,9 @@ class ProfessorViewSet(ReadOnlyModelViewSet):
         .select_related("department") \
         .prefetch_related("emails", "links")
     lookup_field = "uuid"
+    filterset_class = ProfessorFilterSet
     search_fields = ("first_name", "last_name", "honorific",
                      "about", "emails__address", "links__url")
-    filterset_fields = ("department",)
 
     def get_queryset(self):
         queryset = super().get_queryset()

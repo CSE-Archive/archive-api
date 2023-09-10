@@ -6,11 +6,17 @@ from drf_yasg.utils import swagger_serializer_method
 
 from core.serializers import LinkSerializer
 from courses.serializers.list import CourseListSerializer
-from professors.models import Professor
+from professors.models import Department, Professor
+
+
+class DepartmentListSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Department
+        fields = ("uuid", "name", "name_en", "tag",)
 
 
 class ProfessorListSerializer(serializers.ModelSerializer):
-    department = serializers.CharField(source="department.name")
+    department = DepartmentListSerializer()
     
     class Meta:
         model = Professor
@@ -27,7 +33,7 @@ class ProfessorDetailSerializer(serializers.ModelSerializer):
     links = LinkSerializer(many=True)
     emails = serializers.SerializerMethodField()
     courses = serializers.SerializerMethodField()
-    department = serializers.CharField(source="department.name")
+    department = DepartmentListSerializer()
 
     @swagger_serializer_method(serializers.ListField(child=serializers.CharField()))
     def get_emails(self, instance: Professor) -> List[str]:

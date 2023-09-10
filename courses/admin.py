@@ -40,7 +40,7 @@ class CourseAdmin(BaseAdminMixin, admin.ModelAdmin):
         return model_changelist_url_to_html(
             app="courses",
             model="requisite",
-            query_key="course_from__id",
+            query_key="course_from",
             query_val=instance.id,
             placeholder=instance.requisites_from.count(),
         )
@@ -50,7 +50,7 @@ class CourseAdmin(BaseAdminMixin, admin.ModelAdmin):
         return model_changelist_url_to_html(
             app="courses",
             model="requisite",
-            query_key="course_to__id",
+            query_key="course_to",
             query_val=instance.id,
             placeholder=instance.requisites_to.count(),
         )
@@ -60,7 +60,7 @@ class CourseAdmin(BaseAdminMixin, admin.ModelAdmin):
         return model_changelist_url_to_html(
             app="classrooms",
             model="classroom",
-            query_key="course__id",
+            query_key="course",
             query_val=instance.id,
             placeholder=instance.classrooms.count(),
         )
@@ -70,7 +70,7 @@ class CourseAdmin(BaseAdminMixin, admin.ModelAdmin):
         return model_changelist_url_to_html(
             app="references",
             model="reference",
-            query_key="courses_id",
+            query_key="courses",
             query_val=instance.id,
             placeholder=instance.references.count(),
         )

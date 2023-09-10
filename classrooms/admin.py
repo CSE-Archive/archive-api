@@ -65,7 +65,7 @@ class ClassroomAdmin(BaseAdminMixin, nested_admin.NestedModelAdmin):
         return model_changelist_url_to_html(
             app="resources",
             model="resource",
-            query_key="classroom__id",
+            query_key="classroom",
             query_val=instance.id,
             placeholder=instance.resources.count(),
         )

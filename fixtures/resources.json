@@ -1,8 +1,9 @@
-[{
+[
+    {
         "model": "resources.resource",
         "fields": {
             "uuid": "xFxFtoT_P9c",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -24,7 +25,7 @@
         "model": "resources.resource",
         "fields": {
             "uuid": "QGZPyerWDNQ",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -46,7 +47,7 @@
         "model": "resources.resource",
         "fields": {
             "uuid": "1jzOY8iCaNo",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -68,7 +69,7 @@
         "model": "resources.resource",
         "fields": {
             "uuid": "pfrWxRx1Jus",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -90,7 +91,7 @@
         "model": "resources.resource",
         "fields": {
             "uuid": "P9PgC4zJ4lY",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -222,7 +223,7 @@
         "model": "resources.resource",
         "fields": {
             "uuid": "O7D22nSqx_A",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -244,7 +245,7 @@
         "model": "resources.resource",
         "fields": {
             "uuid": "1QSdRmHOQN8",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -265,8 +266,30 @@
     {
         "model": "resources.resource",
         "fields": {
+            "uuid": "S5WVQRCjx24",
+            "title": "اسلایدها",
+            "notes": null,
+            "type": 6,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "classroom": ["Kwb25VztOKI"]
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/79",
+            "title": "پیام تلگرام",
+            "linked_type": ["resources", "resource"],
+            "linked_id": 13
+        }
+    },
+    {
+        "model": "resources.resource",
+        "fields": {
             "uuid": "wlxunCElbYs",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -281,14 +304,14 @@
             "url": "https://t.me/CSE_Archive/100",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 13
+            "linked_id": 14
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "pKLmUFjjVus",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -303,14 +326,14 @@
             "url": "https://t.me/CSE_Archive/101",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 14
+            "linked_id": 15
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "0TjNrdkGDXE",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -325,7 +348,7 @@
             "url": "https://t.me/CSE_Archive/104",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 15
+            "linked_id": 16
         }
     },
     {
@@ -347,14 +370,14 @@
             "url": "https://t.me/CSE_Archive/116",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 16
+            "linked_id": 17
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "xxgVh93vORM",
-            "title": "میانترم",
+            "title": null,
             "notes": "جواب‌های ثبت شده الزاما صحیح نیستند!",
             "type": 1,
             "is_published": true,
@@ -369,14 +392,14 @@
             "url": "https://t.me/CSE_Archive/119",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 17
+            "linked_id": 18
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "auFlFOxdniY",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -391,14 +414,14 @@
             "url": "https://t.me/CSE_Archive/121",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 18
+            "linked_id": 19
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "oXvm21xY1Jg",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -413,14 +436,14 @@
             "url": "https://t.me/CSE_Archive/123",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 19
+            "linked_id": 20
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "yeyGfFUZ1qA",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -435,14 +458,14 @@
             "url": "https://t.me/CSE_Archive/124",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 20
+            "linked_id": 21
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "Ub7XHI3Nf98",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -457,14 +480,14 @@
             "url": "https://t.me/CSE_Archive/125",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 21
+            "linked_id": 22
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "FlF6AnMOBK8",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -479,14 +502,14 @@
             "url": "https://t.me/CSE_Archive/126",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 22
+            "linked_id": 23
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "0GmT9qcGoOk",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -501,7 +524,7 @@
             "url": "https://t.me/CSE_Archive/128",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 23
+            "linked_id": 24
         }
     },
     {
@@ -523,14 +546,14 @@
             "url": "https://t.me/CSE_Archive/129",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 24
+            "linked_id": 25
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "WiPcbFJWvxE",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -545,14 +568,14 @@
             "url": "https://t.me/CSE_Archive/132",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 25
+            "linked_id": 26
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "SYbTNwRiJ6A",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -567,14 +590,14 @@
             "url": "https://t.me/CSE_Archive/133",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 26
+            "linked_id": 27
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "edEFxJL1_8o",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -589,14 +612,14 @@
             "url": "https://t.me/CSE_Archive/135",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 27
+            "linked_id": 28
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "L0DefxK3lxY",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -611,7 +634,7 @@
             "url": "https://t.me/CSE_Archive/136",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 28
+            "linked_id": 29
         }
     },
     {
@@ -633,14 +656,14 @@
             "url": "https://t.me/CSE_Archive/137",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 29
+            "linked_id": 30
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "EVUKUrLNMcY",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -655,7 +678,7 @@
             "url": "https://t.me/CSE_Archive/138",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 30
+            "linked_id": 31
         }
     },
     {
@@ -677,14 +700,14 @@
             "url": "https://t.me/CSE_Archive/139",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 31
+            "linked_id": 32
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "LZr61EE_VY4",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -699,14 +722,14 @@
             "url": "https://t.me/CSE_Archive/140",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 32
+            "linked_id": 33
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "q1XFBYLzAM8",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -721,14 +744,14 @@
             "url": "https://t.me/CSE_Archive/141",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 33
+            "linked_id": 34
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "ZXPgT7Opkj8",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -743,14 +766,14 @@
             "url": "https://t.me/CSE_Archive/142",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 34
+            "linked_id": 35
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "VLTMuQUPEjY",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -765,14 +788,14 @@
             "url": "https://t.me/CSE_Archive/143",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 35
+            "linked_id": 36
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "pgbBMQ6bMMk",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -787,14 +810,14 @@
             "url": "https://t.me/CSE_Archive/144",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 36
+            "linked_id": 37
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "wXvLB4s89yc",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -809,14 +832,14 @@
             "url": "https://t.me/CSE_Archive/146",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 37
+            "linked_id": 38
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "OPJybElmzi8",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -831,14 +854,14 @@
             "url": "https://t.me/CSE_Archive/148",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 38
+            "linked_id": 39
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "MdXnlzIx3xM",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -853,14 +876,14 @@
             "url": "https://t.me/CSE_Archive/150",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 39
+            "linked_id": 40
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "gerfCgCUVMc",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -875,14 +898,14 @@
             "url": "https://t.me/CSE_Archive/151",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 40
+            "linked_id": 41
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "6Pui7s_7bMg",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -897,14 +920,14 @@
             "url": "https://t.me/CSE_Archive/152",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 41
+            "linked_id": 42
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "YIdttb430hw",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -919,14 +942,14 @@
             "url": "https://t.me/CSE_Archive/153",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 42
+            "linked_id": 43
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "qaXBFxzskSY",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -941,7 +964,7 @@
             "url": "https://t.me/CSE_Archive/154",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 43
+            "linked_id": 44
         }
     },
     {
@@ -963,7 +986,7 @@
             "url": "https://t.me/CSE_Archive/155",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 44
+            "linked_id": 45
         }
     },
     {
@@ -985,7 +1008,7 @@
             "url": "https://t.me/CSE_Archive/156",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 45
+            "linked_id": 46
         }
     },
     {
@@ -1007,14 +1030,14 @@
             "url": "https://t.me/CSE_Archive/157",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 46
+            "linked_id": 47
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "YSU6nFMgD4Y",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -1029,14 +1052,14 @@
             "url": "https://t.me/CSE_Archive/158",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 47
+            "linked_id": 48
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "ep_o9Lz0kJY",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -1051,14 +1074,14 @@
             "url": "https://t.me/CSE_Archive/159",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 48
+            "linked_id": 49
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "pihaJYUdWO4",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -1073,14 +1096,14 @@
             "url": "https://t.me/CSE_Archive/161",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 49
+            "linked_id": 50
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "mNnJd8JN7VY",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -1095,7 +1118,7 @@
             "url": "https://t.me/CSE_Archive/162",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 50
+            "linked_id": 51
         }
     },
     {
@@ -1117,14 +1140,14 @@
             "url": "https://t.me/CSE_Archive/163",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 51
+            "linked_id": 52
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "eoO4qExW5Wg",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -1139,14 +1162,14 @@
             "url": "https://t.me/CSE_Archive/164",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 52
+            "linked_id": 53
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "RxmrLJOOpp4",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -1161,14 +1184,14 @@
             "url": "https://t.me/CSE_Archive/165",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 53
+            "linked_id": 54
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "RUPEYfMPfJ4",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -1183,14 +1206,14 @@
             "url": "https://t.me/CSE_Archive/168",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 54
+            "linked_id": 55
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "c9yvWr6w7P4",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -1205,14 +1228,14 @@
             "url": "https://t.me/CSE_Archive/169",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 55
+            "linked_id": 56
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "XNX2LvssIHg",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -1227,14 +1250,14 @@
             "url": "https://t.me/CSE_Archive/170",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 56
+            "linked_id": 57
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "MHRNyruy69U",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -1249,14 +1272,14 @@
             "url": "https://t.me/CSE_Archive/171",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 57
+            "linked_id": 58
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "kMHgzAoNla4",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -1271,14 +1294,14 @@
             "url": "https://t.me/CSE_Archive/173",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 58
+            "linked_id": 59
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "wsuer5tqO0M",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -1293,14 +1316,14 @@
             "url": "https://t.me/CSE_Archive/174",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 59
+            "linked_id": 60
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "_yNIX5AmhjY",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -1315,14 +1338,14 @@
             "url": "https://t.me/CSE_Archive/175",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 60
+            "linked_id": 61
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "AIwWk_Tc_ZI",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -1337,14 +1360,14 @@
             "url": "https://t.me/CSE_Archive/176",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 61
+            "linked_id": 62
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "D5yccQhydNQ",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -1359,14 +1382,14 @@
             "url": "https://t.me/CSE_Archive/177",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 62
+            "linked_id": 63
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "aS_MBmncZMA",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -1381,7 +1404,7 @@
             "url": "https://t.me/CSE_Archive/179",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 63
+            "linked_id": 64
         }
     },
     {
@@ -1403,7 +1426,7 @@
             "url": "https://t.me/CSE_Archive/180",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 64
+            "linked_id": 65
         }
     },
     {
@@ -1425,7 +1448,7 @@
             "url": "https://t.me/CSE_Archive/186",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 65
+            "linked_id": 66
         }
     },
     {
@@ -1447,7 +1470,7 @@
             "url": "https://t.me/CSE_Archive/189",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 66
+            "linked_id": 67
         }
     },
     {
@@ -1469,7 +1492,7 @@
             "url": "https://t.me/CSE_Archive/190",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 67
+            "linked_id": 68
         }
     },
     {
@@ -1491,7 +1514,7 @@
             "url": "https://t.me/CSE_Archive/191",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 68
+            "linked_id": 69
         }
     },
     {
@@ -1513,7 +1536,7 @@
             "url": "https://t.me/CSE_Archive/192",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 69
+            "linked_id": 70
         }
     },
     {
@@ -1535,14 +1558,14 @@
             "url": "https://t.me/CSE_Archive/193",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 70
+            "linked_id": 71
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "3focvi3fRw0",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -1557,14 +1580,14 @@
             "url": "https://t.me/CSE_Archive/194",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 71
+            "linked_id": 72
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "sOREItB9gn0",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -1579,14 +1602,14 @@
             "url": "https://t.me/CSE_Archive/195",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 72
+            "linked_id": 73
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "kfOblQ82ElU",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -1601,14 +1624,14 @@
             "url": "https://t.me/CSE_Archive/196",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 73
+            "linked_id": 74
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "apeFgS2yXME",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -1623,14 +1646,14 @@
             "url": "https://t.me/CSE_Archive/197",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 74
+            "linked_id": 75
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "s7N13fgzO4k",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -1645,14 +1668,14 @@
             "url": "https://t.me/CSE_Archive/198",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 75
+            "linked_id": 76
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "BjOqt8Pixbw",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -1667,14 +1690,14 @@
             "url": "https://t.me/CSE_Archive/199",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 76
+            "linked_id": 77
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "XCu2HOb2XzI",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -1689,14 +1712,14 @@
             "url": "https://t.me/CSE_Archive/200",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 77
+            "linked_id": 78
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "j_VNbhEl3oI",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -1711,7 +1734,7 @@
             "url": "https://t.me/CSE_Archive/201",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 78
+            "linked_id": 79
         }
     },
     {
@@ -1733,7 +1756,7 @@
             "url": "https://t.me/CSE_Archive/204",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 79
+            "linked_id": 80
         }
     },
     {
@@ -1755,7 +1778,7 @@
             "url": "https://t.me/CSE_Archive/205",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 80
+            "linked_id": 81
         }
     },
     {
@@ -1777,7 +1800,7 @@
             "url": "https://t.me/CSE_Archive/206",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 81
+            "linked_id": 82
         }
     },
     {
@@ -1799,14 +1822,14 @@
             "url": "https://t.me/CSE_Archive/207",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 82
+            "linked_id": 83
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "E6KSoYTvoKg",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -1821,14 +1844,14 @@
             "url": "https://t.me/CSE_Archive/208",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 83
+            "linked_id": 84
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "sCRB9hPteWs",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -1843,14 +1866,14 @@
             "url": "https://t.me/CSE_Archive/209",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 84
+            "linked_id": 85
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "5h4d0fZ9Scs",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -1865,14 +1888,14 @@
             "url": "https://t.me/CSE_Archive/210",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 85
+            "linked_id": 86
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "2o6lnkMXx9E",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -1887,14 +1910,14 @@
             "url": "https://t.me/CSE_Archive/212",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 86
+            "linked_id": 87
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "2KQNkuEdb0Y",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -1909,14 +1932,14 @@
             "url": "https://t.me/CSE_Archive/213",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 87
+            "linked_id": 88
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "8PjM9a5dZ0w",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -1931,14 +1954,14 @@
             "url": "https://t.me/CSE_Archive/215",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 88
+            "linked_id": 89
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "LT0z3zxfIf0",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -1953,14 +1976,14 @@
             "url": "https://t.me/CSE_Archive/216",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 89
+            "linked_id": 90
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "NAz1robK1cE",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -1975,14 +1998,14 @@
             "url": "https://t.me/CSE_Archive/217",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 90
+            "linked_id": 91
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "1ZMXcmLh9Sk",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -1997,14 +2020,14 @@
             "url": "https://t.me/CSE_Archive/218",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 91
+            "linked_id": 92
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "u4cr5pfZ_9E",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -2019,14 +2042,14 @@
             "url": "https://t.me/CSE_Archive/219",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 92
+            "linked_id": 93
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "MrBqZmvPVbM",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -2041,14 +2064,14 @@
             "url": "https://t.me/CSE_Archive/220",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 93
+            "linked_id": 94
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "st5SatfwhuY",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -2063,14 +2086,14 @@
             "url": "https://t.me/CSE_Archive/221",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 94
+            "linked_id": 95
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "vI24R8M5Pjs",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -2085,14 +2108,14 @@
             "url": "https://t.me/CSE_Archive/222",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 95
+            "linked_id": 96
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "4bLut30hKTo",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -2107,14 +2130,14 @@
             "url": "https://t.me/CSE_Archive/223",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 96
+            "linked_id": 97
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "yPYumcExlkc",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -2129,14 +2152,14 @@
             "url": "https://t.me/CSE_Archive/224",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 97
+            "linked_id": 98
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "OfhVj8Bzc2g",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -2151,14 +2174,14 @@
             "url": "https://t.me/CSE_Archive/226",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 98
+            "linked_id": 99
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "aS4u2zOSFqs",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -2173,14 +2196,14 @@
             "url": "https://t.me/CSE_Archive/227",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 99
+            "linked_id": 100
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "NNeDJRhmWiI",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -2195,14 +2218,14 @@
             "url": "https://t.me/CSE_Archive/228",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 100
+            "linked_id": 101
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "izk8BPQ0S4o",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -2217,14 +2240,14 @@
             "url": "https://t.me/CSE_Archive/229",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 101
+            "linked_id": 102
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "VVxxfrxrMro",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -2239,14 +2262,14 @@
             "url": "https://t.me/CSE_Archive/230",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 102
+            "linked_id": 103
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "rlB2i8OeJvE",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -2261,14 +2284,14 @@
             "url": "https://t.me/CSE_Archive/231",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 103
+            "linked_id": 104
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "KaoEPL2ivpc",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -2283,14 +2306,14 @@
             "url": "https://t.me/CSE_Archive/234",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 104
+            "linked_id": 105
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "Jsycjf7ZuCY",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -2305,14 +2328,14 @@
             "url": "https://t.me/CSE_Archive/235",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 105
+            "linked_id": 106
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "2VucYrTXPHg",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -2327,14 +2350,14 @@
             "url": "https://t.me/CSE_Archive/236",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 106
+            "linked_id": 107
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "K_5M1waBys8",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -2349,14 +2372,14 @@
             "url": "https://t.me/CSE_Archive/237",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 107
+            "linked_id": 108
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "GlpmC53xUT0",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -2371,14 +2394,14 @@
             "url": "https://t.me/CSE_Archive/238",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 108
+            "linked_id": 109
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "fR3qTsti7Qc",
-            "title": "کوییزها",
+            "title": null,
             "notes": null,
             "type": 5,
             "is_published": true,
@@ -2393,14 +2416,14 @@
             "url": "https://t.me/CSE_Archive/239",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 109
+            "linked_id": 110
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "LXBuKxOw7IA",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -2415,14 +2438,14 @@
             "url": "https://t.me/CSE_Archive/240",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 110
+            "linked_id": 111
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "K6Y62Umou2Y",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -2437,14 +2460,14 @@
             "url": "https://t.me/CSE_Archive/241",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 111
+            "linked_id": 112
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "ZM5wDGSLqd0",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -2459,14 +2482,14 @@
             "url": "https://t.me/CSE_Archive/243",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 112
+            "linked_id": 113
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "x3yHufcFUx4",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -2481,14 +2504,14 @@
             "url": "https://t.me/CSE_Archive/244",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 113
+            "linked_id": 114
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "BYgPRoVErSM",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -2503,7 +2526,7 @@
             "url": "https://t.me/CSE_Archive/245",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 114
+            "linked_id": 115
         }
     },
     {
@@ -2525,7 +2548,7 @@
             "url": "https://t.me/CSE_Archive/246",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 115
+            "linked_id": 116
         }
     },
     {
@@ -2547,14 +2570,14 @@
             "url": "https://t.me/CSE_Archive/247",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 116
+            "linked_id": 117
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "Ti2zmQ5Y0Qc",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -2569,7 +2592,7 @@
             "url": "https://t.me/CSE_Archive/248",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 117
+            "linked_id": 118
         }
     },
     {
@@ -2591,7 +2614,7 @@
             "url": "https://t.me/CSE_Archive/249",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 118
+            "linked_id": 119
         }
     },
     {
@@ -2613,14 +2636,14 @@
             "url": "https://t.me/CSE_Archive/250",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 119
+            "linked_id": 120
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "OhEw10CXZfc",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -2635,14 +2658,14 @@
             "url": "https://t.me/CSE_Archive/251",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 120
+            "linked_id": 121
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "ZWQ8avXtvXE",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -2657,14 +2680,14 @@
             "url": "https://t.me/CSE_Archive/254",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 121
+            "linked_id": 122
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "nUB8zITs4TA",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -2679,14 +2702,14 @@
             "url": "https://t.me/CSE_Archive/255",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 122
+            "linked_id": 123
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "RGDAVAyu9DQ",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -2701,14 +2724,14 @@
             "url": "https://t.me/CSE_Archive/256",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 123
+            "linked_id": 124
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "WL3Teg962Pc",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -2723,14 +2746,14 @@
             "url": "https://t.me/CSE_Archive/258",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 124
+            "linked_id": 125
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "3OE2TSwunI8",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -2745,14 +2768,14 @@
             "url": "https://t.me/CSE_Archive/270",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 125
+            "linked_id": 126
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "NpApmw2lCzU",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -2767,14 +2790,14 @@
             "url": "https://t.me/CSE_Archive/271",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 126
+            "linked_id": 127
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "F1mxxVEdnEU",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -2789,14 +2812,14 @@
             "url": "https://t.me/CSE_Archive/276",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 127
+            "linked_id": 128
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "gyxvlA0nCKo",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -2811,14 +2834,14 @@
             "url": "https://t.me/CSE_Archive/282",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 128
+            "linked_id": 129
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "yCBxWzY7psQ",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -2833,14 +2856,14 @@
             "url": "https://t.me/CSE_Archive/293",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 129
+            "linked_id": 130
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "YpiQDuse2qA",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -2855,14 +2878,14 @@
             "url": "https://t.me/CSE_Archive/294",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 130
+            "linked_id": 131
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "fJMyT3dRZRY",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -2877,14 +2900,14 @@
             "url": "https://t.me/CSE_Archive/296",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 131
+            "linked_id": 132
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "ZJjzsbRv7eA",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -2899,14 +2922,14 @@
             "url": "https://t.me/CSE_Archive/300",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 132
+            "linked_id": 133
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "mX8yvHdukKA",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -2921,14 +2944,14 @@
             "url": "https://t.me/CSE_Archive/307",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 133
+            "linked_id": 134
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "iURj8hd4qnE",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -2943,14 +2966,14 @@
             "url": "https://t.me/CSE_Archive/308",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 134
+            "linked_id": 135
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "_MImib_UsG4",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -2965,14 +2988,14 @@
             "url": "https://t.me/CSE_Archive/313",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 135
+            "linked_id": 136
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "_Ut3l8BFiR0",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -2987,14 +3010,14 @@
             "url": "https://t.me/CSE_Archive/314",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 136
+            "linked_id": 137
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "dUEEdMEhJBI",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -3009,14 +3032,14 @@
             "url": "https://t.me/CSE_Archive/320",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 137
+            "linked_id": 138
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "yFG71dI04ns",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -3031,14 +3054,14 @@
             "url": "https://t.me/CSE_Archive/321",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 138
+            "linked_id": 139
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "BIWRBb9LcJ4",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -3053,14 +3076,14 @@
             "url": "https://t.me/CSE_Archive/323",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 139
+            "linked_id": 140
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "6i8m0DKO71M",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -3075,14 +3098,14 @@
             "url": "https://t.me/CSE_Archive/325",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 140
+            "linked_id": 141
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "j30083JMe4Y",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -3097,7 +3120,7 @@
             "url": "https://t.me/CSE_Archive/327",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 141
+            "linked_id": 142
         }
     },
     {
@@ -3119,7 +3142,7 @@
             "url": "https://t.me/CSE_Archive/328",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 142
+            "linked_id": 143
         }
     },
     {
@@ -3141,7 +3164,7 @@
             "url": "https://t.me/CSE_Archive/329",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 143
+            "linked_id": 144
         }
     },
     {
@@ -3163,7 +3186,7 @@
             "url": "https://t.me/CSE_Archive/330",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 144
+            "linked_id": 145
         }
     },
     {
@@ -3185,14 +3208,14 @@
             "url": "https://t.me/CSE_Archive/331",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 145
+            "linked_id": 146
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "gVHe89vj0oo",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -3207,14 +3230,14 @@
             "url": "https://t.me/CSE_Archive/332",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 146
+            "linked_id": 147
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "6M9Rx10egFE",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -3229,14 +3252,14 @@
             "url": "https://t.me/CSE_Archive/333",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 147
+            "linked_id": 148
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "URzCJPyIkfQ",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -3251,14 +3274,14 @@
             "url": "https://t.me/CSE_Archive/334",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 148
+            "linked_id": 149
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "Mq5mBwjRznk",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -3273,14 +3296,14 @@
             "url": "https://t.me/CSE_Archive/335",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 149
+            "linked_id": 150
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "jnlN08ZTn0U",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -3295,14 +3318,14 @@
             "url": "https://t.me/CSE_Archive/337",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 150
+            "linked_id": 151
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "Sa71avo_SyQ",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -3317,7 +3340,7 @@
             "url": "https://t.me/CSE_Archive/339",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 151
+            "linked_id": 152
         }
     },
     {
@@ -3339,7 +3362,7 @@
             "url": "https://t.me/CSE_Archive/344",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 152
+            "linked_id": 153
         }
     },
     {
@@ -3361,7 +3384,7 @@
             "url": "https://t.me/CSE_Archive/345",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 153
+            "linked_id": 154
         }
     },
     {
@@ -3383,7 +3406,7 @@
             "url": "https://t.me/CSE_Archive/346",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 154
+            "linked_id": 155
         }
     },
     {
@@ -3405,14 +3428,14 @@
             "url": "https://t.me/CSE_Archive/347",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 155
+            "linked_id": 156
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "_hM2HoqvOxY",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -3427,14 +3450,14 @@
             "url": "https://t.me/CSE_Archive/348",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 156
+            "linked_id": 157
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "SXtFyfJF9fs",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -3449,14 +3472,14 @@
             "url": "https://t.me/CSE_Archive/349",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 157
+            "linked_id": 158
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "chzASWYUrUU",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -3471,14 +3494,14 @@
             "url": "https://t.me/CSE_Archive/350",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 158
+            "linked_id": 159
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "5nxx4sXahuo",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -3493,14 +3516,14 @@
             "url": "https://t.me/CSE_Archive/351",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 159
+            "linked_id": 160
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "ECNH8rRofnE",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -3515,14 +3538,14 @@
             "url": "https://t.me/CSE_Archive/352",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 160
+            "linked_id": 161
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "93r0RldA90U",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -3537,14 +3560,14 @@
             "url": "https://t.me/CSE_Archive/360",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 161
+            "linked_id": 162
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "ejYB_M9N1Ws",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -3559,7 +3582,7 @@
             "url": "https://t.me/CSE_Archive/362",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 162
+            "linked_id": 163
         }
     },
     {
@@ -3581,7 +3604,7 @@
             "url": "https://t.me/CSE_Archive/363",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 163
+            "linked_id": 164
         }
     },
     {
@@ -3603,7 +3626,7 @@
             "url": "https://t.me/CSE_Archive/364",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 164
+            "linked_id": 165
         }
     },
     {
@@ -3625,14 +3648,14 @@
             "url": "https://t.me/CSE_Archive/365",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 165
+            "linked_id": 166
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "nXCYCEGrYSI",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -3647,14 +3670,14 @@
             "url": "https://t.me/CSE_Archive/366",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 166
+            "linked_id": 167
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "MBxZvyTncRE",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -3669,14 +3692,14 @@
             "url": "https://t.me/CSE_Archive/367",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 167
+            "linked_id": 168
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "L65I9nCFk7Y",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -3691,14 +3714,14 @@
             "url": "https://t.me/CSE_Archive/368",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 168
+            "linked_id": 169
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "CDeR4IhkBig",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -3713,14 +3736,14 @@
             "url": "https://t.me/CSE_Archive/369",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 169
+            "linked_id": 170
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "HJis4P4Om6c",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -3735,14 +3758,14 @@
             "url": "https://t.me/CSE_Archive/371",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 170
+            "linked_id": 171
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "sweVtuZ51_U",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": "همراه با پاسخ",
             "type": 4,
             "is_published": true,
@@ -3757,14 +3780,14 @@
             "url": "https://t.me/CSE_Archive/372",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 171
+            "linked_id": 172
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "6YGo00y4mf8",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -3779,14 +3802,14 @@
             "url": "https://t.me/CSE_Archive/374",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 172
+            "linked_id": 173
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "S8NwOudNYOc",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -3801,14 +3824,14 @@
             "url": "https://t.me/CSE_Archive/375",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 173
+            "linked_id": 174
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "A8vQGopxmro",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -3823,14 +3846,14 @@
             "url": "https://t.me/CSE_Archive/376",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 174
+            "linked_id": 175
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "wfzrJTxcPk4",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -3845,14 +3868,14 @@
             "url": "https://t.me/CSE_Archive/377",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 175
+            "linked_id": 176
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "H9rRvDUx4f0",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -3867,14 +3890,14 @@
             "url": "https://t.me/CSE_Archive/378",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 176
+            "linked_id": 177
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "AU4L7Q1vmjM",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -3889,14 +3912,14 @@
             "url": "https://t.me/CSE_Archive/379",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 177
+            "linked_id": 178
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "YPeTVW6dsaU",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -3911,14 +3934,14 @@
             "url": "https://t.me/CSE_Archive/392",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 178
+            "linked_id": 179
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "Mzd0DZzGtoE",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -3933,14 +3956,14 @@
             "url": "https://t.me/CSE_Archive/393",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 179
+            "linked_id": 180
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "pUq0O_W06m0",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -3955,14 +3978,14 @@
             "url": "https://t.me/CSE_Archive/394",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 180
+            "linked_id": 181
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "dzhiEMAIyQk",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -3977,14 +4000,14 @@
             "url": "https://t.me/CSE_Archive/396",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 181
+            "linked_id": 182
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "I1_xMAwm5zg",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -3999,14 +4022,14 @@
             "url": "https://t.me/CSE_Archive/397",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 182
+            "linked_id": 183
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "5wG6564Fx8o",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -4021,14 +4044,14 @@
             "url": "https://t.me/CSE_Archive/398",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 183
+            "linked_id": 184
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "4URsa5jJ1jo",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -4043,14 +4066,14 @@
             "url": "https://t.me/CSE_Archive/399",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 184
+            "linked_id": 185
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "otDUtAp3xmg",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -4065,14 +4088,14 @@
             "url": "https://t.me/CSE_Archive/400",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 185
+            "linked_id": 186
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "NPjHk_IajiA",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -4087,14 +4110,14 @@
             "url": "https://t.me/CSE_Archive/402",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 186
+            "linked_id": 187
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "ZiibTNz0cz4",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -4109,14 +4132,14 @@
             "url": "https://t.me/CSE_Archive/403",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 187
+            "linked_id": 188
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "Li3y19FxxR8",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -4131,14 +4154,14 @@
             "url": "https://t.me/CSE_Archive/404",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 188
+            "linked_id": 189
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "O0dFuWJbuBw",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -4153,14 +4176,14 @@
             "url": "https://t.me/CSE_Archive/405",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 189
+            "linked_id": 190
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "njyyi9lXSv4",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -4175,14 +4198,14 @@
             "url": "https://t.me/CSE_Archive/406",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 190
+            "linked_id": 191
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "PQorjAbspQ0",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -4197,14 +4220,14 @@
             "url": "https://t.me/CSE_Archive/407",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 191
+            "linked_id": 192
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "xcn7uREbKpc",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -4219,14 +4242,14 @@
             "url": "https://t.me/CSE_Archive/410",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 192
+            "linked_id": 193
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "xxJ8LdMLcxs",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -4241,14 +4264,14 @@
             "url": "https://t.me/CSE_Archive/411",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 193
+            "linked_id": 194
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "z1KptQb7OtA",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -4263,14 +4286,14 @@
             "url": "https://t.me/CSE_Archive/412",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 194
+            "linked_id": 195
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "krC_MCVDcCU",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -4285,14 +4308,14 @@
             "url": "https://t.me/CSE_Archive/413",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 195
+            "linked_id": 196
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "hzOTmr6j3sY",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -4307,14 +4330,14 @@
             "url": "https://t.me/CSE_Archive/414",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 196
+            "linked_id": 197
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "c9SrfbluIU4",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -4329,14 +4352,14 @@
             "url": "https://t.me/CSE_Archive/415",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 197
+            "linked_id": 198
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "tUfqQAimzhk",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -4351,14 +4374,14 @@
             "url": "https://t.me/CSE_Archive/416",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 198
+            "linked_id": 199
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "rnQ1l3nJ5Mg",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -4373,14 +4396,14 @@
             "url": "https://t.me/CSE_Archive/417",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 199
+            "linked_id": 200
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "O7KloI6xOtg",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -4395,14 +4418,14 @@
             "url": "https://t.me/CSE_Archive/418",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 200
+            "linked_id": 201
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "ff8sHC7uWyU",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -4417,14 +4440,14 @@
             "url": "https://t.me/CSE_Archive/419",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 201
+            "linked_id": 202
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "65m2i4ozl4I",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -4439,14 +4462,14 @@
             "url": "https://t.me/CSE_Archive/420",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 202
+            "linked_id": 203
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "6DodRmxf9DE",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -4461,7 +4484,7 @@
             "url": "https://t.me/CSE_Archive/422",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 203
+            "linked_id": 204
         }
     },
     {
@@ -4483,7 +4506,7 @@
             "url": "https://t.me/CSE_Archive/423",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 204
+            "linked_id": 205
         }
     },
     {
@@ -4505,7 +4528,7 @@
             "url": "https://t.me/CSE_Archive/424",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 205
+            "linked_id": 206
         }
     },
     {
@@ -4527,7 +4550,7 @@
             "url": "https://t.me/CSE_Archive/425",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 206
+            "linked_id": 207
         }
     },
     {
@@ -4549,14 +4572,14 @@
             "url": "https://t.me/CSE_Archive/426",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 207
+            "linked_id": 208
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "3dHyOWA5_8s",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -4571,14 +4594,14 @@
             "url": "https://t.me/CSE_Archive/427",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 208
+            "linked_id": 209
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "xO3BVxNgYeE",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -4593,14 +4616,14 @@
             "url": "https://t.me/CSE_Archive/428",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 209
+            "linked_id": 210
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "7wMtpa6XCzI",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -4615,14 +4638,14 @@
             "url": "https://t.me/CSE_Archive/429",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 210
+            "linked_id": 211
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "saFi6JZPXCw",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -4637,7 +4660,7 @@
             "url": "https://t.me/CSE_Archive/430",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 211
+            "linked_id": 212
         }
     },
     {
@@ -4659,14 +4682,14 @@
             "url": "https://t.me/CSE_Archive/431",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 212
+            "linked_id": 213
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "SnRWlttTm5E",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -4681,14 +4704,14 @@
             "url": "https://t.me/CSE_Archive/436",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 213
+            "linked_id": 214
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "LCbLcRvGVbc",
-            "title": "کوییزها",
+            "title": null,
             "notes": "همراه با پاسخ",
             "type": 5,
             "is_published": true,
@@ -4703,14 +4726,14 @@
             "url": "https://t.me/CSE_Archive/437",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 214
+            "linked_id": 215
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "kGXhH0qc__4",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -4725,7 +4748,7 @@
             "url": "https://t.me/CSE_Archive/439",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 215
+            "linked_id": 216
         }
     },
     {
@@ -4747,14 +4770,14 @@
             "url": "https://t.me/CSE_Archive/440",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 216
+            "linked_id": 217
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "k1YL46b9xA8",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -4769,14 +4792,14 @@
             "url": "https://t.me/CSE_Archive/441",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 217
+            "linked_id": 218
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "Olf11auGq60",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -4791,14 +4814,14 @@
             "url": "https://t.me/CSE_Archive/442",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 218
+            "linked_id": 219
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "rSTB8vCj7ic",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -4813,14 +4836,14 @@
             "url": "https://t.me/CSE_Archive/443",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 219
+            "linked_id": 220
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "k9v0ZKU_Z8M",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -4835,14 +4858,14 @@
             "url": "https://t.me/CSE_Archive/444",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 220
+            "linked_id": 221
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "U2wO2ONddn4",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -4857,14 +4880,14 @@
             "url": "https://t.me/CSE_Archive/445",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 221
+            "linked_id": 222
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "t6V29gUi1Rw",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -4879,14 +4902,14 @@
             "url": "https://t.me/CSE_Archive/446",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 222
+            "linked_id": 223
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "DT8FN4f__fs",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -4901,7 +4924,7 @@
             "url": "https://t.me/CSE_Archive/452",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 223
+            "linked_id": 224
         }
     },
     {
@@ -4923,7 +4946,7 @@
             "url": "https://t.me/CSE_Archive/462",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 224
+            "linked_id": 225
         }
     },
     {
@@ -4945,7 +4968,7 @@
             "url": "https://t.me/CSE_Archive/463",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 225
+            "linked_id": 226
         }
     },
     {
@@ -4967,14 +4990,14 @@
             "url": "https://t.me/CSE_Archive/464",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 226
+            "linked_id": 227
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "urZBN02Gj44",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -4989,14 +5012,14 @@
             "url": "https://t.me/CSE_Archive/465",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 227
+            "linked_id": 228
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "BxyKVEKKyAQ",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -5011,7 +5034,7 @@
             "url": "https://t.me/CSE_Archive/466",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 228
+            "linked_id": 229
         }
     },
     {
@@ -5033,7 +5056,7 @@
             "url": "https://t.me/CSE_Archive/472",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 229
+            "linked_id": 230
         }
     },
     {
@@ -5055,7 +5078,7 @@
             "url": "https://t.me/CSE_Archive/473",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 230
+            "linked_id": 231
         }
     },
     {
@@ -5077,7 +5100,7 @@
             "url": "https://t.me/CSE_Archive/474",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 231
+            "linked_id": 232
         }
     },
     {
@@ -5099,14 +5122,14 @@
             "url": "https://t.me/CSE_Archive/475",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 232
+            "linked_id": 233
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "8gFGIuOhPHY",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -5121,14 +5144,14 @@
             "url": "https://t.me/CSE_Archive/477",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 233
+            "linked_id": 234
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "3K_k90lsXK8",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -5143,7 +5166,7 @@
             "url": "https://t.me/CSE_Archive/478",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 234
+            "linked_id": 235
         }
     },
     {
@@ -5165,7 +5188,7 @@
             "url": "https://t.me/CSE_Archive/507",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 235
+            "linked_id": 236
         }
     },
     {
@@ -5187,14 +5210,14 @@
             "url": "https://t.me/CSE_Archive/508",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 236
+            "linked_id": 237
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "9qHIv1wIQ6Q",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -5209,14 +5232,14 @@
             "url": "https://t.me/CSE_Archive/509",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 237
+            "linked_id": 238
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "Sl9g4hhFFA4",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -5231,14 +5254,14 @@
             "url": "https://t.me/CSE_Archive/510",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 238
+            "linked_id": 239
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "0vcJY76ZGEY",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -5253,14 +5276,14 @@
             "url": "https://t.me/CSE_Archive/511",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 239
+            "linked_id": 240
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "xP0klLZCMp0",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -5275,14 +5298,36 @@
             "url": "https://t.me/CSE_Archive/512",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 240
+            "linked_id": 241
+        }
+    },
+    {
+        "model": "resources.resource",
+        "fields": {
+            "uuid": "Lw7NERg_xxs",
+            "title": "اسلایدها",
+            "notes": null,
+            "type": 6,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "classroom": ["N3BBMPPVPuQ"]
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/513",
+            "title": "پیام تلگرام",
+            "linked_type": ["resources", "resource"],
+            "linked_id": 242
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "ektLBfBycu8",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -5297,14 +5342,14 @@
             "url": "https://t.me/CSE_Archive/514",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 241
+            "linked_id": 243
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "NDOUTrEMUCA",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -5319,14 +5364,14 @@
             "url": "https://t.me/CSE_Archive/515",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 242
+            "linked_id": 244
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "2ITWWebmGK8",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -5341,14 +5386,14 @@
             "url": "https://t.me/CSE_Archive/516",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 243
+            "linked_id": 245
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "6eKYrkxrmfE",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -5363,14 +5408,14 @@
             "url": "https://t.me/CSE_Archive/517",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 244
+            "linked_id": 246
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "xLyRrzPN9UQ",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -5385,14 +5430,14 @@
             "url": "https://t.me/CSE_Archive/518",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 245
+            "linked_id": 247
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "wMiHVp1rEu4",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -5407,14 +5452,14 @@
             "url": "https://t.me/CSE_Archive/519",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 246
+            "linked_id": 248
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "TkgzJ9JmfEo",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -5429,14 +5474,14 @@
             "url": "https://t.me/CSE_Archive/520",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 247
+            "linked_id": 249
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "4EBa4aYLpJs",
-            "title": "کوییزها",
+            "title": null,
             "notes": null,
             "type": 5,
             "is_published": true,
@@ -5451,14 +5496,14 @@
             "url": "https://t.me/CSE_Archive/521",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 248
+            "linked_id": 250
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "hfNKI9D3Qiw",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -5473,14 +5518,14 @@
             "url": "https://t.me/CSE_Archive/522",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 249
+            "linked_id": 251
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "ZXGrIBG9f_U",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -5495,14 +5540,14 @@
             "url": "https://t.me/CSE_Archive/523",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 250
+            "linked_id": 252
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "vCSHpXAYOpc",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -5517,14 +5562,14 @@
             "url": "https://t.me/CSE_Archive/524",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 251
+            "linked_id": 253
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "WT37AdKyX9c",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -5539,14 +5584,14 @@
             "url": "https://t.me/CSE_Archive/525",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 252
+            "linked_id": 254
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "2iJcACGyqRM",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -5561,14 +5606,14 @@
             "url": "https://t.me/CSE_Archive/526",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 253
+            "linked_id": 255
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "INxxFiRKy6s",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -5583,14 +5628,14 @@
             "url": "https://t.me/CSE_Archive/527",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 254
+            "linked_id": 256
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "GUEodV0Ew4Q",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -5605,14 +5650,14 @@
             "url": "https://t.me/CSE_Archive/528",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 255
+            "linked_id": 257
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "ER14KFwlD1Q",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -5627,14 +5672,14 @@
             "url": "https://t.me/CSE_Archive/529",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 256
+            "linked_id": 258
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "xNYu9U4FxCI",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -5649,14 +5694,14 @@
             "url": "https://t.me/CSE_Archive/530",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 257
+            "linked_id": 259
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "ZSk8G0nTRmM",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -5671,14 +5716,14 @@
             "url": "https://t.me/CSE_Archive/531",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 258
+            "linked_id": 260
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "652qntcsbM4",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -5693,14 +5738,14 @@
             "url": "https://t.me/CSE_Archive/541",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 259
+            "linked_id": 261
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "euiZFAQQOC8",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -5715,14 +5760,14 @@
             "url": "https://t.me/CSE_Archive/543",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 260
+            "linked_id": 262
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "NmL2f_Yswek",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -5737,14 +5782,14 @@
             "url": "https://t.me/CSE_Archive/544",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 261
+            "linked_id": 263
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "A47ZN__Oyk0",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -5759,14 +5804,14 @@
             "url": "https://t.me/CSE_Archive/545",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 262
+            "linked_id": 264
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "EZuGgukFc2c",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -5781,14 +5826,14 @@
             "url": "https://t.me/CSE_Archive/546",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 263
+            "linked_id": 265
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "_v0zbyatREU",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -5803,14 +5848,14 @@
             "url": "https://t.me/CSE_Archive/547",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 264
+            "linked_id": 266
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "oU7zR9LHjYs",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -5825,14 +5870,14 @@
             "url": "https://t.me/CSE_Archive/548",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 265
+            "linked_id": 267
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "TadSZOrPAwM",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -5847,14 +5892,14 @@
             "url": "https://t.me/CSE_Archive/550",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 266
+            "linked_id": 268
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "XqHaJkbY7eo",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -5869,14 +5914,14 @@
             "url": "https://t.me/CSE_Archive/551",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 267
+            "linked_id": 269
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "Cq3TDi7GXjo",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -5891,14 +5936,14 @@
             "url": "https://t.me/CSE_Archive/552",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 268
+            "linked_id": 270
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "3zt6mTLbJmE",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -5913,14 +5958,14 @@
             "url": "https://t.me/CSE_Archive/553",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 269
+            "linked_id": 271
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "wgFTEZcWFGU",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -5935,14 +5980,14 @@
             "url": "https://t.me/CSE_Archive/555",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 270
+            "linked_id": 272
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "3KkVBjfXshI",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -5957,14 +6002,14 @@
             "url": "https://t.me/CSE_Archive/556",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 271
+            "linked_id": 273
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "rPNudZgIl1U",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -5979,14 +6024,14 @@
             "url": "https://t.me/CSE_Archive/557",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 272
+            "linked_id": 274
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "jsxaOYQRT6Q",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -6001,14 +6046,14 @@
             "url": "https://t.me/CSE_Archive/558",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 273
+            "linked_id": 275
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "HTUS9jDeoUA",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -6023,7 +6068,7 @@
             "url": "https://t.me/CSE_Archive/559",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 274
+            "linked_id": 276
         }
     },
     {
@@ -6045,14 +6090,14 @@
             "url": "https://t.me/CSE_Archive/561",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 275
+            "linked_id": 277
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "rXoAxwQYCf0",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -6067,14 +6112,14 @@
             "url": "https://t.me/CSE_Archive/568",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 276
+            "linked_id": 278
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "_0fgM7cnaPQ",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -6089,14 +6134,14 @@
             "url": "https://t.me/CSE_Archive/576",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 277
+            "linked_id": 279
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "O3l9n0Iop5s",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -6111,14 +6156,14 @@
             "url": "https://t.me/CSE_Archive/577",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 278
+            "linked_id": 280
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "tmAUnqSHz70",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -6133,14 +6178,14 @@
             "url": "https://t.me/CSE_Archive/578",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 279
+            "linked_id": 281
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "JOPZsEZdHN4",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -6155,14 +6200,14 @@
             "url": "https://t.me/CSE_Archive/579",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 280
+            "linked_id": 282
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "z0S9Kh_6C6Q",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -6177,14 +6222,14 @@
             "url": "https://t.me/CSE_Archive/584",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 281
+            "linked_id": 283
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "1M2PrzieD1U",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -6199,14 +6244,14 @@
             "url": "https://t.me/CSE_Archive/587",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 282
+            "linked_id": 284
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "VvF4B69aZUw",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -6221,14 +6266,14 @@
             "url": "https://t.me/CSE_Archive/588",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 283
+            "linked_id": 285
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "xgncm6jyYlY",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -6243,14 +6288,14 @@
             "url": "https://t.me/CSE_Archive/595",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 284
+            "linked_id": 286
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "XczNYcgVNHg",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -6265,14 +6310,14 @@
             "url": "https://t.me/CSE_Archive/597",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 285
+            "linked_id": 287
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "IaHrgwKiXe0",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -6287,14 +6332,14 @@
             "url": "https://t.me/CSE_Archive/598",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 286
+            "linked_id": 288
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "xbQqxdTNpmM",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -6309,14 +6354,14 @@
             "url": "https://t.me/CSE_Archive/599",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 287
+            "linked_id": 289
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "DERjiCheSQU",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -6331,14 +6376,14 @@
             "url": "https://t.me/CSE_Archive/600",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 288
+            "linked_id": 290
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "Tbh7tb8WhTU",
-            "title": "پایانترم",
+            "title": null,
             "notes": "پایانترم همان میانترم است، با این تفاوت که باید طبق این فایل (که راه‌حل سوال به زبان cpp است) به زبان جاوا نوشته شود.",
             "type": 2,
             "is_published": true,
@@ -6353,14 +6398,14 @@
             "url": "https://t.me/CSE_Archive/601",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 289
+            "linked_id": 291
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "4G5tTOJMomw",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -6375,14 +6420,14 @@
             "url": "https://t.me/CSE_Archive/602",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 290
+            "linked_id": 292
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "skXcG_W3tdU",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -6397,14 +6442,14 @@
             "url": "https://t.me/CSE_Archive/603",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 291
+            "linked_id": 293
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "aLsj9PxXO_8",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -6419,14 +6464,14 @@
             "url": "https://t.me/CSE_Archive/605",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 292
+            "linked_id": 294
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "JzR0OCVoq8U",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -6441,14 +6486,14 @@
             "url": "https://t.me/CSE_Archive/606",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 293
+            "linked_id": 295
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "mj8T45fFK4g",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -6463,14 +6508,14 @@
             "url": "https://t.me/CSE_Archive/607",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 294
+            "linked_id": 296
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "rLU4DSr_Ujg",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -6485,14 +6530,14 @@
             "url": "https://t.me/CSE_Archive/608",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 295
+            "linked_id": 297
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "PuRtktaX6Us",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -6507,14 +6552,14 @@
             "url": "https://t.me/CSE_Archive/609",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 296
+            "linked_id": 298
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "yzDy1PbyDaU",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -6529,14 +6574,14 @@
             "url": "https://t.me/CSE_Archive/610",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 297
+            "linked_id": 299
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "UiVmL6H9PaI",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -6551,14 +6596,36 @@
             "url": "https://t.me/CSE_Archive/611",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 298
+            "linked_id": 300
+        }
+    },
+    {
+        "model": "resources.resource",
+        "fields": {
+            "uuid": "hLD2t0LPE9s",
+            "title": "اسلایدها و نمونه",
+            "notes": null,
+            "type": 6,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "classroom": ["2_aINkkkSIQ"]
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/612",
+            "title": "پیام تلگرام",
+            "linked_type": ["resources", "resource"],
+            "linked_id": 301
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "sFlFax3qmU8",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -6573,14 +6640,14 @@
             "url": "https://t.me/CSE_Archive/613",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 299
+            "linked_id": 302
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "NMtsZRNA7eg",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -6595,14 +6662,14 @@
             "url": "https://t.me/CSE_Archive/614",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 300
+            "linked_id": 303
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "c602yj3KEuw",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -6617,14 +6684,14 @@
             "url": "https://t.me/CSE_Archive/615",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 301
+            "linked_id": 304
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "myYx0u8LuGM",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -6639,14 +6706,14 @@
             "url": "https://t.me/CSE_Archive/616",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 302
+            "linked_id": 305
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "Mep4Bvbfd8Y",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -6661,14 +6728,14 @@
             "url": "https://t.me/CSE_Archive/617",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 303
+            "linked_id": 306
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "1RjFm_PnnwI",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -6683,14 +6750,14 @@
             "url": "https://t.me/CSE_Archive/618",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 304
+            "linked_id": 307
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "Zjx0IyhiVxo",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -6705,14 +6772,14 @@
             "url": "https://t.me/CSE_Archive/619",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 305
+            "linked_id": 308
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "3N7ovXMPHok",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -6727,14 +6794,14 @@
             "url": "https://t.me/CSE_Archive/620",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 306
+            "linked_id": 309
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "7OIYXaVxXz8",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -6749,14 +6816,14 @@
             "url": "https://t.me/CSE_Archive/621",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 307
+            "linked_id": 310
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "T1AWKZLOEWQ",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -6771,7 +6838,7 @@
             "url": "https://t.me/CSE_Archive/622",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 308
+            "linked_id": 311
         }
     },
     {
@@ -6793,7 +6860,7 @@
             "url": "https://t.me/CSE_Archive/623",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 309
+            "linked_id": 312
         }
     },
     {
@@ -6815,7 +6882,7 @@
             "url": "https://t.me/CSE_Archive/624",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 310
+            "linked_id": 313
         }
     },
     {
@@ -6837,14 +6904,14 @@
             "url": "https://t.me/CSE_Archive/625",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 311
+            "linked_id": 314
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "bll4PqO9wsU",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -6859,14 +6926,14 @@
             "url": "https://t.me/CSE_Archive/626",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 312
+            "linked_id": 315
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "U6fMaPQWreY",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -6881,14 +6948,14 @@
             "url": "https://t.me/CSE_Archive/627",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 313
+            "linked_id": 316
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "1ZC590CUyOU",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -6903,14 +6970,14 @@
             "url": "https://t.me/CSE_Archive/628",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 314
+            "linked_id": 317
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "ntgmLMi9fRU",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -6925,14 +6992,14 @@
             "url": "https://t.me/CSE_Archive/629",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 315
+            "linked_id": 318
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "sxy1A0uBZJ0",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -6947,14 +7014,14 @@
             "url": "https://t.me/CSE_Archive/630",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 316
+            "linked_id": 319
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "jqvjd929uLo",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -6969,14 +7036,14 @@
             "url": "https://t.me/CSE_Archive/631",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 317
+            "linked_id": 320
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "bAjj1EYRrG4",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -6991,14 +7058,14 @@
             "url": "https://t.me/CSE_Archive/632",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 318
+            "linked_id": 321
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "KVMwcpGL7bc",
-            "title": "پروژه",
+            "title": null,
             "notes": null,
             "type": 3,
             "is_published": true,
@@ -7013,14 +7080,14 @@
             "url": "https://t.me/CSE_Archive/633",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 319
+            "linked_id": 322
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "_6FmfM5fY2o",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -7035,14 +7102,14 @@
             "url": "https://t.me/CSE_Archive/634",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 320
+            "linked_id": 323
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "sa0j_pXFL1A",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -7057,14 +7124,14 @@
             "url": "https://t.me/CSE_Archive/635",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 321
+            "linked_id": 324
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "JaBIYgB9Orw",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -7079,14 +7146,14 @@
             "url": "https://t.me/CSE_Archive/636",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 322
+            "linked_id": 325
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "riyymzLAcho",
-            "title": "کوییزها",
+            "title": null,
             "notes": null,
             "type": 5,
             "is_published": true,
@@ -7101,14 +7168,14 @@
             "url": "https://t.me/CSE_Archive/639",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 323
+            "linked_id": 326
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "Vj6Lww9Y124",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -7123,14 +7190,14 @@
             "url": "https://t.me/CSE_Archive/641",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 324
+            "linked_id": 327
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "tuJFPH_FAOI",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -7145,14 +7212,14 @@
             "url": "https://t.me/CSE_Archive/654",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 325
+            "linked_id": 328
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "Y05ExhbO7Fo",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -7167,14 +7234,14 @@
             "url": "https://t.me/CSE_Archive/655",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 326
+            "linked_id": 329
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "baviA3W_NHQ",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -7189,14 +7256,14 @@
             "url": "https://t.me/CSE_Archive/656",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 327
+            "linked_id": 330
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "Vt30Yg_I_eU",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": "همراه با پاسخ",
             "type": 4,
             "is_published": true,
@@ -7211,14 +7278,14 @@
             "url": "https://t.me/CSE_Archive/657",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 328
+            "linked_id": 331
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "S9hv3Xb83Pk",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -7233,14 +7300,14 @@
             "url": "https://t.me/CSE_Archive/658",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 329
+            "linked_id": 332
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "HjkQgkN7KD0",
-            "title": "تمرین‌ها",
+            "title": null,
             "notes": null,
             "type": 4,
             "is_published": true,
@@ -7255,14 +7322,14 @@
             "url": "https://t.me/CSE_Archive/659",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 330
+            "linked_id": 333
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "I8oUX7W9o4s",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -7277,14 +7344,14 @@
             "url": "https://t.me/CSE_Archive/660",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 342
+            "linked_id": 334
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "cRSrInBp2XU",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -7299,14 +7366,14 @@
             "url": "https://t.me/CSE_Archive/661",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 343
+            "linked_id": 335
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "UmBVmxBznng",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -7321,14 +7388,14 @@
             "url": "https://t.me/CSE_Archive/662",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 344
+            "linked_id": 336
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "j3wdIbP02RQ",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -7343,14 +7410,14 @@
             "url": "https://t.me/CSE_Archive/663",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 345
+            "linked_id": 337
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "xsVOsbhX5dU",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -7365,14 +7432,14 @@
             "url": "https://t.me/CSE_Archive/664",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 346
+            "linked_id": 338
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "n6AIasALq8U",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -7387,14 +7454,14 @@
             "url": "https://t.me/CSE_Archive/665",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 347
+            "linked_id": 339
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "DzZcuMvShjA",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -7409,14 +7476,14 @@
             "url": "https://t.me/CSE_Archive/666",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 348
+            "linked_id": 340
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "xbvdtZ1P6pM",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -7431,14 +7498,14 @@
             "url": "https://t.me/CSE_Archive/667",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 349
+            "linked_id": 341
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "6HrAxxcRtVQ",
-            "title": "پایانترم",
+            "title": null,
             "notes": "جواب‌های ثبت شده الزاما صحیح نیستند!",
             "type": 2,
             "is_published": true,
@@ -7453,14 +7520,14 @@
             "url": "https://t.me/CSE_Archive/668",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 350
+            "linked_id": 342
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "obV4UcHirAY",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -7475,14 +7542,14 @@
             "url": "https://t.me/CSE_Archive/669",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 351
+            "linked_id": 343
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "ix7Kt8aadf4",
-            "title": "پایانترم",
+            "title": null,
             "notes": null,
             "type": 2,
             "is_published": true,
@@ -7497,7 +7564,7 @@
             "url": "https://t.me/CSE_Archive/670",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 352
+            "linked_id": 344
         }
     },
     {
@@ -7519,14 +7586,14 @@
             "url": "https://t.me/CSE_Archive/671",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 353
+            "linked_id": 345
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "4Js6C0C3KAg",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -7541,14 +7608,14 @@
             "url": "https://t.me/CSE_Archive/672",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 354
+            "linked_id": 346
         }
     },
     {
         "model": "resources.resource",
         "fields": {
             "uuid": "7WBebixIZxY",
-            "title": "میانترم",
+            "title": null,
             "notes": null,
             "type": 1,
             "is_published": true,
@@ -7563,7 +7630,7 @@
             "url": "https://t.me/CSE_Archive/673",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 355
+            "linked_id": 347
         }
     },
     {
@@ -7585,7 +7652,7 @@
             "url": "https://t.me/CSE_Archive/674",
             "title": "پیام تلگرام",
             "linked_type": ["resources", "resource"],
-            "linked_id": 356
+            "linked_id": 348
         }
     }
 ]
