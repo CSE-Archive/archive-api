@@ -12,10 +12,11 @@ from references.models import Reference
 class ReferenceListSerializer(serializers.ModelSerializer):
     class Meta:
         model = Reference
-        fields = ("uuid", "title", "type", "cover_image", "writers", "links",)
+        fields = ("uuid", "title", "type", "cover_image", "writers", "links", "courses",)
     
     links = LinkSerializer(many=True)
     writers = serializers.SerializerMethodField()
+    courses = CourseListSerializer(many=True)
 
     @swagger_serializer_method(serializers.ListField(child=serializers.CharField()))
     def get_writers(self, instance: Reference) -> List[str]:

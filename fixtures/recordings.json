@@ -520,5 +520,34 @@
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 18
         }
+    },
+    {
+        "model": "recordings.recordedclassroom",
+        "fields": {
+            "uuid": "FVT3yFEEvvQ",
+            "notes": "",
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "classroom": ["c0yRJxxSOKY"]
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://drive.google.com/drive/folders/11TOnWRpJHRYQOj68TcoIawiXeM79ca6-",
+            "title": "گوگل درایو",
+            "linked_type": ["recordings", "recordedclassroom"],
+            "linked_id": 19
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/+f2Ij4f8NrF5iNjZk",
+            "title": "کانال تلگرام",
+            "linked_type": ["recordings", "recordedclassroom"],
+            "linked_id": 19
+        }
     }
 ]
