@@ -430,7 +430,7 @@
         "model": "references.reference",
         "fields": {
             "uuid": "hrODR31qY_s",
-            "title": "سولوشن An Introduction to Formal Languages and Automata (6th Edition)",
+            "title": "An Introduction to Formal Languages and Automata - 6th Edition (Solution)",
             "type": 2,
             "notes": null,
             "is_published": true,
@@ -531,9 +531,9 @@
         "model": "references.reference",
         "fields": {
             "uuid": "VQLhEBUza0Q",
-            "title": "سولوشن ریاضیات مهندسی",
+            "title": "حل‌المسائل ریاضیات مهندسی",
             "type": 2,
-            "notes": null,
+            "notes": "به زبان فارسی",
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -1496,7 +1496,7 @@
         "model": "references.reference",
         "fields": {
             "uuid": "4kyaXhH61w4",
-            "title": "سولوشن Computer Networking: A Top-Down Approach, 6th Edition",
+            "title": "Computer Networking: A Top-Down Approach - 6th Edition (Solution)",
             "type": 2,
             "notes": null,
             "is_published": true,
@@ -1789,9 +1789,9 @@
         "model": "references.reference",
         "fields": {
             "uuid": "wrKeNyk1XJg",
-            "title": "سولوشن مبانی الکترونیک - جلد اول (ویرایش دوم)",
+            "title": "حل‌المسائل مبانی الکترونیک - جلد اول (ویرایش دوم)",
             "type": 2,
-            "notes": null,
+            "notes": "به زبان فارسی",
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -1859,7 +1859,7 @@
         "model": "references.reference",
         "fields": {
             "uuid": "5Cu2QXdCdKc",
-            "title": "جزوه نظریه زبان‌ها و ماشین",
+            "title": null,
             "type": 4,
             "notes": "مربوط به کلاس نیمسال دوم ۱۴۰۰ دکتر تحیری",
             "is_published": true,
@@ -2211,7 +2211,7 @@
         "model": "references.reference",
         "fields": {
             "uuid": "uXpRZOtRKd0",
-            "title": "جزوه و اسلایدهای طراحی و تحلیل الگوریتم‌ها",
+            "title": null,
             "type": 3,
             "notes": null,
             "is_published": true,
@@ -2446,7 +2446,7 @@
         "model": "references.reference",
         "fields": {
             "uuid": "FHp_WxkWruU",
-            "title": "سولوشن Signals and Systems - Second Edition",
+            "title": "Signals and Systems - Second Edition (Solution)",
             "type": 2,
             "notes": null,
             "is_published": true,
@@ -2476,9 +2476,9 @@
         "model": "references.reference",
         "fields": {
             "uuid": "_csWsHdUSdY",
-            "title": "سولوشن فارسی Signals and Systems - Second Edition",
+            "title": "Signals and Systems - Second Edition (Solution)",
             "type": 2,
-            "notes": null,
+            "notes": "به زبان فارسی",
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -2846,9 +2846,9 @@
         "model": "references.reference",
         "fields": {
             "uuid": "qmEY5YDmTR8",
-            "title": "سولوشن ۶ فصل اول Linear Programming and Network Flows - Fourth Edition",
+            "title": "Linear Programming and Network Flows - Fourth Edition (Solution)",
             "type": 2,
-            "notes": null,
+            "notes": "شش فصل اول",
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
