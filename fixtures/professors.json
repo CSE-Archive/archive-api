@@ -27,7 +27,6 @@
             "department": ["tvwmvqKLVPw"],
             "about": null,
             "tag": "دکتر_ثامنی",
-            "has_detail": true,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -52,7 +51,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://www.linkedin.com/in/reza-sameni/",
-            "title": "Linkedin",
+            "title": "LinkedIn",
             "linked_type": ["professors", "professor"],
             "linked_id": 1
         }
@@ -85,7 +84,6 @@
             "department": ["tvwmvqKLVPw"],
             "about": null,
             "tag": "دکتر_بوستانی",
-            "has_detail": true,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -110,7 +108,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://www.linkedin.com/in/reza-boostani-a084b83b/",
-            "title": "Linkedin",
+            "title": "LinkedIn",
             "linked_type": ["professors", "professor"],
             "linked_id": 2
         }
@@ -143,7 +141,6 @@
             "department": ["tvwmvqKLVPw"],
             "about": null,
             "tag": "دکتر_تحیری",
-            "has_detail": true,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -192,7 +189,6 @@
             "department": ["tvwmvqKLVPw"],
             "about": null,
             "tag": "دکتر_حمزه",
-            "has_detail": true,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -210,7 +206,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://www.linkedin.com/in/ali-hamzeh-94689a120/",
-            "title": "Linkedin",
+            "title": "LinkedIn",
             "linked_type": ["professors", "professor"],
             "linked_id": 4
         }
@@ -243,7 +239,6 @@
             "department": ["tvwmvqKLVPw"],
             "about": null,
             "tag": "دکتر_خونجوش",
-            "has_detail": true,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -275,7 +270,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://www.linkedin.com/in/farshad-khun-jush-785b93191/",
-            "title": "Linkedin",
+            "title": "LinkedIn",
             "linked_type": ["professors", "professor"],
             "linked_id": 5
         }
@@ -308,7 +303,6 @@
             "department": ["tvwmvqKLVPw"],
             "about": null,
             "tag": "دکتر_راجی",
-            "has_detail": true,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -333,7 +327,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://www.linkedin.com/in/mohsen-raji-97974452/",
-            "title": "Linkedin",
+            "title": "LinkedIn",
             "linked_type": ["professors", "professor"],
             "linked_id": 6
         }
@@ -366,7 +360,6 @@
             "department": ["tvwmvqKLVPw"],
             "about": null,
             "tag": "دکتر_زیارتی",
-            "has_detail": true,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -384,7 +377,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://www.linkedin.com/in/koorush-ziarati-8824518b/?originalSubdomain=ca",
-            "title": "Linkedin",
+            "title": "LinkedIn",
             "linked_type": ["professors", "professor"],
             "linked_id": 7
         }
@@ -417,7 +410,6 @@
             "department": ["tvwmvqKLVPw"],
             "about": null,
             "tag": "دکتر_سامی",
-            "has_detail": true,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -442,7 +434,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://www.linkedin.com/in/ashkansami/",
-            "title": "Linkedin",
+            "title": "LinkedIn",
             "linked_type": ["professors", "professor"],
             "linked_id": 8
         }
@@ -475,7 +467,6 @@
             "department": ["tvwmvqKLVPw"],
             "about": null,
             "tag": "دکتر_صدرالدینی",
-            "has_detail": true,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -524,7 +515,6 @@
             "department": ["tvwmvqKLVPw"],
             "about": null,
             "tag": "دکتر_طاهری",
-            "has_detail": true,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -556,7 +546,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://www.linkedin.com/in/mohammad-taheri-950aa849/",
-            "title": "Linkedin",
+            "title": "LinkedIn",
             "linked_type": ["professors", "professor"],
             "linked_id": 10
         }
@@ -589,7 +579,6 @@
             "department": ["tvwmvqKLVPw"],
             "about": null,
             "tag": "دکتر_عظیمی_فر",
-            "has_detail": true,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -607,7 +596,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://www.linkedin.com/in/zohreh-azimifar-15134716/",
-            "title": "Linkedin",
+            "title": "LinkedIn",
             "linked_type": ["professors", "professor"],
             "linked_id": 11
         }
@@ -640,7 +629,6 @@
             "department": ["tvwmvqKLVPw"],
             "about": null,
             "tag": "دکتر_فخراحمد",
-            "has_detail": true,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -665,7 +653,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://www.linkedin.com/in/mostafa-fakhrahmad-b42359134/",
-            "title": "Linkedin",
+            "title": "LinkedIn",
             "linked_type": ["professors", "professor"],
             "linked_id": 12
         }
@@ -698,7 +686,6 @@
             "department": ["tvwmvqKLVPw"],
             "about": null,
             "tag": "دکتر_کشتکاران",
-            "has_detail": true,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -747,7 +734,6 @@
             "department": ["tvwmvqKLVPw"],
             "about": null,
             "tag": "دکتر_منصوری",
-            "has_detail": true,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -796,7 +782,6 @@
             "department": ["tvwmvqKLVPw"],
             "about": null,
             "tag": "دکتر_موسوی",
-            "has_detail": true,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -814,7 +799,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://www.linkedin.com/in/mohammad-moosavi-357b2b33/",
-            "title": "Linkedin",
+            "title": "LinkedIn",
             "linked_type": ["professors", "professor"],
             "linked_id": 15
         }
@@ -847,7 +832,6 @@
             "department": ["tvwmvqKLVPw"],
             "about": null,
             "tag": "دکتر_هاشمی",
-            "has_detail": true,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -872,7 +856,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://www.linkedin.com/in/sattar-hashemi-7366b1170/",
-            "title": "Linkedin",
+            "title": "LinkedIn",
             "linked_type": ["professors", "professor"],
             "linked_id": 16
         }
@@ -905,7 +889,6 @@
             "department": ["tvwmvqKLVPw"],
             "about": null,
             "tag": "دکتر_اسفندیاری",
-            "has_detail": true,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -916,7 +899,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://www.linkedin.com/in/hossein-esfandiari-10bb0281/",
-            "title": "Linkedin",
+            "title": "LinkedIn",
             "linked_type": ["professors", "professor"],
             "linked_id": 17
         }
@@ -940,7 +923,6 @@
             "department": ["tvwmvqKLVPw"],
             "about": null,
             "tag": "دکتر_توحیدی",
-            "has_detail": false,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -973,7 +955,6 @@
             "department": ["tvwmvqKLVPw"],
             "about": null,
             "tag": "دکتر_دستغیبی_فرد",
-            "has_detail": false,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -1006,7 +987,6 @@
             "department": ["tvwmvqKLVPw"],
             "about": null,
             "tag": "دکتر_ذوالقدری",
-            "has_detail": false,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -1032,7 +1012,6 @@
             "department": ["tvwmvqKLVPw"],
             "about": null,
             "tag": "دکتر_کاظمی",
-            "has_detail": false,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -1056,7 +1035,6 @@
             "department": ["tvwmvqKLVPw"],
             "about": null,
             "tag": "دکتر_سمیه_طاهری",
-            "has_detail": false,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -1073,7 +1051,6 @@
             "department": ["tvwmvqKLVPw"],
             "about": null,
             "tag": "دکتر_مغاره",
-            "has_detail": false,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -1090,7 +1067,6 @@
             "department": ["tvwmvqKLVPw"],
             "about": null,
             "tag": "دکتر_صیادی_نژاد",
-            "has_detail": false,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -1107,7 +1083,6 @@
             "department": ["tvwmvqKLVPw"],
             "about": null,
             "tag": "دکتر_تقی_زاده",
-            "has_detail": false,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -1124,7 +1099,6 @@
             "department": ["tvwmvqKLVPw"],
             "about": null,
             "tag": "مهندس_خادم_حسینی",
-            "has_detail": false,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -1141,7 +1115,6 @@
             "department": ["tvwmvqKLVPw"],
             "about": null,
             "tag": "دکتر_سهرابی",
-            "has_detail": false,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -1158,7 +1131,6 @@
             "department": ["tvwmvqKLVPw"],
             "about": null,
             "tag": "خانم_کریمی",
-            "has_detail": false,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -1175,7 +1147,6 @@
             "department": ["cQgGxQYPHEA"],
             "about": null,
             "tag": "دکتر_مشکسار",
-            "has_detail": false,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -1192,7 +1163,6 @@
             "department": ["cQgGxQYPHEA"],
             "about": null,
             "tag": "دکتر_غفرانی",
-            "has_detail": false,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -1209,7 +1179,6 @@
             "department": ["cQgGxQYPHEA"],
             "about": null,
             "tag": "دکتر_اسکندری",
-            "has_detail": false,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -1226,7 +1195,6 @@
             "department": ["cQgGxQYPHEA"],
             "about": null,
             "tag": "دکتر_دهقانی",
-            "has_detail": false,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",

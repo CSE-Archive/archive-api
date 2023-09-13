@@ -18,7 +18,6 @@ class DepartmentViewSet(ReadOnlyModelViewSet):
 
 class ProfessorViewSet(ReadOnlyModelViewSet):
     queryset = Professor.objects \
-        .filter(has_detail=True) \
         .select_related("department") \
         .prefetch_related("emails", "links")
     lookup_field = "uuid"

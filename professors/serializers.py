@@ -20,15 +20,15 @@ class ProfessorListSerializer(serializers.ModelSerializer):
     
     class Meta:
         model = Professor
-        fields = ("uuid", "first_name", "last_name", "honorific",
-                  "has_detail", "image", "department",)
+        fields = ("uuid", "first_name", "last_name", "honorific", "image",
+                  "department",)
 
 
 class ProfessorDetailSerializer(serializers.ModelSerializer):
     class Meta:
         model = Professor
-        fields = ("uuid", "first_name", "last_name", "honorific", "has_detail",
-                  "image", "department", "about", "emails", "links", "courses",)
+        fields = ("uuid", "first_name", "last_name", "honorific", "image",
+                  "department", "about", "emails", "links", "courses",)
 
     links = LinkSerializer(many=True)
     emails = serializers.SerializerMethodField()

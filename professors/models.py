@@ -75,10 +75,6 @@ class Professor(BaseModel):
         null=True,
         validators=[MaxImageSizeValidator(1)],
     )
-    has_detail = models.BooleanField(
-        verbose_name=_("Has Detail"),
-        default=True,
-    )
     links = contenttypes_fields.GenericRelation(
         Link,
         verbose_name=_("Links"),

@@ -27,7 +27,7 @@
         "model": "references.reference",
         "fields": {
             "uuid": "gmMZtlxBJe4",
-            "title": "How to Think Like a Computer Scientist: Learning with Python 3 Documentation (Release 3rd Edition)",
+            "title": "How to Think Like a Computer Scientist: Learning with Python 3 Documentation - Release 3rd Edition",
             "type": 1,
             "notes": null,
             "is_published": true,
@@ -148,7 +148,7 @@
         "model": "references.reference",
         "fields": {
             "uuid": "liFeCSWJ_UE",
-            "title": "Digital Design With an Introduction to the Verilog HDL (FIFTH EDITION)",
+            "title": "Digital Design With an Introduction to the Verilog HDL - FIFTH EDITION",
             "type": 1,
             "notes": null,
             "is_published": true,
@@ -223,7 +223,7 @@
         "model": "references.reference",
         "fields": {
             "uuid": "xpETguloOSs",
-            "title": "Fundamentals of Digital Logic with Verilog Design (THIRD EDITION)",
+            "title": "Fundamentals of Digital Logic with Verilog Design - THIRD EDITION",
             "type": 1,
             "notes": null,
             "is_published": true,
@@ -259,7 +259,7 @@
         "model": "references.reference",
         "fields": {
             "uuid": "snbN5OCJOh0",
-            "title": "Assembly Language for x86 Processors (Eighth Edition)",
+            "title": "Assembly Language for x86 Processors - Eighth Edition",
             "type": 1,
             "notes": null,
             "is_published": true,
@@ -294,7 +294,7 @@
         "model": "references.reference",
         "fields": {
             "uuid": "rcEAuaRonQ8",
-            "title": "Modern X86 Assembly Language Programming: Covers x86 64-bit, AVX, AVX2, and AVX-512 (Second Edition)",
+            "title": "Modern X86 Assembly Language Programming: Covers x86 64-bit, AVX, AVX2, and AVX-512 - Second Edition",
             "type": 1,
             "notes": null,
             "is_published": true,
@@ -355,6 +355,33 @@
         }
     },
     {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "S5WVQRCjx24",
+            "title": null,
+            "notes": "مربوط به نیمسال دوم ۱۳۹۹",
+            "type": 3,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "writers": [],
+            "courses": [
+                ["RDUT0ml8TNI"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/79",
+            "title": "پیام تلگرام",
+            "linked_type": ["resources", "resource"],
+            "linked_id": 10
+        }
+    },
+    {
         "model": "references.writer",
         "fields": {
             "full_name": "Jaan Kiusalaas"
@@ -364,7 +391,7 @@
         "model": "references.reference",
         "fields": {
             "uuid": "7JEY60GZRP8",
-            "title": "Numerical Methods in Engineering with Python3 (3th Edition)",
+            "title": "Numerical Methods in Engineering with Python3 - 3th Edition",
             "type": 1,
             "notes": null,
             "is_published": true,
@@ -386,7 +413,7 @@
             "url": "https://t.me/CSE_Archive/80",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 10
+            "linked_id": 11
         }
     },
     {
@@ -399,7 +426,7 @@
         "model": "references.reference",
         "fields": {
             "uuid": "h7VPRmDjv9I",
-            "title": "An Introduction to Formal Languages and Automata (6th Edition)",
+            "title": "An Introduction to Formal Languages and Automata - 6th Edition",
             "type": 1,
             "notes": null,
             "is_published": true,
@@ -423,14 +450,14 @@
             "url": "https://t.me/CSE_Archive/82",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 11
+            "linked_id": 12
         }
     },
     {
         "model": "references.reference",
         "fields": {
             "uuid": "hrODR31qY_s",
-            "title": "An Introduction to Formal Languages and Automata - 6th Edition (Solution)",
+            "title": "An Introduction to Formal Languages and Automata, 6th Edition - Solution",
             "type": 2,
             "notes": null,
             "is_published": true,
@@ -452,7 +479,7 @@
             "url": "https://t.me/CSE_Archive/83",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 12
+            "linked_id": 13
         }
     },
     {
@@ -465,9 +492,9 @@
         "model": "references.reference",
         "fields": {
             "uuid": "y6bDkv8nREA",
-            "title": "Advanced Engineering Mathematics (10th Edition)",
+            "title": "Advanced Engineering Mathematics - 10th Edition",
             "type": 1,
-            "notes": "(In collaboration with Herbert Kreyszig & Edward J. Norminton)",
+            "notes": "In collaboration with Herbert Kreyszig & Edward J. Norminton",
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -487,7 +514,7 @@
             "url": "https://t.me/CSE_Archive/86",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 13
+            "linked_id": 14
         }
     },
     {
@@ -524,7 +551,7 @@
             "url": "https://t.me/CSE_Archive/87",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 14
+            "linked_id": 15
         }
     },
     {
@@ -553,7 +580,7 @@
             "url": "https://t.me/CSE_Archive/88",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 15
+            "linked_id": 16
         }
     },
     {
@@ -566,7 +593,7 @@
         "model": "references.reference",
         "fields": {
             "uuid": "VmPd5NmavqI",
-            "title": "Thinking in Java (Fourth Edition)",
+            "title": "Thinking in Java - Fourth Edition",
             "type": 1,
             "notes": null,
             "is_published": true,
@@ -588,7 +615,7 @@
             "url": "https://t.me/CSE_Archive/89",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 16
+            "linked_id": 17
         }
     },
     {
@@ -623,7 +650,7 @@
             "url": "https://t.me/CSE_Archive/102",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 17
+            "linked_id": 18
         }
     },
     {
@@ -658,7 +685,7 @@
             "url": "https://t.me/CSE_Archive/103",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 18
+            "linked_id": 19
         }
     },
     {
@@ -685,7 +712,7 @@
             "url": "https://t.me/CSE_Archive/120",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 19
+            "linked_id": 20
         }
     },
     {
@@ -718,7 +745,7 @@
             "url": "https://t.me/CSE_Archive/166",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 20
+            "linked_id": 21
         }
     },
     {
@@ -727,7 +754,7 @@
             "url": "https://github.com/ar-ekt/Dandamudi-Assembly-Solutions",
             "title": "ریپازیتوری گیتهاب پاسخ تمرین‌های برنامه‌نویسی کتاب",
             "linked_type": ["references", "reference"],
-            "linked_id": 20
+            "linked_id": 21
         }
     },
     {
@@ -758,7 +785,7 @@
         "model": "references.reference",
         "fields": {
             "uuid": "niSd6TpdNqo",
-            "title": "Compilers: Principles, Techniques, and Tools (Second Edition)",
+            "title": "Compilers: Principles, Techniques, and Tools - Second Edition",
             "type": 1,
             "notes": null,
             "is_published": true,
@@ -783,7 +810,7 @@
             "url": "https://t.me/CSE_Archive/172",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 21
+            "linked_id": 22
         }
     },
     {
@@ -792,7 +819,7 @@
             "url": "https://github.com/fool2fish/dragon-book-exercise-answers",
             "title": "ریپازیتوری گیتهاب پاسخ تمرین‌های کتاب",
             "linked_type": ["references", "reference"],
-            "linked_id": 21
+            "linked_id": 22
         }
     },
     {
@@ -827,7 +854,7 @@
             "url": "https://t.me/CSE_Archive/252",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 22
+            "linked_id": 23
         }
     },
     {
@@ -846,7 +873,7 @@
         "model": "references.reference",
         "fields": {
             "uuid": "qC3dHkBa5KU",
-            "title": "Competitive Programming 3 (The New Lower Bound of Programming Contests.)",
+            "title": "Competitive Programming 3: The New Lower Bound of Programming Contests.",
             "type": 1,
             "notes": null,
             "is_published": true,
@@ -869,7 +896,7 @@
             "url": "https://t.me/CSE_Archive/253",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 23
+            "linked_id": 24
         }
     },
     {
@@ -911,7 +938,7 @@
             "url": "https://t.me/CSE_Archive/260",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 24
+            "linked_id": 25
         }
     },
     {
@@ -953,7 +980,7 @@
             "url": "https://t.me/CSE_Archive/264",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 25
+            "linked_id": 26
         }
     },
     {
@@ -966,7 +993,7 @@
         "model": "references.reference",
         "fields": {
             "uuid": "xZ9BYl86VXs",
-            "title": "Discrete Mathematics and Its Applications (Eighth Edition)",
+            "title": "Discrete Mathematics and Its Applications - Eighth Edition",
             "type": 1,
             "notes": "همراه با پاسخ سوالات زوج",
             "is_published": true,
@@ -988,7 +1015,7 @@
             "url": "https://t.me/CSE_Archive/266",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 26
+            "linked_id": 27
         }
     },
     {
@@ -1013,7 +1040,7 @@
         "model": "references.reference",
         "fields": {
             "uuid": "_AT3bZc9MMU",
-            "title": "Database System Concepts, 7th Edition",
+            "title": "Database System Concepts - 7th Edition",
             "type": 1,
             "notes": null,
             "is_published": true,
@@ -1037,7 +1064,7 @@
             "url": "https://t.me/CSE_Archive/268",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 27
+            "linked_id": 28
         }
     },
     {
@@ -1072,7 +1099,7 @@
             "url": "https://t.me/CSE_Archive/269",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 28
+            "linked_id": 29
         }
     },
     {
@@ -1091,7 +1118,7 @@
         "model": "references.reference",
         "fields": {
             "uuid": "Zm7nM9LHCCc",
-            "title": "Artificial Intelligence, A Modern Approach, Third Edition",
+            "title": "Artificial Intelligence, A Modern Approach - Third Edition",
             "type": 1,
             "notes": null,
             "is_published": true,
@@ -1114,7 +1141,7 @@
             "url": "https://t.me/CSE_Archive/272",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 29
+            "linked_id": 30
         }
     },
     {
@@ -1149,7 +1176,7 @@
             "url": "https://t.me/CSE_Archive/273",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 30
+            "linked_id": 31
         }
     },
     {
@@ -1184,7 +1211,7 @@
             "url": "https://t.me/CSE_Archive/274",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 31
+            "linked_id": 32
         }
     },
     {
@@ -1213,7 +1240,7 @@
             "url": "https://t.me/CSE_Archive/275",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 32
+            "linked_id": 33
         }
     },
     {
@@ -1248,7 +1275,7 @@
             "url": "https://t.me/CSE_Archive/277",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 33
+            "linked_id": 34
         }
     },
     {
@@ -1279,7 +1306,7 @@
         "model": "references.reference",
         "fields": {
             "uuid": "kUcME515RJk",
-            "title": "Introduction to Algorithms, Fourth Edition",
+            "title": "Introduction to Algorithms - Fourth Edition",
             "type": 1,
             "notes": null,
             "is_published": true,
@@ -1305,7 +1332,7 @@
             "url": "https://t.me/CSE_Archive/278",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 34
+            "linked_id": 35
         }
     },
     {
@@ -1340,7 +1367,7 @@
             "url": "https://t.me/CSE_Archive/279",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 35
+            "linked_id": 36
         }
     },
     {
@@ -1375,7 +1402,7 @@
             "url": "https://t.me/CSE_Archive/280",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 36
+            "linked_id": 37
         }
     },
     {
@@ -1410,7 +1437,7 @@
             "url": "https://t.me/CSE_Archive/281",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 37
+            "linked_id": 38
         }
     },
     {
@@ -1445,7 +1472,7 @@
             "url": "https://t.me/CSE_Archive/283",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 38
+            "linked_id": 39
         }
     },
     {
@@ -1464,7 +1491,7 @@
         "model": "references.reference",
         "fields": {
             "uuid": "Vr4Rc27mL1g",
-            "title": "Computer Networking: A Top-Down Approach, 6th Edition",
+            "title": "Computer Networking: A Top-Down Approach - 6th Edition",
             "type": 1,
             "notes": null,
             "is_published": true,
@@ -1489,14 +1516,14 @@
             "url": "https://t.me/CSE_Archive/284",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 39
+            "linked_id": 40
         }
     },
     {
         "model": "references.reference",
         "fields": {
             "uuid": "4kyaXhH61w4",
-            "title": "Computer Networking: A Top-Down Approach - 6th Edition (Solution)",
+            "title": "Computer Networking: A Top-Down Approach, 6th Edition - Solution",
             "type": 2,
             "notes": null,
             "is_published": true,
@@ -1518,7 +1545,7 @@
             "url": "https://t.me/CSE_Archive/285",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 40
+            "linked_id": 41
         }
     },
     {
@@ -1543,7 +1570,7 @@
         "model": "references.reference",
         "fields": {
             "uuid": "OOWiwt7ToYM",
-            "title": "Operating System Concepts, 10th Edition",
+            "title": "Operating System Concepts - 10th Edition",
             "type": 1,
             "notes": null,
             "is_published": true,
@@ -1567,7 +1594,7 @@
             "url": "https://t.me/CSE_Archive/289",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 41
+            "linked_id": 42
         }
     },
     {
@@ -1596,7 +1623,7 @@
             "url": "https://t.me/CSE_Archive/290",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 42
+            "linked_id": 43
         }
     },
     {
@@ -1621,7 +1648,7 @@
         "model": "references.reference",
         "fields": {
             "uuid": "NxxclEtwRDU",
-            "title": "Numerical Analysis, 10th Edition",
+            "title": "Numerical Analysis - 10th Edition",
             "type": 1,
             "notes": null,
             "is_published": true,
@@ -1645,7 +1672,7 @@
             "url": "https://t.me/CSE_Archive/291",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 43
+            "linked_id": 44
         }
     },
     {
@@ -1674,7 +1701,7 @@
             "url": "https://t.me/CSE_Archive/292",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 44
+            "linked_id": 45
         }
     },
     {
@@ -1703,7 +1730,7 @@
             "url": "https://t.me/CSE_Archive/370",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 45
+            "linked_id": 46
         }
     },
     {
@@ -1722,7 +1749,7 @@
         "model": "references.reference",
         "fields": {
             "uuid": "0P2_d0tjzoA",
-            "title": "Computer Organization and Design: the Hardware/Software Interface (Sixth Edition)",
+            "title": "Computer Organization and Design: the Hardware/Software Interface - Sixth Edition",
             "type": 1,
             "notes": null,
             "is_published": true,
@@ -1745,7 +1772,7 @@
             "url": "https://t.me/CSE_Archive/380",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 46
+            "linked_id": 47
         }
     },
     {
@@ -1758,7 +1785,7 @@
         "model": "references.reference",
         "fields": {
             "uuid": "q_xjwwZocfE",
-            "title": "مبانی الکترونیک - جلد اول (ویرایش دوم)",
+            "title": "مبانی الکترونیک، جلد اول - ویرایش دوم",
             "type": 1,
             "notes": null,
             "is_published": true,
@@ -1782,14 +1809,14 @@
             "url": "https://t.me/CSE_Archive/388",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 47
+            "linked_id": 48
         }
     },
     {
         "model": "references.reference",
         "fields": {
             "uuid": "wrKeNyk1XJg",
-            "title": "حل‌المسائل مبانی الکترونیک - جلد اول (ویرایش دوم)",
+            "title": "حل‌المسائل مبانی الکترونیک، جلد اول - ویرایش دوم",
             "type": 2,
             "notes": "به زبان فارسی",
             "is_published": true,
@@ -1811,7 +1838,7 @@
             "url": "https://t.me/CSE_Archive/389",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 48
+            "linked_id": 49
         }
     },
     {
@@ -1846,7 +1873,7 @@
             "url": "https://t.me/CSE_Archive/395",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 49
+            "linked_id": 50
         }
     },
     {
@@ -1883,7 +1910,7 @@
             "url": "https://t.me/CSE_Archive/432",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 50
+            "linked_id": 51
         }
     },
     {
@@ -1914,7 +1941,7 @@
             "url": "https://t.me/CSE_Archive/433",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 51
+            "linked_id": 52
         }
     },
     {
@@ -1956,7 +1983,7 @@
             "url": "https://t.me/CSE_Archive/447",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 52
+            "linked_id": 53
         }
     },
     {
@@ -1991,7 +2018,7 @@
             "url": "https://t.me/CSE_Archive/482",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 53
+            "linked_id": 54
         }
     },
     {
@@ -2026,7 +2053,7 @@
             "url": "https://t.me/CSE_Archive/484",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 54
+            "linked_id": 55
         }
     },
     {
@@ -2075,7 +2102,7 @@
             "url": "https://t.me/CSE_Archive/501",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 55
+            "linked_id": 56
         }
     },
     {
@@ -2117,7 +2144,7 @@
             "url": "https://t.me/CSE_Archive/502",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 56
+            "linked_id": 57
         }
     },
     {
@@ -2146,7 +2173,7 @@
             "url": "https://t.me/CSE_Archive/503",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 57
+            "linked_id": 58
         }
     },
     {
@@ -2175,7 +2202,7 @@
             "url": "https://t.me/CSE_Archive/504",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 58
+            "linked_id": 59
         }
     },
     {
@@ -2204,7 +2231,7 @@
             "url": "https://t.me/CSE_Archive/505",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 59
+            "linked_id": 60
         }
     },
     {
@@ -2233,7 +2260,56 @@
             "url": "https://t.me/CSE_Archive/506",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 60
+            "linked_id": 61
+        }
+    },
+    {
+        "model": "references.writer",
+        "fields": {
+            "full_name": "محمدحسین اله‌اکبری"
+        }
+    },
+    {
+        "model": "references.writer",
+        "fields": {
+            "full_name": "محمدامین باغبان‌باشی"
+        }
+    },
+    {
+        "model": "references.writer",
+        "fields": {
+            "full_name": "عرفان بهاالدین"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "Lw7NERg_xxs",
+            "title": null,
+            "notes": "مربوط به نیمسال اول ۱۴۰۰",
+            "type": 3,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "writers": [
+                ["محمدحسین اله‌اکبری"],
+                ["محمدامین باغبان‌باشی"],
+                ["عرفان بهاالدین"]
+            ],
+            "courses": [
+                ["5wePzHh6NCc"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/513",
+            "title": "پیام تلگرام",
+            "linked_type": ["resources", "resource"],
+            "linked_id": 62
         }
     },
     {
@@ -2268,7 +2344,7 @@
             "url": "https://t.me/CSE_Archive/537",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 61
+            "linked_id": 63
         }
     },
     {
@@ -2303,7 +2379,7 @@
             "url": "https://t.me/CSE_Archive/538",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 62
+            "linked_id": 64
         }
     },
     {
@@ -2328,7 +2404,7 @@
         "model": "references.reference",
         "fields": {
             "uuid": "VIl4htZ6s3s",
-            "title": "Engineering Circuit Analysis, 8th Edition",
+            "title": "Engineering Circuit Analysis - 8th Edition",
             "type": 1,
             "notes": null,
             "is_published": true,
@@ -2352,7 +2428,7 @@
             "url": "https://t.me/CSE_Archive/549",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 63
+            "linked_id": 65
         }
     },
     {
@@ -2387,7 +2463,7 @@
             "url": "https://t.me/CSE_Archive/560",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 64
+            "linked_id": 66
         }
     },
     {
@@ -2439,14 +2515,14 @@
             "url": "https://t.me/CSE_Archive/569",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 65
+            "linked_id": 67
         }
     },
     {
         "model": "references.reference",
         "fields": {
             "uuid": "FHp_WxkWruU",
-            "title": "Signals and Systems - Second Edition (Solution)",
+            "title": "Signals and Systems, Second Edition - Solution",
             "type": 2,
             "notes": null,
             "is_published": true,
@@ -2469,14 +2545,14 @@
             "url": "https://t.me/CSE_Archive/570",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 66
+            "linked_id": 68
         }
     },
     {
         "model": "references.reference",
         "fields": {
             "uuid": "_csWsHdUSdY",
-            "title": "Signals and Systems - Second Edition (Solution)",
+            "title": "Signals and Systems, Second Edition - Solution",
             "type": 2,
             "notes": "به زبان فارسی",
             "is_published": true,
@@ -2499,7 +2575,49 @@
             "url": "https://t.me/CSE_Archive/571",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 67
+            "linked_id": 69
+        }
+    },
+    {
+        "model": "references.writer",
+        "fields": {
+            "full_name": "سید محمدحسین هاشمی"
+        }
+    },
+    {
+        "model": "references.writer",
+        "fields": {
+            "full_name": "رضا حسامی"
+        }
+    },
+    {
+        "model": "references.reference",
+        "fields": {
+            "uuid": "hLD2t0LPE9s",
+            "title": "اسلایدها و نمونه کد",
+            "notes": null,
+            "type": 3,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "writers": [
+                ["سید محمدحسین هاشمی"],
+                ["رضا حسامی"]
+            ],
+            "courses": [
+                ["5wePzHh6NCc"]
+            ],
+            "related_references": [],
+            "cover_image": null
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/612",
+            "title": "پیام تلگرام",
+            "linked_type": ["resources", "resource"],
+            "linked_id": 70
         }
     },
     {
@@ -2528,7 +2646,7 @@
             "url": "https://t.me/CSE_Archive/637",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 68
+            "linked_id": 71
         }
     },
     {
@@ -2563,7 +2681,7 @@
             "url": "https://t.me/CSE_Archive/638",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 69
+            "linked_id": 72
         }
     },
     {
@@ -2592,7 +2710,7 @@
             "url": "https://t.me/CSE_Archive/642",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 70
+            "linked_id": 73
         }
     },
     {
@@ -2662,7 +2780,7 @@
             "url": "https://t.me/CSE_Archive/643",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 71
+            "linked_id": 74
         }
     },
     {
@@ -2697,7 +2815,7 @@
             "url": "https://t.me/CSE_Archive/644",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 72
+            "linked_id": 75
         }
     },
     {
@@ -2746,7 +2864,7 @@
             "url": "https://t.me/CSE_Archive/646",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 73
+            "linked_id": 76
         }
     },
     {
@@ -2788,7 +2906,7 @@
             "url": "https://t.me/CSE_Archive/647",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 74
+            "linked_id": 77
         }
     },
     {
@@ -2839,14 +2957,14 @@
             "url": "https://t.me/CSE_Archive/648",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 75
+            "linked_id": 78
         }
     },
     {
         "model": "references.reference",
         "fields": {
             "uuid": "qmEY5YDmTR8",
-            "title": "Linear Programming and Network Flows - Fourth Edition (Solution)",
+            "title": "Linear Programming and Network Flows, Fourth Edition - Solution",
             "type": 2,
             "notes": "شش فصل اول",
             "is_published": true,
@@ -2868,7 +2986,7 @@
             "url": "https://t.me/CSE_Archive/649",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 76
+            "linked_id": 79
         }
     },
     {
@@ -2903,7 +3021,7 @@
             "url": "https://t.me/CSE_Archive/650",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 77
+            "linked_id": 80
         }
     },
     {
@@ -2930,7 +3048,7 @@
             "url": "https://t.me/CSE_Archive/651",
             "title": "پیام تلگرام",
             "linked_type": ["references", "reference"],
-            "linked_id": 78
+            "linked_id": 81
         }
     }
 ]
