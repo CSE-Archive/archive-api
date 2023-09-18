@@ -60,11 +60,12 @@ class Course(BaseModel):
         ordering = ("type", "title",)
 
 
-class Requisite(models.Model):
+class CourseRelation(models.Model):
 
     class Types(models.IntegerChoices):
         CO = 1, _("Corequisite")
         PRE = 2, _("Prerequisite")
+        INC = 3, _("Incompatible")
 
     type = models.PositiveSmallIntegerField(
         verbose_name=_("Type"),
@@ -74,19 +75,27 @@ class Requisite(models.Model):
         Course,
         verbose_name=_("Course From"),
         on_delete=models.CASCADE,
-        related_name="requisites_from",
+        related_name="relations_from",
     )
     course_to = models.ForeignKey(
         Course,
         verbose_name=_("Course To"),
         on_delete=models.CASCADE,
-        related_name="requisites_to",
+        related_name="relations_to",
     )
 
     def __str__(self) -> str:
         return f"{self.course_from.en_title} -> {self.course_to.en_title} : ({self.type})"
 
     class Meta:
-        verbose_name = _("Requisite")
-        verbose_name_plural = _("Requisities")
-        unique_together = ("course_from", "course_to",)
+        verbose_name = _("Course Relation")
+        verbose_name_plural = _("Course Relations")
+        constraints = [
+            models.UniqueConstraint(
+                fields=['course_from', 'course_to'], name="unique_relation_reverse"
+             ),
+            models.CheckConstraint(
+                name="prevent_self_relation",
+                check=~models.Q(course_from=models.F("course_to")),
+            )
+        ]

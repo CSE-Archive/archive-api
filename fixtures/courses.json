@@ -4,7 +4,7 @@
         "fields": {
             "uuid": "4VORB34qsNM",
             "title": "مبانی کامپیوتر و برنامه‌نویسی",
-            "en_title": "Basics of Computer and Programming",
+            "en_title": "Fundamentals of Computer and Programming",
             "tag": "مبانی",
             "known_as": null,
             "units": 3,
@@ -20,7 +20,7 @@
         "fields": {
             "uuid": "dStKfTC0Lek",
             "title": "ساختمان گسسته",
-            "en_title": "Discrete Mathematics",
+            "en_title": "Discrete Structures",
             "tag": "گسسته",
             "known_as": null,
             "units": 3,
@@ -36,7 +36,7 @@
         "fields": {
             "uuid": "RDUT0ml8TNI",
             "title": "آزمایشگاه کامپیوتر",
-            "en_title": "Computer Lab",
+            "en_title": "Computer Laboratory",
             "tag": "آز_کامپیوتر",
             "known_as": null,
             "units": 1,
@@ -68,7 +68,7 @@
         "fields": {
             "uuid": "T6_qqhgjD4Y",
             "title": "مدارهای منطقی",
-            "en_title": "Logic Circuits",
+            "en_title": "Logic Circuits Design",
             "tag": "مدار_منطقی",
             "known_as": null,
             "units": 3,
@@ -100,7 +100,7 @@
         "fields": {
             "uuid": "xvI1oQknNjQ",
             "title": "زبان ماشین و برنامه‌سازی سیستم",
-            "en_title": "Machine Language and System Programming",
+            "en_title": "System Programming & Assembly Language",
             "tag": "اسمبلی",
             "known_as": "اسمبلی",
             "units": 3,
@@ -116,7 +116,7 @@
         "fields": {
             "uuid": "xGkAHRRVBnU",
             "title": "آزمایشگاه مدارهای منطقی",
-            "en_title": "Logic Circuits Lab",
+            "en_title": "Logic Circuits Design Laboratory",
             "tag": "آز_منطقی",
             "known_as": null,
             "units": 1,
@@ -132,7 +132,7 @@
         "fields": {
             "uuid": "FXaxY78Lx0I",
             "title": "آمار و احتمال مهندسی",
-            "en_title": "Engineering Probability and Statistics",
+            "en_title": "Statistics and Probability for Engineers",
             "tag": "آمار",
             "known_as": null,
             "units": 3,
@@ -164,7 +164,7 @@
         "fields": {
             "uuid": "xEvVbt5U1jQ",
             "title": "مدارهای الکتریکی",
-            "en_title": "Electrical Circuits",
+            "en_title": "Electric Circuits",
             "tag": "مدار_الکتریکی",
             "known_as": null,
             "units": 3,
@@ -180,7 +180,7 @@
         "fields": {
             "uuid": "Vwpb6nAl6_E",
             "title": "نظریه زبان‌ها و ماشین",
-            "en_title": "Formal Languages and Automata Theory",
+            "en_title": "Theory of Languages & Automata",
             "tag": "نظریه",
             "known_as": null,
             "units": 3,
@@ -275,8 +275,8 @@
         "model": "courses.course",
         "fields": {
             "uuid": "H1romJgtudM",
-            "title": "آزمایشگاه معماری کامپیوتر",
-            "en_title": "Computer Architecture Lab",
+            "title": "آز معماری کامپیوتر",
+            "en_title": "Computer Architecture Laboratory",
             "tag": "آز_معماری",
             "known_as": null,
             "units": 1,
@@ -292,7 +292,7 @@
         "fields": {
             "uuid": "vXh5qgjgJEE",
             "title": "اصول طراحی سیستم‌های عامل",
-            "en_title": "Operating Systems Design Principles",
+            "en_title": "Operating Systems",
             "tag": "سیستم_عامل",
             "known_as": "OS",
             "units": 3,
@@ -324,7 +324,7 @@
         "fields": {
             "uuid": "kWiZv6ow0_s",
             "title": "شیوه ارائه مطالب علمی و فنی",
-            "en_title": "Presentation of Scientific and Technical Contents",
+            "en_title": "Technical Communication",
             "tag": "شیوه",
             "known_as": null,
             "units": 2,
@@ -388,7 +388,7 @@
         "fields": {
             "uuid": "8nc0R1fdy3M",
             "title": "آزمایشگاه سیستم‌های عامل",
-            "en_title": "Operating Systems Lab",
+            "en_title": "Operating Systems Laboratory",
             "tag": "آز_سیستم_عامل",
             "known_as": "آز OS",
             "units": 1,
@@ -404,7 +404,7 @@
         "fields": {
             "uuid": "VvjskcG8dP8",
             "title": "انتقال داده‌ها",
-            "en_title": "Data Communication",
+            "en_title": "Data Communications",
             "tag": "انتقال",
             "known_as": null,
             "units": 3,
@@ -420,7 +420,7 @@
         "fields": {
             "uuid": "pZhhlaoBIq4",
             "title": "اصول طراحی کامپایلرها",
-            "en_title": "Compiler Design Principles",
+            "en_title": "Principles of Compiler Design",
             "tag": "کامپایلر",
             "known_as": null,
             "units": 3,
@@ -452,7 +452,7 @@
         "fields": {
             "uuid": "5wePzHh6NCc",
             "title": "آز ریزپردازنده",
-            "en_title": "Microprocessor Lab",
+            "en_title": "Microprocessor Laboratory",
             "tag": "آز_میکرو",
             "known_as": "آز میکرو",
             "units": 1,
@@ -468,7 +468,7 @@
         "fields": {
             "uuid": "KM3Sgnpyha0",
             "title": "طراحی کامپیوتری سیستم‌های دیجیتال",
-            "en_title": "Digital Systems Design",
+            "en_title": "Computer Aided Digital System Design",
             "tag": "FPGA",
             "known_as": "FPGA",
             "units": 3,
@@ -500,7 +500,7 @@
         "fields": {
             "uuid": "oZxiY5GoaYI",
             "title": "آزمایشگاه شبکه‌های کامپیوتری",
-            "en_title": "Computer Networks Lab",
+            "en_title": "Computer Networks Laboratory",
             "tag": "آز_شبکه",
             "known_as": null,
             "units": 1,
@@ -564,7 +564,7 @@
         "fields": {
             "uuid": "c5mX3nrrjjY",
             "title": "آزمایشگاه طراحی رابط کاربری",
-            "en_title": "User Interface Design Lab",
+            "en_title": "User Interface Design Laboratory",
             "tag": "UIUX",
             "known_as": "UIUX",
             "units": 1,
@@ -628,7 +628,7 @@
         "fields": {
             "uuid": "jtlM0AtLEA0",
             "title": "طراحی و پیاده‌سازی زبان‌های برنامه‌سازی",
-            "en_title": "Design and Implementation of Programming Languages",
+            "en_title": "Design & Implementation of Programming Languages",
             "tag": "PL",
             "known_as": "PL",
             "units": 3,
@@ -692,7 +692,7 @@
         "fields": {
             "uuid": "zNsafxaUOT0",
             "title": "آز پایگاه داده‌ها",
-            "en_title": "Database Lab",
+            "en_title": "Database Laboratory",
             "tag": "آز_دیتابیس",
             "known_as": "آز دیتابیس",
             "units": 1,
@@ -756,7 +756,7 @@
         "fields": {
             "uuid": "YHpOGt8aH0g",
             "title": "تجارت الکترونیکی",
-            "en_title": "Electronic Commerce",
+            "en_title": "E-Commerce Fundamentals",
             "tag": "تجارت",
             "known_as": null,
             "units": 3,
@@ -772,7 +772,7 @@
         "fields": {
             "uuid": "zbYjuR917M0",
             "title": "ریاضیات عمومی ۱",
-            "en_title": "General Mathematics 1",
+            "en_title": "Calculus 1",
             "tag": "ریاضی_یک",
             "known_as": null,
             "units": 3,
@@ -788,7 +788,7 @@
         "fields": {
             "uuid": "MWoi9xSQ6cA",
             "title": "ریاضیات عمومی ۲",
-            "en_title": "General mathematics 2",
+            "en_title": "Calculus 2",
             "tag": "ریاضی_دو",
             "known_as": null,
             "units": 3,
@@ -884,7 +884,7 @@
         "fields": {
             "uuid": "pRHAFmzCtEk",
             "title": "انگلیسی عمومی",
-            "en_title": "General English Language",
+            "en_title": "General English",
             "tag": "انگلیسی_عمومی",
             "known_as": null,
             "units": 3,
@@ -900,7 +900,7 @@
         "fields": {
             "uuid": "xbDfzUdKxB8",
             "title": "انگلیسی تخصصی",
-            "en_title": "Specialized English Language",
+            "en_title": "Specialized English",
             "tag": "انگلیسی_تخصصی",
             "known_as": null,
             "units": 3,
@@ -916,7 +916,7 @@
         "fields": {
             "uuid": "MMcnvprYx3U",
             "title": "فارسی عمومی",
-            "en_title": "General Persian Language",
+            "en_title": "General Persian Literature",
             "tag": "فارسی",
             "known_as": null,
             "units": 3,
@@ -932,7 +932,7 @@
         "fields": {
             "uuid": "yL7lcVFlN5o",
             "title": "آئین زندگی",
-            "en_title": null,
+            "en_title": "Life Skills",
             "tag": "آیین_زندگی",
             "known_as": null,
             "units": 2,
@@ -947,8 +947,8 @@
         "model": "courses.course",
         "fields": {
             "uuid": "jeEhKII21G4",
-            "title": "انقلاب اسلامی",
-            "en_title": null,
+            "title": "انقلاب اسلامی ایران",
+            "en_title": "Islamic Revolution of Iran",
             "tag": "انقلاب_اسلامی",
             "known_as": null,
             "units": 2,
@@ -963,8 +963,8 @@
         "model": "courses.course",
         "fields": {
             "uuid": "RO3bTjGgrRQ",
-            "title": "قانون اساسی",
-            "en_title": null,
+            "title": "آشنایی با قانون اساسی",
+            "en_title": "An Introduction to Costitution",
             "tag": "قانون_اساسی",
             "known_as": null,
             "units": 2,
@@ -979,8 +979,8 @@
         "model": "courses.course",
         "fields": {
             "uuid": "S8UBPDv6dv0",
-            "title": "اندیشه سیاسی امام خمینی (ره)",
-            "en_title": null,
+            "title": "اندیشه سیاسی امام خمینی",
+            "en_title": "Political Thought of Imam Khomeyni",
             "tag": "اندیشه_امام",
             "known_as": null,
             "units": 2,
@@ -996,7 +996,7 @@
         "fields": {
             "uuid": "qJ31AQBsp1E",
             "title": "تفسیر موضوعی قرآن کریم",
-            "en_title": null,
+            "en_title": "Thematic Interpretation of the Qur'an",
             "tag": "تفسیر_قرآن",
             "known_as": null,
             "units": 2,
@@ -1011,8 +1011,8 @@
         "model": "courses.course",
         "fields": {
             "uuid": "DiroBhcuI3I",
-            "title": "تفسیر نهج‌البلاغه",
-            "en_title": null,
+            "title": "تفسیر موضوعی نهج‌البلاغه",
+            "en_title": "Nahjolbalaghah Interpretation",
             "tag": "تفسیر_نهج_البلاغه",
             "known_as": null,
             "units": 2,
@@ -1028,7 +1028,7 @@
         "fields": {
             "uuid": "42w_RtCgW8k",
             "title": "اندیشه اسلامی ۱",
-            "en_title": null,
+            "en_title": "Islamic Thoughts 1",
             "tag": "اندیشه_یک",
             "known_as": null,
             "units": 2,
@@ -1044,7 +1044,7 @@
         "fields": {
             "uuid": "D1bSu3V1sBI",
             "title": "اندیشه اسلامی ۲",
-            "en_title": null,
+            "en_title": "Islamic Thoughts 2",
             "tag": "اندیشه_دو",
             "known_as": null,
             "units": 2,
@@ -1060,7 +1060,7 @@
         "fields": {
             "uuid": "fX9eZ5lSHXg",
             "title": "تاریخ تحلیلی صدر اسلام",
-            "en_title": null,
+            "en_title": "Analytical History of Early Islam",
             "tag": "تاریخ_تحلیلی",
             "known_as": null,
             "units": 2,
@@ -1076,7 +1076,7 @@
         "fields": {
             "uuid": "7YHegXu2av8",
             "title": "تاریخ امامت",
-            "en_title": null,
+            "en_title": "History of Leadership in Islam",
             "tag": "تاریخ_امامت",
             "known_as": null,
             "units": 2,
@@ -1092,7 +1092,7 @@
         "fields": {
             "uuid": "tPWp50wXZts",
             "title": "حقوق اجتماعی و سیاسی در اسلام",
-            "en_title": null,
+            "en_title": "Social and political Law in Islam",
             "tag": "حقوق_در_اسلام",
             "known_as": null,
             "units": 2,
@@ -1108,7 +1108,7 @@
         "fields": {
             "uuid": "aCZqBr1AKeQ",
             "title": "انسان در اسلام",
-            "en_title": null,
+            "en_title": "Human from the Islamic view",
             "tag": "انسان_در_اسلام",
             "known_as": null,
             "units": 2,

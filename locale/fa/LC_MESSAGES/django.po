@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-10 19:01+0330\n"
+"POT-Creation-Date: 2023-09-19 02:05+0330\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgid "Course"
 msgstr "درس"
 
 #: chart/admin.py:25 chart/models.py:35 courses/models.py:33
-#: courses/models.py:70 references/models.py:44 resources/models.py:26
+#: courses/models.py:71 references/models.py:44 resources/models.py:26
 msgid "Type"
 msgstr "نوع"
 
@@ -112,7 +112,7 @@ msgstr "تابستان"
 msgid "Year"
 msgstr "سال"
 
-#: classrooms/models.py:58 professors/apps.py:8 professors/models.py:97
+#: classrooms/models.py:58 professors/apps.py:8 professors/models.py:93
 msgid "Professors"
 msgstr "اساتید"
 
@@ -157,7 +157,7 @@ msgstr "شناسه لایک‌شده"
 msgid "Link"
 msgstr "لینک"
 
-#: core/models.py:44 professors/models.py:84 recordings/models.py:24
+#: core/models.py:44 professors/models.py:80 recordings/models.py:24
 #: recordings/models.py:51 references/models.py:54 resources/models.py:36
 msgid "Links"
 msgstr "لینک‌ها"
@@ -185,13 +185,13 @@ msgstr "آخرین ویرایش"
 msgid "The maximum size allowed for images is “%(max_size)s” MB."
 msgstr "حداکثر اندازه مجاز برای تصاویر “%(max_size)s” مگابایت است."
 
-#: courses/admin.py:15 courses/admin.py:24 courses/models.py:90
-msgid "Requisite"
-msgstr "نیاز"
+#: courses/admin.py:15 courses/admin.py:24 courses/models.py:91
+msgid "Course Relation"
+msgstr "رابطه بین درسی"
 
-#: courses/admin.py:16 courses/admin.py:25 courses/models.py:91
-msgid "Requisities"
-msgstr "نیازها"
+#: courses/admin.py:16 courses/admin.py:25 courses/models.py:92
+msgid "Course Relations"
+msgstr "رابطه‌های بین درسی"
 
 #: courses/admin.py:38
 msgid "Number of Requisities-From"
@@ -209,11 +209,11 @@ msgstr "تعداد مراجع"
 msgid "Number of Recordings"
 msgstr "تعداد کلاس‌های ضبط‌شده"
 
-#: courses/admin.py:121 courses/models.py:75
+#: courses/admin.py:121 courses/models.py:76
 msgid "Course From"
 msgstr "درس مبدا"
 
-#: courses/admin.py:130 courses/models.py:81
+#: courses/admin.py:130 courses/models.py:82
 msgid "Course To"
 msgstr "درس مقصد"
 
@@ -262,11 +262,15 @@ msgstr "هم‌نیاز"
 msgid "Prerequisite"
 msgstr "پیش‌نیاز"
 
-#: professors/admin.py:15 professors/models.py:117
+#: courses/models.py:68
+msgid "Incompatible"
+msgstr ""
+
+#: professors/admin.py:15 professors/models.py:113
 msgid "Email"
 msgstr "ایمیل"
 
-#: professors/admin.py:16 professors/models.py:118
+#: professors/admin.py:16 professors/models.py:114
 msgid "Emails"
 msgstr "ایمیل‌ها"
 
@@ -318,15 +322,11 @@ msgstr "لقب"
 msgid "About"
 msgstr "درباره"
 
-#: professors/models.py:79
-msgid "Has Detail"
-msgstr "دارای جزئیات"
-
-#: professors/models.py:96 professors/models.py:108
+#: professors/models.py:92 professors/models.py:104
 msgid "Professor"
 msgstr "استاد"
 
-#: professors/models.py:103
+#: professors/models.py:99
 msgid "Address"
 msgstr "نشانی"
 

@@ -1,6 +1,6 @@
 [
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 1,
             "course_from": ["4VORB34qsNM"],
@@ -8,7 +8,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 1,
             "course_from": ["4VORB34qsNM"],
@@ -16,7 +16,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 1,
             "course_from": ["zbYjuR917M0"],
@@ -24,7 +24,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 1,
             "course_from": ["dStKfTC0Lek"],
@@ -32,7 +32,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["dStKfTC0Lek"],
@@ -40,7 +40,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["4VORB34qsNM"],
@@ -48,7 +48,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["zbYjuR917M0"],
@@ -56,7 +56,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["zbYjuR917M0"],
@@ -64,7 +64,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["zbYjuR917M0"],
@@ -72,7 +72,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 1,
             "course_from": ["yYUQD6idF9M"],
@@ -80,7 +80,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["W6i960Wc8Hc"],
@@ -88,7 +88,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["W6i960Wc8Hc"],
@@ -96,7 +96,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["W6i960Wc8Hc"],
@@ -104,7 +104,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["T6_qqhgjD4Y"],
@@ -112,7 +112,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["T6_qqhgjD4Y"],
@@ -120,7 +120,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["pRHAFmzCtEk"],
@@ -128,7 +128,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["xbDfzUdKxB8"],
@@ -136,7 +136,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["MWoi9xSQ6cA"],
@@ -144,7 +144,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["MWoi9xSQ6cA"],
@@ -152,7 +152,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["8tvBtoYUM7M"],
@@ -160,7 +160,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["8tvBtoYUM7M"],
@@ -168,7 +168,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 1,
             "course_from": ["8tvBtoYUM7M"],
@@ -176,7 +176,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["J2OBo93uAYw"],
@@ -184,7 +184,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["xvI1oQknNjQ"],
@@ -192,7 +192,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["FXaxY78Lx0I"],
@@ -200,7 +200,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["6oWhsMz3O9Q"],
@@ -208,7 +208,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["xEvVbt5U1jQ"],
@@ -216,7 +216,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["Vwpb6nAl6_E"],
@@ -224,7 +224,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["h6NQLbJdcwY"],
@@ -232,7 +232,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["h6NQLbJdcwY"],
@@ -240,7 +240,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["edjlkIEU3m0"],
@@ -248,7 +248,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["edjlkIEU3m0"],
@@ -256,7 +256,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["edjlkIEU3m0"],
@@ -264,7 +264,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["edjlkIEU3m0"],
@@ -272,7 +272,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 1,
             "course_from": ["NgnGtKaJ6AM"],
@@ -280,7 +280,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["vXh5qgjgJEE"],
@@ -288,7 +288,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["vXh5qgjgJEE"],
@@ -296,7 +296,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["krcBL7VfJGo"],
@@ -304,7 +304,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["kWiZv6ow0_s"],
@@ -312,7 +312,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["kWiZv6ow0_s"],
@@ -320,7 +320,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 1,
             "course_from": ["Tk8m_z6Q6RE"],
@@ -328,7 +328,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["UG2kETI8x5k"],
@@ -336,7 +336,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["VvjskcG8dP8"],
@@ -344,7 +344,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["jJWLm734jtQ"],
@@ -352,7 +352,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["Vwpb6nAl6_E"],
@@ -360,7 +360,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["UG2kETI8x5k"],
@@ -368,7 +368,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["MWoi9xSQ6cA"],
@@ -376,7 +376,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["ueVVW6jH0oI"],
@@ -384,7 +384,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["Tk8m_z6Q6RE"],
@@ -392,7 +392,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["edjlkIEU3m0"],
@@ -400,7 +400,7 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["J2OBo93uAYw"],
@@ -408,11 +408,75 @@
         }
     },
     {
-        "model": "courses.requisite",
+        "model": "courses.courserelation",
         "fields": {
             "type": 2,
             "course_from": ["FXaxY78Lx0I"],
             "course_to": ["88hTgVdL7Jw"]
+        }
+    },
+    {
+        "model": "courses.courserelation",
+        "fields": {
+            "type": 3,
+            "course_from": ["jeEhKII21G4"],
+            "course_to": ["RO3bTjGgrRQ"]
+        }
+    },
+    {
+        "model": "courses.courserelation",
+        "fields": {
+            "type": 3,
+            "course_from": ["jeEhKII21G4"],
+            "course_to": ["S8UBPDv6dv0"]
+        }
+    },
+    {
+        "model": "courses.courserelation",
+        "fields": {
+            "type": 3,
+            "course_from": ["RO3bTjGgrRQ"],
+            "course_to": ["S8UBPDv6dv0"]
+        }
+    },
+    {
+        "model": "courses.courserelation",
+        "fields": {
+            "type": 3,
+            "course_from": ["qJ31AQBsp1E"],
+            "course_to": ["DiroBhcuI3I"]
+        }
+    },
+    {
+        "model": "courses.courserelation",
+        "fields": {
+            "type": 3,
+            "course_from": ["42w_RtCgW8k"],
+            "course_to": ["tPWp50wXZts"]
+        }
+    },
+    {
+        "model": "courses.courserelation",
+        "fields": {
+            "type": 3,
+            "course_from": ["D1bSu3V1sBI"],
+            "course_to": ["tPWp50wXZts"]
+        }
+    },
+    {
+        "model": "courses.courserelation",
+        "fields": {
+            "type": 3,
+            "course_from": ["fX9eZ5lSHXg"],
+            "course_to": ["7YHegXu2av8"]
+        }
+    },
+    {
+        "model": "courses.courserelation",
+        "fields": {
+            "type": 3,
+            "course_from": ["tPWp50wXZts"],
+            "course_to": ["aCZqBr1AKeQ"]
         }
     }
 ]

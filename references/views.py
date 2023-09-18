@@ -10,6 +10,7 @@ class ReferenceViewSet(ReadOnlyModelViewSet):
         .prefetch_related(
             "links",
             "writers",
+            "courses",
         )
     lookup_field = "uuid"
     filterset_class = ReferenceFilterSet
@@ -19,7 +20,6 @@ class ReferenceViewSet(ReadOnlyModelViewSet):
         queryset = super().get_queryset()
         if self.action == "retrieve":
             queryset = queryset.prefetch_related(
-                "courses",
                 "related_references",
                 "related_references__links",
                 "related_references__writers",

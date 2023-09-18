@@ -1,7 +1,7 @@
 from django.db.models import Prefetch
 from rest_framework.viewsets import ReadOnlyModelViewSet
 
-from courses.models import Course, Requisite
+from courses.models import Course, CourseRelation
 from courses.serializers import CourseListSerializer, CourseDetailSerializer
 
 
@@ -28,14 +28,20 @@ class CourseViewSet(ReadOnlyModelViewSet):
         if self.action == "retrieve":
             queryset = queryset.prefetch_related(
                 Prefetch(
-                    lookup="requisites_to", to_attr="co_requisites",
-                    queryset=Requisite.objects.filter(type=Requisite.Types.CO).select_related("course_from")),
+                    lookup="relations_to", to_attr="co_requisites",
+                    queryset=CourseRelation.objects.filter(type=CourseRelation.Types.CO).select_related("course_from")),
                 Prefetch(
-                    lookup="requisites_to", to_attr="pre_requisites",
-                    queryset=Requisite.objects.filter(type=Requisite.Types.PRE).select_related("course_from")),
+                    lookup="relations_to", to_attr="pre_requisites",
+                    queryset=CourseRelation.objects.filter(type=CourseRelation.Types.PRE).select_related("course_from")),
                 Prefetch(
-                    lookup="requisites_from", to_attr="requisite_for",
-                    queryset=Requisite.objects.filter(type=Requisite.Types.PRE).select_related("course_to"))
+                    lookup="relations_from", to_attr="requisite_for",
+                    queryset=CourseRelation.objects.filter(type=CourseRelation.Types.PRE).select_related("course_to")),
+                Prefetch(
+                    lookup="relations_from", to_attr="incompatibles_to",
+                    queryset=CourseRelation.objects.filter(type=CourseRelation.Types.INC).select_related("course_to")),
+                Prefetch(
+                    lookup="relations_to", to_attr="incompatibles_from",
+                    queryset=CourseRelation.objects.filter(type=CourseRelation.Types.INC).select_related("course_from")),
             )
         return queryset
 

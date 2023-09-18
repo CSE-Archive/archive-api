@@ -1,12 +1,12 @@
 from rest_framework import serializers
 
-from courses.models import Requisite
+from courses.models import CourseRelation
 from courses.serializers.list import CourseListSerializer
 
 
 class RequisiteFromSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Requisite
+        model = CourseRelation
         fields = ("course_from",)
     
     course_from = CourseListSerializer()
@@ -17,7 +17,7 @@ class RequisiteFromSerializer(serializers.ModelSerializer):
 
 class RequisiteToSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Requisite
+        model = CourseRelation
         fields = ("course_to",)
     
     course_to = CourseListSerializer()

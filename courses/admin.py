@@ -3,26 +3,26 @@ from django.db.models import Count
 from django.utils.translation import gettext_lazy as _
 
 from core.admin import BaseAdminMixin
-from courses.models import Course, Requisite
+from courses.models import Course, CourseRelation
 from core.helpers import model_change_url_to_html, model_changelist_url_to_html
 
 
 class RequisiteFromInlineAdmin(admin.TabularInline):
     fk_name = "course_from"
-    model = Requisite
+    model = CourseRelation
     autocomplete_fields = ("course_to",)
     extra = 0
-    verbose_name = _("Requisite")
-    verbose_name_plural = _("Requisities")
+    verbose_name = _("Course Relation")
+    verbose_name_plural = _("Course Relations")
 
 
 class RequisiteToInlineAdmin(admin.TabularInline):
     fk_name = "course_to"
-    model = Requisite
+    model = CourseRelation
     autocomplete_fields = ("course_from",)
     extra = 0
-    verbose_name = _("Requisite")
-    verbose_name_plural = _("Requisities")
+    verbose_name = _("Course Relation")
+    verbose_name_plural = _("Course Relations")
 
 
 @admin.register(Course)
@@ -30,29 +30,29 @@ class CourseAdmin(BaseAdminMixin, admin.ModelAdmin):
     inlines = (RequisiteFromInlineAdmin, RequisiteToInlineAdmin,)
     list_per_page = 25
     list_display = ("uuid", "title", "en_title", "units", "type",
-                    "requisites_from_count", "requisites_to_count", "classrooms_count",
+                    "relations_from_count", "relations_to_count", "classrooms_count",
                     "references_count", "resources_count", "recordings_count",)
     search_fields = ("uuid", "title", "en_title", "description", "tag",)
     list_filter = ("type", "units",)
 
-    @admin.display(ordering="requisites_from_count", description=_("Number of Requisities-From"))
-    def requisites_from_count(self, instance: Course):
+    @admin.display(ordering="relations_from_count", description=_("Number of Requisities-From"))
+    def relations_from_count(self, instance: Course):
         return model_changelist_url_to_html(
             app="courses",
-            model="requisite",
+            model="courserelation",
             query_key="course_from",
             query_val=instance.id,
-            placeholder=instance.requisites_from.count(),
+            placeholder=instance.relations_from.count(),
         )
 
-    @admin.display(ordering="requisites_to_count", description=_("Number of Requisities-To"))
-    def requisites_to_count(self, instance: Course):
+    @admin.display(ordering="relations_to_count", description=_("Number of Requisities-To"))
+    def relations_to_count(self, instance: Course):
         return model_changelist_url_to_html(
             app="courses",
-            model="requisite",
+            model="courserelation",
             query_key="course_to",
             query_val=instance.id,
-            placeholder=instance.requisites_to.count(),
+            placeholder=instance.relations_to.count(),
         )
 
     @admin.display(ordering="classrooms_count", description=_("Number of Classrooms"))
@@ -101,15 +101,15 @@ class CourseAdmin(BaseAdminMixin, admin.ModelAdmin):
                 resources_count=Count("classrooms__resources", distinct=True),
                 recordings_count=Count("classrooms__recordings", distinct=True),
             ).prefetch_related(
-                "requisites_from",
-                "requisites_to",
+                "relations_from",
+                "relations_to",
                 "classrooms",
                 "references",
             )
 
 
-@admin.register(Requisite)
-class RequisiteAdmin(admin.ModelAdmin):
+@admin.register(CourseRelation)
+class CourseRelationAdmin(admin.ModelAdmin):
     autocomplete_fields = ("course_from", "course_to",)
     list_per_page = 25
     list_display = ("id", "course_from_", "course_to_", "type",)

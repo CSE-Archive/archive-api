@@ -1,4 +1,5 @@
 from typing import List
+from operator import attrgetter
 
 from rest_framework import serializers
 from drf_yasg.utils import swagger_serializer_method
@@ -24,4 +25,4 @@ class ClassroomDetailSerializer(serializers.ModelSerializer):
 
     @swagger_serializer_method(serializers.ListField(child=serializers.CharField()))
     def get_tas(self, instance: Classroom) -> List[str]:
-        return instance.tas.values_list("full_name", flat=True)
+        return map(attrgetter("full_name"), instance.tas.all())

@@ -37,7 +37,7 @@ class ProfessorDetailSerializer(serializers.ModelSerializer):
 
     @swagger_serializer_method(serializers.ListField(child=serializers.CharField()))
     def get_emails(self, instance: Professor) -> List[str]:
-        return instance.emails.values_list("address", flat=True)
+        return map(attrgetter("address"), instance.emails.all())
 
     @swagger_serializer_method(CourseListSerializer(many=True))
     def get_courses(self, instance: Professor):

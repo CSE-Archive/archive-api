@@ -45,7 +45,7 @@ pytest
 Use the following command to load the sample data.
 
 ```bash
-python manage.py loaddata fixtures/admin_interface_theme_uswds.json fixtures/courses.json fixtures/requisities.json fixtures/chartnodes.json fixtures/professors.json fixtures/tas.json fixtures/classrooms.json fixtures/references.json fixtures/resources.json fixtures/recordings.json
+python manage.py loaddata fixtures/admin_interface_theme_uswds.json fixtures/courses.json fixtures/course_relations.json fixtures/chartnodes.json fixtures/professors.json fixtures/tas.json fixtures/classrooms.json fixtures/references.json fixtures/resources.json fixtures/recordings.json
 ```
 
 ## Database Design

@@ -1,4 +1,5 @@
 from typing import List
+from operator import attrgetter
 
 from rest_framework import serializers
 from drf_yasg.utils import swagger_serializer_method
@@ -20,7 +21,7 @@ class ReferenceListSerializer(serializers.ModelSerializer):
 
     @swagger_serializer_method(serializers.ListField(child=serializers.CharField()))
     def get_writers(self, instance: Reference) -> List[str]:
-        return instance.writers.values_list("full_name", flat=True)
+        return map(attrgetter('full_name'), instance.writers.all())
 
 
 class ReferenceDetailSerializer(serializers.ModelSerializer):
@@ -38,7 +39,7 @@ class ReferenceDetailSerializer(serializers.ModelSerializer):
 
     @swagger_serializer_method(serializers.ListField(child=serializers.CharField()))
     def get_writers(self, instance: Reference) -> List[str]:
-        return instance.writers.values_list("full_name", flat=True)
+        return map(attrgetter('full_name'), instance.writers.all())
 
     def get_created_time(self, instance: Reference) -> str:
         return gregorian_to_jalali(instance.created_time)
