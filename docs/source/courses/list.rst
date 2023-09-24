@@ -1,4 +1,0 @@
-Courses: list
-=============
-
-TO-DO

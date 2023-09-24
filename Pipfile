@@ -11,10 +11,8 @@ jdatetime = "*"
 djangorestframework = "*"
 django-filter = "*"
 psycopg2 = "*"
-locust = "*"
 whitenoise = "*"
 gunicorn = "*"
-dj-database-url = "*"
 django-admin-interface = "*"
 django-nested-admin = "*"
 drf-yasg = "*"
@@ -22,11 +20,7 @@ python-dotenv = "*"
 
 [dev-packages]
 autopep8 = "*"
-pytest = "*"
-model-bakery = "*"
-pytest-django = "*"
-sphinx = "*"
-sphinx-rtd-theme = "*"
+django-extensions = "*"
 
 [requires]
 python_version = "3.10"

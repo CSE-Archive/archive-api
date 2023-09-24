@@ -14,6 +14,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
+ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '*').split(',')
+
 INSTALLED_APPS = [
     'admin_interface',
     'colorfield',
@@ -24,6 +26,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    'django_extensions',
     'django_filters',
     'rest_framework',
     'debug_toolbar',
@@ -58,6 +61,17 @@ INTERNAL_IPS = [
 ]
 
 ROOT_URLCONF = 'config.urls'
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': os.environ.get('DB_NAME'),
+        'HOST': os.environ.get('DB_HOST'),
+        'PORT': os.environ.get('DB_PORT'),
+        'USER': os.environ.get('DB_USER'),
+        'PASSWORD': os.environ.get('DB_PASSWORD'),
+    }
+}
 
 TEMPLATES = [
     {

@@ -1,4 +1,0 @@
-Resources: get
-==============
-
-TO-DO
