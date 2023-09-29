@@ -478,5 +478,13 @@
             "course_from": ["tPWp50wXZts"],
             "course_to": ["aCZqBr1AKeQ"]
         }
+    },
+    {
+        "model": "courses.courserelation",
+        "fields": {
+            "type": 2,
+            "course_from": ["_vylVdOviWU"],
+            "course_to": ["XCsiUsjVJOA"]
+        }
     }
 ]

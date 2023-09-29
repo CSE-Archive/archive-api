@@ -14,7 +14,7 @@ class ReferenceViewSet(ReadOnlyModelViewSet):
         )
     lookup_field = "uuid"
     filterset_class = ReferenceFilterSet
-    search_fields = ("title", "writers__full_name",)
+    search_fields = ("title", "writers__full_name", "courses__title")
 
     def get_queryset(self):
         queryset = super().get_queryset()

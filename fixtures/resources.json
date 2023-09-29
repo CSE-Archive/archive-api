@@ -761,7 +761,7 @@
             "uuid": "a9UaWYSWdTQ",
             "title": "راه‌حل میانترم",
             "notes": null,
-            "type": 6,
+            "type": 1,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -815,7 +815,7 @@
             "uuid": "eZcT5xGAFSM",
             "title": "راه‌حل میانترم",
             "notes": null,
-            "type": 6,
+            "type": 1,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -1355,7 +1355,7 @@
             "uuid": "riIkp47tdcE",
             "title": "راه‌حل پایانترم",
             "notes": null,
-            "type": 6,
+            "type": 2,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -9212,7 +9212,7 @@
             "uuid": "5FasAPfMSBw",
             "title": "راه‌حل پایانترم",
             "notes": null,
-            "type": 6,
+            "type": 2,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -9293,7 +9293,7 @@
             "uuid": "Exr9gprsJtc",
             "title": "راه‌حل میانترم",
             "notes": null,
-            "type": 6,
+            "type": 1,
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
@@ -9312,6 +9312,33 @@
                 "resource"
             ],
             "linked_id": 345
+        }
+    },
+    {
+        "model": "resources.resource",
+        "fields": {
+            "uuid": "0DdHChSn4gj",
+            "title": null,
+            "notes": "میانترم و پایانترم کلاس درس در یک نوبت برگزار شدند.",
+            "type": 2,
+            "is_published": true,
+            "created_time": "2023-08-01T23:59:59.999999+03:30",
+            "modified_time": "2023-08-01T23:59:59.999999+03:30",
+            "classroom": [
+                "jSt4CG66W9k"
+            ]
+        }
+    },
+    {
+        "model": "core.link",
+        "fields": {
+            "url": "https://t.me/CSE_Archive/301",
+            "title": "پیام تلگرام",
+            "linked_type": [
+                "resources",
+                "resource"
+            ],
+            "linked_id": 346
         }
     }
 ]

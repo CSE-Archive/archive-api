@@ -13,7 +13,7 @@ from references.models import Reference
 class ReferenceListSerializer(serializers.ModelSerializer):
     class Meta:
         model = Reference
-        fields = ("uuid", "title", "type", "cover_image", "writers", "links", "courses",)
+        fields = ("uuid", "title", "type", "cover_image", "file", "writers", "links", "courses",)
     
     links = LinkSerializer(many=True)
     writers = serializers.SerializerMethodField()
@@ -27,8 +27,8 @@ class ReferenceListSerializer(serializers.ModelSerializer):
 class ReferenceDetailSerializer(serializers.ModelSerializer):
     class Meta:
         model = Reference
-        fields = ("uuid", "title", "type", "notes", "cover_image", "writers", "courses",
-                  "links", "related_references", "created_time", "modified_time",)
+        fields = ("uuid", "title", "type", "notes", "cover_image", "file", "writers",
+                  "courses", "links", "related_references", "created_time", "modified_time",)
     
     links = LinkSerializer(many=True)
     writers = serializers.SerializerMethodField()

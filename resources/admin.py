@@ -1,3 +1,4 @@
+from django.db.models import QuerySet
 from django.contrib import admin
 from django.utils.translation import gettext_lazy as _
 import nested_admin
@@ -50,4 +51,3 @@ class ResourceAdmin(BaseAdminMixin, admin.ModelAdmin):
             lookup in self.extra_allowed_lookups
             or super().lookup_allowed(lookup, *args, **kwargs)
         )
-

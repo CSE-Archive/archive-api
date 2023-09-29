@@ -1,4 +1,7 @@
+import os
+
 from django.db import models
+from django.conf import settings
 from django.utils.translation import gettext_lazy as _
 from django.contrib.contenttypes import fields as contenttypes_fields
 
@@ -13,16 +16,19 @@ class Department(models.Model):
         verbose_name=_("Name"),
         max_length=63,
         null=True,
+        blank=True,
     )
     name_en = models.CharField(
         verbose_name=_("Name in English"),
         max_length=63,
         null=True,
+        blank=True,
     )
     tag = models.CharField(
         verbose_name=_("Tag"),
         max_length=127,
         null=True,
+        blank=True,
     )
 
     objects = DepartmentManager()
@@ -41,38 +47,45 @@ class Professor(BaseModel):
         verbose_name=_("First Name"),
         max_length=63,
         null=True,
+        blank=True,
     )
     last_name = models.CharField(
         verbose_name=_("Last Name"),
         max_length=63,
         null=True,
+        blank=True,
     )
     honorific = models.CharField(
         verbose_name=_("Honorific"),
         max_length=31,
         null=True,
+        blank=True,
     )
     department = models.ForeignKey(
         Department,
         on_delete=models.SET_NULL,
         verbose_name=_("Department"),
         null=True,
+        blank=True,
         related_name="professors"
     )
     about = models.TextField(
         verbose_name=_("About"),
         null=True,
+        blank=True,
         default="",
     )
     tag = models.CharField(
         verbose_name=_("Tag"),
         max_length=127,
         null=True,
+        blank=True,
     )
     image = models.ImageField(
         verbose_name=_("Image"),
-        upload_to="images/professors/",
         null=True,
+        blank=True,
+        upload_to=os.path.join(settings.IMAGES_PATH, "professors"),
         validators=[MaxImageSizeValidator(1)],
     )
     links = contenttypes_fields.GenericRelation(

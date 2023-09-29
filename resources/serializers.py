@@ -9,7 +9,7 @@ from resources.models import Resource
 class ResourceListSerializer(serializers.ModelSerializer):
     class Meta:
         model = Resource
-        fields = ("uuid", "title", "type", "links")
+        fields = ("uuid", "title", "type", "file", "links",)
 
     links = LinkSerializer(many=True)
 
@@ -17,7 +17,7 @@ class ResourceListSerializer(serializers.ModelSerializer):
 class ResourceDetailSerializer(serializers.ModelSerializer):
     class Meta:
         model = Resource
-        fields = ("uuid", "title", "notes", "type", "classroom",
+        fields = ("uuid", "title", "notes", "type", "file", "classroom",
                   "links", "created_time", "modified_time",)
 
     links = LinkSerializer(many=True)

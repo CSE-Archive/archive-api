@@ -35,11 +35,13 @@ class ChartNode(models.Model):
         verbose_name=_("Type"),
         choices=Course.Types.choices,
         null=True,
+        blank=True,
     )
     units = models.PositiveSmallIntegerField(
         verbose_name=_("Units"),
         choices=Course.UNITS_CHOICES,
         null=True,
+        blank=True,
     )
 
     def __str__(self) -> str:
@@ -53,6 +55,7 @@ class ChartNode(models.Model):
             models.CheckConstraint(
                 check=models.Q(course__isnull=True, type__isnull=False, units__isnull=False)
                     | models.Q(course__isnull=False, type__isnull=True, units__isnull=True),
-                name="linked_to_course_or_not"
+                name="linked_to_course_or_not",
+                violation_error_message=_("Nodes must either be related to a course or have a value in their type and unit fields."),
             )
         ]

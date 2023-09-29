@@ -24,6 +24,7 @@ class Course(BaseModel):
         verbose_name=_("Title in English"),
         max_length=127,
         null=True,
+        blank=True,
     )
     units = models.PositiveSmallIntegerField(
         verbose_name=_("Units"),
@@ -37,16 +38,18 @@ class Course(BaseModel):
         verbose_name=_("Tag"),
         max_length=127,
         null=True,
+        blank=True,
     )
     known_as = models.CharField(
         verbose_name=_("Known As"),
         max_length=127,
         null=True,
+        blank=True,
     )
     description = models.TextField(
         verbose_name=_("Description"),
         null=True,
-        default="",
+        blank=True,
     )
     
     objects = CourseManager()
@@ -92,10 +95,13 @@ class CourseRelation(models.Model):
         verbose_name_plural = _("Course Relations")
         constraints = [
             models.UniqueConstraint(
-                fields=['course_from', 'course_to'], name="unique_relation_reverse"
+                fields=['course_from', 'course_to'],
+                name="unique_relation_reverse",
+                violation_error_message=_("Two courses can have at most one relationship."),
              ),
             models.CheckConstraint(
                 name="prevent_self_relation",
                 check=~models.Q(course_from=models.F("course_to")),
+                violation_error_message=_("Courses cannot have a relationship to themselves."),
             )
         ]

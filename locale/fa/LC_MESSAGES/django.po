@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-19 02:05+0330\n"
+"POT-Creation-Date: 2023-09-29 20:48+0330\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,13 +19,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: chart/admin.py:14 chart/models.py:28 classrooms/models.py:52
-#: courses/models.py:58 recordings/filters.py:8 references/admin.py:22
-#: references/filters.py:8 resources/filters.py:8
+#: courses/models.py:61 recordings/filters.py:8 references/filters.py:8
+#: resources/filters.py:8
 msgid "Course"
 msgstr "درس"
 
-#: chart/admin.py:25 chart/models.py:35 courses/models.py:33
-#: courses/models.py:71 references/models.py:44 resources/models.py:26
+#: chart/admin.py:25 chart/models.py:35 courses/models.py:34
+#: courses/models.py:74 references/models.py:50 resources/models.py:30
 msgid "Type"
 msgstr "نوع"
 
@@ -41,21 +41,29 @@ msgstr "نیم‌سال"
 msgid "Column"
 msgstr "ستون"
 
-#: chart/models.py:40 courses/models.py:29
+#: chart/models.py:41 courses/models.py:30
 msgid "Units"
 msgstr "واحد"
 
-#: chart/models.py:49
+#: chart/models.py:51
 msgid "Chart Node"
 msgstr "نود چارت"
 
-#: chart/models.py:50
+#: chart/models.py:52
 msgid "Chart Nodes"
 msgstr "نودهای چارت"
 
+#: chart/models.py:59
+msgid ""
+"Nodes must either be related to a course or have a value in their type and "
+"unit fields."
+msgstr ""
+"نودها باید یا به یک دوره مرتبط باشند یا فیلدهای نوع و واحدشان مقدار داشته "
+"باشد."
+
 #: classrooms/admin.py:16 classrooms/models.py:75 professors/admin.py:23
-#: recordings/admin.py:39 recordings/filters.py:9 recordings/models.py:18
-#: resources/admin.py:31 resources/filters.py:9 resources/models.py:43
+#: recordings/admin.py:39 recordings/filters.py:9 recordings/models.py:19
+#: resources/admin.py:32 resources/filters.py:9 resources/models.py:54
 msgid "Classroom"
 msgstr "کلاس"
 
@@ -84,7 +92,7 @@ msgstr "تعداد منابع"
 msgid "Number of Classrooms"
 msgstr "تعداد کلاس‌ها"
 
-#: classrooms/models.py:16 professors/admin.py:58 references/models.py:13
+#: classrooms/models.py:16 professors/admin.py:58 references/models.py:18
 msgid "Full Name"
 msgstr "نام و نام خانوادگی"
 
@@ -112,15 +120,15 @@ msgstr "تابستان"
 msgid "Year"
 msgstr "سال"
 
-#: classrooms/models.py:58 professors/apps.py:8 professors/models.py:93
+#: classrooms/models.py:58 professors/apps.py:8 professors/models.py:106
 msgid "Professors"
 msgstr "اساتید"
 
-#: config/settings/common.py:113
+#: config/settings.py:127
 msgid "English"
 msgstr "انگلیسی"
 
-#: config/settings/common.py:114
+#: config/settings.py:128
 msgid "Persian"
 msgstr "فارسی"
 
@@ -140,8 +148,8 @@ msgstr "هسته"
 msgid "Url"
 msgstr "آدرس"
 
-#: core/models.py:24 courses/models.py:20 recordings/models.py:43
-#: references/models.py:39 resources/models.py:21
+#: core/models.py:24 courses/models.py:20 recordings/models.py:44
+#: references/models.py:44 resources/models.py:24
 msgid "Title"
 msgstr "عنوان"
 
@@ -157,8 +165,8 @@ msgstr "شناسه لایک‌شده"
 msgid "Link"
 msgstr "لینک"
 
-#: core/models.py:44 professors/models.py:80 recordings/models.py:24
-#: recordings/models.py:51 references/models.py:54 resources/models.py:36
+#: core/models.py:44 professors/models.py:93 recordings/models.py:25
+#: recordings/models.py:52 references/models.py:67 resources/models.py:47
 msgid "Links"
 msgstr "لینک‌ها"
 
@@ -170,13 +178,13 @@ msgstr "شناسه"
 msgid "Is Published"
 msgstr "منتشر شده است"
 
-#: core/models.py:65 recordings/admin.py:52 references/admin.py:75
-#: resources/admin.py:40
+#: core/models.py:65 recordings/admin.py:52 references/admin.py:67
+#: resources/admin.py:41
 msgid "Created Time"
 msgstr "تاریخ اضافه شدن"
 
-#: core/models.py:69 recordings/admin.py:56 references/admin.py:79
-#: resources/admin.py:44
+#: core/models.py:69 recordings/admin.py:56 references/admin.py:71
+#: resources/admin.py:45
 msgid "Modified Time"
 msgstr "آخرین ویرایش"
 
@@ -185,11 +193,11 @@ msgstr "آخرین ویرایش"
 msgid "The maximum size allowed for images is “%(max_size)s” MB."
 msgstr "حداکثر اندازه مجاز برای تصاویر “%(max_size)s” مگابایت است."
 
-#: courses/admin.py:15 courses/admin.py:24 courses/models.py:91
+#: courses/admin.py:15 courses/admin.py:24 courses/models.py:94
 msgid "Course Relation"
 msgstr "رابطه بین درسی"
 
-#: courses/admin.py:16 courses/admin.py:25 courses/models.py:92
+#: courses/admin.py:16 courses/admin.py:25 courses/models.py:95
 msgid "Course Relations"
 msgstr "رابطه‌های بین درسی"
 
@@ -201,7 +209,7 @@ msgstr "تعداد نیازهای مبدا"
 msgid "Number of Requisities-To"
 msgstr "تعداد نیازهای مقصد"
 
-#: courses/admin.py:68 references/admin.py:97
+#: courses/admin.py:68 references/admin.py:89
 msgid "Number of References"
 msgstr "تعداد مراجع"
 
@@ -209,16 +217,15 @@ msgstr "تعداد مراجع"
 msgid "Number of Recordings"
 msgstr "تعداد کلاس‌های ضبط‌شده"
 
-#: courses/admin.py:121 courses/models.py:76
+#: courses/admin.py:121 courses/models.py:79
 msgid "Course From"
 msgstr "درس مبدا"
 
-#: courses/admin.py:130 courses/models.py:82
+#: courses/admin.py:130 courses/models.py:85
 msgid "Course To"
 msgstr "درس مقصد"
 
-#: courses/apps.py:8 courses/models.py:59 references/admin.py:23
-#: references/models.py:73
+#: courses/apps.py:8 courses/models.py:62 references/models.py:87
 msgid "Courses"
 msgstr "دروس"
 
@@ -242,35 +249,43 @@ msgstr "عمومی"
 msgid "Title in English"
 msgstr "عنوان به انگلیسی"
 
-#: courses/models.py:37 professors/models.py:23 professors/models.py:68
+#: courses/models.py:38 professors/models.py:28 professors/models.py:79
 msgid "Tag"
 msgstr "تگ"
 
-#: courses/models.py:42
+#: courses/models.py:44
 msgid "Known As"
 msgstr "شناخته شده به عنوان"
 
-#: courses/models.py:47
+#: courses/models.py:50
 msgid "Description"
 msgstr "توضیحات"
 
-#: courses/models.py:66
+#: courses/models.py:69
 msgid "Corequisite"
 msgstr "هم‌نیاز"
 
-#: courses/models.py:67
+#: courses/models.py:70
 msgid "Prerequisite"
 msgstr "پیش‌نیاز"
 
-#: courses/models.py:68
+#: courses/models.py:71
 msgid "Incompatible"
-msgstr ""
+msgstr "مانع جمع"
 
-#: professors/admin.py:15 professors/models.py:113
+#: courses/models.py:100
+msgid "Two courses can have at most one relationship."
+msgstr "دو درس حداکثر می‌توانند یک رابطه داشته باشند."
+
+#: courses/models.py:105
+msgid "Courses cannot have a relationship to themselves."
+msgstr "درس‌ها نمی‌توانند با خودشان رابطه داشته باشند."
+
+#: professors/admin.py:15 professors/models.py:126
 msgid "Email"
 msgstr "ایمیل"
 
-#: professors/admin.py:16 professors/models.py:114
+#: professors/admin.py:16 professors/models.py:127
 msgid "Emails"
 msgstr "ایمیل‌ها"
 
@@ -278,7 +293,7 @@ msgstr "ایمیل‌ها"
 msgid "Preview Image"
 msgstr "پیش‌نمایش تصویر"
 
-#: professors/admin.py:48 professors/models.py:73
+#: professors/admin.py:48 professors/models.py:85
 msgid "Image"
 msgstr "تصویر"
 
@@ -290,59 +305,59 @@ msgstr "تعداد ایمیل‌ها"
 msgid "Number of Links"
 msgstr "تعداد لینک‌ها"
 
-#: professors/filters.py:8 professors/models.py:34 professors/models.py:58
+#: professors/filters.py:8 professors/models.py:40 professors/models.py:67
 msgid "Department"
 msgstr "بخش"
 
-#: professors/models.py:13
+#: professors/models.py:16
 msgid "Name"
 msgstr "نام"
 
-#: professors/models.py:18
+#: professors/models.py:22
 msgid "Name in English"
 msgstr "نام به انگلیسی"
 
-#: professors/models.py:35
+#: professors/models.py:41
 msgid "Departments"
 msgstr "بخش‌ها"
 
-#: professors/models.py:41
+#: professors/models.py:47
 msgid "First Name"
 msgstr "نام"
 
-#: professors/models.py:46
+#: professors/models.py:53
 msgid "Last Name"
 msgstr "نام خانوادگی"
 
-#: professors/models.py:51
+#: professors/models.py:59
 msgid "Honorific"
 msgstr "لقب"
 
-#: professors/models.py:63
+#: professors/models.py:73
 msgid "About"
 msgstr "درباره"
 
-#: professors/models.py:92 professors/models.py:104
+#: professors/models.py:105 professors/models.py:117
 msgid "Professor"
 msgstr "استاد"
 
-#: professors/models.py:99
+#: professors/models.py:112
 msgid "Address"
 msgstr "نشانی"
 
-#: recordings/admin.py:13 recordings/models.py:67
+#: recordings/admin.py:13 recordings/models.py:68
 msgid "Recored Session"
 msgstr "جلسه ضبط‌شده"
 
-#: recordings/admin.py:14 recordings/models.py:68
+#: recordings/admin.py:14 recordings/models.py:69
 msgid "Recored Sessions"
 msgstr "جلسه‌های ضبط‌شده"
 
-#: recordings/admin.py:21 recordings/models.py:36 recordings/models.py:58
+#: recordings/admin.py:21 recordings/models.py:37 recordings/models.py:59
 msgid "Recored Classroom"
 msgstr "کلاس ضبط‌شده"
 
-#: recordings/admin.py:22 recordings/models.py:37
+#: recordings/admin.py:22 recordings/models.py:38
 msgid "Recored Classrooms"
 msgstr "کلاس‌های ضبط‌شده"
 
@@ -350,98 +365,106 @@ msgstr "کلاس‌های ضبط‌شده"
 msgid "Number of sessions"
 msgstr "تعداد جلسات"
 
-#: recordings/models.py:12 references/models.py:48 resources/models.py:30
+#: recordings/models.py:12 references/models.py:54 resources/models.py:34
 msgid "Notes"
 msgstr "یادداشت"
 
-#: recordings/models.py:47
+#: recordings/models.py:48
 msgid "Order"
 msgstr "ترتیب"
 
-#: references/admin.py:14 references/models.py:89
+#: references/admin.py:14 references/models.py:120
 msgid "Reference"
 msgstr "مرجع"
 
-#: references/admin.py:15 references/apps.py:8 references/models.py:90
+#: references/admin.py:15 references/apps.py:8 references/models.py:121
 msgid "References"
 msgstr "مراجع"
 
-#: references/admin.py:36
+#: references/admin.py:28
 msgid "Cover Image Preview"
 msgstr "پیش‌نمایش تصویر جلد"
 
-#: references/admin.py:45 references/models.py:60
+#: references/admin.py:37 references/models.py:73
 msgid "Cover Image"
 msgstr "تصویر جلد"
 
-#: references/admin.py:55
+#: references/admin.py:47
 msgid "Number of Writers"
 msgstr "تعداد نویسنده‌ها"
 
-#: references/admin.py:65
+#: references/admin.py:57
 msgid "Number of Courses"
 msgstr "تعداد درس‌ها"
 
-#: references/models.py:24 references/models.py:67
+#: references/models.py:29 references/models.py:81
 msgid "Writer"
 msgstr "نویسنده"
 
-#: references/models.py:25
+#: references/models.py:30
 msgid "Writers"
 msgstr "نویسندگان"
 
-#: references/models.py:31
+#: references/models.py:36
 msgid "Book"
 msgstr "کتاب"
 
-#: references/models.py:32
+#: references/models.py:37
 msgid "Solution"
 msgstr "راه‌حل"
 
-#: references/models.py:33
+#: references/models.py:38
 msgid "Slide"
 msgstr "اسلاید"
 
-#: references/models.py:34
+#: references/models.py:39
 msgid "Handout"
 msgstr "جزوه"
 
-#: references/models.py:35
+#: references/models.py:40
 msgid "Summary"
 msgstr "خلاصه"
 
-#: references/models.py:36 resources/models.py:18
+#: references/models.py:41 resources/models.py:21
 msgid "Other"
 msgstr "دیگر"
 
-#: references/models.py:79
+#: references/models.py:60 resources/models.py:40
+msgid "File"
+msgstr "فایل"
+
+#: references/models.py:93
 msgid "Related References"
 msgstr "مراجع مرتبط"
 
-#: resources/admin.py:13 resources/models.py:54
+#: references/models.py:130
+msgid "Book and Solutions must have title."
+msgstr "کتاب‌ها و راه‌حل‌ها باید دارای عنوان باشند."
+
+#: resources/admin.py:14 resources/models.py:75
 msgid "Resource"
 msgstr "منبع"
 
-#: resources/admin.py:14 resources/apps.py:8 resources/models.py:55
+#: resources/admin.py:15 resources/apps.py:8 resources/models.py:76
 msgid "Resources"
 msgstr "منابع"
 
-#: resources/models.py:13
+#: resources/models.py:16
 msgid "Midterm"
 msgstr "میانترم"
 
-#: resources/models.py:14
+#: resources/models.py:17
 msgid "Final"
 msgstr "پایانترم"
 
-#: resources/models.py:15
+#: resources/models.py:18
 msgid "Project"
 msgstr "پروژه"
 
-#: resources/models.py:16
+#: resources/models.py:19
 msgid "Homework"
 msgstr "تمرین"
 
-#: resources/models.py:17
+#: resources/models.py:20
 msgid "Quiz"
 msgstr "کوییز"

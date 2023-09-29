@@ -12,6 +12,7 @@ class RecordedClassroom(BaseModel):
         verbose_name=_("Notes"),
         max_length=255,
         null=True,
+        blank=True,
     )
     classroom = models.OneToOneField(
         Classroom,

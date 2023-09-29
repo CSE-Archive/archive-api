@@ -15,17 +15,9 @@ class ReferenceNestedInlineAdmin(nested_admin.NestedTabularInline):
     verbose_name_plural = _("References")
 
 
-class CourseInlineAdmin(nested_admin.NestedTabularInline):
-    model = Reference.courses.through
-    extra = 0
-    autocomplete_fields = ("course",)
-    verbose_name = _("Course")
-    verbose_name_plural = _("Courses")
-
-
 @admin.register(Reference)
 class ReferenceAdmin(BaseAdminMixin, nested_admin.NestedModelAdmin):
-    inlines = (CourseInlineAdmin, LinkNestedInlineAdmin,)
+    inlines = (LinkNestedInlineAdmin,)
     list_per_page = 25
     list_display = ("uuid", "cover_image_", "title", "type", "writers_count",
                     "courses_count", "modified_time_", "created_time_",)

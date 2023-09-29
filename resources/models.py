@@ -1,8 +1,11 @@
+from pathlib import Path
+
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 from django.contrib.contenttypes import fields as contenttypes_fields
 
 from core.models import BaseModel, Link
+from core.helpers import uuid_generator
 from classrooms.models import Classroom
 from resources.managers import ResourceManager
 
@@ -21,6 +24,7 @@ class Resource(BaseModel):
         verbose_name=_("Title"),
         max_length=255,
         null=True,
+        blank=True,
     )
     type = models.PositiveSmallIntegerField(
         verbose_name=_("Type"),
@@ -30,6 +34,13 @@ class Resource(BaseModel):
         verbose_name=_("Notes"),
         max_length=255,
         null=True,
+        blank=True,
+    )
+    file = models.FileField(
+        _("File"),
+        null=True,
+        blank=True,
+        upload_to='resources',
     )
     links = contenttypes_fields.GenericRelation(
         Link,
@@ -48,9 +59,19 @@ class Resource(BaseModel):
     objects = ResourceManager()
 
     def __str__(self) -> str:
-        return f"{self.classroom} - {self.title}"
+        return f"{self.classroom} - {self.title or self.get_type_display()}"
+
+    def generate_file_name(self) -> str:
+        return "{course_title}-{type}-{class_year}{class_semester}-{random_uuid}{file_extension}".format(
+            course_title=self.classroom.course.en_title.replace(' ', ''),
+            type=self.get_type_display(),
+            class_year=self.classroom.year,
+            class_semester=self.classroom.semester,
+            random_uuid=uuid_generator(),
+            file_extension=Path(self.file.name).suffix,
+        )
 
     class Meta:
         verbose_name = _("Resource")
         verbose_name_plural = _("Resources")
-        ordering = ("modified_time", "created_time",)
+        ordering = ("-modified_time", "-created_time",)

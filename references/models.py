@@ -1,8 +1,13 @@
+import re, os
+from pathlib import Path
+
 from django.db import models
+from django.conf import settings
 from django.utils.translation import gettext_lazy as _
 from django.contrib.contenttypes import fields as contenttypes_fields
 
 from core.models import BaseModel, Link
+from core.helpers import uuid_generator
 from core.validators import MaxImageSizeValidator
 from courses.models import Course
 from references.managers import ReferenceManager, WriterManager
@@ -39,6 +44,7 @@ class Reference(BaseModel):
         verbose_name=_("Title"),
         max_length=255,
         null=True,
+        blank=True,
     )
     type = models.PositiveSmallIntegerField(
         verbose_name=_("Type"),
@@ -48,6 +54,13 @@ class Reference(BaseModel):
         verbose_name=_("Notes"),
         max_length=255,
         null=True,
+        blank=True,
+    )
+    file = models.FileField(
+        _("File"),
+        null=True,
+        blank=True,
+        upload_to='references',
     )
     links = contenttypes_fields.GenericRelation(
         Link,
@@ -58,8 +71,9 @@ class Reference(BaseModel):
     )
     cover_image = models.ImageField(
         verbose_name=_("Cover Image"),
-        upload_to="images/references/",
         null=True,
+        blank=True,
+        upload_to=os.path.join(settings.IMAGES_PATH, "references_cover"),
         validators=[MaxImageSizeValidator(1)],
     )
     writers = models.ManyToManyField(
@@ -83,9 +97,36 @@ class Reference(BaseModel):
     objects = ReferenceManager()
 
     def __str__(self) -> str:
-        return self.title
+        return self.title or self.get_type_display()
+
+    def generate_file_name(self) -> str:
+        if self.type in (self.Types.BOOK, self.Types.SOLUTION):
+            return "{title}-{random_uuid}{file_extension}".format(
+                title=re.sub(
+                    r'[:/\\,+\(\)\.\[\]\{\}\*]|( (?=\-))|((?<=\-) )', '', self.title
+                ).replace(' ', '_'),
+                random_uuid=uuid_generator(),
+                file_extension=Path(self.file.name).suffix,
+            )
+        else:
+            return "{course_title}-{type}-{random_uuid}{file_extension}".format(
+                course_title=self.courses.first().en_title.replace(' ', ''),
+                type=self.get_type_display(),
+                random_uuid=uuid_generator(),
+                file_extension=Path(self.file.name).suffix,
+            )
 
     class Meta:
         verbose_name = _("Reference")
         verbose_name_plural = _("References")
-        ordering = ("modified_time", "created_time",)
+        ordering = ("-modified_time", "-created_time",)
+        constraints = [
+            models.CheckConstraint(
+                check=~(
+                    models.Q(type__in=(1, 2))
+                    & (models.Q(title__isnull=True) | models.Q(title__exact=""))
+                ),
+                name="check_books_and_solutions_have_title",
+                violation_error_message=_("Book and Solutions must have title."),
+            )
+        ]
