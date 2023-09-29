@@ -3,13 +3,16 @@
 .venv
 .pytest_cache
 __pycache__
-static
+static/*
 build
 
 # files
 cse_archive.log
 set_env_vars.sh
 .env
+
+# facicon.ico
+!static/favicon.ico
 
 # media folder
 media/*

@@ -40,6 +40,7 @@ class Resource(BaseModel):
         _("File"),
         null=True,
         blank=True,
+        max_length=255,
         upload_to='resources',
     )
     links = contenttypes_fields.GenericRelation(

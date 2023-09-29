@@ -60,6 +60,7 @@ class Reference(BaseModel):
         _("File"),
         null=True,
         blank=True,
+        max_length=255,
         upload_to='references',
     )
     links = contenttypes_fields.GenericRelation(
