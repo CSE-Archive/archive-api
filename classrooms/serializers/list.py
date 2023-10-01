@@ -12,7 +12,7 @@ from classrooms.models import Classroom
 class ClassroomListSerializer(serializers.ModelSerializer):
     class Meta:
         model = Classroom
-        fields = ("uuid", "year", "semester", "course", "professors",)
+        fields = ("uuid", "year", "semester", "course", "tas", "professors",)
 
     tas = serializers.SerializerMethodField()
     course = CourseListSerializer()
