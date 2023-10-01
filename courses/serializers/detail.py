@@ -29,7 +29,8 @@ class CourseDetailSerializer(serializers.ModelSerializer):
         queryset = Professor.objects.filter(
             classrooms__course=instance,
         ).select_related("department").distinct()
-        return ProfessorListSerializer(queryset, many=True).data
+        context = {"request": self.context.get("request", None)}
+        return ProfessorListSerializer(queryset, many=True, context=context).data
 
     @swagger_serializer_method(serializers.ListField(child=serializers.CharField()))
     def get_incompatibles(self, instance: Course):
