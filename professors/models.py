@@ -29,7 +29,7 @@ class Department(models.Model):
     objects = DepartmentManager()
 
     def __str__(self) -> str:
-        return f"{self.name}"
+        return f"{self.name or ''}"
 
     class Meta:
         verbose_name = _("Department")
@@ -89,7 +89,7 @@ class Professor(BaseModel):
     objects = ProfessorManager()
 
     def __str__(self) -> str:
-        return f"{self.first_name} {self.last_name}"
+        return f"{self.first_name or ''} {self.last_name or ''}"
 
     def generate_unique_name(self) -> str:
         return self.tag

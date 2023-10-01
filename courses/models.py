@@ -83,7 +83,7 @@ class CourseRelation(models.Model):
     )
 
     def __str__(self) -> str:
-        return f"{self.course_from.en_title} -> {self.course_to.en_title} : ({self.type})"
+        return f"{self.course_from.title} -> {self.course_to.title} : ({self.type})"
 
     class Meta:
         verbose_name = _("Course Relation")

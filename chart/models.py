@@ -45,7 +45,7 @@ class ChartNode(models.Model):
     )
 
     def __str__(self) -> str:
-        return self.title
+        return f"{self.semester} - {self.column} - {self.course.title}"
 
     class Meta:
         verbose_name = _("Chart Node")
