@@ -56,7 +56,7 @@ class ProfessorAdmin(BaseAdminMixin, nested_admin.NestedModelAdmin):
 
     @admin.display(ordering="full_name", description=_("Full Name"))
     def full_name(self, instance: Professor):
-        return f"{instance.honorific} {instance.first_name} {instance.last_name}"
+        return f"{instance.honorific or ''} {instance.first_name or ''} {instance.last_name or ''}"
 
     @admin.display(ordering="emails_count", description=_("Number of Emails"))
     def emails_count(self, instance: Professor):

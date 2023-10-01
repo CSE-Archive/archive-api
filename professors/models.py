@@ -5,8 +5,9 @@ from django.conf import settings
 from django.utils.translation import gettext_lazy as _
 from django.contrib.contenttypes import fields as contenttypes_fields
 
-from core.models import BaseModel, Link, ShortUuidField, TagField
+from core.helpers import uuid_generator
 from core.validators import MaxImageSizeValidator
+from core.models import BaseModel, Link, ShortUuidField, TagField
 from professors.managers import DepartmentManager, ProfessorManager
 
 
@@ -92,7 +93,10 @@ class Professor(BaseModel):
         return f"{self.first_name or ''} {self.last_name or ''}"
 
     def generate_unique_name(self) -> str:
-        return self.tag
+        return "{tag}-{random_uuid}".format(
+            tag=self.tag,
+            random_uuid=uuid_generator(),
+        )
 
     class Meta:
         verbose_name = _("Professor")
