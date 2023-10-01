@@ -1,5 +1,4 @@
 import re, os
-from pathlib import Path
 
 from django.db import models
 from django.conf import settings
@@ -100,21 +99,19 @@ class Reference(BaseModel):
     def __str__(self) -> str:
         return self.title or self.get_type_display()
 
-    def generate_file_name(self) -> str:
+    def generate_unique_name(self) -> str:
         if self.type in (self.Types.BOOK, self.Types.SOLUTION):
-            return "{title}-{random_uuid}{file_extension}".format(
+            return "{title}-{random_uuid}".format(
                 title=re.sub(
                     r'[:/\\,+\(\)\.\[\]\{\}\*]|( (?=\-))|((?<=\-) )', '', self.title
                 ).replace(' ', '_'),
                 random_uuid=uuid_generator(),
-                file_extension=Path(self.file.name).suffix,
             )
         else:
-            return "{course_title}-{type}-{random_uuid}{file_extension}".format(
+            return "{course_title}-{type}-{random_uuid}".format(
                 course_title=self.courses.first().en_title.replace(' ', ''),
                 type=self.get_type_display(),
                 random_uuid=uuid_generator(),
-                file_extension=Path(self.file.name).suffix,
             )
 
     class Meta:

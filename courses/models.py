@@ -2,7 +2,7 @@ from django.db import models
 from django.conf import settings
 from django.utils.translation import gettext_lazy as _
 
-from core.models import BaseModel
+from core.models import BaseModel, TagField
 from courses.managers import CourseManager
 
 
@@ -34,12 +34,7 @@ class Course(BaseModel):
         verbose_name=_("Type"),
         choices=Types.choices,
     )
-    tag = models.CharField(
-        verbose_name=_("Tag"),
-        max_length=127,
-        null=True,
-        blank=True,
-    )
+    tag = TagField()
     known_as = models.CharField(
         verbose_name=_("Known As"),
         max_length=127,

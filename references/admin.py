@@ -30,7 +30,7 @@ class ReferenceAdmin(BaseAdminMixin, nested_admin.NestedModelAdmin):
         return image_url_to_html(
             image=instance.cover_image,
             style="contain",
-            width=500,
+            height=100,
             open_in_new_tab=True,
         )
 
@@ -39,7 +39,6 @@ class ReferenceAdmin(BaseAdminMixin, nested_admin.NestedModelAdmin):
         return image_url_to_html(
             image=instance.cover_image,
             style="cover",
-            width=100,
             height=100,
             open_in_new_tab=True,
         )

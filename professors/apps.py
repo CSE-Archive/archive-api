@@ -6,3 +6,7 @@ class ProfessorsConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
     name = 'professors'
     verbose_name = _('Professors')
+
+    def ready(self):
+        import professors.signals
+

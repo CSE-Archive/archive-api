@@ -14,7 +14,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://drive.google.com/drive/folders/1Du71BVxlxpDKPyW179XFqPV1feUPteRu",
-            "title": "گوگل درایو",
+            "title": "لینک گوگل درایو",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 1
         }
@@ -23,7 +23,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/+OvYR00a8sHBhMzU0",
-            "title": "کانال تلگرام",
+            "title": "لینک کانال تلگرام",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 1
         }
@@ -43,7 +43,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://drive.google.com/folderview?id=1o0_j-LIXjGHp2wj8E4WMeyr9Wbne4D1W",
-            "title": "گوگل درایو",
+            "title": "لینک گوگل درایو",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 2
         }
@@ -52,7 +52,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/+6qKQVeh5ZRliNjJk",
-            "title": "کانال تلگرام",
+            "title": "لینک کانال تلگرام",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 2
         }
@@ -72,7 +72,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://drive.google.com/drive/folders/1VTr6mth-4PTxHNkR-r00wCYGv4vlb0DL",
-            "title": "گوگل درایو",
+            "title": "لینک گوگل درایو",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 3
         }
@@ -81,7 +81,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/+y3rcpZF7Ekc1YTJk",
-            "title": "کانال تلگرام",
+            "title": "لینک کانال تلگرام",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 3
         }
@@ -101,7 +101,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://drive.google.com/folderview?id=1RiyY4gtMBH1B60mx16oSaBm_vkTgTmjH",
-            "title": "گوگل درایو",
+            "title": "لینک گوگل درایو",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 4
         }
@@ -110,7 +110,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/+vOpNIiJ9qFpjYmJk",
-            "title": "کانال تلگرام",
+            "title": "لینک کانال تلگرام",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 4
         }
@@ -130,7 +130,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://drive.google.com/folderview?id=1EAw97Exz1ITchBa4WMRcjkjdmx1wyqx8",
-            "title": "گوگل درایو",
+            "title": "لینک گوگل درایو",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 5
         }
@@ -139,7 +139,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/+nZytxyTa7Es1NDI0",
-            "title": "کانال تلگرام",
+            "title": "لینک کانال تلگرام",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 5
         }
@@ -159,7 +159,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://drive.google.com/folderview?id=1c0vPBb9hW9gGJnyJdgDbjlJIMgk_clJJ",
-            "title": "گوگل درایو",
+            "title": "لینک گوگل درایو",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 6
         }
@@ -168,7 +168,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/+PK75fW9Pvrs2MDJk",
-            "title": "کانال تلگرام",
+            "title": "لینک کانال تلگرام",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 6
         }
@@ -188,7 +188,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://drive.google.com/folderview?id=1BTgXbzKt0WiZM-7__9wYwUq2KyqXdpNS",
-            "title": "گوگل درایو",
+            "title": "لینک گوگل درایو",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 7
         }
@@ -197,7 +197,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/+IVTrSeqRHGZlNWM0",
-            "title": "کانال تلگرام",
+            "title": "لینک کانال تلگرام",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 7
         }
@@ -217,7 +217,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://drive.google.com/folderview?id=15l2jGm0vCAyN_ZZ-yhGBi9KUPV89SLQd",
-            "title": "گوگل درایو",
+            "title": "لینک گوگل درایو",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 8
         }
@@ -226,7 +226,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/+xscn7-MvS6Y5ZDU0",
-            "title": "کانال تلگرام",
+            "title": "لینک کانال تلگرام",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 8
         }
@@ -246,7 +246,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://drive.google.com/drive/folders/1aalZ0dlAS9ZvdXZwLRMAHSpjEEHlB1eE",
-            "title": "گوگل درایو",
+            "title": "لینک گوگل درایو",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 9
         }
@@ -255,7 +255,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/+0ZMwhEZSLR1mMmY0",
-            "title": "کانال تلگرام",
+            "title": "لینک کانال تلگرام",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 9
         }
@@ -275,7 +275,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://drive.google.com/drive/folders/1q3PoGHpvlYV0pce7urzOlIhFsbkQutpT",
-            "title": "گوگل درایو",
+            "title": "لینک گوگل درایو",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 10
         }
@@ -284,7 +284,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/+JAM78d80CCM1M2Vk",
-            "title": "کانال تلگرام",
+            "title": "لینک کانال تلگرام",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 10
         }
@@ -304,7 +304,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://drive.google.com/drive/folders/1NScRJntK5GR5-nKNEZIgQKkdOMV5JCF-",
-            "title": "گوگل درایو",
+            "title": "لینک گوگل درایو",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 11
         }
@@ -313,7 +313,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/+hzK0caAlZDY1NGU0",
-            "title": "کانال تلگرام",
+            "title": "لینک کانال تلگرام",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 11
         }
@@ -333,7 +333,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://drive.google.com/drive/folders/1xMUSyjQEDmbG86jG3h9b00BwQ8ecLu-k",
-            "title": "گوگل درایو",
+            "title": "لینک گوگل درایو",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 12
         }
@@ -342,7 +342,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/+xjYknx5HRlpmOGZk",
-            "title": "کانال تلگرام",
+            "title": "لینک کانال تلگرام",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 12
         }
@@ -362,7 +362,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://drive.google.com/drive/folders/15Mkm7083xoo0ptIIfNHEAilKX05u12Eb",
-            "title": "گوگل درایو",
+            "title": "لینک گوگل درایو",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 13
         }
@@ -371,7 +371,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/+XMI7BTNGrh05YWM0",
-            "title": "کانال تلگرام",
+            "title": "لینک کانال تلگرام",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 13
         }
@@ -391,7 +391,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://drive.google.com/drive/folders/1E4AAwEzGuApWiJFMtFA8b-SDxlatHMhp",
-            "title": "گوگل درایو",
+            "title": "لینک گوگل درایو",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 14
         }
@@ -400,7 +400,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/+Uv9e3tNTBiVjMzU8",
-            "title": "کانال تلگرام",
+            "title": "لینک کانال تلگرام",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 14
         }
@@ -420,7 +420,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://drive.google.com/drive/folders/1FeKqXoZHRI3Dkm59zm2x1ZonAQkhwHQK",
-            "title": "گوگل درایو",
+            "title": "لینک گوگل درایو",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 15
         }
@@ -429,7 +429,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/+RltXO8_Z-XgzNmI8",
-            "title": "کانال تلگرام",
+            "title": "لینک کانال تلگرام",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 15
         }
@@ -449,7 +449,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://drive.google.com/drive/folders/1IKX8Z4LGhUokV5ExKiEjq2nfLfzvIVvL",
-            "title": "گوگل درایو",
+            "title": "لینک گوگل درایو",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 16
         }
@@ -458,7 +458,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/+E0JOSAwvww5hYmY0",
-            "title": "کانال تلگرام",
+            "title": "لینک کانال تلگرام",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 16
         }
@@ -478,7 +478,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://drive.google.com/drive/folders/1ta1YRmn9GCobATUGDhgNPJxb2abAvKPh",
-            "title": "گوگل درایو",
+            "title": "لینک گوگل درایو",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 17
         }
@@ -487,7 +487,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/+ZtTQkqNZ2NtjZThk",
-            "title": "کانال تلگرام",
+            "title": "لینک کانال تلگرام",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 17
         }
@@ -507,7 +507,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://drive.google.com/drive/folders/1ifPIPRFhHU5tVIK_UtM_V7lhuAlUFjni",
-            "title": "گوگل درایو",
+            "title": "لینک گوگل درایو",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 18
         }
@@ -516,7 +516,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/+KcgM5jIwON42NjA8",
-            "title": "کانال تلگرام",
+            "title": "لینک کانال تلگرام",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 18
         }
@@ -536,7 +536,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://drive.google.com/drive/folders/11TOnWRpJHRYQOj68TcoIawiXeM79ca6-",
-            "title": "گوگل درایو",
+            "title": "لینک گوگل درایو",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 19
         }
@@ -545,7 +545,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/+f2Ij4f8NrF5iNjZk",
-            "title": "کانال تلگرام",
+            "title": "لینک کانال تلگرام",
             "linked_type": ["recordings", "recordedclassroom"],
             "linked_id": 19
         }

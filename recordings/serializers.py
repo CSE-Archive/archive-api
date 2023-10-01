@@ -17,7 +17,7 @@ class RecordedSessionSerializer(serializers.ModelSerializer):
 class RecordedClassroomSerializer(serializers.ModelSerializer):
     class Meta:
         model = RecordedClassroom
-        fields = ("uuid", "classroom", "sessions", "links",
+        fields = ("uuid", "classroom", "notes", "sessions", "links",
                   "created_time", "modified_time",)
 
     links = LinkSerializer(many=True)

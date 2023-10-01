@@ -2,8 +2,9 @@ from typing import Any
 
 from django.db import models
 from django.conf import settings
-from django.contrib.auth.models import AbstractUser
 from django.db.models.query import QuerySet
+from django.core.validators import RegexValidator
+from django.contrib.auth.models import AbstractUser
 from django.utils.translation import gettext_lazy as _
 from django.contrib.contenttypes.models import ContentType
 from django.contrib.contenttypes import fields as contenttypes_fields
@@ -52,6 +53,22 @@ class ShortUuidField(models.CharField):
         kwargs['editable'] = False
         kwargs['db_index'] = True
         kwargs['verbose_name'] = _("UUID")
+        super().__init__(*args, **kwargs)
+
+
+class TagField(models.CharField):
+    def __init__(self, *args: Any, **kwargs: Any) -> None:
+        kwargs['max_length'] = 127
+        kwargs['unique'] = True
+        kwargs['null'] = True
+        kwargs['blank'] = True
+        kwargs['validators'] = [
+            RegexValidator(
+                "^[a-zA-Z\u0600-\u06FF_]*$",
+                _("Tags can only contain Persian and English letters and underscores."),
+            ),
+        ]
+        kwargs['verbose_name'] = _("Tag")
         super().__init__(*args, **kwargs)
 
 

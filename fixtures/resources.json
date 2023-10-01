@@ -18,7 +18,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/21",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -45,7 +45,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/22",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -72,7 +72,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/23",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -99,7 +99,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/24",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -126,7 +126,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/25",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -153,7 +153,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/31",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -180,7 +180,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/32",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -207,7 +207,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/33",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -234,7 +234,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/34",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -261,7 +261,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/35",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -288,7 +288,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/36",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -315,7 +315,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/37",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -342,7 +342,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/100",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -369,7 +369,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/101",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -396,7 +396,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/104",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -423,7 +423,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/116",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -450,7 +450,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/119",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -477,7 +477,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/121",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -504,7 +504,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/123",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -531,7 +531,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/124",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -558,7 +558,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/125",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -585,7 +585,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/126",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -612,7 +612,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/128",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -639,7 +639,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/129",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -666,7 +666,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/132",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -693,7 +693,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/133",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -720,7 +720,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/135",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -747,7 +747,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/136",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -774,7 +774,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/137",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -801,7 +801,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/138",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -828,7 +828,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/139",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -855,7 +855,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/140",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -882,7 +882,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/141",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -909,7 +909,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/142",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -936,7 +936,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/143",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -963,7 +963,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/144",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -990,7 +990,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/146",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -1017,7 +1017,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/148",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -1044,7 +1044,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/150",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -1071,7 +1071,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/151",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -1098,7 +1098,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/152",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -1125,7 +1125,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/153",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -1152,7 +1152,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/154",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -1179,7 +1179,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/155",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -1206,7 +1206,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/156",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -1233,7 +1233,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/157",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -1260,7 +1260,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/158",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -1287,7 +1287,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/159",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -1314,7 +1314,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/161",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -1341,7 +1341,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/162",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -1368,7 +1368,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/163",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -1395,7 +1395,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/164",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -1422,7 +1422,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/165",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -1449,7 +1449,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/168",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -1476,7 +1476,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/169",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -1503,7 +1503,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/170",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -1530,7 +1530,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/171",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -1557,7 +1557,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/173",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -1584,7 +1584,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/174",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -1611,7 +1611,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/175",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -1638,7 +1638,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/176",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -1665,7 +1665,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/177",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -1692,7 +1692,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/179",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -1719,7 +1719,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/180",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -1746,7 +1746,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/186",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -1773,7 +1773,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/189",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -1800,7 +1800,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/190",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -1827,7 +1827,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/191",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -1854,7 +1854,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/192",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -1881,7 +1881,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/193",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -1908,7 +1908,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/194",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -1935,7 +1935,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/195",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -1962,7 +1962,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/196",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -1989,7 +1989,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/197",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -2016,7 +2016,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/198",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -2043,7 +2043,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/199",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -2070,7 +2070,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/200",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -2097,7 +2097,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/201",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -2124,7 +2124,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/204",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -2151,7 +2151,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/205",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -2178,7 +2178,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/206",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -2205,7 +2205,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/207",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -2232,7 +2232,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/208",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -2259,7 +2259,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/209",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -2286,7 +2286,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/210",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -2313,7 +2313,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/212",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -2340,7 +2340,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/213",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -2367,7 +2367,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/215",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -2394,7 +2394,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/216",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -2421,7 +2421,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/217",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -2448,7 +2448,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/218",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -2475,7 +2475,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/219",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -2502,7 +2502,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/220",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -2529,7 +2529,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/221",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -2556,7 +2556,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/222",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -2583,7 +2583,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/223",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -2610,7 +2610,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/224",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -2637,7 +2637,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/226",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -2664,7 +2664,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/227",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -2691,7 +2691,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/228",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -2718,7 +2718,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/229",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -2745,7 +2745,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/230",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -2772,7 +2772,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/231",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -2799,7 +2799,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/234",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -2826,7 +2826,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/235",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -2853,7 +2853,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/236",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -2880,7 +2880,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/237",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -2907,7 +2907,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/238",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -2934,7 +2934,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/239",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -2961,7 +2961,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/240",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -2988,7 +2988,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/241",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -3015,7 +3015,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/243",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -3042,7 +3042,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/244",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -3069,7 +3069,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/245",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -3096,7 +3096,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/246",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -3123,7 +3123,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/247",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -3150,7 +3150,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/248",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -3177,7 +3177,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/249",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -3204,7 +3204,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/250",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -3231,7 +3231,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/251",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -3258,7 +3258,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/254",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -3285,7 +3285,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/255",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -3312,7 +3312,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/256",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -3339,7 +3339,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/258",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -3366,7 +3366,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/270",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -3393,7 +3393,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/271",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -3420,7 +3420,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/276",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -3447,7 +3447,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/282",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -3474,7 +3474,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/293",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -3501,7 +3501,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/294",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -3528,7 +3528,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/296",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -3555,7 +3555,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/300",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -3582,7 +3582,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/307",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -3609,7 +3609,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/308",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -3636,7 +3636,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/313",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -3663,7 +3663,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/314",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -3690,7 +3690,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/320",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -3717,7 +3717,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/321",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -3744,7 +3744,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/323",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -3771,7 +3771,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/325",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -3798,7 +3798,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/327",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -3825,7 +3825,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/328",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -3852,7 +3852,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/329",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -3879,7 +3879,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/330",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -3906,7 +3906,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/331",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -3933,7 +3933,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/332",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -3960,7 +3960,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/333",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -3987,7 +3987,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/334",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -4014,7 +4014,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/335",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -4041,7 +4041,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/337",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -4068,7 +4068,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/339",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -4095,7 +4095,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/344",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -4122,7 +4122,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/345",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -4149,7 +4149,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/346",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -4176,7 +4176,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/347",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -4203,7 +4203,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/348",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -4230,7 +4230,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/349",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -4257,7 +4257,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/350",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -4284,7 +4284,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/351",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -4311,7 +4311,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/352",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -4338,7 +4338,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/360",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -4365,7 +4365,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/362",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -4392,7 +4392,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/363",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -4419,7 +4419,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/364",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -4446,7 +4446,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/365",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -4473,7 +4473,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/366",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -4500,7 +4500,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/367",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -4527,7 +4527,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/368",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -4554,7 +4554,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/369",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -4581,7 +4581,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/371",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -4608,7 +4608,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/372",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -4635,7 +4635,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/374",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -4662,7 +4662,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/375",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -4689,7 +4689,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/376",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -4716,7 +4716,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/377",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -4743,7 +4743,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/378",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -4770,7 +4770,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/379",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -4797,7 +4797,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/392",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -4824,7 +4824,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/393",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -4851,7 +4851,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/394",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -4878,7 +4878,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/396",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -4905,7 +4905,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/397",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -4932,7 +4932,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/398",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -4959,7 +4959,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/399",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -4986,7 +4986,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/400",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -5013,7 +5013,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/402",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -5040,7 +5040,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/403",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -5067,7 +5067,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/404",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -5094,7 +5094,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/405",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -5121,7 +5121,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/406",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -5148,7 +5148,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/407",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -5175,7 +5175,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/410",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -5202,7 +5202,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/411",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -5229,7 +5229,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/412",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -5256,7 +5256,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/413",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -5283,7 +5283,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/414",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -5310,7 +5310,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/415",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -5337,7 +5337,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/416",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -5364,7 +5364,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/417",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -5391,7 +5391,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/418",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -5418,7 +5418,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/419",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -5445,7 +5445,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/420",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -5472,7 +5472,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/422",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -5499,7 +5499,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/423",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -5526,7 +5526,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/424",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -5553,7 +5553,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/425",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -5580,7 +5580,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/426",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -5607,7 +5607,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/427",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -5634,7 +5634,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/428",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -5661,7 +5661,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/429",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -5688,7 +5688,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/430",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -5715,7 +5715,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/431",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -5742,7 +5742,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/436",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -5769,7 +5769,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/437",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -5796,7 +5796,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/439",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -5823,7 +5823,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/440",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -5850,7 +5850,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/441",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -5877,7 +5877,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/442",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -5904,7 +5904,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/443",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -5931,7 +5931,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/444",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -5958,7 +5958,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/445",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -5985,7 +5985,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/446",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -6012,7 +6012,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/452",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -6039,7 +6039,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/462",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -6066,7 +6066,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/463",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -6093,7 +6093,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/464",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -6120,7 +6120,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/465",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -6147,7 +6147,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/466",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -6174,7 +6174,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/472",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -6201,7 +6201,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/473",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -6228,7 +6228,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/474",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -6255,7 +6255,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/475",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -6282,7 +6282,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/477",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -6309,7 +6309,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/478",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -6336,7 +6336,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/507",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -6363,7 +6363,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/508",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -6390,7 +6390,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/509",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -6417,7 +6417,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/510",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -6444,7 +6444,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/511",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -6471,7 +6471,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/512",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -6498,7 +6498,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/514",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -6525,7 +6525,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/515",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -6552,7 +6552,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/516",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -6579,7 +6579,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/517",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -6606,7 +6606,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/518",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -6633,7 +6633,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/519",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -6660,7 +6660,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/520",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -6687,7 +6687,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/521",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -6714,7 +6714,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/522",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -6741,7 +6741,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/523",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -6768,7 +6768,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/524",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -6795,7 +6795,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/525",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -6822,7 +6822,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/526",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -6849,7 +6849,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/527",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -6876,7 +6876,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/528",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -6903,7 +6903,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/529",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -6930,7 +6930,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/530",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -6957,7 +6957,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/531",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -6984,7 +6984,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/541",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -7011,7 +7011,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/543",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -7038,7 +7038,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/544",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -7065,7 +7065,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/545",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -7092,7 +7092,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/546",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -7119,7 +7119,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/547",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -7146,7 +7146,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/548",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -7173,7 +7173,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/550",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -7200,7 +7200,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/551",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -7227,7 +7227,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/552",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -7254,7 +7254,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/553",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -7281,7 +7281,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/555",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -7308,7 +7308,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/556",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -7335,7 +7335,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/557",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -7362,7 +7362,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/558",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -7389,7 +7389,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/559",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -7416,7 +7416,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/561",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -7443,7 +7443,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/568",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -7470,7 +7470,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/576",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -7497,7 +7497,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/577",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -7524,7 +7524,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/578",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -7551,7 +7551,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/579",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -7578,7 +7578,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/584",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -7605,7 +7605,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/587",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -7632,7 +7632,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/588",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -7659,7 +7659,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/595",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -7686,7 +7686,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/597",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -7713,7 +7713,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/598",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -7740,7 +7740,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/599",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -7767,7 +7767,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/600",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -7794,7 +7794,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/601",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -7821,7 +7821,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/602",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -7848,7 +7848,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/603",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -7875,7 +7875,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/605",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -7902,7 +7902,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/606",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -7929,7 +7929,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/607",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -7956,7 +7956,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/608",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -7983,7 +7983,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/609",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -8010,7 +8010,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/610",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -8037,7 +8037,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/611",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -8064,7 +8064,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/613",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -8091,7 +8091,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/614",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -8118,7 +8118,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/615",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -8145,7 +8145,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/616",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -8172,7 +8172,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/617",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -8199,7 +8199,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/618",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -8226,7 +8226,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/619",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -8253,7 +8253,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/620",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -8280,7 +8280,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/621",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -8307,7 +8307,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/622",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -8334,7 +8334,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/623",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -8361,7 +8361,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/624",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -8388,7 +8388,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/625",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -8415,7 +8415,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/626",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -8442,7 +8442,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/627",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -8469,7 +8469,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/628",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -8496,7 +8496,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/629",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -8523,7 +8523,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/630",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -8550,7 +8550,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/631",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -8577,7 +8577,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/632",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -8604,7 +8604,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/633",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -8631,7 +8631,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/634",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -8658,7 +8658,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/635",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -8685,7 +8685,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/636",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -8712,7 +8712,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/639",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -8739,7 +8739,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/641",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -8766,7 +8766,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/654",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -8793,7 +8793,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/655",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -8820,7 +8820,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/656",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -8847,7 +8847,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/657",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -8874,7 +8874,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/658",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -8901,7 +8901,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/659",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -8928,7 +8928,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/660",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -8955,7 +8955,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/661",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -8982,7 +8982,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/662",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -9009,7 +9009,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/663",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -9036,7 +9036,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/664",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -9063,7 +9063,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/665",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -9090,7 +9090,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/666",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -9117,7 +9117,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/667",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -9144,7 +9144,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/668",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -9171,7 +9171,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/669",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -9198,7 +9198,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/670",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -9225,7 +9225,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/671",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -9252,7 +9252,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/672",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -9279,7 +9279,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/673",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -9306,7 +9306,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/674",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"
@@ -9333,7 +9333,7 @@
         "model": "core.link",
         "fields": {
             "url": "https://t.me/CSE_Archive/301",
-            "title": "پیام تلگرام",
+            "title": "لینک پیام تلگرام",
             "linked_type": [
                 "resources",
                 "resource"

@@ -5,7 +5,7 @@ from django.conf import settings
 from django.utils.translation import gettext_lazy as _
 from django.contrib.contenttypes import fields as contenttypes_fields
 
-from core.models import BaseModel, Link, ShortUuidField
+from core.models import BaseModel, Link, ShortUuidField, TagField
 from core.validators import MaxImageSizeValidator
 from professors.managers import DepartmentManager, ProfessorManager
 
@@ -24,12 +24,7 @@ class Department(models.Model):
         null=True,
         blank=True,
     )
-    tag = models.CharField(
-        verbose_name=_("Tag"),
-        max_length=127,
-        null=True,
-        blank=True,
-    )
+    tag = TagField()
 
     objects = DepartmentManager()
 
@@ -75,12 +70,7 @@ class Professor(BaseModel):
         blank=True,
         default="",
     )
-    tag = models.CharField(
-        verbose_name=_("Tag"),
-        max_length=127,
-        null=True,
-        blank=True,
-    )
+    tag = TagField()
     image = models.ImageField(
         verbose_name=_("Image"),
         null=True,
@@ -100,6 +90,9 @@ class Professor(BaseModel):
 
     def __str__(self) -> str:
         return f"{self.first_name} {self.last_name}"
+
+    def generate_unique_name(self) -> str:
+        return self.tag
 
     class Meta:
         verbose_name = _("Professor")
