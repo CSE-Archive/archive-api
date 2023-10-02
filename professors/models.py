@@ -69,22 +69,22 @@ class Professor(BaseModel):
         verbose_name=_("About"),
         null=True,
         blank=True,
-        default="",
     )
     tag = TagField()
     image = models.ImageField(
         verbose_name=_("Image"),
         null=True,
         blank=True,
+        max_length=255,
         upload_to=os.path.join(settings.IMAGES_PATH, "professors"),
         validators=[MaxImageSizeValidator(1)],
     )
     links = contenttypes_fields.GenericRelation(
         Link,
         verbose_name=_("Links"),
-        content_type_field='linked_type',
-        object_id_field='linked_id',
-        related_query_name='linked_resources',
+        content_type_field="linked_type",
+        object_id_field="linked_id",
+        related_query_name="linked_resources",
     )
 
     objects = ProfessorManager()

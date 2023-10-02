@@ -60,19 +60,20 @@ class Reference(BaseModel):
         null=True,
         blank=True,
         max_length=255,
-        upload_to='references',
+        upload_to="references",
     )
     links = contenttypes_fields.GenericRelation(
         Link,
         verbose_name=_("Links"),
-        content_type_field='linked_type',
-        object_id_field='linked_id',
-        related_query_name='linked_references',
+        content_type_field="linked_type",
+        object_id_field="linked_id",
+        related_query_name="linked_references",
     )
     cover_image = models.ImageField(
         verbose_name=_("Cover Image"),
         null=True,
         blank=True,
+        max_length=255,
         upload_to=os.path.join(settings.IMAGES_PATH, "references_cover"),
         validators=[MaxImageSizeValidator(1)],
     )
