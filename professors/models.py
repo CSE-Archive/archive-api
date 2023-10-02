@@ -77,7 +77,7 @@ class Professor(BaseModel):
         blank=True,
         max_length=255,
         upload_to=os.path.join(settings.IMAGES_PATH, "professors"),
-        validators=[MaxImageSizeValidator(1)],
+        validators=[MaxImageSizeValidator(5)],
     )
     links = contenttypes_fields.GenericRelation(
         Link,

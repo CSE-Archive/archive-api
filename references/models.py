@@ -75,7 +75,7 @@ class Reference(BaseModel):
         blank=True,
         max_length=255,
         upload_to=os.path.join(settings.IMAGES_PATH, "references_cover"),
-        validators=[MaxImageSizeValidator(1)],
+        validators=[MaxImageSizeValidator(5)],
     )
     writers = models.ManyToManyField(
         Writer,
