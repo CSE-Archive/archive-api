@@ -14,14 +14,6 @@ DEBUG = os.environ.get('DEBUG') == 'True'
 
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
-INTERNAL_IPS = ['127.0.0.1']
-
-ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '*').split(',')
-
-CORS_ALLOWED_ORIGIN_REGEXES = os.environ.get('CORS_ALLOWED_ORIGIN_REGEXES', None)
-if DEBUG == True or CORS_ALLOWED_ORIGIN_REGEXES is None:
-    CORS_ALLOW_ALL_ORIGINS = True
-
 INSTALLED_APPS = [
     'admin_interface',
     'colorfield',
@@ -65,6 +57,14 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'config.urls'
+
+INTERNAL_IPS = ['127.0.0.1']
+
+ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '*').split(',')
+
+CORS_ALLOWED_ORIGIN_REGEXES = [os.environ.get('CORS_ALLOWED_ORIGIN_REGEXES', None)]
+if DEBUG == True or CORS_ALLOWED_ORIGIN_REGEXES is None:
+    CORS_ALLOW_ALL_ORIGINS = True
 
 DATABASES = {
     'default': {

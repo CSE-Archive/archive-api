@@ -731,7 +731,9 @@
             "is_published": true,
             "created_time": "2023-08-01T23:59:59.999999+03:30",
             "modified_time": "2023-08-01T23:59:59.999999+03:30",
-            "writers": [],
+            "writers": [
+                ["Sivarama Dandamudi"]
+            ],
             "courses": [
                 ["xvI1oQknNjQ"]
             ],
