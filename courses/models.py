@@ -14,7 +14,7 @@ class Course(BaseModel):
         BASIC = 3, _("Basic")
         GENERAL = 4, _("General")
     
-    UNITS_CHOICES = ((u, _(str(u))) for u in range(1, settings.MAX_COURSE_UNIT+1))
+    UNITS_CHOICES = list((u, _(str(u))) for u in range(1, settings.MAX_COURSE_UNIT+1))
 
     title = models.CharField(
         verbose_name=_("Title"),

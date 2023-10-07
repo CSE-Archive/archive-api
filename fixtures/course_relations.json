@@ -178,7 +178,7 @@
     {
         "model": "courses.courserelation",
         "fields": {
-            "type": 2,
+            "type": 1,
             "course_from": ["J2OBo93uAYw"],
             "course_to": ["h6NQLbJdcwY"]
         }

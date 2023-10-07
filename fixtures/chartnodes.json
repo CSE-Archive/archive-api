@@ -164,7 +164,7 @@
         "fields": {
             "semester": 3,
             "column": 3,
-            "course": ["xGkAHRRVBnU"],
+            "course": ["h6NQLbJdcwY"],
             "type": null,
             "units": null
         }
@@ -174,7 +174,7 @@
         "fields": {
             "semester": 3,
             "column": 4,
-            "course": ["FXaxY78Lx0I"],
+            "course": ["xGkAHRRVBnU"],
             "type": null,
             "units": null
         }
@@ -224,7 +224,7 @@
         "fields": {
             "semester": 4,
             "column": 2,
-            "course": ["h6NQLbJdcwY"],
+            "course": ["NgnGtKaJ6AM"],
             "type": null,
             "units": null
         }
@@ -244,7 +244,7 @@
         "fields": {
             "semester": 4,
             "column": 5,
-            "course": ["K4i5sd6uRfo"],
+            "course": ["FXaxY78Lx0I"],
             "type": null,
             "units": null
         }
@@ -274,16 +274,6 @@
         "fields": {
             "semester": 5,
             "column": 1,
-            "course": ["NgnGtKaJ6AM"],
-            "type": null,
-            "units": null
-        }
-    },
-    {
-        "model": "chart.chartnode",
-        "fields": {
-            "semester": 5,
-            "column": 2,
             "course": null,
             "type": 2,
             "units": 3
@@ -293,7 +283,7 @@
         "model": "chart.chartnode",
         "fields": {
             "semester": 5,
-            "column": 3,
+            "column": 2,
             "course": ["H1romJgtudM"],
             "type": null,
             "units": null
@@ -303,7 +293,7 @@
         "model": "chart.chartnode",
         "fields": {
             "semester": 5,
-            "column": 4,
+            "column": 3,
             "course": ["vXh5qgjgJEE"],
             "type": null,
             "units": null
@@ -313,8 +303,18 @@
         "model": "chart.chartnode",
         "fields": {
             "semester": 5,
-            "column": 5,
+            "column": 4,
             "course": ["krcBL7VfJGo"],
+            "type": null,
+            "units": null
+        }
+    },
+    {
+        "model": "chart.chartnode",
+        "fields": {
+            "semester": 5,
+            "column": 5,
+            "course": ["K4i5sd6uRfo"],
             "type": null,
             "units": null
         }
