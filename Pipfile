@@ -18,10 +18,10 @@ django-nested-admin = "*"
 drf-yasg = "*"
 python-dotenv = "*"
 django-cors-headers = "*"
+django-extensions = "*"
 
 [dev-packages]
 autopep8 = "*"
-django-extensions = "*"
 
 [requires]
 python_version = "3.10.12"
