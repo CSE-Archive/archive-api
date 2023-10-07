@@ -1,13 +1,17 @@
 # CSE Archive RESTful API
 
-This is the source code of our REST API backend implemented with the Django framework, which is opened source for educational purposes and contributions.
+This is the source code of our REST API backend implemented with the Django framework, which is open source for educational purposes and contributions.
 
-## Set up & Deploy
+## Deployment
 
 The steps described below are suitable for deploying this project in a development environment. If you intend to deploy this to production, you can read 
-[this link](https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-22-04).
+[this article](https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-22-04).
 
-It is assumed that python, PIP tool and PostgreSQL database are installed on your OS. If any of them were not installed, you can read [this article](https://www.cherryservers.com/blog/how-to-install-pip-ubuntu) on how to install PIP, [this article](https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-22-04-quickstart) on how to setup PostgreSQL on Ubuntu, and you can get the Python from [here](https://www.cherryservers.com/blog/install-python-on-ubuntu).
+### Requirements
+
+It is assumed that [Python](https://www.cherryservers.com/blog/install-python-on-ubuntu), [PIP](https://www.cherryservers.com/blog/how-to-install-pip-ubuntu) tool and [PostgreSQL](https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-22-04-quickstart) database are installed on your OS.
+
+### Setup Database
 
 To deploy the project you need a database, which you can create by entering the following command in the PostgreSQL shell, where `<db_name>` is the name of the database you want to create. Don't forget to exit the PostgreSQL shell after creating your database.
 
@@ -15,23 +19,27 @@ To deploy the project you need a database, which you can create by entering the 
 CREATE DATABASE <db_name>;
 ```
 
-CSE Archive API project uses pipenv to set up its virtual environment, if you don't have it already install it with
+### Setup Virtual Environment
+
+This project uses `pipenv` for its virtual environment, if you don't have pipenv already install it with
 
 ```bash
 pip install pipenv
 ```
 
-Now at the project root, use pipenv *install* command to install project dependencies listed in [Pipfile](https://github.com/CSE-Archive/RESTful-API/blob/main/Pipfile). After that, use its *shell* command to enable newly created virtual environment
+Now at the project root, use pipenv *install* command to install project dependencies listed in [Pipfile](https://github.com/CSE-Archive/archive-api/blob/main/Pipfile). After that, use its *shell* command to enable the newly created virtual environment
 
 ```bash
 pipenv install
 pipenv shell
 ```
 
-To set the environment variables, copy the **.env.example** file content and paste it to a new file named **.env** at project's root. Now fill the variables values according to the description below.
+### Environment Configuration
+
+Copy the `.env.example` file content and paste it to a new file named `.env` at the project's root. Now fill in the variables values according to the description below.
 
 - **DEBUG**: This Boolean variable can be **True** or **False** depending on environment. To run the program in the production environment, set the Boolean variable to False.
-- **SECRET_KEY**: This is used to sign sensitive data, so it is important to generate a strong key. You can generate a key yourself or use command
+- **SECRET_KEY**: This is used to sign sensitive data, so it is important to generate a strong key. You can generate a key yourself or use the command
     ```bash
     python manage.py generate_secret_key
     ```
@@ -39,9 +47,11 @@ To set the environment variables, copy the **.env.example** file content and pas
 - **CORS_ALLOWED_ORIGIN_REGEXES**: This variable is a string representing regex that matches Origins that are authorized to make cross-site HTTP requests. If the DEBUG setting is True, this value will not be considered and all origins will be allowed.
 - **DB_NAME, DB_USER, DB_PASSWORD, DB_HOST, DB_PORT**: These variables describe the database you created for this project.
 
-Now that the environment is ready, you can run the following commands to start the API:
+### Running the API
 
-First we should apply database migrations
+Now that everything is ready, you can run the following commands to start the API.
+
+First, we should apply database migrations
 
 ```bash
 python manage.py migrate
@@ -63,7 +73,7 @@ By default, you can access the project at `localhost:8000`, the admin panel at `
 
 ## Database Design
 
-To generate a diagram of the models used in the API, first install Graphviz on your OS from [here](https://graphviz.org/download/). Then, run the following commands:
+To generate a diagram of the models used in the API, make sure you have [Graphviz](https://graphviz.org/download) on your OS. Then, run the following commands:
 
 ```bash
 python manage.py graph_models -a -g --dot -o cse_archive_erd.dot
@@ -78,4 +88,4 @@ Contributions of any size are welcomed here. You only need to:
 2. Make your changes in a new branch.
 3. Create a Pull Request with a title that summarizes your changes and a description that explains your changes in more detail.
 
-If you have any enhancement ideas but don't feel like to do it yourself, you can always [open a new issue](https://github.com/CSE-Archive/RESTful-API/issues/new?labels=enhancement) for that.
+If you have any enhancement ideas but don't feel like doing it yourself, you can always [open a new issue](https://github.com/CSE-Archive/archive-api/issues/new?labels=enhancement) for that.
