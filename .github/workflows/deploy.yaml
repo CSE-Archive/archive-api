@@ -23,6 +23,6 @@ jobs:
           script: |
             cd ${{ secrets.REPO_PATH }}
             git pull
-            pipenv sync
-            python manage.py migrate
+            pipenv sync -d
+            pipenv run python manage.py migrate
             sudo systemctl restart gunicorn
