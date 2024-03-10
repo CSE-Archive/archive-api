@@ -28,6 +28,10 @@ class Resource(BaseModel):
         verbose_name=_("Type"),
         choices=Types.choices,
     )
+    is_solution = models.BooleanField(
+        verbose_name=_("Is Solution?"),
+        default=False,
+    )
     notes = models.CharField(
         verbose_name=_("Notes"),
         max_length=255,

@@ -20,7 +20,7 @@ class ClassroomInlineAdmin(admin.TabularInline):
 @admin.register(Classroom)
 class ClassroomAdmin(BaseAdminMixin, nested_admin.NestedModelAdmin):
     inlines = (ResourceNestedInlineAdmin, RecordedClassroomNestedInlineAdmin)
-    autocomplete_fields = ("course",)
+    autocomplete_fields = ("course", "professors", "tas",)
     list_per_page = 25
     list_display = ("uuid", "year", "semester", "course",
                     "tas_count", "professors_count",

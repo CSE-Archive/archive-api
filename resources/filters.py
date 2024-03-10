@@ -10,4 +10,4 @@ class ResourceFilterSet(FilterSet):
 
     class Meta:
         model = Resource
-        fields = ("course", "classroom", "type",)
+        fields = ("course", "classroom", "type", "is_solution",)

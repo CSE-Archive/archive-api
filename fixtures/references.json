@@ -47,15 +47,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/3",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 1
-        }
-    },
-    {
         "model": "references.writer",
         "fields": {
             "full_name": "دکتر عظیمی‌فر"
@@ -79,15 +70,6 @@
             ],
             "related_references": [],
             "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/9",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 2
         }
     },
     {
@@ -121,15 +103,6 @@
             ],
             "related_references": [],
             "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/17",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 3
         }
     },
     {
@@ -168,15 +141,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/19",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 4
-        }
-    },
-    {
         "model": "references.reference",
         "fields": {
             "uuid": "DpV29x7x55E",
@@ -196,15 +160,6 @@
                 ["liFeCSWJ_UE"]
             ],
             "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/20",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 5
         }
     },
     {
@@ -241,15 +196,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/50",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 6
-        }
-    },
-    {
         "model": "references.writer",
         "fields": {
             "full_name": "Kip R. Irvine"
@@ -273,15 +219,6 @@
             ],
             "related_references": [],
             "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/68",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 7
         }
     },
     {
@@ -311,15 +248,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/69",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 8
-        }
-    },
-    {
         "model": "references.writer",
         "fields": {
             "full_name": "Richard C. Detmer"
@@ -343,15 +271,6 @@
             ],
             "related_references": [],
             "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/70",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 9
         }
     },
     {
@@ -408,15 +327,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/80",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 11
-        }
-    },
-    {
         "model": "references.writer",
         "fields": {
             "full_name": "Peter Linz"
@@ -445,15 +355,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/82",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 12
-        }
-    },
-    {
         "model": "references.reference",
         "fields": {
             "uuid": "hrODR31qY_s",
@@ -471,15 +372,6 @@
                 ["h7VPRmDjv9I"]
             ],
             "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/83",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 13
         }
     },
     {
@@ -506,15 +398,6 @@
             ],
             "related_references": [],
             "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/86",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 14
         }
     },
     {
@@ -546,15 +429,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/87",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 15
-        }
-    },
-    {
         "model": "references.reference",
         "fields": {
             "uuid": "VQLhEBUza0Q",
@@ -572,15 +446,6 @@
                 ["pR5yK_0gquA"]
             ],
             "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/88",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 16
         }
     },
     {
@@ -610,15 +475,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/89",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 17
-        }
-    },
-    {
         "model": "references.writer",
         "fields": {
             "full_name": "دکتر خونجوش"
@@ -642,15 +498,6 @@
             ],
             "related_references": [],
             "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/102",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 18
         }
     },
     {
@@ -680,15 +527,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/103",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 19
-        }
-    },
-    {
         "model": "references.reference",
         "fields": {
             "uuid": "ZaS4kOh73hU",
@@ -704,15 +542,6 @@
             ],
             "related_references": [],
             "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/120",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 20
         }
     },
     {
@@ -739,15 +568,6 @@
             ],
             "related_references": [],
             "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/166",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 21
         }
     },
     {
@@ -809,15 +629,6 @@
     {
         "model": "core.link",
         "fields": {
-            "url": "https://t.me/CSE_Archive/172",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 22
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
             "url": "https://github.com/fool2fish/dragon-book-exercise-answers",
             "title": "ریپازیتوری گیتهاب پاسخ تمرین‌های کتاب",
             "linked_type": ["references", "reference"],
@@ -848,15 +659,6 @@
             ],
             "related_references": [],
             "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/252",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 23
         }
     },
     {
@@ -893,15 +695,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/253",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 24
-        }
-    },
-    {
         "model": "references.writer",
         "fields": {
             "full_name": "Todd Young"
@@ -932,15 +725,6 @@
             ],
             "related_references": [],
             "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/260",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 25
         }
     },
     {
@@ -977,15 +761,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/264",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 26
-        }
-    },
-    {
         "model": "references.writer",
         "fields": {
             "full_name": "Kenneth H. Rosen"
@@ -1009,15 +784,6 @@
             ],
             "related_references": [],
             "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/266",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 27
         }
     },
     {
@@ -1061,15 +827,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/268",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 28
-        }
-    },
-    {
         "model": "references.writer",
         "fields": {
             "full_name": "دکتر صدرالدینی"
@@ -1093,15 +850,6 @@
             ],
             "related_references": [],
             "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/269",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 29
         }
     },
     {
@@ -1138,15 +886,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/272",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 30
-        }
-    },
-    {
         "model": "references.writer",
         "fields": {
             "full_name": "David Murray"
@@ -1170,15 +909,6 @@
             ],
             "related_references": [],
             "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/273",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 31
         }
     },
     {
@@ -1208,15 +938,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/274",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 32
-        }
-    },
-    {
         "model": "references.reference",
         "fields": {
             "uuid": "jsBDl472l3k",
@@ -1234,15 +955,6 @@
             ],
             "related_references": [],
             "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/275",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 33
         }
     },
     {
@@ -1269,15 +981,6 @@
             ],
             "related_references": [],
             "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/277",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 34
         }
     },
     {
@@ -1329,15 +1032,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/278",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 35
-        }
-    },
-    {
         "model": "references.writer",
         "fields": {
             "full_name": "دکتر فخراحمد"
@@ -1361,15 +1055,6 @@
             ],
             "related_references": [],
             "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/279",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 36
         }
     },
     {
@@ -1399,15 +1084,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/280",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 37
-        }
-    },
-    {
         "model": "references.writer",
         "fields": {
             "full_name": "دکتر کشتکاران"
@@ -1434,15 +1110,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/281",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 38
-        }
-    },
-    {
         "model": "references.writer",
         "fields": {
             "full_name": "دکتر منصوری"
@@ -1466,15 +1133,6 @@
             ],
             "related_references": [],
             "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/283",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 39
         }
     },
     {
@@ -1513,15 +1171,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/284",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 40
-        }
-    },
-    {
         "model": "references.reference",
         "fields": {
             "uuid": "4kyaXhH61w4",
@@ -1539,15 +1188,6 @@
                 ["Vr4Rc27mL1g"]
             ],
             "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/285",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 41
         }
     },
     {
@@ -1591,15 +1231,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/289",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 42
-        }
-    },
-    {
         "model": "references.reference",
         "fields": {
             "uuid": "yIlJxS5dYcQ",
@@ -1617,15 +1248,6 @@
             ],
             "related_references": [],
             "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/290",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 43
         }
     },
     {
@@ -1669,15 +1291,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/291",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 44
-        }
-    },
-    {
         "model": "references.reference",
         "fields": {
             "uuid": "BVg_BYn4JJ8",
@@ -1698,15 +1311,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/292",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 45
-        }
-    },
-    {
         "model": "references.reference",
         "fields": {
             "uuid": "aJA5BVffQx4",
@@ -1724,15 +1328,6 @@
             ],
             "related_references": [],
             "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/370",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 46
         }
     },
     {
@@ -1769,15 +1364,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/380",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 47
-        }
-    },
-    {
         "model": "references.writer",
         "fields": {
             "full_name": "دکتر سید علی میرعشقی"
@@ -1806,15 +1392,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/388",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 48
-        }
-    },
-    {
         "model": "references.reference",
         "fields": {
             "uuid": "wrKeNyk1XJg",
@@ -1832,15 +1409,6 @@
                 ["q_xjwwZocfE"]
             ],
             "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/389",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 49
         }
     },
     {
@@ -1867,15 +1435,6 @@
             ],
             "related_references": [],
             "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/395",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 50
         }
     },
     {
@@ -1907,15 +1466,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/432",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 51
-        }
-    },
-    {
         "model": "references.reference",
         "fields": {
             "uuid": "shjGS_dLTWE",
@@ -1935,15 +1485,6 @@
                 ["5Cu2QXdCdKc"]
             ],
             "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/433",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 52
         }
     },
     {
@@ -1980,15 +1521,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/447",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 53
-        }
-    },
-    {
         "model": "references.writer",
         "fields": {
             "full_name": "William Stallings"
@@ -2015,15 +1547,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/482",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 54
-        }
-    },
-    {
         "model": "references.writer",
         "fields": {
             "full_name": "Christopher J. Date"
@@ -2047,15 +1570,6 @@
             ],
             "related_references": [],
             "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/484",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 55
         }
     },
     {
@@ -2099,15 +1613,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/501",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 56
-        }
-    },
-    {
         "model": "references.writer",
         "fields": {
             "full_name": "Kay A. Robbins"
@@ -2141,15 +1646,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/502",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 57
-        }
-    },
-    {
         "model": "references.reference",
         "fields": {
             "uuid": "DGtaboV7C9g",
@@ -2167,15 +1663,6 @@
             ],
             "related_references": [],
             "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/503",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 58
         }
     },
     {
@@ -2199,15 +1686,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/504",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 59
-        }
-    },
-    {
         "model": "references.reference",
         "fields": {
             "uuid": "du1IGZdnjYU",
@@ -2228,15 +1706,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/505",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 60
-        }
-    },
-    {
         "model": "references.reference",
         "fields": {
             "uuid": "uXpRZOtRKd0",
@@ -2254,15 +1723,6 @@
             ],
             "related_references": [],
             "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/506",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 61
         }
     },
     {
@@ -2341,15 +1801,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/537",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 63
-        }
-    },
-    {
         "model": "references.writer",
         "fields": {
             "full_name": "دکتر راجی"
@@ -2373,15 +1824,6 @@
             ],
             "related_references": [],
             "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/538",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 64
         }
     },
     {
@@ -2425,15 +1867,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/549",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 65
-        }
-    },
-    {
         "model": "references.writer",
         "fields": {
             "full_name": "خانم کریمی"
@@ -2457,15 +1890,6 @@
             ],
             "related_references": [],
             "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/560",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 66
         }
     },
     {
@@ -2512,15 +1936,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/569",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 67
-        }
-    },
-    {
         "model": "references.reference",
         "fields": {
             "uuid": "FHp_WxkWruU",
@@ -2542,15 +1957,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/570",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 68
-        }
-    },
-    {
         "model": "references.reference",
         "fields": {
             "uuid": "_csWsHdUSdY",
@@ -2569,15 +1975,6 @@
                 ["FHp_WxkWruU"]
             ],
             "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/571",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 69
         }
     },
     {
@@ -2643,15 +2040,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/637",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 71
-        }
-    },
-    {
         "model": "references.writer",
         "fields": {
             "full_name": "دکتر زیارتی"
@@ -2678,15 +2066,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/638",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 72
-        }
-    },
-    {
         "model": "references.reference",
         "fields": {
             "uuid": "lwBgLagXUt0",
@@ -2704,15 +2083,6 @@
             ],
             "related_references": [],
             "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/642",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 73
         }
     },
     {
@@ -2777,15 +2147,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/643",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 74
-        }
-    },
-    {
         "model": "references.writer",
         "fields": {
             "full_name": "Hamdy A. Taha"
@@ -2809,15 +2170,6 @@
             ],
             "related_references": [],
             "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/644",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 75
         }
     },
     {
@@ -2861,15 +2213,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/646",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 76
-        }
-    },
-    {
         "model": "references.writer",
         "fields": {
             "full_name": "Frederick S. Hillier"
@@ -2900,15 +2243,6 @@
             ],
             "related_references": [],
             "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/647",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 77
         }
     },
     {
@@ -2954,15 +2288,6 @@
         }
     },
     {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/648",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 78
-        }
-    },
-    {
         "model": "references.reference",
         "fields": {
             "uuid": "qmEY5YDmTR8",
@@ -2980,15 +2305,6 @@
                 ["pmbphAp6v7Q"]
             ],
             "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/649",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 79
         }
     },
     {
@@ -3015,15 +2331,6 @@
             ],
             "related_references": [],
             "cover_image": null
-        }
-    },
-    {
-        "model": "core.link",
-        "fields": {
-            "url": "https://t.me/CSE_Archive/650",
-            "title": "لینک پیام تلگرام",
-            "linked_type": ["references", "reference"],
-            "linked_id": 80
         }
     },
     {

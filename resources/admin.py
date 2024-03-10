@@ -21,10 +21,10 @@ class ResourceAdmin(BaseAdminMixin, admin.ModelAdmin):
     inlines = (LinkInlineAdmin,)
     autocomplete_fields = ("classroom",)
     list_per_page = 25
-    list_display = ("uuid", "title", "type", "modified_time_",
+    list_display = ("uuid", "title", "type", "is_solution", "modified_time_",
                     "created_time_", "classroom_",)
     list_select_related = ("classroom", "classroom__course",)
-    list_filter = ("modified_time", "created_time", "type",)
+    list_filter = ("modified_time", "created_time", "type", "is_solution",)
     extra_allowed_lookups = ("classroom__id", "classroom__course__id",)
     search_fields = ("uuid", "title", "classroom__course__title",
                      "classroom__course__en_title",)

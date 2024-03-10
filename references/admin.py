@@ -18,6 +18,7 @@ class ReferenceNestedInlineAdmin(nested_admin.NestedTabularInline):
 @admin.register(Reference)
 class ReferenceAdmin(BaseAdminMixin, nested_admin.NestedModelAdmin):
     inlines = (LinkNestedInlineAdmin,)
+    autocomplete_fields = ("writers", "courses", "related_references",)
     list_per_page = 25
     list_display = ("uuid", "cover_image_", "title", "type", "writers_count",
                     "courses_count", "modified_time_", "created_time_",)
