@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-09 23:23+0330\n"
+"POT-Creation-Date: 2024-03-14 03:53+0330\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -139,6 +139,26 @@ msgstr "پنل ادمین"
 #: config/urls.py:20
 msgid "CSE Archive Admin Panel"
 msgstr "پنل ادمین CSE Archive"
+
+#: core/admin.py:40
+#, python-format
+msgid "Publish selected %(verbose_name_plural)s"
+msgstr "انتشار %(verbose_name_plural)s انتخاب شده"
+
+#: core/admin.py:45
+#, python-format
+msgid "Successfully published %(count)d %(items)s."
+msgstr "%(count)d %(items)s با موفقیت انتشار یافت."
+
+#: core/admin.py:53
+#, python-format
+msgid "Unpublish selected %(verbose_name_plural)s"
+msgstr "لغو انتشار %(verbose_name_plural)s انتخاب شده"
+
+#: core/admin.py:58
+#, python-format
+msgid "Successfully unpublished %(count)d %(items)s."
+msgstr "%(count)d %(items)s با موفقیت لغو انتشار یافت."
 
 #: core/apps.py:8
 msgid "Core"

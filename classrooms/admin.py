@@ -26,7 +26,7 @@ class ClassroomAdmin(BaseAdminMixin, nested_admin.NestedModelAdmin):
                     "tas_count", "professors_count",
                     "recordings_", "resources_count",)
     list_select_related = ("course", "recordings",)
-    list_filter = ("year", "semester", "course__id",)
+    list_filter = ("year", "semester",)
     search_fields = ("uuid", "year", "semester",
                      "course__title", "course__en_title",
                      "tas__full_name", "professors__last_name",)

@@ -23,7 +23,7 @@ class ReferenceAdmin(BaseAdminMixin, nested_admin.NestedModelAdmin):
     list_display = ("uuid", "cover_image_", "title", "type", "writers_count",
                     "courses_count", "modified_time_", "created_time_",)
     readonly_fields = ("preview",)
-    list_filter = ("modified_time", "created_time", "type", "courses__id",)
+    list_filter = ("modified_time", "created_time", "type",)
     search_fields = ("uuid", "title", "writers__full_name",)
 
     @admin.display(description=_("Cover Image Preview"))
