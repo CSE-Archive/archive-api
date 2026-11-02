@@ -26,10 +26,10 @@ jobs:
           chmod 600 ~/.ssh/id_ed25519
           printf '%s\n' "${{ secrets.DEPLOY_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
 
-      # Same path as the mashinaam server CD: build on the runner, ship the
-      # compressed tarball over scp, `docker load` on the VM. The VM's egress
-      # to package registries is unreliable for hours at a time, while inbound
-      # scp is steady — so nothing is ever built on the VM.
+      # Build on the runner, ship the compressed tarball over scp, and
+      # `docker load` on the VM. The VM's egress to package registries is
+      # unreliable for hours at a time, while inbound scp is steady — so
+      # nothing is ever built on the VM.
       - name: Build the image on the runner and ship it to the VM
         run: |
           docker build -q -t csearchive-api:latest .

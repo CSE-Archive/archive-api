@@ -1,0 +1,96 @@
+# CSE Archive stack — VM-level glue between the two repo images and the
+# shared reverse proxy on the VM (which owns host ports 80/443). Each repo carries its own
+# Dockerfile, but images are BUILT ON THE GITHUB ACTIONS RUNNER and shipped
+# here via docker save | docker load (see each repo's .github/workflows/);
+# this file only wires them together with the database, media volume, and the
+# shared network.
+#
+# Layout on the VM:
+#   /opt/csearchive/compose.yaml     this file
+#   /opt/csearchive/api.env          API runtime env (secrets, chmod 600)
+#   /opt/csearchive/.env             compose interpolation (DB_PASSWORD)
+#   /opt/csearchive/nginx/web.conf   gateway: api vhost + /media/
+#   /opt/csearchive/data/media/      uploaded files (api rw / web ro)
+#   /opt/csearchive/backups/         backup archive + dump
+
+name: csearchive
+
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: csearchive
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: csearchive
+    # Small box (1 vCPU / 2 GB, shared) — keep Postgres modest.
+    command: postgres -c shared_buffers=64MB -c max_connections=40
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U csearchive -d csearchive"]
+      interval: 10s
+      timeout: 5s
+      retries: 6
+
+  api:
+    # Image arrives pre-built: the GitHub Actions CD builds it on the runner
+    # and ships it via docker save | docker load (see .github/workflows/).
+    image: csearchive-api:latest
+    restart: unless-stopped
+    env_file: api.env
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - ./data/media:/app/media
+    healthcheck:
+      test: ["CMD-SHELL", "python -c \"import urllib.request;urllib.request.urlopen('http://localhost:8000/admin/login/', timeout=5)\" || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+
+  frontend:
+    # Image arrives pre-built: the GitHub Actions CD builds it on the runner
+    # and ships it via docker save | docker load (see .github/workflows/).
+    image: csearchive-frontend:latest
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q -O /dev/null http://127.0.0.1:80/ || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+    networks:
+      default:
+      # Alias so the reverse proxy can resolve this container on its network.
+      proxy_net:
+        aliases:
+          - csearchive-frontend
+
+  web:
+    # Slim gateway: terminates the api.csearchive.ir vhost — proxies to gunicorn
+    # and serves /media/ off disk. Reached only from the reverse proxy.
+    image: nginx:1.27-alpine
+    restart: unless-stopped
+    depends_on:
+      - api
+    volumes:
+      - ./nginx/web.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./data/media:/usr/share/nginx/media:ro
+    networks:
+      default:
+      proxy_net:
+        aliases:
+          - csearchive-web
+
+networks:
+  proxy_net:
+    # External docker network owned by the reverse proxy's compose stack on
+    # the VM. Its actual name is deployment-specific, so it comes from the
+    # gitignored .env on the VM (PROXY_NETWORK) — never hardcoded here.
+    name: ${PROXY_NETWORK:?PROXY_NETWORK must be set in .env}
+    external: true
+
+volumes:
+  pgdata:
