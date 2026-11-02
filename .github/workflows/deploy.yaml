@@ -48,4 +48,17 @@ jobs:
         run: ssh root@94.184.47.154 'cd /opt/csearchive && docker compose up -d api'
 
       - name: Verify
-        run: curl -sf --max-time 20 "https://api.csearchive.ir/courses/?limit=1"
+        # The container boots via collectstatic + migrate before gunicorn
+        # listens (~15s on the 1-vCPU VM); the gateway 502s until then, so
+        # retry instead of failing the run on that startup window.
+        run: |
+          for i in $(seq 1 12); do
+            if curl -sf --max-time 10 "https://api.csearchive.ir/courses/?limit=1"; then
+              echo "API is live"
+              exit 0
+            fi
+            echo "not ready yet (attempt $i/12); retrying in 10s..."
+            sleep 10
+          done
+          echo "API did not become ready in time"
+          exit 1
