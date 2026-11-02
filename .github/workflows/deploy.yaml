@@ -9,20 +9,43 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
+    concurrency:
+      group: production-deploy
+      cancel-in-progress: false
 
     steps:
-      - name: Executing remote SSH commands
-        uses: appleboy/ssh-action@v1.0.0
-        with:
-          host: ${{ secrets.SSH_HOST }}
-          port: ${{ secrets.SSH_PORT }}
-          username: ${{ secrets.SSH_USERNAME }}
-          password: ${{ secrets.SSH_PASSWORD }}
-          script: |
-            cd ${{ secrets.REPO_PATH }}
-            git pull
-            pipenv sync -d
-            pipenv run python manage.py migrate
-            sudo systemctl restart gunicorn
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up SSH
+        run: |
+          mkdir -p ~/.ssh
+          printf '%s\n' "${{ secrets.DEPLOY_SSH_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          printf '%s\n' "${{ secrets.DEPLOY_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
+
+      # Same path as the mashinaam server CD: build on the runner, ship the
+      # compressed tarball over scp, `docker load` on the VM. The VM's egress
+      # to package registries is unreliable for hours at a time, while inbound
+      # scp is steady — so nothing is ever built on the VM.
+      - name: Build the image on the runner and ship it to the VM
+        run: |
+          docker build -q -t csearchive-api:latest .
+          docker save csearchive-api:latest | gzip > /tmp/csearchive-api-image.tar.gz
+          scp -q /tmp/csearchive-api-image.tar.gz root@94.184.47.154:/tmp/
+          ssh root@94.184.47.154 '
+            set -e
+            gunzip -c /tmp/csearchive-api-image.tar.gz | docker load
+            rm /tmp/csearchive-api-image.tar.gz
+          '
+
+      # Migrations run from the container's entrypoint on boot (collectstatic,
+      # migrate, then gunicorn), so recreating on the loaded image is the whole
+      # rollout.
+      - name: Roll out the new image
+        run: ssh root@94.184.47.154 'cd /opt/csearchive && docker compose up -d api'
+
+      - name: Verify
+        run: curl -sf --max-time 20 "https://api.csearchive.ir/courses/?limit=1"
