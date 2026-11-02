@@ -62,6 +62,14 @@ INTERNAL_IPS = ['127.0.0.1']
 
 ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '*').split(',')
 
+# TLS is terminated at the reverse proxy (Caddy). Needed so Django sees the
+# original scheme; otherwise admin POSTs over https fail the CSRF origin check.
+if os.environ.get('BEHIND_PROXY') == 'True':
+    SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+CSRF_TRUSTED_ORIGINS = [
+    origin for origin in os.environ.get('CSRF_TRUSTED_ORIGINS', '').split(',') if origin
+]
+
 CORS_ALLOWED_ORIGIN_REGEXES = [os.environ.get('CORS_ALLOWED_ORIGIN_REGEXES', None)]
 if DEBUG == True or CORS_ALLOWED_ORIGIN_REGEXES is None:
     CORS_ALLOW_ALL_ORIGINS = True
