@@ -1,0 +1,9 @@
+# Never bake these into the image (secrets, VCS, runtime-writable dirs).
+.git
+.env
+media/
+static/
+*.log
+__pycache__/
+*.pyc
+.venv/
